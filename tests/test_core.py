@@ -78,6 +78,34 @@ class RobustnessTests(unittest.TestCase):
         res = code_checks(paper(self.ABSTRACT), ex, {"text": ""}, TOPIC)
         self.assertFalse(res["fields"]["setting"]["passed"])
 
+    def test_abbreviation_matches_spelled_out(self):
+        ab = "Acquired resistance to third-generation tyrosine kinase inhibitors was studied."
+        ex = extraction(setting=("acquired resistance to third-generation TKIs",
+                                 "acquired resistance to third-generation tyrosine kinase inhibitors"))
+        res = code_checks(paper(ab), ex, {"text": ""}, TOPIC)
+        self.assertTrue(res["fields"]["setting"]["passed"], res["fields"]["setting"])
+
+    def test_quote_with_ellipsis(self):
+        ab = "The patient received T-DXd for 7 cycles, achieving a partial response with regression of lesions."
+        ex = extraction(key_finding=("partial response with regression of lesions",
+                                     "The patient received T-DXd ... achieving a partial response with regression of lesions"))
+        res = code_checks(paper(ab), ex, {"text": ""}, TOPIC)
+        self.assertTrue(res["fields"]["key_finding"]["passed"], res["fields"]["key_finding"])
+
+    def test_judgement_field_skips_word_check(self):
+        topic = dict(TOPIC, fields=[{"id": "study_type", "kind": "judgement"}])
+        ab = "EGFR-mutant cell lines were treated with osimertinib."
+        ex = extraction(study_type=("cell-line study", "EGFR-mutant cell lines were treated"))
+        res = code_checks(paper(ab), ex, {"text": ""}, topic)
+        self.assertTrue(res["fields"]["study_type"]["passed"])
+
+    def test_unsupported_addition_still_fails(self):
+        ab = "Osimertinib was given as fifth-line therapy."
+        ex = extraction(setting=("fifth-line therapy after progression following multiple prior lines",
+                                 "as fifth-line therapy"))
+        res = code_checks(paper(ab), ex, {"text": ""}, TOPIC)
+        self.assertFalse(res["fields"]["setting"]["passed"])
+
     def test_sentence_numbers_as_text_and_null_strings(self):
         from litwatch.stages import as_index, clean_value
         self.assertEqual([as_index("5"), as_index("[5]"), as_index("S5"), as_index(None)], [5, 5, 5, None])
@@ -141,6 +169,13 @@ class ProviderTests(unittest.TestCase):
         m = make_model("ollama:llama3.1:8b")
         self.assertEqual(m.name, "ollama/llama3.1:8b")
         self.assertTrue(m.url.endswith("/v1/chat/completions"))
+
+    def test_family_is_the_model_maker_not_the_host(self):
+        from litwatch.llm import family
+        self.assertEqual(family("groq:openai/gpt-oss-120b"), "openai")
+        self.assertEqual(family("groq:qwen/qwen3.8-27b"), "qwen")
+        self.assertEqual(family("ollama:llama3.1:8b"), "meta")
+        self.assertNotEqual(family("groq:openai/gpt-oss-120b"), family("groq:qwen/qwen3.8-27b"))
 
     def test_unknown_provider(self):
         from litwatch.llm import make_model

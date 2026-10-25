@@ -186,10 +186,39 @@ def _anchors(value: str) -> list[str]:
     return [t.strip(".") for t in _ANCHOR.findall(value or "") if len(t.strip(".")) > 1]
 
 
+def _acronym_in(token: str, text: str) -> bool:
+    """'TKIs' matches 'tyrosine kinase inhibitors': consecutive words whose initials spell it."""
+    letters = re.sub(r"[^A-Za-z]", "", token)
+    if letters.endswith("s") and letters[:-1].isupper():
+        letters = letters[:-1]
+    if not (2 <= len(letters) <= 8 and letters.isupper()):
+        return False
+    words = re.findall(r"[A-Za-z]+", text)
+    n = len(letters)
+    initials = "".join(w[0] for w in words).upper()
+    return letters in initials and any(
+        "".join(w[0] for w in words[i:i + n]).upper() == letters for i in range(len(words) - n + 1))
+
+
+def _quote_in(quote: str, source: str) -> bool:
+    """Word for word, allowing '...' between exact pieces, in their original order."""
+    pieces = [p.strip() for p in re.split(r"\.\.\.|…", quote) if p.strip()]
+    pos, hay = 0, source.casefold()
+    for p in pieces:
+        found = hay.find(p.casefold(), pos)
+        if found == -1:
+            return False
+        pos = found + len(p)
+    return bool(pieces)
+
+
 def _appears(token: str, text: str, synonyms: dict) -> bool:
     t, hay = token.casefold(), text.casefold()
-    if t in hay:
+    if t in hay or _acronym_in(token, text):
         return True
+    parts = [p for p in re.split(r"-", token) if p]
+    if len(parts) > 1 and all(_appears(p, text, synonyms) for p in parts):
+        return True  # "EGFR-TKI" is said by "EGFR tyrosine kinase inhibitors"
     for canonical, alts in synonyms.items():
         group = [canonical, *alts]
         if any(t == g.casefold() for g in group):
@@ -219,19 +248,21 @@ def code_checks(paper: Paper, extraction: dict, summary: dict, topic: dict) -> d
             continue
         if not quote:
             problems.append("No quote given.")
-        elif quote.casefold() not in source.casefold():
+        elif not _quote_in(quote, source):
             problems.append("Quote is not in the abstract word for word.")
         else:
             missing = [a for a in _anchors(value) if not _appears(a, quote, synonyms)]
             if missing:
                 problems.append("Not in the quote: " + ", ".join(missing) + ".")
-            # Plain words matter too: "retrospective cohort" must be in the quote,
-            # not merely a quote that happens to sit next to the claim.
-            words = [w for w in re.findall(r"[A-Za-z][A-Za-z-]{3,}", value)
-                     if w.casefold() not in _STOPWORDS]
-            absent = [w for w in words if not _appears(w, quote, synonyms)]
-            if absent and len(absent) * 2 >= len(words):
-                problems.append("The quote does not say this: " + ", ".join(absent) + ".")
+            # Plain words matter too: a value must be said by its quote, not merely
+            # sit next to it. A "judgement" field (study type) describes the evidence
+            # in other words, so only the second model judges it.
+            if spec.get(fid, {}).get("kind") != "judgement":
+                words = [w for w in re.findall(r"[A-Za-z][A-Za-z-]{3,}", value)
+                         if w.casefold() not in _STOPWORDS]
+                absent = [w for w in words if not _appears(w, quote, synonyms)]
+                if absent and len(absent) * 2 >= len(words):
+                    problems.append("The quote does not say this: " + ", ".join(absent) + ".")
         stray = [n for n in numbers_in(value) if n not in source_numbers]
         if stray:
             problems.append("Number not in the abstract: " + ", ".join(stray) + ".")

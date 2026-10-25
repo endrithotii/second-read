@@ -23,7 +23,7 @@
     {"id": "context", "text": "Context of the alteration, e.g. in cis or in trans with T790M, co-occurring alterations."},
     {"id": "drug", "text": "Drug or combination studied."},
     {"id": "setting", "text": "Treatment line or setting, e.g. first-line osimertinib, after progression."},
-    {"id": "study_type", "text": "Study design, e.g. retrospective cohort, phase 2 trial, case report, cell-line study."},
+    {"id": "study_type", "kind": "judgement", "text": "Study design, e.g. retrospective cohort, phase 2 trial, case report, cell-line study."},
     {"id": "n_patients", "text": "Number of patients, if stated. Digits only."},
     {"id": "finding_type", "kind": "category",
      "values": ["resistance mechanism", "mechanism frequency", "treatment after resistance", "other"],

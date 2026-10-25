@@ -44,7 +44,7 @@ def process(paper: Paper, topic: dict, writer: Model, checker: Model) -> dict:
 
 
 def run(topic: dict, start: date, end: date, writer: Model, checker: Model,
-        pubmed: PubMedClient | None = None, audit_k: int = 5, workers: int = 4,
+        pubmed: PubMedClient | None = None, audit_k: int = 5, workers: int = 1,
         limit: int | None = None) -> dict:
     pubmed = pubmed or PubMedClient()
     started = datetime.now(timezone.utc)
@@ -66,6 +66,17 @@ def run(topic: dict, start: date, end: date, writer: Model, checker: Model,
     log(f"Screening and checking {len(papers)} papers")
     with ThreadPoolExecutor(max_workers=workers) as pool:
         entries = list(pool.map(lambda p: process(p, topic, writer, checker), papers))
+
+    # One more, unhurried pass for papers that failed (usually rate limits).
+    failed = [i for i, e in enumerate(entries) if "error" in e]
+    if failed:
+        log(f"Retrying {len(failed)} papers that failed")
+        by_pmid = {p.pmid: p for p in papers}
+        for i in failed:
+            entries[i] = process(by_pmid[entries[i]["paper"]["pmid"]], topic, writer, checker)
+    still = sum("error" in e for e in entries)
+    if still:
+        log(f"{still} papers still failed; they are listed for a reviewer")
 
     # Only papers screened in on their abstract count as relevant for the estimate;
     # records without an abstract go to a reviewer but say nothing about relevance.

@@ -8,7 +8,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from .llm import make_model
+from .llm import family, make_model
 from .pubmed import window
 from .report import render
 from .run import log, run, save
@@ -29,6 +29,8 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--out", type=Path, default=Path("runs"))
     r.add_argument("--audit-sample", type=int, default=5)
     r.add_argument("--limit", type=int, help="process at most this many papers (for a quick try)")
+    r.add_argument("--workers", type=int, default=1,
+                   help="papers processed at once (default 1, which suits free tiers' rate limits)")
 
     rr = sub.add_parser("render", help="rebuild report.html from a saved run.json")
     rr.add_argument("run_json", type=Path)
@@ -48,11 +50,12 @@ def main(argv: list[str] | None = None) -> int:
     except (RuntimeError, ValueError) as e:
         log(f"Cannot start: {e}. See README.md, section 'Run it'.")
         return 2
-    if writer.name.split("/")[0] == checker.name.split("/")[0]:
+    if family(args.writer) == family(args.checker):
         log("Warning: writer and checker come from the same model family, so their mistakes "
             "are more likely to line up. Use a different provider for --checker if you can.")
     start, end = window(args.days, args.end)
-    result = run(topic, start, end, writer, checker, audit_k=args.audit_sample, limit=args.limit)
+    result = run(topic, start, end, writer, checker, audit_k=args.audit_sample, limit=args.limit,
+                 workers=args.workers)
     folder = save(result, args.out)
     (folder / "report.html").write_text(render(result), encoding="utf-8")
     print(folder / "report.html")

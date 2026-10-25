@@ -28,9 +28,11 @@ def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
     # named client (error 1010), so every request identifies itself.
     headers = {"user-agent": USER_AGENT, "accept": "application/json", **headers}
     last_error: Exception | None = None
-    for attempt in range(7):
+    # Free tiers limit tokens per minute, so a 429 is normal: wait as long as
+    # the provider asks, for up to about ten minutes in total.
+    for attempt in range(12):
         req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-        wait = min(2 ** attempt, 30)
+        wait = min(2 ** attempt, 60)
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read())
@@ -146,6 +148,20 @@ class LocalModel:
                 messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
                 response_format={"type": "json_object"}, temperature=0, max_tokens=1200)
         return parse_json(out["choices"][0]["message"]["content"])
+
+
+def family(spec: str) -> str:
+    """Who trained the model, which is what matters for independent checking.
+    'groq:openai/gpt-oss-120b' -> 'openai'; 'anthropic:claude-...' -> 'anthropic'."""
+    provider, _, model = spec.partition(":")
+    if "/" in model:
+        return model.split("/", 1)[0].lower()
+    m = model.lower()
+    for name, keys in {"meta": ("llama",), "alibaba": ("qwen",), "google": ("gemini", "gemma"),
+                       "openai": ("gpt",), "anthropic": ("claude",), "mistral": ("mistral", "mixtral")}.items():
+        if any(m.startswith(k) for k in keys):
+            return name
+    return provider
 
 
 def make_model(spec: str) -> Model:
