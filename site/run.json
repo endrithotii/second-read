@@ -408,12 +408,8 @@
       "route": {
         "outcome": "accepted",
         "reasons": [],
-<<<<<<< Updated upstream
-        "problems": 0
-=======
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -733,12 +729,8 @@
         "reasons": [
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
-<<<<<<< Updated upstream
-        "problems": 0
-=======
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -983,29 +975,13 @@
             "evidence": "In xenograft models, HQY1480 outperformed BI-4020, overcame osimertinib resistance, and effectively inhibited tumor growth at low doses, while inducing robust EGFR degradation in patient-derived xenografts."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "study_type",
-          "n_patients",
-          "finding_type"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
         "outcome": "review",
         "reasons": [
-<<<<<<< Updated upstream
-          "Study type: the second model could not find this in the abstract.",
-          "Finding type: the second model could not find this in the abstract.",
-          "Summary sentence 1: the second model could not find this in the abstract.",
-          "The second model found 3 relevant findings the record leaves out."
-        ],
-        "problems": 4
-=======
           "Summary sentence 1: the second model could not find this in the abstract."
         ],
         "problems": 1,
@@ -1013,7 +989,6 @@
           "Study type: a judgement the second model could not confirm from the abstract.",
           "Finding type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -1254,20 +1229,12 @@
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
-<<<<<<< Updated upstream
-        "outcome": "review",
-        "reasons": [
-          "Finding type: the second model could not find this in the abstract."
-        ],
-        "problems": 1
-=======
         "outcome": "accepted",
         "reasons": [],
         "problems": 0,
         "notes": [
           "Finding type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -1504,33 +1471,17 @@
             "evidence": "Mechanistically, MMP14 cleaved LAMC2 to release a bioactive Domain III (DIII) fragment harboring EGF-like repeats, which reactivated EGFR/AKT/ERK signaling despite continued osimertinib exposure."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "variant",
-          "n_patients"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
-<<<<<<< Updated upstream
-        "outcome": "review",
-        "reasons": [
-          "Study type: the second model could not find this in the abstract.",
-          "The second model found 2 relevant findings the record leaves out."
-        ],
-        "problems": 2
-=======
         "outcome": "accepted",
         "reasons": [],
         "problems": 0,
         "notes": [
           "Study type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -1784,12 +1735,8 @@
           "Summary sentence 1: the second model could not find this in the abstract.",
           "Summary sentence 2: the second model could not find this in the abstract."
         ],
-<<<<<<< Updated upstream
-        "problems": 2
-=======
         "problems": 2,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -2065,19 +2012,12 @@
       "route": {
         "outcome": "review",
         "reasons": [
-<<<<<<< Updated upstream
-          "Study type: the second model could not find this in the abstract.",
-          "Summary sentence 1: the second model could not find this in the abstract."
-        ],
-        "problems": 2
-=======
           "Summary sentence 1: the second model could not find this in the abstract."
         ],
         "problems": 1,
         "notes": [
           "Study type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -2321,31 +2261,17 @@
             "evidence": "Results: The combination of PFD with either OS or AF exhibited significant synergistic antitumor effects in both in vitro and in vivo NSCLC models, consistently achieving Bliss synergy scores exceeding 14."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "variant",
-          "n_patients"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
         "outcome": "review",
         "reasons": [
-<<<<<<< Updated upstream
-          "Summary sentence 1: the second model could not find this in the abstract.",
-          "The second model found 2 relevant findings the record leaves out."
-        ],
-        "problems": 2
-=======
           "Summary sentence 1: the second model could not find this in the abstract."
         ],
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -2615,12 +2541,7 @@
           }
         ],
         "omitted": [
-<<<<<<< Updated upstream
-          "exon 19 deletions",
-          "L858R mutations"
-=======
           "exon 19 deletions"
->>>>>>> Stashed changes
         ],
         "model": "groq/openai/gpt-oss-120b"
       },
@@ -2628,18 +2549,11 @@
       "route": {
         "outcome": "review",
         "reasons": [
-<<<<<<< Updated upstream
-          "The second model found 2 relevant findings the record leaves out.",
-          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
-        ],
-        "problems": 1
-=======
           "The second model found 1 relevant finding the record leaves out.",
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -2876,12 +2790,8 @@
         "reasons": [
           "Summary sentence 1: the second model could not find this in the abstract."
         ],
-<<<<<<< Updated upstream
-        "problems": 1
-=======
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -3133,12 +3043,8 @@
       "route": {
         "outcome": "accepted",
         "reasons": [],
-<<<<<<< Updated upstream
-        "problems": 0
-=======
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -3391,12 +3297,8 @@
       "route": {
         "outcome": "accepted",
         "reasons": [],
-<<<<<<< Updated upstream
-        "problems": 0
-=======
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -3634,29 +3536,15 @@
             "evidence": "Conclusion: In summary, our study identified a 7-MORGs signature for OR, among which RRBP1 may be a candidate regulator for OR."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "EGFR-mutant"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
-<<<<<<< Updated upstream
-        "outcome": "review",
-        "reasons": [
-          "The second model found 1 relevant finding the record leaves out."
-        ],
-        "problems": 1
-=======
         "outcome": "accepted",
         "reasons": [],
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -3916,13 +3804,6 @@
           "Context: Not in the quote: EGFR.",
           "Context: The quote does not say this: EGFR-mutant.",
           "Key finding: Quote is not in the abstract word for word.",
-<<<<<<< Updated upstream
-          "Study type: the second model could not find this in the abstract.",
-          "Summary sentence 2: the second model could not find this in the abstract.",
-          "The second model found 2 relevant findings the record leaves out."
-        ],
-        "problems": 7
-=======
           "Summary sentence 2: the second model could not find this in the abstract.",
           "The second model found 2 relevant findings the record leaves out."
         ],
@@ -3930,7 +3811,6 @@
         "notes": [
           "Study type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -4201,12 +4081,8 @@
         "reasons": [
           "N patients: Number not in the abstract: 1."
         ],
-<<<<<<< Updated upstream
-        "problems": 1
-=======
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -4427,12 +4303,8 @@
       "route": {
         "outcome": "accepted",
         "reasons": [],
-<<<<<<< Updated upstream
-        "problems": 0
-=======
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -4679,31 +4551,15 @@
             "evidence": "Conclusion: This comparative analysis highlights the substantial differences in the activity landscapes of fourth-generation EGFR inhibitors."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "setting",
-          "n_patients",
-          "finding_type"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
-<<<<<<< Updated upstream
-        "outcome": "review",
-        "reasons": [
-          "The second model found 3 relevant findings the record leaves out."
-        ],
-        "problems": 1
-=======
         "outcome": "accepted",
         "reasons": [],
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -5007,12 +4863,8 @@
           "The second model found 1 relevant finding the record leaves out.",
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
-<<<<<<< Updated upstream
-        "problems": 1
-=======
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -5268,30 +5120,17 @@
             "evidence": null
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "FSTL1-AKT-LPL-LTB4-STAT3-ZEB1 cascade"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
         "outcome": "review",
         "reasons": [
-<<<<<<< Updated upstream
-          "Summary sentence 2: the second model could not find this in the abstract.",
-          "The second model found 1 relevant finding the record leaves out."
-        ],
-        "problems": 2
-=======
           "Summary sentence 2: the second model could not find this in the abstract."
         ],
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -5655,12 +5494,7 @@
           }
         ],
         "omitted": [
-<<<<<<< Updated upstream
-          "treatment line detail (per treatment line)",
-          "finding_type (efficacy)"
-=======
           "treatment line detail (per treatment line)"
->>>>>>> Stashed changes
         ],
         "model": "groq/openai/gpt-oss-120b"
       },
@@ -5670,19 +5504,12 @@
         "reasons": [
           "Screening could not tell from the abstract whether it meets “Resistance”.",
           "Mechanism: the second model could not find this in the abstract.",
-<<<<<<< Updated upstream
-          "Finding type: the second model could not find this in the abstract.",
-          "The second model found 2 relevant findings the record leaves out."
-        ],
-        "problems": 3
-=======
           "The second model found 1 relevant finding the record leaves out."
         ],
         "problems": 2,
         "notes": [
           "Finding type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -5911,19 +5738,7 @@
             "evidence": "Combination therapy synergistically reduced cell viability in both PC9 and H1975 cells, with combination index values of 0.61 and 0.14, respectively, at Fa = 0.5."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "mechanism",
-          "variant",
-          "context",
-          "drug",
-          "study_type",
-          "key_finding",
-          "finding_type"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
@@ -5933,17 +5748,10 @@
           "Screening could not tell from the abstract whether it meets “Resistance”.",
           "Finding type: the second model says the abstract states something different.",
           "Summary sentence 1: the second model could not find this in the abstract.",
-<<<<<<< Updated upstream
-          "The second model found 7 relevant findings the record leaves out.",
-          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
-        ],
-        "problems": 3
-=======
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
         "problems": 2,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -6665,13 +6473,7 @@
             "evidence": "Third-generation EGFR-TKI rechallenge achieved a median progression-free survival (mPFS) of 6.0 months, a median overall survival (mOS) of 12.0 months."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "mechanism"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
@@ -6679,17 +6481,10 @@
         "outcome": "review",
         "reasons": [
           "Variant: The quote does not say this: mutation.",
-<<<<<<< Updated upstream
-          "The second model found 1 relevant finding the record leaves out.",
-          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
-        ],
-        "problems": 2
-=======
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -6950,30 +6745,17 @@
             "evidence": "Conclusions: Amivantamab-chemotherapy demonstrated superior PFS vs. chemotherapy in Asian patients."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "mechanism"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
         "outcome": "review",
         "reasons": [
-<<<<<<< Updated upstream
-          "The second model found 1 relevant finding the record leaves out.",
-          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
-        ],
-        "problems": 1
-=======
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
         "problems": 0,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -7317,32 +7099,17 @@
             "evidence": "MET-TKIs (29%) and EGFR-TKIs (24%) were the most common second-line treatments, followed by chemotherapy (20%)."
           }
         ],
-<<<<<<< Updated upstream
-        "omitted": [
-          "finding_type"
-        ],
-=======
         "omitted": [],
->>>>>>> Stashed changes
         "model": "groq/openai/gpt-oss-120b"
       },
       "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
-<<<<<<< Updated upstream
-        "outcome": "review",
-        "reasons": [
-          "Finding type: the second model could not find this in the abstract.",
-          "The second model found 1 relevant finding the record leaves out."
-        ],
-        "problems": 2
-=======
         "outcome": "accepted",
         "reasons": [],
         "problems": 0,
         "notes": [
           "Finding type: a judgement the second model could not confirm from the abstract."
         ]
->>>>>>> Stashed changes
       }
     },
     {
@@ -7646,12 +7413,8 @@
           "N patients: Number not in the abstract: 1.",
           "Sent to a reviewer by policy: finding type is “treatment after resistance”."
         ],
-<<<<<<< Updated upstream
-        "problems": 1
-=======
         "problems": 1,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
@@ -7953,12 +7716,8 @@
           "Drug: Not in the quote: 3rd.",
           "The second model found 2 relevant findings the record leaves out."
         ],
-<<<<<<< Updated upstream
-        "problems": 4
-=======
         "problems": 4,
         "notes": []
->>>>>>> Stashed changes
       }
     },
     {
