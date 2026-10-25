@@ -119,8 +119,10 @@ def run(topic: dict, start: date, end: date, writer: Model, checker: Model,
     stamp = check_stamp(checker)
 
     def done(hit: dict | None) -> bool:
-        return bool(hit) and (hit.get("screening", {}).get("decision") != "include"
-                              or hit.get("check_stamp") == stamp)
+        # A cached paper without a routing decision is finished by process(), which
+        # recomputes the route from the cached parts without calling any model.
+        return bool(hit) and "route" in hit and (
+            hit.get("screening", {}).get("decision") != "include" or hit.get("check_stamp") == stamp)
 
     def handle(p: Paper) -> dict:
         hit = cache.get(p)

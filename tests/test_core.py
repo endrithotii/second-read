@@ -233,6 +233,24 @@ class CacheTests(unittest.TestCase):
         self.assertEqual(len(checker2.calls), 1)          # only the checker ran
         self.assertEqual(second["route"]["outcome"], "accepted")
 
+    def test_cached_exclusion_without_route_gets_one_without_model_calls(self):
+        # The failure from the first scheduled run: an excluded paper in the cache
+        # with no "route" crashed the run.
+        from litwatch.run import process
+        topic = {"question": "q", "criteria": [{"id": "drug", "required": True, "text": "t"}],
+                 "fields": [], "synonyms": {}}
+
+        class NoCalls:
+            name = "none"
+
+            def complete_json(self, system, user):
+                raise AssertionError("no model call expected")
+
+        cached = {"screening": {"decision": "exclude", "reason": "Does not meet: drug.", "criteria": []}}
+        e = process(paper("Text."), topic, NoCalls(), NoCalls(), cached=cached)
+        self.assertEqual(e["route"]["outcome"], "excluded")
+        self.assertNotIn("error", e)
+
 
 class ParseTests(unittest.TestCase):
     def test_fenced_json(self):
