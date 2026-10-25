@@ -1,0 +1,2 @@
+30
+Days of newly added PubMed papers to read. Pushing a change to this file starts a run.

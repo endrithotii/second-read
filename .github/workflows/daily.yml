@@ -8,6 +8,11 @@ on:
       days:
         description: "Days of newly added PubMed papers to read"
         default: "7"
+  # A run can also be requested by pushing a change to run-request.txt, whose
+  # first line is the number of days. The bot's own commits never touch it.
+  push:
+    branches: [main]
+    paths: [run-request.txt]
 
 permissions:
   contents: write
@@ -36,6 +41,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Read a pushed run request
+        if: github.event_name == 'push'
+        run: |
+          days=$(head -1 run-request.txt | tr -dc '0-9')
+          echo "DAYS=${days:-7}" >> "$GITHUB_ENV"
 
       - name: Test
         run: python -m unittest discover -s tests
