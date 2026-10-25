@@ -198,6 +198,42 @@ class ProviderTests(unittest.TestCase):
             make_model("nope:x")
 
 
+class CacheTests(unittest.TestCase):
+    def test_new_checker_reruns_only_the_check(self):
+        import tempfile
+        from pathlib import Path
+        from litwatch.run import Cache, process
+        sys_path_topic = {"question": "q", "criteria": [{"id": "drug", "required": True, "text": "t"}],
+                          "fields": [{"id": "drug", "text": "t"}], "synonyms": {}}
+        p = paper("Osimertinib was studied in patients.")
+
+        class Fake:
+            def __init__(self, name):
+                self.name, self.calls = name, []
+
+            def complete_json(self, system, user):
+                self.calls.append(system[:20])
+                if "screen" in system:
+                    return {"criteria": [{"id": "drug", "answer": "yes", "sentence": 1}]}
+                if "extract" in system:
+                    return {"fields": {"drug": {"value": "osimertinib", "sentence": 1, "quote": "Osimertinib"}}}
+                if "two-sentence" in system:
+                    return {"summary": "Osimertinib was studied."}
+                return {"verdicts": [{"claim": 1, "verdict": "supported", "sentence": 1},
+                                     {"claim": 2, "verdict": "supported", "sentence": 1}], "omitted": []}
+
+        writer, checker1, checker2 = Fake("w"), Fake("c1"), Fake("c2")
+        with tempfile.TemporaryDirectory() as d:
+            cache = Cache(Path(d), sys_path_topic, writer)
+            first = process(p, sys_path_topic, writer, checker1)
+            cache.put(p, first)
+            writer_calls = len(writer.calls)
+            second = process(p, sys_path_topic, writer, checker2, cached=cache.get(p))
+        self.assertEqual(len(writer.calls), writer_calls)  # writer not called again
+        self.assertEqual(len(checker2.calls), 1)          # only the checker ran
+        self.assertEqual(second["route"]["outcome"], "accepted")
+
+
 class ParseTests(unittest.TestCase):
     def test_fenced_json(self):
         self.assertEqual(parse_json('Here:\n```json\n{"a": 1}\n```'), {"a": 1})

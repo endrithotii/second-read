@@ -27,8 +27,8 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
       NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
-      WRITER_MODEL: ${{ vars.WRITER_MODEL || 'groq:openai/gpt-oss-120b' }}
-      CHECKER_MODEL: ${{ vars.CHECKER_MODEL || 'groq:qwen/qwen3.8-27b' }}
+      WRITER_MODEL: ${{ vars.WRITER_MODEL || 'groq:qwen/qwen3.8-27b' }}
+      CHECKER_MODEL: ${{ vars.CHECKER_MODEL || 'groq:openai/gpt-oss-120b' }}
       DAYS: ${{ github.event.inputs.days || '7' }}
     steps:
       - uses: actions/checkout@v4
@@ -41,15 +41,23 @@ jobs:
         run: python -m unittest discover -s tests
 
       - name: Run the pipeline
+        id: pipeline
         run: |
+          set +e
           python -m litwatch run \
             --topic topics/egfr_osimertinib_resistance.json \
             --days "$DAYS" \
             --writer "$WRITER_MODEL" \
             --checker "$CHECKER_MODEL" \
             --out runs
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          # Exit code 3 means a daily model limit was reached: progress is kept in
+          # cache/ and committed below, and the next run continues from there.
+          if [ "$code" -ne 0 ] && [ "$code" -ne 3 ]; then exit "$code"; fi
 
       - name: Publish the report to the site folder
+        if: steps.pipeline.outputs.code == '0'
         run: |
           latest=$(ls -td runs/*/ | head -1)
           day=$(date -u +%Y-%m-%d)
@@ -63,7 +71,11 @@ jobs:
         run: |
           git config user.name "second-read bot"
           git config user.email "actions@users.noreply.github.com"
-          git add site
+          git add site cache
           git diff --cached --quiet && exit 0
-          git commit -m "Run $(date -u +%Y-%m-%d)"
+          if [ "${{ steps.pipeline.outputs.code }}" = "0" ]; then
+            git commit -m "Run $(date -u +%Y-%m-%d)"
+          else
+            git commit -m "Partial run $(date -u +%Y-%m-%d): daily model limit reached, progress kept"
+          fi
           git push

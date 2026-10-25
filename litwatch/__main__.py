@@ -8,10 +8,10 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from .llm import family, make_model
+from .llm import QuotaExhausted, family, make_model
 from .pubmed import window
 from .report import render
-from .run import log, run, save
+from .run import log, recheck, run, save
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -29,16 +29,34 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--out", type=Path, default=Path("runs"))
     r.add_argument("--audit-sample", type=int, default=5)
     r.add_argument("--limit", type=int, help="process at most this many papers (for a quick try)")
+    r.add_argument("--cache", type=Path, default=Path("cache"),
+                   help="folder of finished papers, reused by later runs (default ./cache)")
     r.add_argument("--workers", type=int, default=1,
                    help="papers processed at once (default 1, which suits free tiers' rate limits)")
 
     rr = sub.add_parser("render", help="rebuild report.html from a saved run.json")
     rr.add_argument("run_json", type=Path)
 
+    rc = sub.add_parser("recheck", help="re-run only the checker and routing on a saved run.json "
+                                         "(after changing the checker or its prompt)")
+    rc.add_argument("run_json", type=Path)
+    rc.add_argument("--checker", default="groq:qwen/qwen3.8-27b")
+
     args = ap.parse_args(argv)
 
     if args.cmd == "render":
         result = json.loads(args.run_json.read_text(encoding="utf-8"))
+        out = args.run_json.with_name("report.html")
+        out.write_text(render(result), encoding="utf-8")
+        print(out)
+        return 0
+
+    if args.cmd == "recheck":
+        def write(res):
+            args.run_json.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
+        result = recheck(json.loads(args.run_json.read_text(encoding="utf-8")), make_model(args.checker),
+                         save_each=write)
+        write(result)
         out = args.run_json.with_name("report.html")
         out.write_text(render(result), encoding="utf-8")
         print(out)
@@ -54,8 +72,12 @@ def main(argv: list[str] | None = None) -> int:
         log("Warning: writer and checker come from the same model family, so their mistakes "
             "are more likely to line up. Use a different provider for --checker if you can.")
     start, end = window(args.days, args.end)
-    result = run(topic, start, end, writer, checker, audit_k=args.audit_sample, limit=args.limit,
-                 workers=args.workers)
+    try:
+        result = run(topic, start, end, writer, checker, audit_k=args.audit_sample, limit=args.limit,
+                     workers=args.workers, cache_dir=args.cache)
+    except QuotaExhausted as e:
+        log(f"Stopped: {e}\nFinished papers are kept in {args.cache}; run again later to continue.")
+        return 3
     folder = save(result, args.out)
     (folder / "report.html").write_text(render(result), encoding="utf-8")
     print(folder / "report.html")

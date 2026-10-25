@@ -43,6 +43,10 @@ For each claim, read the numbered sentences and answer one of:
   "contradicted"  the abstract states something different;
   "beyond"        the abstract does not state this, though it may be plausible.
 Give the number of the sentence you relied on (null for "beyond").
+Claims marked (classification) are a judgement about the paper as a whole, such as its study type or
+the kind of finding. Answer "supported" if the abstract as a whole fits that label and "contradicted"
+if it clearly does not. Never answer "beyond" only because the label's words are not in the text.
+Judge the framing of a summary sentence ("In a cell-line study, ...") the same way, and its facts as usual.
 Then check completeness against the record's fields, listed below the claims. List only facts the
 abstract states that belong in one of those fields but are missing or incomplete there. Do not list
 background, methods or secondary details that no field asks for. If nothing belongs, return [].
@@ -296,9 +300,11 @@ def code_checks(paper: Paper, extraction: dict, summary: dict, topic: dict) -> d
 
 def model_check(paper: Paper, extraction: dict, summary: dict, topic: dict, model: Model) -> dict:
     claims = []
+    kinds = {f["id"]: f.get("kind") for f in topic.get("fields", [])}
     for fid, item in extraction["fields"].items():
         if item["value"]:
-            claims.append({"kind": "field", "id": fid, "text": f"{fid}: {item['value']}"})
+            mark = " (classification)" if kinds.get(fid) in ("category", "judgement") else ""
+            claims.append({"kind": "field", "id": fid, "text": f"{fid}: {item['value']}{mark}"})
     for i, sent in enumerate(_split_summary(summary["text"]), start=1):
         claims.append({"kind": "summary", "id": f"summary {i}", "text": sent})
 

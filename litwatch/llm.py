@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -20,6 +21,10 @@ class Model(Protocol):
 
 
 USER_AGENT = "second-read/0.1 (+https://github.com/endrithotii/second-read)"
+
+
+class QuotaExhausted(RuntimeError):
+    """The provider's daily budget is used up. Not a per-paper failure: the run stops."""
 
 
 def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
@@ -45,11 +50,20 @@ def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
             retry_after = e.headers.get("retry-after")
             if retry_after:
                 try:
-                    wait = min(float(retry_after) + 1, 90)
+                    asked = float(retry_after)
                 except ValueError:
-                    pass
+                    asked = 0
+                if asked > 300:
+                    # A long wait means a daily budget is used up, not a busy minute:
+                    # stop the run; the cache keeps what is done for the next run.
+                    detail = e.read().decode("utf-8", "replace")[:300]
+                    raise QuotaExhausted(f"Daily limit reached, try again in {asked / 60:.0f} minutes. {detail}")
+                wait = min(asked + 1, 90) if asked else wait
         except (urllib.error.URLError, TimeoutError) as e:
             last_error = e
+        reason = getattr(last_error, "code", None) or type(last_error).__name__
+        print(f"    waiting {wait:.0f}s before retrying ({reason}: {str(last_error)[:120]})",
+              file=sys.stderr, flush=True)
         time.sleep(wait)
     raise RuntimeError(f"{url} failed after retries: {last_error}")
 
@@ -115,17 +129,27 @@ class CompatibleModel:
         if self.json_mode:
             body["response_format"] = {"type": "json_object"}
         headers = {"authorization": f"Bearer {self.api_key}", "content-type": "application/json"}
-        try:
-            out = _post(self.url, headers, body, timeout=300)
-        except RuntimeError as e:
-            # Some providers or models reject JSON mode; the prompts already ask
-            # for JSON, so retry once without it and remember the choice.
-            if not self.json_mode or "response_format" not in str(e):
+        for attempt in range(3):
+            try:
+                out = _post(self.url, headers, body, timeout=300)
+                return parse_json(out["choices"][0]["message"]["content"])
+            except QuotaExhausted:
                 raise
-            self.json_mode = False
-            body.pop("response_format")
-            out = _post(self.url, headers, body, timeout=300)
-        return parse_json(out["choices"][0]["message"]["content"])
+            except (RuntimeError, ValueError) as e:
+                text = str(e)
+                if "response_format" in text and "json_validate_failed" not in text:
+                    # The provider does not offer JSON mode for this model at all:
+                    # the prompts already ask for JSON, so stop sending it.
+                    self.json_mode = False
+                    body.pop("response_format", None)
+                elif "json_validate_failed" in text or isinstance(e, ValueError):
+                    # JSON mode rejected the model's own output, or the reply was not
+                    # valid JSON: ask once more, then once without JSON mode.
+                    if attempt == 1:
+                        body.pop("response_format", None)
+                else:
+                    raise
+        raise RuntimeError(f"{self.name} gave no valid JSON after 3 attempts")
 
 
 class LocalModel:
