@@ -71,8 +71,8 @@ Check each provider's current model names and limits in its console before a run
 
 One-time setup in the GitHub repository, under Settings, Secrets and variables, Actions:
 
-- Secrets: `GEMINI_API_KEY` and `GROQ_API_KEY` for the free setup (or `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`), optional `NCBI_API_KEY`.
-- Variables (optional): `WRITER_MODEL` and `CHECKER_MODEL` to change models without touching code (defaults: `gemini:gemini-3.8-flash` and `groq:llama-3.3-70b-versatile`), and `NCBI_EMAIL`.
+- Secret: `GROQ_API_KEY` is all the free setup needs. Other providers use `GEMINI_API_KEY`, `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`; `NCBI_API_KEY` is optional.
+- Variables (optional): `WRITER_MODEL` and `CHECKER_MODEL` to change models without touching code, and `NCBI_EMAIL`. Defaults, both free on Groq and from different model families: `groq:openai/gpt-oss-120b` (OpenAI) writes, `groq:qwen/qwen3.8-27b` (Alibaba) checks.
 
 Start a first run by hand from the Actions tab, "Daily run", "Run workflow", with 30 days for a fuller first report.
 

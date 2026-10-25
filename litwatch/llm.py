@@ -19,11 +19,18 @@ class Model(Protocol):
     def complete_json(self, system: str, user: str) -> dict: ...
 
 
+USER_AGENT = "second-read/0.1 (+https://github.com/endrithotii/second-read)"
+
+
 def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
     data = json.dumps(body).encode("utf-8")
+    # Some providers sit behind Cloudflare, which refuses requests without a
+    # named client (error 1010), so every request identifies itself.
+    headers = {"user-agent": USER_AGENT, "accept": "application/json", **headers}
     last_error: Exception | None = None
-    for attempt in range(5):
+    for attempt in range(7):
         req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+        wait = min(2 ** attempt, 30)
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read())
@@ -33,15 +40,22 @@ def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
             if e.code not in (408, 429, 500, 502, 503, 504, 529):
                 detail = e.read().decode("utf-8", "replace")[:500]
                 raise RuntimeError(f"{url} returned {e.code}: {detail}") from e
+            retry_after = e.headers.get("retry-after")
+            if retry_after:
+                try:
+                    wait = min(float(retry_after) + 1, 90)
+                except ValueError:
+                    pass
         except (urllib.error.URLError, TimeoutError) as e:
             last_error = e
-        time.sleep(2 ** attempt)
+        time.sleep(wait)
     raise RuntimeError(f"{url} failed after retries: {last_error}")
 
 
 def parse_json(text: str) -> dict:
     """Read a JSON object from model output, tolerating code fences or prose around it."""
-    text = text.strip()
+    # Reasoning models may think out loud before answering; only the answer counts.
+    text = re.sub(r"<think>.*?</think>", "", text or "", flags=re.S).strip()
     fenced = re.search(r"```(?:json)?\s*(\{.*\})\s*```", text, re.S)
     if fenced:
         text = fenced.group(1)

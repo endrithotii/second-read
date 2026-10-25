@@ -27,8 +27,8 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
       NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
-      WRITER_MODEL: ${{ vars.WRITER_MODEL || 'gemini:gemini-3.8-flash' }}
-      CHECKER_MODEL: ${{ vars.CHECKER_MODEL || 'groq:llama-3.3-70b-versatile' }}
+      WRITER_MODEL: ${{ vars.WRITER_MODEL || 'groq:openai/gpt-oss-120b' }}
+      CHECKER_MODEL: ${{ vars.CHECKER_MODEL || 'groq:qwen/qwen3.8-27b' }}
       DAYS: ${{ github.event.inputs.days || '7' }}
     steps:
       - uses: actions/checkout@v4
