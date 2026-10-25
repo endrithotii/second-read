@@ -37,9 +37,49 @@ def split_sentences(text: str) -> list[str]:
     return out
 
 
+_UNITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+          "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
+          "eighteen", "nineteen"]
+_TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70,
+         "eighty": 80, "ninety": 90}
+_NUMBER_WORD = re.compile(
+    r"\b(?:(" + "|".join(_TENS) + r")(?:[- ](" + "|".join(_UNITS[1:10]) + r"))?|(" + "|".join(_UNITS) + r"))\b",
+    re.I)
+
+
+def _word_to_digits(m: re.Match) -> str:
+    tens, unit, single = m.group(1), m.group(2), m.group(3)
+    if single:
+        return str(_UNITS.index(single.lower()))
+    return str(_TENS[tens.lower()] + (_UNITS.index(unit.lower()) if unit else 0))
+
+
 def numbers_in(text: str) -> list[str]:
-    """All numbers in a text, with decimal commas turned into points."""
-    return [n.replace(",", ".") for n in _NUMBER.findall(normalise(text))]
+    """All numbers in a text, with decimal commas turned into points and number
+    words read as digits, so "Thirty-one patients" contains 31."""
+    text = _NUMBER_WORD.sub(_word_to_digits, normalise(text))
+    return [n.replace(",", ".") for n in _NUMBER.findall(text)]
+
+
+_DEFINITION = re.compile(r"((?:[A-Za-z][\w-]*\s+){0,5}[A-Za-z][\w-]*)\s*\(([A-Za-z][A-Za-z0-9-]{1,9})\)")
+
+
+def abbreviations(text: str) -> dict[str, str]:
+    """Abbreviations the text defines itself, as written: 'pirfenidone (PFD)' -> {'pfd': 'pirfenidone'}.
+    The long form is trimmed to the words whose initials spell the abbreviation."""
+    out = {}
+    for long, abbr in _DEFINITION.findall(normalise(text)):
+        words = long.split()
+        letters = re.sub(r"[^A-Za-z]", "", abbr).lower()
+        n = next((k for k in range(1, len(words) + 1)
+                  if "".join(w[0] for w in words[-k:]).lower() == letters), None)
+        if n is None:  # single-word long forms: 'pirfenidone (PFD)'
+            last = words[-1].lower()
+            if last[0] == letters[0] and all(c in last for c in letters):
+                n = 1
+        if n:
+            out[abbr.lower()] = " ".join(words[-n:]).lower()
+    return out
 
 
 def sha256(text: str) -> str:

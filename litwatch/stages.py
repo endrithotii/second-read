@@ -13,7 +13,7 @@ import re
 
 from .llm import Model
 from .pubmed import Paper
-from .textutil import normalise, numbers_in, short_hash
+from .textutil import abbreviations, normalise, numbers_in, short_hash
 
 # ---------------------------------------------------------------- prompts --
 
@@ -43,7 +43,9 @@ For each claim, read the numbered sentences and answer one of:
   "contradicted"  the abstract states something different;
   "beyond"        the abstract does not state this, though it may be plausible.
 Give the number of the sentence you relied on (null for "beyond").
-Then list important findings in the abstract that are relevant to the topic but appear in none of the claims.
+Then check completeness against the record's fields, listed below the claims. List only facts the
+abstract states that belong in one of those fields but are missing or incomplete there. Do not list
+background, methods or secondary details that no field asks for. If nothing belongs, return [].
 Use only the abstract. Reply with JSON only:
 {"verdicts": [{"claim": <int>, "verdict": "supported|contradicted|beyond", "sentence": <int or null>}], "omitted": ["..."]}"""
 
@@ -212,12 +214,24 @@ def _quote_in(quote: str, source: str) -> bool:
     return bool(pieces)
 
 
-def _appears(token: str, text: str, synonyms: dict) -> bool:
+def _stem(word: str) -> str:
+    """A crude stem, enough for 'upregulation' and 'upregulated' or 'combined' and 'combination'."""
+    w = word.casefold()
+    return w[:max(5, len(w) - 4)] if len(w) > 5 else w
+
+
+def _appears(token: str, text: str, synonyms: dict, abbrev: dict | None = None) -> bool:
     t, hay = token.casefold(), text.casefold()
-    if t in hay or _acronym_in(token, text):
+    if t in hay or _acronym_in(token, text) or (len(t) > 5 and _stem(t) in hay):
         return True
+    if re.fullmatch(r"\d+(?:\.\d+)?", t) and t in numbers_in(text):
+        return True  # 31 is said by "Thirty-one"
+    for short, long in (abbrev or {}).items():
+        # The paper's own abbreviations: 'pirfenidone' is said by 'PFD', and the reverse.
+        if (t == short or t in long.split()) and (re.search(rf"\b{re.escape(short)}\b", hay) or long in hay):
+            return True
     parts = [p for p in re.split(r"-", token) if p]
-    if len(parts) > 1 and all(_appears(p, text, synonyms) for p in parts):
+    if len(parts) > 1 and all(_appears(p, text, synonyms, abbrev) for p in parts):
         return True  # "EGFR-TKI" is said by "EGFR tyrosine kinase inhibitors"
     for canonical, alts in synonyms.items():
         group = [canonical, *alts]
@@ -231,6 +245,7 @@ def code_checks(paper: Paper, extraction: dict, summary: dict, topic: dict) -> d
     source = normalise(f"{paper.title} {paper.abstract}")
     source_numbers = set(numbers_in(source))
     synonyms = topic.get("synonyms", {})
+    abbrev = abbreviations(source)
     spec = {f["id"]: f for f in topic.get("fields", [])}
     fields = {}
     for fid, item in extraction["fields"].items():
@@ -251,7 +266,7 @@ def code_checks(paper: Paper, extraction: dict, summary: dict, topic: dict) -> d
         elif not _quote_in(quote, source):
             problems.append("Quote is not in the abstract word for word.")
         else:
-            missing = [a for a in _anchors(value) if not _appears(a, quote, synonyms)]
+            missing = [a for a in _anchors(value) if not _appears(a, quote, synonyms, abbrev)]
             if missing:
                 problems.append("Not in the quote: " + ", ".join(missing) + ".")
             # Plain words matter too: a value must be said by its quote, not merely
@@ -260,7 +275,7 @@ def code_checks(paper: Paper, extraction: dict, summary: dict, topic: dict) -> d
             if spec.get(fid, {}).get("kind") != "judgement":
                 words = [w for w in re.findall(r"[A-Za-z][A-Za-z-]{3,}", value)
                          if w.casefold() not in _STOPWORDS]
-                absent = [w for w in words if not _appears(w, quote, synonyms)]
+                absent = [w for w in words if not _appears(w, quote, synonyms, abbrev)]
                 if absent and len(absent) * 2 >= len(words):
                     problems.append("The quote does not say this: " + ", ".join(absent) + ".")
         stray = [n for n in numbers_in(value) if n not in source_numbers]
@@ -288,8 +303,9 @@ def model_check(paper: Paper, extraction: dict, summary: dict, topic: dict, mode
         claims.append({"kind": "summary", "id": f"summary {i}", "text": sent})
 
     listing = "\n".join(f"{i}. {c['text']}" for i, c in enumerate(claims, start=1))
+    fields = "\n".join(f'- {f["id"]}: {f["text"]}' for f in topic.get("fields", []))
     user = (f"Topic: {topic['question']}\n\nAbstract, sentence by sentence:\n{numbered(paper)}\n\n"
-            f"Claims:\n{listing}")
+            f"Claims:\n{listing}\n\nThe record's fields:\n{fields}")
     raw = model.complete_json(CHECK_SYSTEM, user)
     by_claim = {as_index(v.get("claim")): v for v in raw.get("verdicts", []) if isinstance(v, dict)}
     results = []

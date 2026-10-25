@@ -92,6 +92,21 @@ class RobustnessTests(unittest.TestCase):
         res = code_checks(paper(ab), ex, {"text": ""}, TOPIC)
         self.assertTrue(res["fields"]["key_finding"]["passed"], res["fields"]["key_finding"])
 
+    def test_number_words(self):
+        ab = "Thirty-one patients received study treatment in a two-patient pilot."
+        ex = extraction(n_patients=("31", "Thirty-one patients received study treatment"))
+        res = code_checks(paper(ab), ex, {"text": ""}, TOPIC)
+        self.assertTrue(res["fields"]["n_patients"]["passed"], res["fields"]["n_patients"])
+
+    def test_papers_own_abbreviations_and_word_forms(self):
+        ab = ("We evaluated pirfenidone (PFD) with osimertinib (OS). "
+              "PFD in combination with OS was synergistic. RRBP1 was upregulated in resistant cells.")
+        ex = extraction(drug=("pirfenidone combined with osimertinib", "PFD in combination with OS"),
+                        mechanism=("RRBP1 upregulation", "RRBP1 was upregulated"))
+        res = code_checks(paper(ab), ex, {"text": ""}, TOPIC)
+        self.assertTrue(res["fields"]["drug"]["passed"], res["fields"]["drug"])
+        self.assertTrue(res["fields"]["mechanism"]["passed"], res["fields"]["mechanism"])
+
     def test_judgement_field_skips_word_check(self):
         topic = dict(TOPIC, fields=[{"id": "study_type", "kind": "judgement"}])
         ab = "EGFR-mutant cell lines were treated with osimertinib."

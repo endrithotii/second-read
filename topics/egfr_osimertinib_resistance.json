@@ -19,7 +19,8 @@
   ],
 
   "fields": [
-    {"id": "variant", "text": "Resistance alteration(s) reported, as written in the paper, e.g. EGFR C797S, MET amplification."},
+    {"id": "mechanism", "text": "The resistance mechanism the paper describes, genetic or not, in the paper's words, e.g. MET amplification, ERK/GATAD2A/SAA1 axis, histological transformation."},
+    {"id": "variant", "text": "Specific genetic alteration(s) reported, as written in the paper, e.g. EGFR C797S, MET amplification. Null if the mechanism is not a genetic alteration."},
     {"id": "context", "text": "Context of the alteration, e.g. in cis or in trans with T790M, co-occurring alterations."},
     {"id": "drug", "text": "Drug or combination studied."},
     {"id": "setting", "text": "Treatment line or setting, e.g. first-line osimertinib, after progression."},
@@ -33,7 +34,8 @@
 
   "high_impact": {
     "field": "finding_type",
-    "values": ["resistance mechanism", "treatment after resistance"]
+    "values": ["treatment after resistance"],
+    "why": "A result on what to give after resistance can change treatment, so a person always reads it. Mechanism papers are checked like any other and reach a person when a check fails."
   },
 
   "synonyms": {
