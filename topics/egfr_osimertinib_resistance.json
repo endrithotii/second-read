@@ -1,0 +1,43 @@
+{
+  "id": "egfr-osimertinib-resistance",
+  "name": "EGFR-mutant lung cancer: resistance to osimertinib",
+  "question": "New evidence on how EGFR-mutant non-small cell lung cancer becomes resistant to osimertinib, how often each mechanism occurs, and what works after resistance.",
+
+  "primary_query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
+
+  "secondary_query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
+
+  "criteria": [
+    {"id": "population", "required": true,
+     "text": "Concerns EGFR-mutant non-small cell lung cancer: patients, tumour samples, cell lines or animal models."},
+    {"id": "drug", "required": true,
+     "text": "Involves osimertinib (also called AZD9291 or Tagrisso), alone or in combination."},
+    {"id": "resistance", "required": true,
+     "text": "Reports on resistance to osimertinib: a mechanism, how often a mechanism occurs, or treatment after resistance."},
+    {"id": "primary_data", "required": false,
+     "text": "Reports original data (trial, cohort, case report, laboratory study) rather than being only a review, editorial or guideline."}
+  ],
+
+  "fields": [
+    {"id": "variant", "text": "Resistance alteration(s) reported, as written in the paper, e.g. EGFR C797S, MET amplification."},
+    {"id": "context", "text": "Context of the alteration, e.g. in cis or in trans with T790M, co-occurring alterations."},
+    {"id": "drug", "text": "Drug or combination studied."},
+    {"id": "setting", "text": "Treatment line or setting, e.g. first-line osimertinib, after progression."},
+    {"id": "study_type", "text": "Study design, e.g. retrospective cohort, phase 2 trial, case report, cell-line study."},
+    {"id": "n_patients", "text": "Number of patients, if stated. Digits only."},
+    {"id": "finding_type", "kind": "category",
+     "values": ["resistance mechanism", "mechanism frequency", "treatment after resistance", "other"],
+     "text": "What kind of finding the paper reports. Exactly one of the allowed values."},
+    {"id": "key_finding", "text": "The main result in one sentence, staying as close to the paper's wording as possible."}
+  ],
+
+  "high_impact": {
+    "field": "finding_type",
+    "values": ["resistance mechanism", "treatment after resistance"]
+  },
+
+  "synonyms": {
+    "osimertinib": ["AZD9291", "Tagrisso"],
+    "non-small cell lung cancer": ["NSCLC", "lung adenocarcinoma"]
+  }
+}

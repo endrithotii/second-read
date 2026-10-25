@@ -1,0 +1,69 @@
+name: Daily run
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # every day at 05:17 UTC
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Days of newly added PubMed papers to read"
+        default: "7"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-run
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+      WRITER_MODEL: ${{ vars.WRITER_MODEL || 'gemini:gemini-3.8-flash' }}
+      CHECKER_MODEL: ${{ vars.CHECKER_MODEL || 'groq:llama-3.3-70b-versatile' }}
+      DAYS: ${{ github.event.inputs.days || '7' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: python -m unittest discover -s tests
+
+      - name: Run the pipeline
+        run: |
+          python -m litwatch run \
+            --topic topics/egfr_osimertinib_resistance.json \
+            --days "$DAYS" \
+            --writer "$WRITER_MODEL" \
+            --checker "$CHECKER_MODEL" \
+            --out runs
+
+      - name: Publish the report to the site folder
+        run: |
+          latest=$(ls -td runs/*/ | head -1)
+          day=$(date -u +%Y-%m-%d)
+          mkdir -p "site/archive/$day"
+          cp "$latest/report.html" site/index.html
+          cp "$latest/run.json" site/run.json
+          cp "$latest/report.html" "site/archive/$day/index.html"
+          cp "$latest/run.json" "site/archive/$day/run.json"
+
+      - name: Commit, which makes Vercel deploy
+        run: |
+          git config user.name "second-read bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site
+          git diff --cached --quiet && exit 0
+          git commit -m "Run $(date -u +%Y-%m-%d)"
+          git push
