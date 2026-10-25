@@ -77,6 +77,7 @@ jobs:
           cp "$latest/run.json" site/run.json
           cp "$latest/report.html" "site/archive/$day/index.html"
           cp "$latest/run.json" "site/archive/$day/run.json"
+          python -m litwatch.summary site/run.json > site/summary.json
 
       - name: Commit, which makes Vercel deploy
         run: |
