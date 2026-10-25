@@ -11,6 +11,7 @@ from pathlib import Path
 from .llm import QuotaExhausted, family, make_model
 from .pubmed import window
 from .report import render
+from .stages import clean_omitted, route
 from .run import log, recheck, run, save
 
 
@@ -36,6 +37,8 @@ def main(argv: list[str] | None = None) -> int:
 
     rr = sub.add_parser("render", help="rebuild report.html from a saved run.json")
     rr.add_argument("run_json", type=Path)
+    rr.add_argument("--reroute", action="store_true",
+                    help="re-apply the current routing rules first (no model calls)")
 
     rc = sub.add_parser("recheck", help="re-run only the checker and routing on a saved run.json "
                                          "(after changing the checker or its prompt)")
@@ -46,6 +49,14 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.cmd == "render":
         result = json.loads(args.run_json.read_text(encoding="utf-8"))
+        if args.reroute:
+            # Routing is plain code: apply the current rules to the saved answers.
+            for e in result["entries"]:
+                if e.get("model_check"):
+                    e["model_check"]["omitted"] = clean_omitted(e["model_check"]["omitted"], result["topic"])
+                    e["route"] = route(e["screening"], e["code_checks"], e["model_check"],
+                                       e["extraction"], result["topic"])
+            args.run_json.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
         out = args.run_json.with_name("report.html")
         out.write_text(render(result), encoding="utf-8")
         print(out)

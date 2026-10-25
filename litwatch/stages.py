@@ -325,8 +325,23 @@ def model_check(paper: Paper, extraction: dict, summary: dict, topic: dict, mode
         if verdict == "supported" and evidence is None:
             verdict = "beyond"
         results.append({**c, "verdict": verdict, "evidence": evidence})
-    omitted = [normalise(o) for o in raw.get("omitted", []) if isinstance(o, str) and o.strip()]
+    omitted = clean_omitted(raw.get("omitted", []), topic)
     return {"claims": results, "omitted": omitted, "model": model.name}
+
+
+def clean_omitted(items, topic: dict) -> list[str]:
+    """Missing findings must be findings. Checker models sometimes list a bare
+    field name ("n_patients") instead of a fact; those say nothing and are dropped."""
+    names = {f["id"].casefold() for f in topic.get("fields", [])}
+    names |= {n.replace("_", " ") for n in names}
+    out = []
+    for o in items if isinstance(items, list) else []:
+        if not isinstance(o, str):
+            continue
+        o = normalise(o)
+        if o and o.casefold().strip(".: ") not in names and len(o.split()) >= 3:
+            out.append(o)
+    return out
 
 
 def _split_summary(text: str) -> list[str]:
@@ -363,11 +378,19 @@ def route(screening: dict, checks: dict | None, verdicts: dict | None,
     for p in checks["summary"]["problems"]:
         reasons.append(f"Summary: {p}")
         problems += 1
+    labels = {f["id"] for f in topic.get("fields", []) if f.get("kind") in ("category", "judgement")}
+    notes = []
     for c in verdicts["claims"]:
-        if c["verdict"] != "supported":
-            name = c["id"].replace("summary", "Summary sentence") if c["kind"] == "summary" else label(c["id"])
-            reasons.append(f"{name}: {VERDICT_REASON[c['verdict']]}")
-            problems += 1
+        if c["verdict"] == "supported":
+            continue
+        name = c["id"].replace("summary", "Summary sentence") if c["kind"] == "summary" else label(c["id"])
+        if c["kind"] == "field" and c["id"] in labels and c["verdict"] == "beyond":
+            # A label such as a study type is a judgement, so "not stated in the
+            # abstract" is expected and is not an error. Only a contradiction is.
+            notes.append(f"{name}: a judgement the second model could not confirm from the abstract.")
+            continue
+        reasons.append(f"{name}: {VERDICT_REASON[c['verdict']]}")
+        problems += 1
     if verdicts["omitted"]:
         n = len(verdicts["omitted"])
         reasons.append(f"The second model found {n} relevant finding{'s' if n > 1 else ''} the record leaves out.")
@@ -379,4 +402,5 @@ def route(screening: dict, checks: dict | None, verdicts: dict | None,
         if any(v.casefold() in value for v in rule["values"]):
             reasons.append(f"Sent to a reviewer by policy: {label(rule['field']).lower()} is “{value}”.")
 
-    return {"outcome": "review" if reasons else "accepted", "reasons": reasons, "problems": problems}
+    return {"outcome": "review" if reasons else "accepted", "reasons": reasons, "problems": problems,
+            "notes": notes}

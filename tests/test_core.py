@@ -154,6 +154,22 @@ class RouteTests(unittest.TestCase):
         self.assertEqual(r["outcome"], "review")
         self.assertEqual(r["problems"], 0)
 
+    def test_unconfirmed_label_is_a_note_but_contradicted_label_is_a_problem(self):
+        topic = dict(TOPIC, high_impact=None, fields=[{"id": "study_type", "kind": "judgement"}])
+        scr = {"decision": "include", "criteria": [], "reason": ""}
+        checks = {"fields": {}, "summary": {"passed": True, "problems": []}}
+        beyond = {"claims": [{"id": "study_type", "kind": "field", "verdict": "beyond"}], "omitted": []}
+        r = route(scr, checks, beyond, extraction(), topic)
+        self.assertEqual((r["outcome"], len(r["notes"])), ("accepted", 1))
+        wrong = {"claims": [{"id": "study_type", "kind": "field", "verdict": "contradicted"}], "omitted": []}
+        self.assertEqual(route(scr, checks, wrong, extraction(), topic)["outcome"], "review")
+
+    def test_field_names_are_not_missing_findings(self):
+        from litwatch.stages import clean_omitted
+        topic = {"fields": [{"id": "study_type"}, {"id": "n_patients"}]}
+        kept = clean_omitted(["study_type", "n patients", "MET amplification occurred in 12 patients."], topic)
+        self.assertEqual(kept, ["MET amplification occurred in 12 patients."])
+
     def test_contradiction_is_a_problem(self):
         scr = {"decision": "include", "criteria": [], "reason": ""}
         checks = {"fields": {}, "summary": {"passed": True, "problems": []}}

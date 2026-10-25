@@ -134,7 +134,9 @@ def _summary_block(e: dict) -> str:
 def _paper(e: dict, topic: dict, open_: bool) -> str:
     p = e["paper"]
     reasons = "".join(f"<li>{_e(r)}</li>" for r in e["route"]["reasons"])
-    body = [f'<ul class="reasons">{reasons}</ul>' if reasons else ""]
+    notes = "".join(f"<li>{_e(n)}</li>" for n in e["route"].get("notes", []))
+    body = [f'<ul class="reasons">{reasons}</ul>' if reasons else "",
+            f'<ul class="notes">{notes}</ul>' if notes else ""]
     if "error" in e:
         body.append(f'<p class="none">Error: {_e(e["error"])}</p>')
     if e.get("extraction") and e.get("model_check"):
@@ -390,6 +392,7 @@ figcaption { color: var(--muted); font-size: 0.9rem; margin-top: 1rem; max-width
 .reasons { margin: 1rem 0 0; padding-left: 1.2rem; }
 .paper.problem .reasons li::marker { color: var(--carmine); }
 .reasons li { margin: 0.2rem 0; }
+.notes { margin: 0.5rem 0 0; padding-left: 1.2rem; color: var(--muted); font-size: 0.92rem; }
 .summary { margin: 1.25rem 0 0; }
 .summary-text { margin: 0; font-size: 1.05rem; max-width: 68ch; }
 .s-contradicted { background: linear-gradient(transparent 62%, #F2C9D1 62%); }
