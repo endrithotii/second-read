@@ -1,0 +1,14 @@
+{
+ "error_categories": [
+  "correct",
+  "wrong variant or molecular profile",
+  "wrong drug",
+  "wrong disease",
+  "wrong significance or direction",
+  "wrong evidence level",
+  "the quote does not support the entry",
+  "out of scope (not EGFR-TKI evidence in lung cancer)",
+  "duplicate of another entry"
+ ],
+ "items": []
+}

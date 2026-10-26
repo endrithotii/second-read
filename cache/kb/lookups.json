@@ -1,0 +1,150 @@
+{
+"drug:afatinib": {
+"chembl_id": "CHEMBL1173655",
+"name": "AFATINIB"
+},
+"drug:anilinoquinazoline egfr inhibitors": null,
+"drug:azd9291": {
+"chembl_id": "CHEMBL3353410",
+"name": "OSIMERTINIB"
+},
+"drug:cl-387,785": null,
+"drug:egfr tkis": null,
+"drug:erlotinib": {
+"chembl_id": "CHEMBL553",
+"name": "ERLOTINIB"
+},
+"drug:gefitinib": {
+"chembl_id": "CHEMBL939",
+"name": "GEFITINIB"
+},
+"drug:osimertinib plus savolitinib": null,
+"drug:pf-00299804": {
+"chembl_id": "CHEMBL2110732",
+"name": "DACOMITINIB ANHYDROUS"
+},
+"drug:second-generation egfr tki": null,
+"gene:BRAF": {
+"hgnc_id": "HGNC:1097",
+"mane_nm": "NM_004333.6",
+"symbol": "BRAF"
+},
+"gene:EGFR": {
+"hgnc_id": "HGNC:3236",
+"mane_nm": "NM_005228.5",
+"symbol": "EGFR"
+},
+"gene:HER2": {
+"hgnc_id": "HGNC:3430",
+"mane_nm": "NM_004448.4",
+"symbol": "ERBB2"
+},
+"gene:KRAS": {
+"hgnc_id": "HGNC:6407",
+"mane_nm": "NM_004985.5",
+"symbol": "KRAS"
+},
+"gene:MET": {
+"hgnc_id": "HGNC:7029",
+"mane_nm": "NM_000245.4",
+"symbol": "MET"
+},
+"np:NM_004333.6": "NP_004324.2",
+"np:NM_005228.5": "NP_005219.2",
+"vv:NM_005228.5:c.2390G>C": {
+"hgvs_c": "NM_005228.5:c.2390G>C",
+"hgvs_p": "NP_005219.2:p.(Cys797Ser)",
+"note": "",
+"valid": true
+},
+"vv:NP_004324.2:p.(Val600Glu)": {
+"hgvs_c": null,
+"hgvs_p": "NP_004324.2:p.(Val600Glu)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Ala763_Tyr764insPheGlnGluAla)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Ala763_Tyr764insPheGlnGluAla)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Ala767_Val769dup)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Ala767_Val769dup)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Ala767_Val769dupAlaSerVal)": {
+"hgvs_c": null,
+"hgvs_p": null,
+"note": "HgvsSyntaxError: (Ala767_Val769dupAlaSerVal): char 17: expected the character ); LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala767_Val769dupAlaSerVal) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSy",
+"valid": false
+},
+"vv:NP_005219.2:p.(Ala797Ser)": {
+"hgvs_c": null,
+"hgvs_p": null,
+"note": "ReferenceMismatchError: NP_005219.2:p.(Ala797Ser): Variant reference (A) does not agree with reference sequence (C); LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala797Ser) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, prob",
+"valid": false
+},
+"vv:NP_005219.2:p.(Asp770_Asn771insAsnProGly)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Asp770_Asn771insAsnProGly)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Cys797Ser)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Cys797Ser)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Glu746_Ala750del)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Glu746_Ala750del)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Glu746_Ala751del)": {
+"hgvs_c": null,
+"hgvs_p": null,
+"note": "The amino acid at position 751 of NP_005219.2 is T not A; LovdSyntaxcheckInvalid: NP_005219.2:p.(Glu746_Ala751del) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSyntaxcheckWarning: We stopped rea",
+"valid": false
+},
+"vv:NP_005219.2:p.(Gly719Ser)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly719Ser)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Gly719Ter)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly719Ter)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Gly724Ser)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly724Ser)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Leu747_Pro753delinsSer)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Leu747_Pro753delinsSer)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Leu858Arg)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Leu858Arg)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Thr790Met)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Thr790Met)",
+"note": "reference amino acid confirmed",
+"valid": true
+}
+}

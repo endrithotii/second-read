@@ -1,0 +1,175 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Second Read: evidence entries measured against CIViC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<style>
+:root { --paper: #FFFFFF; --wash: #F2F4FD; --ink: #0B1033; --soft: #4B5275; --line: #DDE1F0;
+  --cobalt: #2443E8; --sun: #FFD23F; --sun-ink: #6E5300; --green: #13A876; --rose: #E8475B;
+  --head: "Red Hat Display", Arial, sans-serif; --body: "Red Hat Text", Arial, sans-serif; }
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); }
+body { margin: 0; font: 400 17px/1.6 var(--body); }
+a { color: var(--cobalt); text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin-inline: auto; padding-inline: 1.25rem; }
+.top { background: var(--cobalt); color: #fff; padding-block: 2.4rem 2.2rem; }
+.top a { color: #fff; }
+.where { margin: 0 0 0.8rem; font-weight: 500; opacity: 0.9; }
+h1 { font: 900 clamp(1.8rem, 4vw, 2.9rem)/1.08 var(--head); margin: 0; max-width: 28ch; letter-spacing: -0.01em; }
+.lede { max-width: 70ch; margin: 1rem 0 0.6rem; color: #E3E8FF; }
+.stamp { font-size: 0.9rem; color: #CBD3FF; margin: 0; }
+h2 { font: 700 1.55rem/1.2 var(--head); margin: 0 0 1rem; }
+h3 { font: 700 1.1rem var(--head); margin: 1.6rem 0 0.6rem; }
+section { margin-block: 2.8rem; }
+.plain { background: #FFF6D1; border-left: 8px solid var(--sun); padding: 1.2rem 1.4rem; }
+.plain ul { margin: 0; padding-left: 1.1rem; } .plain li { margin: 0.4rem 0; }
+.note { color: var(--soft); max-width: 75ch; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr)); gap: 1rem; }
+.metric { background: var(--wash); padding: 1rem 1.1rem 0.9rem; border-top: 6px solid var(--line); }
+.metric.good { border-top-color: var(--green); } .metric.mid { border-top-color: var(--sun); } .metric.weak { border-top-color: var(--rose); }
+.mlabel { font-weight: 700; line-height: 1.3; }
+.mvalue { font: 900 2.2rem/1.1 var(--head); margin: 0.4rem 0 0.5rem; }
+.mvalue small { display: block; font: 400 0.85rem var(--body); color: var(--soft); margin-top: 0.2rem; }
+.mvalue.none { font-size: 1.1rem; color: var(--soft); }
+.track { position: relative; height: 0.8rem; background: #fff; border: 1px solid var(--line); }
+.track .ci { position: absolute; top: 0; bottom: 0; background: rgba(36, 67, 232, 0.25); }
+.track .pt { position: absolute; top: -0.25rem; width: 3px; height: 1.3rem; background: var(--ink); transform: translateX(-1px); }
+.mnote { color: var(--soft); font-size: 0.9rem; margin: 0.5rem 0 0; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.93rem; }
+th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--soft); font-weight: 500; }
+td.num { font-variant-numeric: tabular-nums; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.reasons { padding-left: 1.1rem; } .reasons li { margin: 0.25rem 0; } .reasons b { color: var(--cobalt); margin-right: 0.3rem; }
+.labels { list-style: none; display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 0; }
+.labels li { background: var(--wash); padding: 0.4rem 0.9rem; } .labels b { font: 900 1.3rem var(--head); margin-right: 0.3rem; }
+.flow { list-style: none; padding: 0; margin: 0; counter-reset: none; }
+.flow li { position: relative; background: var(--wash); border-left: 6px solid var(--cobalt); padding: 0.8rem 1rem; margin: 0 0 1.4rem; max-width: 52rem; }
+.flow li:not(:last-child)::after { content: ""; position: absolute; left: 1.4rem; bottom: -1.3rem; border: 0.55rem solid transparent; border-top-color: var(--cobalt); }
+.flow b { font: 900 1.2rem var(--head); }
+.foot { color: var(--soft); font-size: 0.88rem; padding-block: 1rem 3rem; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+</style></head><body>
+<header class="top"><div class="wrap">
+  <p class="where"><a href="../">Second Read</a>, knowledge-base mode</p>
+  <h1>Resistance to osimertinib in EGFR-mutant lung cancer: evidence entries, measured against expert curators</h1>
+  <p class="lede">Papers become structured evidence entries (gene, variant, drug, disease, evidence type, direction, significance, level, and the exact sentence or table cell they rest on), each compared with the knowledge base. Every number below is measured against CIViC's curators on papers held out from prompt development, with a 95% interval.</p>
+  <p class="stamp">Generated 2026-10-26 00:09 UTC. Ground truth: 385 CIViC entries from 155 papers (111 papers held out, 44 used to build the prompts).</p>
+</div></header>
+<main class="wrap">
+
+<section class="plain">
+  <h2>Read this first</h2>
+  <ul>
+    <li><b>The narrow topic is too small to measure on its own.</b> CIViC holds 13 curated entries on resistance to osimertinib. The evaluation therefore uses all CIViC evidence on EGFR inhibitors in lung cancer, and reports the osimertinib-resistance subset separately, with its wide interval.</li>
+    <li><b>CIViC is not complete.</b> An entry CIViC lacks is not automatically wrong, so every precision figure measured against CIViC is a floor. The blind expert review below is what measures it properly.</li>
+    <li><b>Most papers have no open full text.</b> 0 of 0 evaluated papers could only be read as abstracts; results are split by source.</li>
+    <li><b>Progress:</b> 0 of 111 held-out papers extracted, 19 of 302 screening papers screened. Free model quotas limit how much runs per day; the numbers update as runs complete.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>1. Finding the papers</h2>
+  <div class="grid">
+    <div class="metric good">
+  <div class="mlabel">Search recall: CIViC papers the topic search finds</div>
+  <div class="mvalue">91%<small>95% interval 85% to 95%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:85.4%;width:9.1%"></span><span class="pt" style="left:91.0%"></span></div>
+  <p class="mnote">16,786 papers in the search results, all years.</p>
+</div>
+    <div class="metric good">
+  <div class="mlabel">Screening recall on held-out CIViC papers</div>
+  <div class="mvalue">95%<small>95% interval 75% to 99%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:75.4%;width:23.7%"></span><span class="pt" style="left:94.7%"></span></div>
+  <p class="mnote">19 held-out CIViC papers screened. Missed: 15310767.</p>
+</div>
+    <div class="metric good">
+  <div class="mlabel">Screening precision (floor)</div>
+  <div class="mvalue">100%<small>95% interval 100% to 100%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:100.0%;width:0.0%"></span><span class="pt" style="left:100.0%"></span></div>
+  <p class="mnote">0 other papers sampled at random from the search, each standing for 83. Papers CIViC never curated count as wrong.</p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">Work saved at 95% recall (WSS@95)</div>
+  <div class="mvalue">-5%<small>95% interval -5% to -5%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:-5.0%;width:0.0%"></span><span class="pt" style="left:-5.0%"></span></div>
+  <p class="mnote">Share of the search results a person would not need to read, ranked by the screener, while still finding 95% of the curated papers, minus the 5% allowed to miss.</p>
+</div>
+  </div>
+</section>
+
+<section>
+  <h2>2. Extracting the evidence</h2>
+  <div class="grid">
+    <div class="metric"><div class="mlabel">Curated entries the system also produced</div><div class="mvalue none">not measured yet</div><p class="mnote">0 CIViC entries in 0 held-out papers. Matched on the same molecular profile and at least one drug.</p></div>
+    <div class="metric"><div class="mlabel">From full text</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div>
+    <div class="metric"><div class="mlabel">From the abstract only</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div>
+    <div class="metric"><div class="mlabel">System entries that CIViC also holds (floor)</div><div class="mvalue none">not measured yet</div><p class="mnote">0 entries produced. The rest are either errors or evidence CIViC has not curated; the expert review tells which.</p></div>
+  </div>
+  <h3>Field accuracy, on entries matched to a CIViC entry</h3>
+  <div class="grid"><div class="metric"><div class="mlabel">Drugs</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Disease (same OncoTree branch)</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Evidence type</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Direction</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Clinical significance</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Evidence level (A-E)</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div></div>
+  <h3>Writer and checker agreement (Cohen's kappa)</h3>
+  <p class="note">The checker comes from a different model family, reads the same cited text and assigns the labels without seeing the writer's.</p>
+  <div class="tablewrap"><table><thead><tr><th>Field</th><th>Kappa</th><th>95% interval</th><th>Agreement</th><th>Entries</th></tr></thead><tbody><tr><td>Evidence type</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr><tr><td>Direction</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr><tr><td>Clinical significance</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr><tr><td>Evidence level</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>3. What reaches a person</h2>
+  <div class="grid">
+    <div class="metric"><div class="mlabel">Entries sent to a person</div><div class="mvalue none">not measured yet</div><p class="mnote">Every code check must pass, every name must be normalised, the checker must say the cited text supports the entry and agree on type, direction, significance and level.</p></div>
+    <div class="metric"><div class="mlabel">Errors among automatically accepted entries</div><div class="mvalue none">not measured yet</div><p class="mnote">0 accepted entries could be compared with CIViC; 0 accepted entries are not in CIViC and need the expert review.</p></div>
+  </div>
+  <div class="two">
+    <div><h3>Why entries went to a person</h3><ul class="reasons"><li>None yet.</li></ul></div>
+    <div><h3>Accepted entries that disagree with CIViC</h3><ul class="reasons"><li>None among the entries that could be compared.</li></ul></div>
+  </div>
+  <h3>Compared with the knowledge base (other papers only)</h3>
+  <ul class="labels"><li><b>0</b> new</li><li><b>0</b> supports</li><li><b>0</b> refines</li><li><b>0</b> contradicts</li></ul>
+</section>
+
+<section>
+  <h2>4. Resistance to osimertinib</h2>
+  <div class="grid"><div class="metric"><div class="mlabel">Curated osimertinib-resistance entries found</div><div class="mvalue none">not measured yet</div><p class="mnote">0 of 11 held-out entries evaluated. Too few for a firm number; read the interval.</p></div></div>
+</section>
+
+<section>
+  <h2>5. Time travel: would it have flagged what curators added later?</h2>
+  <p class="note">CIViC entries submitted after 2025-10-26. The system is compared with the knowledge base as it stood on that date. Lead time is the days between the paper entering PubMed, when a daily run would have read it, and a curator submitting the entry.</p>
+  <div class="grid"><div class="metric"><div class="mlabel">Later CIViC entries the system flagged</div><div class="mvalue none">not measured yet</div><p class="mnote">0 entries from papers that were in PubMed before the cutoff. Median lead time: n/a days.</p></div></div>
+  <div class="tablewrap"><table><thead><tr><th>Profile</th><th>Drugs</th><th>Significance</th><th>Paper in PubMed</th><th>Curator submitted</th><th>Flagged</th><th>Label at cutoff</th><th>Lead, days</th></tr></thead><tbody><tr><td>EGFR S768_D770dup OR EGFR A767_V769dupASV</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-11-19</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR H773_V774insH OR EGFR D770_N771insG OR EGFR H773_V774insNPH OR EGFR A763_Y764insFQEA OR EGFR V774_C775insHV OR EGFR H773_V774insPH OR EGFR H773_V774insAH OR EGFR D770_N771insH OR EGFR N771dup</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-11-21</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR D770delinsGY OR EGFR D770_N771insY OR EGFR N771_P772insT OR EGFR H773_V774insGNPH OR EGFR A767_S768insTLA OR EGFR S768_V769insLDS OR EGFR V769_D770insCV OR EGFR V769_D770insGA OR EGFR V769_D770insGVASV OR EGFR D770delinsAS</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-11-21</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR D770_N771insGT OR EGFR D770_N771insD OR EGFR D770_N771insF OR EGFR D770_N771insGD OR EGFR D770_N771insT OR EGFR N771delinsCH OR EGFR N771delinsGF OR EGFR N771delinsRD OR EGFR N771delinsSQRGH OR EGFR N771_P772insDN</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-11-21</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR N771delinsGY OR EGFR P772_H773insYNP OR EGFR N771_P772insRH OR EGFR N771_P772insVDN OR EGFR P772delinsHR OR EGFR P772_H773insDNP OR EGFR P772_H773insPHP OR EGFR P772_H773insQ OR EGFR P772_H773insRNP OR EGFR H773delinsNPY OR EGFR H773delinsPNPY</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-11-21</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR H773delinsYNPY OR EGFR H773delinsYPNPY OR EGFR H773_V774insHPH OR EGFR H773_V774insTH OR EGFR C775_R776insNPHVC</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-11-21</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR Amplification OR EGFR VIII</td><td>Osimertinib</td><td>sensitivityresponse</td><td>2022-05-24</td><td>2025-12-01</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR Exon 20 Insertion</td><td>Sunvozertinib</td><td>sensitivityresponse</td><td>2025-09-09</td><td>2025-12-08</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR Mutation</td><td>Afatinib</td><td>sensitivityresponse</td><td>2025-09-14</td><td>2026-01-18</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR Exon 18 Mutation</td><td>Befotertinib</td><td>sensitivityresponse</td><td>2025-09-14</td><td>2026-01-18</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR T790M</td><td>Lazertinib</td><td>sensitivityresponse</td><td>2025-09-14</td><td>2026-01-18</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR V769L or V769M</td><td>Afatinib</td><td>resistance</td><td>2025-09-14</td><td>2026-01-18</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR E701fs AND EGFR L702fs</td><td>Osimertinib Mesylate</td><td>sensitivityresponse</td><td>2026-01-27</td><td>2026-03-20</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR Mutation</td><td>Amivantamab, Lazertinib</td><td>sensitivityresponse</td><td>2025-12-01</td><td>2026-04-12</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR T790M</td><td>Erlotinib</td><td>resistance</td><td>2023-12-22</td><td>2026-04-20</td><td>not run yet</td><td></td><td class=num></td></tr><tr><td>EGFR T790M AND EGFR Exon 19 del</td><td>Osimertinib</td><td>sensitivityresponse</td><td>2023-12-22</td><td>2026-04-20</td><td>not run yet</td><td></td><td class=num></td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>6. Against PubTator3</h2>
+  <p class="note">NCBI's PubTator3 tags every variant mention. Of the variants curators recorded from a paper, how many does each find in it?</p>
+  <div class="grid">
+    <div class="metric"><div class="mlabel">Specific variants (e.g. C797S): this system</div><div class="mvalue none">not measured yet</div><p class="mnote">Found only by this system: 0.</p></div>
+    <div class="metric"><div class="mlabel">Specific variants: PubTator3</div><div class="mvalue none">not measured yet</div><p class="mnote">Found only by PubTator3: 0.</p></div>
+    <div class="metric"><div class="mlabel">Exon-level and copy-number events: this system</div><div class="mvalue none">not measured yet</div><p class="mnote">Exon 19 deletion, amplification, generic mutation.</p></div>
+    <div class="metric"><div class="mlabel">Exon-level and copy-number events: PubTator3</div><div class="mvalue none">not measured yet</div><p class="mnote">PubTator3 does not tag these as variants.</p></div>
+  </div>
+  <p class="note">Variants listed per paper: PubTator3 0.0, this system 0.0. Share of listed variants that curators recorded: PubTator3 0%, this system 0%.</p>
+</section>
+
+<section>
+  <h2>7. Flow of papers (PRISMA style)</h2>
+  <ol class="flow">
+    <li><b>16,786</b> papers found by the topic search (141 of 155 CIViC papers among them)</li>
+    <li><b>19</b> screened in the evaluation sample</li>
+    <li><b>0</b> held-out papers read for evidence: <b>0</b> full text, <b>0</b> abstract only ()</li>
+    <li><b>0</b> retracted, <b>0</b> with a published correction</li>
+    <li><b>0</b> evidence entries: <b>0</b> accepted automatically, <b>0</b> sent to a person</li>
+  </ol>
+</section>
+
+<section>
+  <h2>8. Blind expert review</h2>
+  <p class="note">A fixed random sample of 0 automatically accepted entries, for a molecular pathologist or oncology researcher to judge from the source text alone. The reviewer does not see the models' reasoning or the routing. Error categories are fixed in advance: correct; wrong variant or molecular profile; wrong drug; wrong disease; wrong significance or direction; wrong evidence level; the quote does not support the entry; out of scope (not EGFR-TKI evidence in lung cancer); duplicate of another entry. <a href="expert_review.csv">Download the review sheet (CSV)</a>.</p>
+  <div class="tablewrap"><table><thead><tr><th>#</th><th>PMID</th><th>Profile</th><th>Drugs</th><th>Significance</th><th>Level</th></tr></thead><tbody><tr><td colspan=6>No accepted entries yet.</td></tr></tbody></table></div>
+</section>
+
+</main>
+<footer class="wrap foot"><p>Ground truth: <a href="https://civicdb.org">CIViC</a> (CC0). Full text: PubMed Central via NCBI E-utilities; metadata and corrections: Europe PMC; variants checked with VariantValidator; genes HGNC; drugs ChEMBL; diseases OncoTree. Not medical advice.</p></footer>
+</body></html>

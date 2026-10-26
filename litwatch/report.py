@@ -240,6 +240,7 @@ def render(result: dict) -> str:
     <h1>{_e(topic["name"])}</h1>
     <p class="question">{_e(topic["question"])}</p>
     <p class="status">{_e(status)}</p>
+    <p class="status"><a href="kb/" style="color:inherit">Evidence entries measured against CIViC's expert curators</a></p>
     <dl class="facts">
       <div><dt>Papers added to PubMed</dt><dd>{_e(w["start"])} to {_e(w["end"])}</dd></div>
       <div><dt>Writer model</dt><dd>{_e(audit["writer_model"])}</dd></div>

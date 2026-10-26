@@ -1,0 +1,14 @@
+{
+ "pmid": "16014883",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Erlotinib in lung cancer - molecular and clinical predictors of outcome."
+}

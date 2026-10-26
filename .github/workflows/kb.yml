@@ -1,0 +1,52 @@
+name: Knowledge-base evaluation
+
+# Extracts evidence entries from the held-out CIViC papers, the time-travel set
+# and recent papers, a little at a time within the free model quotas, and
+# republishes the measured results in site/kb. Each run continues from cache/kb.
+on:
+  schedule:
+    - cron: "23 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kb-evaluation
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      KB_WRITER: ${{ vars.KB_WRITER || 'groq:openai/gpt-oss-120b' }}
+      KB_CHECKER: ${{ vars.KB_CHECKER || 'groq:qwen/qwen3.8-27b' }}
+      KB_SCREENER: ${{ vars.KB_SCREENER || 'groq:openai/gpt-oss-20b' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test
+        run: python -m unittest discover -s tests
+      - name: Extract and screen until the daily limits are reached
+        run: |
+          set +e
+          # Exit code 3 means a model's daily limit was reached; progress is cached.
+          for step in "extract --set held_out" "extract --set time_travel" "screen" "extract --set recent" "predict"; do
+            python -m litwatch.kb $step; code=$?
+            if [ "$code" -ne 0 ] && [ "$code" -ne 3 ] && [ "$code" -ne 2 ]; then exit "$code"; fi
+          done
+      - name: Measure
+        run: python -m litwatch.kb evaluate
+      - name: Commit, which makes Vercel deploy
+        run: |
+          git config user.name "second-read bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add cache/kb site/kb data
+          git diff --cached --quiet && exit 0
+          git commit -m "Knowledge-base evaluation $(date -u +%Y-%m-%d\ %H:%M)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 10; done

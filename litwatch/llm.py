@@ -132,7 +132,13 @@ class CompatibleModel:
         for attempt in range(3):
             try:
                 out = _post(self.url, headers, body, timeout=300)
-                return parse_json(out["choices"][0]["message"]["content"])
+                choice = out["choices"][0]
+                if not (choice["message"].get("content") or "").strip() and choice.get("finish_reason") == "length":
+                    # A reasoning model spent its whole budget thinking and wrote nothing:
+                    # ask again with less reasoning instead of repeating the same request.
+                    body["reasoning_effort"] = "low"
+                    continue
+                return parse_json(choice["message"]["content"])
             except QuotaExhausted:
                 raise
             except (RuntimeError, ValueError) as e:
@@ -142,6 +148,9 @@ class CompatibleModel:
                     # the prompts already ask for JSON, so stop sending it.
                     self.json_mode = False
                     body.pop("response_format", None)
+                elif '"failed_generation":""' in text:
+                    # JSON mode got an empty reply: the same overrun as above.
+                    body["reasoning_effort"] = "low"
                 elif "json_validate_failed" in text or isinstance(e, ValueError):
                     # JSON mode rejected the model's own output, or the reply was not
                     # valid JSON: ask once more, then once without JSON mode.

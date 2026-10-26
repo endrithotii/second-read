@@ -1,0 +1,14 @@
+{
+ "pmid": "15728811",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 95
+ },
+ "include": true,
+ "confidence": 95.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR mutation and resistance of non-small-cell lung cancer to gefitinib."
+}

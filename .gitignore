@@ -4,3 +4,5 @@ runs/
 runs-preview/
 .env
 models/
+cache/kb/supp/
+cache/kb/jats/

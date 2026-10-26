@@ -1,0 +1,515 @@
+{
+ "generated": "2026-10-26 00:09 UTC",
+ "ground_truth": {
+  "items": 385,
+  "papers": 155,
+  "status": {
+   "accepted": 185,
+   "submitted": 200
+  },
+  "held_out_papers": 111,
+  "dev_papers": 44,
+  "osimertinib_resistance_items": 13
+ },
+ "search": {
+  "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (lung[tiab] OR NSCLC[tiab]) AND (osimertinib[tiab] OR AZD9291[tiab] OR gefitinib[tiab] OR erlotinib[tiab] OR afatinib[tiab] OR dacomitinib[tiab] OR icotinib[tiab] OR lazertinib[tiab] OR aumolertinib[tiab] OR almonertinib[tiab] OR furmonertinib[tiab] OR rociletinib[tiab] OR amivantamab[tiab] OR mobocertinib[tiab] OR \"tyrosine kinase inhibitor\"[tiab] OR \"tyrosine kinase inhibitors\"[tiab] OR TKI[tiab] OR TKIs[tiab])",
+  "pool": 16786,
+  "recall_all": {
+   "value": 0.9096774193548387,
+   "low": 0.8541039736235725,
+   "high": 0.9454346862740866
+  },
+  "recall_held_out": {
+   "value": 0.918918918918919,
+   "low": 0.85305259106529,
+   "high": 0.9567584878468813
+  }
+ },
+ "screening": {
+  "done": 19,
+  "planned": 302,
+  "positives_screened": 19,
+  "negatives_screened": 0,
+  "negative_weight": 83.225,
+  "pool": 16786,
+  "recall": {
+   "value": 0.9473684210526315,
+   "low": 0.7536078466345479,
+   "high": 0.99064824750947
+  },
+  "precision": {
+   "value": 1.0,
+   "low": 1.0,
+   "high": 1.0
+  },
+  "wss95": {
+   "value": -0.050000000000000044,
+   "low": -0.050000000000000044,
+   "high": -0.050000000000000044
+  },
+  "included_share": 0.9473684210526315,
+  "missed": [
+   "15310767"
+  ]
+ },
+ "extraction": {
+  "papers": 0,
+  "papers_planned": 111,
+  "full_text_papers": 0,
+  "entries": 0,
+  "curated_items": 0,
+  "item_recall": {
+   "value": null,
+   "low": null,
+   "high": null
+  },
+  "item_recall_full_text": {
+   "value": null,
+   "low": null,
+   "high": null,
+   "n": 0
+  },
+  "item_recall_abstract_only": {
+   "value": null,
+   "low": null,
+   "high": null,
+   "n": 0
+  },
+  "entry_precision_vs_civic": {
+   "value": null,
+   "low": null,
+   "high": null
+  },
+  "field_accuracy": {
+   "drugs": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "disease": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "evidence_type": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "direction": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "significance": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "level": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   }
+  },
+  "kappa": {
+   "evidence_type": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "direction": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "significance": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   },
+   "level": {
+    "value": null,
+    "low": null,
+    "high": null,
+    "n": 0
+   }
+  },
+  "to_person": {
+   "value": null,
+   "low": null,
+   "high": null
+  },
+  "accepted": 0,
+  "accepted_matched": 0,
+  "accepted_error_rate": {
+   "value": null,
+   "low": null,
+   "high": null
+  },
+  "accepted_errors": [],
+  "accepted_not_in_civic": 0,
+  "reasons": [],
+  "kb_labels": {},
+  "missed_items": []
+ },
+ "osimertinib_resistance": {
+  "items": 11,
+  "evaluated": 0,
+  "recall": {
+   "value": null,
+   "low": null,
+   "high": null
+  }
+ },
+ "time_travel": {
+  "cutoff": "2025-10-26",
+  "items_after_cutoff": 16,
+  "eligible": 0,
+  "flagged": {
+   "value": null,
+   "low": null,
+   "high": null
+  },
+  "median_lead_days": null,
+  "rows": [
+   {
+    "eid": 12623,
+    "pmid": "40923280",
+    "profile": "EGFR S768_D770dup OR EGFR A767_V769dupASV",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-11-19",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12630,
+    "pmid": "40923280",
+    "profile": "EGFR H773_V774insH OR EGFR D770_N771insG OR EGFR H773_V774insNPH OR EGFR A763_Y764insFQEA OR EGFR V774_C775insHV OR EGFR H773_V774insPH OR EGFR H773_V774insAH OR EGFR D770_N771insH OR EGFR N771dup",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-11-21",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12631,
+    "pmid": "40923280",
+    "profile": "EGFR D770delinsGY OR EGFR D770_N771insY OR EGFR N771_P772insT OR EGFR H773_V774insGNPH OR EGFR A767_S768insTLA OR EGFR S768_V769insLDS OR EGFR V769_D770insCV OR EGFR V769_D770insGA OR EGFR V769_D770insGVASV OR EGFR D770delinsAS",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-11-21",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12632,
+    "pmid": "40923280",
+    "profile": "EGFR D770_N771insGT OR EGFR D770_N771insD OR EGFR D770_N771insF OR EGFR D770_N771insGD OR EGFR D770_N771insT OR EGFR N771delinsCH OR EGFR N771delinsGF OR EGFR N771delinsRD OR EGFR N771delinsSQRGH OR EGFR N771_P772insDN",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-11-21",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12633,
+    "pmid": "40923280",
+    "profile": "EGFR N771delinsGY OR EGFR P772_H773insYNP OR EGFR N771_P772insRH OR EGFR N771_P772insVDN OR EGFR P772delinsHR OR EGFR P772_H773insDNP OR EGFR P772_H773insPHP OR EGFR P772_H773insQ OR EGFR P772_H773insRNP OR EGFR H773delinsNPY OR EGFR H773delinsPNPY",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-11-21",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12634,
+    "pmid": "40923280",
+    "profile": "EGFR H773delinsYNPY OR EGFR H773delinsYPNPY OR EGFR H773_V774insHPH OR EGFR H773_V774insTH OR EGFR C775_R776insNPHVC",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-11-21",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12694,
+    "pmid": "35601813",
+    "profile": "EGFR Amplification OR EGFR VIII",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2022-05-24",
+    "civic_submitted": "2025-12-01",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12718,
+    "pmid": "40923280",
+    "profile": "EGFR Exon 20 Insertion",
+    "therapies": [
+     "Sunvozertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-09",
+    "civic_submitted": "2025-12-08",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12780,
+    "pmid": "40940797",
+    "profile": "EGFR Mutation",
+    "therapies": [
+     "Afatinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-14",
+    "civic_submitted": "2026-01-18",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12782,
+    "pmid": "40940797",
+    "profile": "EGFR Exon 18 Mutation",
+    "therapies": [
+     "Befotertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-14",
+    "civic_submitted": "2026-01-18",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12783,
+    "pmid": "40940797",
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Lazertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-09-14",
+    "civic_submitted": "2026-01-18",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12784,
+    "pmid": "40940797",
+    "profile": "EGFR V769L or V769M",
+    "therapies": [
+     "Afatinib"
+    ],
+    "significance": "RESISTANCE",
+    "paper_indexed": "2025-09-14",
+    "civic_submitted": "2026-01-18",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12865,
+    "pmid": "41590375",
+    "profile": "EGFR E701fs AND EGFR L702fs",
+    "therapies": [
+     "Osimertinib Mesylate"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2026-01-27",
+    "civic_submitted": "2026-03-20",
+    "paper_before_cutoff": false,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12928,
+    "pmid": "41325571",
+    "profile": "EGFR Mutation",
+    "therapies": [
+     "Amivantamab",
+     "Lazertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2025-12-01",
+    "civic_submitted": "2026-04-12",
+    "paper_before_cutoff": false,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12945,
+    "pmid": "38074875",
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "significance": "RESISTANCE",
+    "paper_indexed": "2023-12-22",
+    "civic_submitted": "2026-04-20",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   },
+   {
+    "eid": 12946,
+    "pmid": "38074875",
+    "profile": "EGFR T790M AND EGFR Exon 19 del",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "significance": "SENSITIVITYRESPONSE",
+    "paper_indexed": "2023-12-22",
+    "civic_submitted": "2026-04-20",
+    "paper_before_cutoff": true,
+    "processed": false,
+    "flagged": false,
+    "route": null,
+    "label_vs_kb_at_cutoff": null,
+    "lead_days": null
+   }
+  ]
+ },
+ "pubtator": {
+  "specific": {
+   "n": 0,
+   "system": {
+    "value": null,
+    "low": null,
+    "high": null
+   },
+   "pubtator": {
+    "value": null,
+    "low": null,
+    "high": null
+   },
+   "only_system": 0,
+   "only_pubtator": 0
+  },
+  "category": {
+   "n": 0,
+   "system": {
+    "value": null,
+    "low": null,
+    "high": null
+   },
+   "pubtator": {
+    "value": null,
+    "low": null,
+    "high": null
+   },
+   "only_system": 0,
+   "only_pubtator": 0
+  },
+  "listed_per_paper": {
+   "pubtator": 0.0,
+   "system": 0.0
+  },
+  "share_listed_that_curators_recorded": {
+   "pubtator": 0.0,
+   "system": 0.0
+  }
+ },
+ "prisma": {
+  "identified_by_search": 16786,
+  "civic_papers": 155,
+  "civic_papers_found_by_search": 141,
+  "screened_sample": 19,
+  "extracted_papers": 0,
+  "full_text": 0,
+  "abstract_only": 0,
+  "abstract_only_reasons": {},
+  "retracted": 0,
+  "with_corrections": 0,
+  "entries": 0,
+  "accepted": 0,
+  "to_person": 0
+ }
+}

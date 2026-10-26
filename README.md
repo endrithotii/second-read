@@ -19,6 +19,40 @@ The rule throughout: **a model proposes, code decides.** Models answer narrow qu
 
 **Audit trail.** Every run stores the models, prompt versions, topic definition hash, both queries, a SHA-256 of every abstract read, and every model answer, in `run.json`.
 
+## Knowledge-base mode: evidence entries, measured against CIViC
+
+`litwatch.kb` turns papers into structured evidence entries for one topic, resistance to osimertinib in EGFR-mutant lung cancer, and measures them against CIViC's expert curators. The page is published at `site/kb/` ([live](https://second-read.endrithoti.ch/kb/)).
+
+**Entry.** Gene (HGNC), variant (HGVS on the MANE Select protein, checked by VariantValidator; exon-level and copy-number events get a controlled name), disease (OncoTree), drugs (ChEMBL), evidence type, direction, clinical significance, evidence level A–E, study design, number of patients, and the ids of the exact sentences or table cells it rests on, with a quote.
+
+**Raw material.** Full text as JATS XML from PubMed Central (open-access subset and author manuscripts), every sentence and table cell with a stable id; supplementary tables read from `.xlsx`, `.docx` and `.csv` where the article is open access. Abstract only when nothing else is available, and the entry says so. Retractions and corrections are read from Europe PMC on every run; entries from retracted papers always go to a person.
+
+**A model proposes, code decides.**
+1. Code picks the sentences and table rows that mention a gene, variant, EGFR inhibitor or outcome.
+2. The writer model proposes entries in CIViC's vocabulary.
+3. Code checks that the cited ids exist, the quote is in them, the variant, drug and patient count are named in them, and every name normalises; the evidence level is derived from the study design by rule.
+4. A checker model from a different family reads the same cited text, is not shown the writer's labels, and assigns them itself.
+5. Accepted only if every check passes and both models agree; otherwise to a person, with reasons.
+6. Each entry is labelled against the knowledge base: new, supports, contradicts or refines.
+
+**Ground truth.** Every CIViC evidence item, accepted or submitted, on EGFR inhibitors in lung cancer or on osimertinib: 385 items from 155 papers (`data/civic/ground_truth.json`). Papers are split by a fixed hash: 44 were used to write the prompts, 111 are held out and only used for the reported numbers. CIViC holds only 13 items on resistance to osimertinib, too few to measure that topic alone, so it is reported as a subset.
+
+**Measured, with 95% intervals.** Search and screening recall, screening precision (a floor, since CIViC is incomplete), WSS@95; recall of curated items from full text and from abstracts; accuracy of each field; writer–checker Cohen's kappa; share sent to a person and the error rate among automatically accepted entries; a time-travel test against the knowledge base as it stood on 26 October 2025; recall of curated variants against PubTator3; a PRISMA-style flow.
+
+**Checks outside the system.** `site/kb/expert_review.csv` is a fixed random sample of 30 automatically accepted entries for blind review by a domain expert, with error categories fixed in advance. `data/predictions/` holds a dated list of predicted new entries from recent papers, written once and never rewritten, to compare with what CIViC curators add later.
+
+```bash
+python -m litwatch.kb ground-truth         # CIViC items for the topic
+python -m litwatch.kb pool                 # the topic search, all years
+python -m litwatch.kb extract --set held_out
+python -m litwatch.kb extract --set time_travel
+python -m litwatch.kb screen
+python -m litwatch.kb extract --set recent && python -m litwatch.kb predict
+python -m litwatch.kb evaluate             # every number, no model calls
+```
+
+On the free Groq tier a full evaluation takes several days of quota; `.github/workflows/kb.yml` runs every four hours, continues from `cache/kb`, and republishes the page.
+
 ## Requirements
 
 - Python 3.10 or newer. No packages to install: standard library only.
