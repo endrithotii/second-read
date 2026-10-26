@@ -1,0 +1,499 @@
+{
+ "pmid": "21132006",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 65,
+ "units_total": 323,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "N771GY",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S63"
+   ],
+   "quote": "Erlotinib up to 1 pM showed no effect in the N771GY YFP-EGFR-ICD-transfected cells.",
+   "cited_text": "Erlotinib up to 1 pM showed no effect in the N771GY YFP-EGFR-ICD-transfected cells.",
+   "code_problems": [
+    "variant N771GY could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "21132006-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that erlotinib showed no effect on cells expressing the EGFR N771GY mutant, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant N771GY could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "N771GY",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "T1.r3.c10"
+   ],
+   "quote": "Response toEGFR-TKI: PD",
+   "cited_text": "PD",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'N771GY' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant N771GY could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "21132006-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit 'PD' is ambiguous and does not explicitly state the relationship between the profile and drug response in the context of the other units."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'N771GY' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant N771GY could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit 'PD' is ambiguous and does not explicitly state the relationship between the profile and drug response in the context of the other units.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: RESISTANCE vs NA",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "N771GY",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "PF00299804"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S98"
+   ],
+   "quote": "PF00299804 was active on N771GY YFP-EGFR-ICD at 50 nM",
+   "cited_text": "Our results showed that PF00299804 was active on N771GY YFP-EGFR-ICD at 50 nM even though it showed no effect on the T790M YFP-EGFR-ICD up to 1 μM, suggesting that the erlotinib-resistant N771GY mutant is sensitive to PF00299804.",
+   "code_problems": [
+    "variant N771GY could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'PF00299804' not found in ChEMBL"
+   ],
+   "id": "21132006-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit explicitly states that the N771GY mutant is sensitive to PF00299804."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant N771GY could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'PF00299804' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "A767-V769dup",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "no sensitivity to erlotinib at clinically available concentrations",
+   "cited_text": "Using YFP-tagged EGFR mutants, we demonstrated that the mutations confer increased kinase activity, but no sensitivity to erlotinib at clinically available concentrations.",
+   "code_problems": [
+    "variant 'A767-V769dup' is not named in the cited units",
+    "variant A767-V769dup could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "21132006-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that the mutation confers no sensitivity to erlotinib at clinically available concentrations, implying resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'A767-V769dup' is not named in the cited units",
+    "variant A767-V769dup could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "A767-V769dup",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "PF00299804"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S101"
+   ],
+   "quote": "A767-V769dup was sensitive to PF00299804 at 10 nM",
+   "cited_text": "Both mutations are resistant to erlotinib, but the A767-V769dup was sensitive to PF00299804 at 10 nM, whereas the S768N was resistant at 100 nM.",
+   "code_problems": [
+    "variant A767-V769dup could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'PF00299804' not found in ChEMBL"
+   ],
+   "id": "21132006-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that the A767-V769dup mutation was sensitive to PF00299804 at 10 nM."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant A767-V769dup could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'PF00299804' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768N",
+     "hgvs": "NP_005219.2:p.(Ser768Asn)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S68"
+   ],
+   "quote": "S768N YFP-EGFR-ICD-transfected cells showed no response to erlotinb up to 3 μM",
+   "cited_text": "In contrast, the S768N YFP-EGFR-ICD-transfected cells showed no response to erlotinb up to 3 μM.",
+   "code_problems": [],
+   "id": "21132006-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that cells with the S768N mutation showed no response to erlotinib up to 3 μM, indicating resistance."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768N",
+     "hgvs": "NP_005219.2:p.(Ser768Asn)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "PF00299804"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S101"
+   ],
+   "quote": "S768N was resistant at 100 nM",
+   "cited_text": "Both mutations are resistant to erlotinib, but the A767-V769dup was sensitive to PF00299804 at 10 nM, whereas the S768N was resistant at 100 nM.",
+   "code_problems": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ],
+   "id": "21132006-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that the S768N mutation was resistant to PF00299804 at 100 nM."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S60"
+   ],
+   "quote": "no effect of erlotinib up to 3 μM in the wt YFP-EGFR-ICD and the L858R/T790M-transfected cells",
+   "cited_text": "As shown in Figure 5a, there was no effect of erlotinib up to 3 μM in the wt YFP-EGFR-ICD and the L858R/T790M-transfected cells.",
+   "code_problems": [],
+   "id": "21132006-8",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states there was no effect of erlotinib on L858R/T790M-transfected cells, indicating resistance."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "PF00299804"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S98"
+   ],
+   "quote": "no effect on the T790M YFP-EGFR-ICD up to 1 μM",
+   "cited_text": "Our results showed that PF00299804 was active on N771GY YFP-EGFR-ICD at 50 nM even though it showed no effect on the T790M YFP-EGFR-ICD up to 1 μM, suggesting that the erlotinib-resistant N771GY mutant is sensitive to PF00299804.",
+   "code_problems": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ],
+   "id": "21132006-9",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that PF00299804 showed no effect on T790M YFP-EGFR-ICD up to 1 μM, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'L858R' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "21132006-10",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'L858R' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

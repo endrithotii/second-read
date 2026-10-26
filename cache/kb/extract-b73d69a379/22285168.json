@@ -1,0 +1,114 @@
+{
+ "pmid": "22285168",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 24,
+ "units_total": 24,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced EGFR-mutation positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A17"
+   ],
+   "quote": "median PFS was 9·7 months (95% CI 8·4-12·3) in the erlotinib group, compared with 5·2 months (4·5-5·8) in the standard chemotherapy group",
+   "cited_text": "At data cutoff (Jan 26, 2011), median PFS was 9·7 months (95% CI 8·4-12·3) in the erlotinib group, compared with 5·2 months (4·5-5·8) in the standard chemotherapy group (hazard ratio 0·37, 95% CI 0·25-0·54; p < 0·0001).",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ],
+   "id": "22285168-1",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit reports PFS benefit for erlotinib in the overall EGFR-mutation positive population, which includes Exon 19 deletions, but does not isolate this specific profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "second model: supported = partly (The cited unit reports PFS benefit for erlotinib in the overall EGFR-mutation positive population, which includes Exon 19 deletions, but does not isolate this specific profile.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced EGFR-mutation positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A17"
+   ],
+   "quote": "median PFS was 9·7 months (95% CI 8·4-12·3) in the erlotinib group, compared with 5·2 months (4·5-5·8) in the standard chemotherapy group",
+   "cited_text": "At data cutoff (Jan 26, 2011), median PFS was 9·7 months (95% CI 8·4-12·3) in the erlotinib group, compared with 5·2 months (4·5-5·8) in the standard chemotherapy group (hazard ratio 0·37, 95% CI 0·25-0·54; p < 0·0001).",
+   "code_problems": [
+    "variant 'L858R' is not named in the cited units"
+   ],
+   "id": "22285168-2",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit reports PFS benefit for erlotinib in the overall EGFR-mutation positive population, which includes L858R, but does not isolate this specific profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L858R' is not named in the cited units",
+    "second model: supported = partly (The cited unit reports PFS benefit for erlotinib in the overall EGFR-mutation positive population, which includes L858R, but does not isolate this specific profile.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

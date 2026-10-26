@@ -1,0 +1,124 @@
+{
+ "pmid": "21531810",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "G719",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 28,
+   "units": [
+    "A13"
+   ],
+   "quote": "Mutations on G719 and L861 composed a major part (28 of 62) of uncommon mutations, and were associated with a favorable effectiveness of EGFR TKIs",
+   "cited_text": "Mutations on G719 and L861 composed a major part (28 of 62) of uncommon mutations, and were associated with a favorable effectiveness of EGFR TKIs (response rate, 57.1%; median PFS, 6.0 months).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "21531810-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The cited unit reports that EGFR G719 mutations are associated with favorable effectiveness (response rate and PFS) to EGFR TKIs in NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "L861",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 28,
+   "units": [
+    "A13"
+   ],
+   "quote": "Mutations on G719 and L861 composed a major part (28 of 62) of uncommon mutations, and were associated with a favorable effectiveness of EGFR TKIs",
+   "cited_text": "Mutations on G719 and L861 composed a major part (28 of 62) of uncommon mutations, and were associated with a favorable effectiveness of EGFR TKIs (response rate, 57.1%; median PFS, 6.0 months).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "21531810-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The cited unit reports that EGFR L861 mutations are associated with favorable effectiveness (response rate and PFS) to EGFR TKIs in NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

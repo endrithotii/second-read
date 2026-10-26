@@ -1,0 +1,171 @@
+{
+ "pmid": "21258250",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKI"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 166,
+   "units": [
+    "A13"
+   ],
+   "quote": "EGFR mutation (p < 0.0001) correlated with favorable response to TKIs treatment",
+   "cited_text": "EGFR mutation (p < 0.0001) correlated with favorable response to TKIs treatment and longer TTP (p < 0.0001).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'EGFR-TKI' is not named in the cited units",
+    "patient count 166 is not a number in the cited units"
+   ],
+   "id": "21258250-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that EGFR mutation correlates with favorable response and longer TTP to TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'EGFR-TKI' is not named in the cited units",
+    "patient count 166 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKI"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 166,
+   "units": [
+    "A14"
+   ],
+   "quote": "KRAS mutation correlated with progressive disease (p = 0.05)",
+   "cited_text": "KRAS mutation correlated with progressive disease (p = 0.05) and shorter median TTP (p = 0.003) but not with OS.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'EGFR-TKI' is not named in the cited units",
+    "patient count 166 is not a number in the cited units"
+   ],
+   "id": "21258250-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that KRAS mutation correlates with progressive disease and shorter TTP, indicating resistance to EGFR-TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'EGFR-TKI' is not named in the cited units",
+    "patient count 166 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "PIK3CA",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKI"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 166,
+   "units": [
+    "A12"
+   ],
+   "quote": "PIK3CA mutation correlated with shorter median time to progression (TTP) (p = 0.01)",
+   "cited_text": "PIK3CA mutation correlated with shorter median time to progression (TTP) (p = 0.01) and worse overall survival (OS) (p < 0.001).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'EGFR-TKI' is not named in the cited units",
+    "patient count 166 is not a number in the cited units"
+   ],
+   "id": "21258250-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that PIK3CA mutation correlates with shorter TTP and worse OS, indicating poorer response/resistance to EGFR-TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'EGFR-TKI' is not named in the cited units",
+    "patient count 166 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

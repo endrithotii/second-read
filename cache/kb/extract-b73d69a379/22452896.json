@@ -1,0 +1,23 @@
+{
+ "pmid": "22452896",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 24,
+ "units_total": 24,
+ "entries": [],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": null,
+   "reference": "Lancet Oncol. 2012 May;13(5):e186"
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

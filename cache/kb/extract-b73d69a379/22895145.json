@@ -1,0 +1,195 @@
+{
+ "pmid": "22895145",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 18,
+ "units_total": 18,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKI"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A5"
+   ],
+   "quote": "Point mutations in exon 20 confer resistance against tyrosine kinase inhibitors (TKIs)",
+   "cited_text": "Point mutations in exon 20 confer resistance against tyrosine kinase inhibitors (TKIs), whereas the effect of the rare exon 20 insertions is, to a lesser extent, known.",
+   "code_problems": [],
+   "id": "22895145-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that exon 20 point mutations confer resistance against TKIs."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKI"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 5,
+   "units": [
+    "A16"
+   ],
+   "quote": "All five single-mutated exon 20 positive TKI-treated patients had progressive disease at first evaluation",
+   "cited_text": "All five single-mutated exon 20 positive TKI-treated patients had progressive disease at first evaluation, whereas both TKI-treated exon 20 involving double-mutated patients had partial response.",
+   "code_problems": [],
+   "id": "22895145-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit reports that patients with single-mutated exon 20 EGFR mutations had progressive disease on TKIs, indicating resistance."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKI"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 2,
+   "units": [
+    "A16"
+   ],
+   "quote": "both TKI-treated exon 20 involving double-mutated patients had partial response",
+   "cited_text": "All five single-mutated exon 20 positive TKI-treated patients had progressive disease at first evaluation, whereas both TKI-treated exon 20 involving double-mutated patients had partial response.",
+   "code_problems": [
+    "patient count 2 is not a number in the cited units"
+   ],
+   "id": "22895145-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit reports that patients with single-mutated exon 20 EGFR mutations had progressive disease on TKIs, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 2 is not a number in the cited units",
+    "models disagree on significance: SENSITIVITYRESPONSE vs RESISTANCE"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKI"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A18"
+   ],
+   "quote": "Exon 20 mutations seem to confer insensitivity to TKI treatment",
+   "cited_text": "Exon 20 mutations seem to confer insensitivity to TKI treatment.",
+   "code_problems": [],
+   "id": "22895145-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that exon 20 mutations seem to confer insensitivity to TKI treatment."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

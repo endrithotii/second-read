@@ -18,6 +18,7 @@
 },
 "drug:cl-387,785": null,
 "drug:egfr tkis": null,
+"drug:egfr-tki": null,
 "drug:erlotinib": {
 "chembl_id": "CHEMBL553",
 "name": "ERLOTINIB"
@@ -37,7 +38,9 @@
 "name": "DACOMITINIB ANHYDROUS"
 },
 "drug:pf00299804": null,
+"drug:r1507": null,
 "drug:second-generation egfr tki": null,
+"drug:tki": null,
 "gene:AKT": {
 "hgnc_id": "HGNC:391",
 "mane_nm": "NM_001382430.1",
@@ -72,6 +75,11 @@
 "hgnc_id": "HGNC:7029",
 "mane_nm": "NM_000245.4",
 "symbol": "MET"
+},
+"gene:PIK3CA": {
+"hgnc_id": "HGNC:8975",
+"mane_nm": "NM_006218.4",
+"symbol": "PIK3CA"
 },
 "np:NM_004333.6": "NP_004324.2",
 "np:NM_005228.5": "NP_005219.2",
@@ -204,6 +212,12 @@
 "vv:NP_005219.2:p.(Pro848Leu)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Pro848Leu)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Ser768Asn)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Ser768Asn)",
 "note": "reference amino acid confirmed",
 "valid": true
 },

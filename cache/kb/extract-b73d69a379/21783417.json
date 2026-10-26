@@ -1,0 +1,106 @@
+{
+ "pmid": "21783417",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 19,
+ "units_total": 19,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced EGFR mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A6",
+    "A12"
+   ],
+   "quote": "Median progression-free survival was significantly longer in erlotinib-treated patients than in those on chemotherapy",
+   "cited_text": "Patients older than 18 years with histologically confirmed stage IIIB or IV NSCLC and a confirmed activating mutation of EGFR (exon 19 deletion or exon 21 L858R point mutation) received either oral erlotinib (150 mg/day) until disease progression or unacceptable toxic effects, or up to four cycles of gemcitabine plus carboplatin. Median progression-free survival was significantly longer in erlotinib-treated patients than in those on chemotherapy (13.1 [95% CI 10.58-16.53] vs 4.6 [4.21-5.42] months; hazard ratio 0.16, 95% CI 0.10-0.26; p<0.0001).",
+   "code_problems": [],
+   "id": "21783417-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a randomized trial showing that patients with EGFR exon 19 deletions (a subset of the tested population) had significantly better progression-free survival with erlotinib compared to chemotherapy."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced EGFR mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A6",
+    "A12"
+   ],
+   "quote": "Median progression-free survival was significantly longer in erlotinib-treated patients than in those on chemotherapy",
+   "cited_text": "Patients older than 18 years with histologically confirmed stage IIIB or IV NSCLC and a confirmed activating mutation of EGFR (exon 19 deletion or exon 21 L858R point mutation) received either oral erlotinib (150 mg/day) until disease progression or unacceptable toxic effects, or up to four cycles of gemcitabine plus carboplatin. Median progression-free survival was significantly longer in erlotinib-treated patients than in those on chemotherapy (13.1 [95% CI 10.58-16.53] vs 4.6 [4.21-5.42] months; hazard ratio 0.16, 95% CI 0.10-0.26; p<0.0001).",
+   "code_problems": [],
+   "id": "21783417-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a randomized trial demonstrating that patients with confirmed activating EGFR mutations (including the profile) responded better to erlotinib than to chemotherapy."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

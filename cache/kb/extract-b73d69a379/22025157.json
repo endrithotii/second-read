@@ -1,0 +1,67 @@
+{
+ "pmid": "22025157",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "R1507"
+    }
+   ],
+   "disease_written": "advanced-stage non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A14"
+   ],
+   "quote": "The 12-week PFS rate in patients with KRAS mutation was 36% with R1507 compared with 0% with placebo.",
+   "cited_text": "The 12-week PFS rate in patients with KRAS mutation was 36% with R1507 compared with 0% with placebo.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'R1507' not found in ChEMBL"
+   ],
+   "id": "22025157-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit reports a significant difference in PFS between R1507 and placebo specifically in patients with KRAS mutations, indicating a predictive response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'R1507' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

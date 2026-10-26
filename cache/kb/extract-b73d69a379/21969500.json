@@ -1,0 +1,336 @@
+{
+ "pmid": "21969500",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "A profound predictive effect on PFS of erlotinib relative to placebo was observed in the EGFR mutation-positive subgroup (hazard ratio [HR], 0.10; P < .001).",
+   "cited_text": "A profound predictive effect on PFS of erlotinib relative to placebo was observed in the EGFR mutation-positive subgroup (hazard ratio [HR], 0.10; P < .001).",
+   "code_problems": [],
+   "id": "21969500-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit states a profound predictive effect on PFS for erlotinib in the EGFR mutation-positive subgroup."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "cited_text": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "code_problems": [],
+   "id": "21969500-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit explicitly states that EGFR IHC was not predictive for erlotinib efficacy."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "gene copy number (FISH)",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "cited_text": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "code_problems": [
+    "variant gene copy number (FISH) could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "21969500-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit explicitly states that EGFR FISH was not predictive for erlotinib efficacy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant gene copy number (FISH) could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "cited_text": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "21969500-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit explicitly states that KRAS mutation status was not predictive for erlotinib efficacy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "CA-SSR1 repeat length",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "cited_text": "EGFR IHC, EGFR FISH, KRAS mutation, and EGFR CA-SSR1 repeat length status were not predictive for erlotinib efficacy.",
+   "code_problems": [
+    "variant CA-SSR1 repeat length could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "21969500-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit explicitly states that EGFR CA-SSR1 repeat length status was not predictive for erlotinib efficacy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant CA-SSR1 repeat length could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PROGNOSTIC",
+   "direction": "SUPPORTS",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "KRAS mutation status was a significant negative prognostic factor for PFS.",
+   "cited_text": "KRAS mutation status was a significant negative prognostic factor for PFS.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "21969500-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PROGNOSTIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit states that KRAS mutation status was a significant negative prognostic factor for PFS, independent of therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A11"
+   ],
+   "quote": "Significant PFS benefits were also observed with erlotinib in the wild-type EGFR subgroup (HR, 0.78; P = .0185).",
+   "cited_text": "Significant PFS benefits were also observed with erlotinib in the wild-type EGFR subgroup (HR, 0.78; P = .0185).",
+   "code_problems": [],
+   "id": "21969500-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit states that significant PFS benefits were observed with erlotinib in the wild-type EGFR subgroup."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": null,
+   "reference": "J Clin Oncol. 2011 Dec 10;29(35):4725"
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}
