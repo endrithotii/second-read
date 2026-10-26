@@ -33,6 +33,9 @@ jobs:
       - name: Test
         run: python -m unittest discover -s tests
       - name: Extract and screen until the daily limits are reached
+        # Whatever happens here, the steps below still measure and commit the
+        # progress made, so no model call is ever paid for twice.
+        continue-on-error: true
         run: |
           set +e
           # Exit code 3 means a model's daily limit was reached; progress is cached.
@@ -41,8 +44,10 @@ jobs:
             if [ "$code" -ne 0 ] && [ "$code" -ne 3 ] && [ "$code" -ne 2 ]; then exit "$code"; fi
           done
       - name: Measure
+        if: always()
         run: python -m litwatch.kb evaluate
       - name: Commit, which makes Vercel deploy
+        if: always()
         run: |
           git config user.name "second-read bot"
           git config user.email "actions@users.noreply.github.com"

@@ -106,7 +106,11 @@ def cmd_extract(which: str, limit: int | None) -> int:
         log("writer and checker must come from different model families")
         return 2
     if which == "recent":
-        pmids = recent_candidates()
+        try:
+            pmids = recent_candidates()
+        except QuotaExhausted as e:
+            log(f"stopped while choosing recent papers: {e}")
+            return 3
     else:
         pmids = paper_sets(items, pool)[which]
     srcs = load_all(pmids, CACHE, log=log)
