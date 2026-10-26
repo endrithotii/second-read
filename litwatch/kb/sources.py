@@ -104,7 +104,10 @@ def metadata(pmids: list[str]) -> dict[str, Source]:
                 kind = CORRECTION_TYPES.get(re.sub(r"\s+", " ", c.get("type", "")).strip().lower())
                 if kind:
                     corr.append({"type": kind, "pmid": c.get("id"), "reference": c.get("reference", "")})
-            abstract = re.sub(r"<[^>]+>", "", r.get("abstractText") or "")
+            # Structured abstracts arrive as "...cells.<h4>Results</h4>Somatic...": keep the
+            # heading as its own sentence so it never fuses with the next one.
+            abstract = re.sub(r"<h\d[^>]*>(.*?)</h\d>", r" \1. ", r.get("abstractText") or "")
+            abstract = re.sub(r"<[^>]+>", " ", abstract)
             out[pmid] = Source(
                 pmid=pmid, title=re.sub(r"<[^>]+>", "", r.get("title") or ""),
                 journal=((r.get("journalInfo") or {}).get("journal") or {}).get("title", ""),
