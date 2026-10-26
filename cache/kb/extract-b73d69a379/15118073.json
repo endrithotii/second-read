@@ -1,0 +1,61 @@
+{
+ "pmid": "15118073",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 6,
+ "units_total": 6,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 8,
+   "units": [
+    "A4"
+   ],
+   "quote": "Somatic mutations were identified in the tyrosine kinase domain of the EGFR gene in eight of nine patients with gefitinib-responsive lung cancer, as compared with none of the seven patients with no response",
+   "cited_text": "The functional consequences of identified mutations were evaluated after the mutant proteins were expressed in cultured cells.ResultsSomatic mutations were identified in the tyrosine kinase domain of the EGFR gene in eight of nine patients with gefitinib-responsive lung cancer, as compared with none of the seven patients with no response (PConclusionsA subgroup of patients with non-small-cell lung cancer have specific mutations in the EGFR gene, which correlate with clinical responsiveness to the tyrosine kinase inhibitor gefitinib.",
+   "code_problems": [],
+   "id": "15118073-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The cited units report that EGFR mutations were found in patients with gefitinib-responsive lung cancer but not in non-responders, establishing a correlation with clinical response."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}
