@@ -1,0 +1,218 @@
+{
+ "pmid": "19020901",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 15,
+ "units_total": 15,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 106,
+   "units": [
+    "A7"
+   ],
+   "quote": "Patients with EGFR mutations had a significantly higher overall response rate (ORR), longer time to progression (TTP) and overall survival (OS) compared with those with wild-type receptor.",
+   "cited_text": "Patients with EGFR mutations had a significantly higher overall response rate (ORR), longer time to progression (TTP) and overall survival (OS) compared with those with wild-type receptor.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 106 is not a number in the cited units"
+   ],
+   "id": "19020901-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that EGFR mutations are associated with higher ORR, TTP, and OS compared to wild-type, indicating predictive value for gefitinib response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 106 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "No difference in ORR was observed between patients with exon 19 deletion and patients with other EGFR mutations.",
+   "cited_text": "No difference in ORR was observed between patients with exon 19 deletion and patients with other EGFR mutations.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "19020901-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit states there was no difference in ORR between exon 19 deletions and other EGFR mutations, which does not support a distinct predictive significance for this specific profile relative to the broader class."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = no (The unit states there was no difference in ORR between exon 19 deletions and other EGFR mutations, which does not support a distinct predictive significance for this specific profile relative to the broader class.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "positive",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 84,
+   "units": [
+    "A9"
+   ],
+   "quote": "ORR in HER2-positive patients was significantly higher than in the HER2-negative group, irrespective of EGFR mutational status.",
+   "cited_text": "ORR in HER2-positive patients was significantly higher than in the HER2-negative group, irrespective of EGFR mutational status, and a trend for better ORR was observed for HER3-positive patients.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 84 is not a number in the cited units",
+    "variant positive could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "19020901-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that HER2-positive patients had a significantly higher ORR than HER2-negative patients, indicating a predictive association with gefitinib response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 84 is not a number in the cited units",
+    "variant positive could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB3",
+     "kind": "unparsed",
+     "name": "positive",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 84,
+   "units": [
+    "A9"
+   ],
+   "quote": "a trend for better ORR was observed for HER3-positive patients.",
+   "cited_text": "ORR in HER2-positive patients was significantly higher than in the HER2-negative group, irrespective of EGFR mutational status, and a trend for better ORR was observed for HER3-positive patients.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 84 is not a number in the cited units",
+    "variant positive could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "19020901-4",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit only mentions a 'trend' for better ORR in HER3-positive patients, which is weaker evidence than the significant association stated for HER2, thus only partly supporting the predictive claim."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 84 is not a number in the cited units",
+    "variant positive could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = partly (The unit only mentions a 'trend' for better ORR in HER3-positive patients, which is weaker evidence than the significant association stated for HER2, thus only partly supporting the predictive claim.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

@@ -1,0 +1,318 @@
+{
+ "pmid": "16014883",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 11,
+ "units_total": 11,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "expression of EGFR (P=0.03) were associated with an objective response",
+   "cited_text": "In multivariate analyses, adenocarcinoma (P=0.01), never having smoked (P<0.001), and expression of EGFR (P=0.03) were associated with an objective response.",
+   "code_problems": [
+    "variant 'overexpression' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "16014883-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit states that EGFR expression was associated with an objective response to erlotinib in multivariate analysis."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'overexpression' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "survival was longer in the erlotinib group than in the placebo group when ... there was a high number of copies of EGFR",
+   "cited_text": "In univariate analyses, survival was longer in the erlotinib group than in the placebo group when EGFR was expressed (hazard ratio for death, 0.68; P=0.02) or there was a high number of copies of EGFR (hazard ratio, 0.44; P=0.008).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'amplification' is not named in the cited units"
+   ],
+   "id": "16014883-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit indicates that high EGFR copy number (amplification) was associated with longer survival in the erlotinib group compared to placebo."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'amplification' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "survival after treatment with erlotinib was not influenced by the status of EGFR expression",
+   "cited_text": "In multivariate analysis, survival after treatment with erlotinib was not influenced by the status of EGFR expression, the number of EGFR copies, or EGFR mutation.",
+   "code_problems": [
+    "variant 'overexpression' is not named in the cited units"
+   ],
+   "id": "16014883-3",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit states that EGFR expression status did not influence survival after erlotinib treatment in multivariate analysis."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'overexpression' is not named in the cited units",
+    "second model: supported = no (The unit states that EGFR expression status did not influence survival after erlotinib treatment in multivariate analysis.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "survival after treatment with erlotinib was not influenced by the ... number of EGFR copies",
+   "cited_text": "In multivariate analysis, survival after treatment with erlotinib was not influenced by the status of EGFR expression, the number of EGFR copies, or EGFR mutation.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'amplification' is not named in the cited units"
+   ],
+   "id": "16014883-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "randomised trial",
+    "reason": "The unit states that the number of EGFR copies (amplification) did not influence survival after erlotinib treatment in multivariate analysis."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'amplification' is not named in the cited units",
+    "second model: supported = no (The unit states that the number of EGFR copies (amplification) did not influence survival after erlotinib treatment in multivariate analysis.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A11"
+   ],
+   "quote": "the presence of an EGFR mutation may increase responsiveness to the agent",
+   "cited_text": "Among patients with non-small-cell lung cancer who receive erlotinib, the presence of an EGFR mutation may increase responsiveness to the agent, but it is not indicative of a survival benefit.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "16014883-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR mutation may increase responsiveness to erlotinib, indicating a predictive association with response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A11"
+   ],
+   "quote": "it is not indicative of a survival benefit",
+   "cited_text": "Among patients with non-small-cell lung cancer who receive erlotinib, the presence of an EGFR mutation may increase responsiveness to the agent, but it is not indicative of a survival benefit.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "16014883-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR mutation may increase responsiveness to erlotinib, indicating a predictive association with response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS",
+    "models disagree on significance: NA vs SENSITIVITYRESPONSE",
+    "models disagree on evidence level: B vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": null,
+   "reference": "N Engl J Med. 2006 Oct 19;355(16):1746"
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

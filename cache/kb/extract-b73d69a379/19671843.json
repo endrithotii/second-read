@@ -1,0 +1,721 @@
+{
+ "pmid": "19671843",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 50,
+ "units_total": 251,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 84,
+   "units": [
+    "S52"
+   ],
+   "quote": "Of the 84 patients harboring a sensitizing EGFR mutation who were treated with either erlotinib or gefitinib, 56 patients (67%) achieved an objective response",
+   "cited_text": "Of the 84 patients harboring a sensitizing EGFR mutation who were treated with either erlotinib or gefitinib, 56 patients (67%) achieved an objective response (1 complete response, 55 partial response).",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ],
+   "id": "19671843-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports a 67% objective response rate in patients with sensitizing EGFR mutations treated with erlotinib or gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "Exon 19 deletions were associated with longer median TTP and overall survival compared with L858R mutations",
+   "cited_text": "Exon 19 deletions were associated with longer median TTP and overall survival compared with L858R mutations.",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "19671843-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PROGNOSTIC",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit compares outcomes of Exon 19 deletions versus L858R, stating L858R has shorter TTP and OS, but does not provide direct evidence of drug response for L858R itself."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = no (The unit compares outcomes of Exon 19 deletions versus L858R, stating L858R has shorter TTP and OS, but does not provide direct evidence of drug response for L858R itself.)",
+    "models disagree on evidence_type: PREDICTIVE vs PROGNOSTIC",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L861Q",
+     "hgvs": "NP_005219.2:p.(Leu861Gln)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r3.c1"
+   ],
+   "quote": "Mutation(s): L861Q",
+   "cited_text": "L861Q",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-3",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation name without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation name without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: REDUCED_SENSITIVITY vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r4.c1"
+   ],
+   "quote": "Mutation(s): G719A",
+   "cited_text": "G719A",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation name without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation name without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: REDUCED_SENSITIVITY vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 31,
+   "units": [
+    "T3.r7.c1"
+   ],
+   "quote": "Mutation(s): Exon 20 insertion",
+   "cited_text": "Exon 20 insertion",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 31 is not a number in the cited units"
+   ],
+   "id": "19671843-5",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation name without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 31 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation name without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: RESISTANCE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r10.c1"
+   ],
+   "quote": "Mutation(s): L858R + T790M",
+   "cited_text": "L858R + T790M",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-6",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation combination without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation combination without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: RESISTANCE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r11.c1"
+   ],
+   "quote": "Mutation(s): T790M + KRAS mutation",
+   "cited_text": "T790M + KRAS mutation",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-7",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation combination without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation combination without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: RESISTANCE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r12.c1"
+   ],
+   "quote": "Mutation(s): Exon 19 del + KRAS mutation",
+   "cited_text": "Exon 19 del + KRAS mutation",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-8",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation combination without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation combination without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: REDUCED_SENSITIVITY vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "V802I",
+     "hgvs": "NP_005219.2:p.(Val802Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r13.c1"
+   ],
+   "quote": "Mutation(s): V802I + KRAS mutation",
+   "cited_text": "V802I + KRAS mutation",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-9",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation combination without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation combination without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: RESISTANCE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G779C",
+     "hgvs": "NP_005219.2:p.(Gly779Cys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T3.r14.c1"
+   ],
+   "quote": "Mutation(s): G719A + G779C",
+   "cited_text": "G719A + G779C",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-10",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit only lists the mutation combination without providing any data on drug response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "second model: supported = no (The unit only lists the mutation combination without providing any data on drug response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S54"
+   ],
+   "quote": "exon 19 deletion and de novo MET amplification, which has been associated with resistance to gefitinib and erlotinib",
+   "cited_text": "As previously described (), the patient with unexpected progressive disease was a 42-year-old man with an exon 19 deletion and de novo MET amplification, which has been associated with resistance to gefitinib and erlotinib (, ).",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "19671843-11",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a patient with an exon 19 deletion and MET amplification who experienced progressive disease, noting the association with resistance to gefitinib and erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

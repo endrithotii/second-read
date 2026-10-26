@@ -1,0 +1,65 @@
+{
+ "pmid": "18408761",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 7,
+ "units_total": 7,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "FIRST-GENERATION EGFR INHIBITORS"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A3"
+   ],
+   "quote": "Such resistance to first-generation EGFR inhibitors was frequently linked to an acquired T790M point mutation in the kinase domain of EGFR",
+   "cited_text": "Such resistance to first-generation EGFR inhibitors was frequently linked to an acquired T790M point mutation in the kinase domain of EGFR, or upregulation of signaling pathways downstream of HER3.",
+   "code_problems": [
+    "drug 'first-generation EGFR inhibitors' not found in ChEMBL"
+   ],
+   "id": "18408761-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that acquired T790M mutations are frequently linked to resistance to first-generation EGFR inhibitors."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'first-generation EGFR inhibitors' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

@@ -1,0 +1,227 @@
+{
+ "pmid": "15897572",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 15,
+ "units_total": 15,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 54,
+   "units": [
+    "A2"
+   ],
+   "quote": "Mutations in EGFR can be used to predict the tumor response of patients receiving gefitinib",
+   "cited_text": "Mutations in epidermal growth factor receptor (EGFR) can be used to predict the tumor response of patients receiving gefitinib for non-small cell lung cancer (NSCLC).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "patient count 54 is not a number in the cited units"
+   ],
+   "id": "15897572-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit explicitly states that EGFR mutations can be used to predict tumor response to gefitinib in NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "patient count 54 is not a number in the cited units",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PROGNOSTIC",
+   "direction": "SUPPORTS",
+   "significance": "NA",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 54,
+   "units": [
+    "A12"
+   ],
+   "quote": "patients with EGFR mutations had better progression-free survival (median, 7.6 versus 1.7 months; P = 0.011)",
+   "cited_text": "In comparison with patients whose tumor was negative for EGFR mutations, patients with EGFR mutations had better progression-free survival (median, 7.6 versus 1.7 months; P = 0.011) and overall survival (median, 14.7 versus 4.7 months; P = 0.046).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 54 is not a number in the cited units"
+   ],
+   "id": "15897572-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports significantly better progression-free and overall survival for patients with EGFR mutations compared to those without, indicating a positive response to therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 54 is not a number in the cited units",
+    "models disagree on evidence_type: PROGNOSTIC vs PREDICTIVE",
+    "models disagree on significance: NA vs SENSITIVITYRESPONSE"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PROGNOSTIC",
+   "direction": "SUPPORTS",
+   "significance": "NA",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 54,
+   "units": [
+    "A12"
+   ],
+   "quote": "patients with EGFR mutations had better overall survival (median, 14.7 versus 4.7 months; P = 0.046)",
+   "cited_text": "In comparison with patients whose tumor was negative for EGFR mutations, patients with EGFR mutations had better progression-free survival (median, 7.6 versus 1.7 months; P = 0.011) and overall survival (median, 14.7 versus 4.7 months; P = 0.046).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 54 is not a number in the cited units"
+   ],
+   "id": "15897572-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports significantly better progression-free and overall survival for patients with EGFR mutations compared to those without, indicating a positive response to therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 54 is not a number in the cited units",
+    "models disagree on evidence_type: PROGNOSTIC vs PREDICTIVE",
+    "models disagree on significance: NA vs SENSITIVITYRESPONSE"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 4,
+   "units": [
+    "A10"
+   ],
+   "quote": "all four nonadenocarcinomas with EGFR mutations had no response to gefitinib",
+   "cited_text": "However, all four nonadenocarcinomas with EGFR mutations had no response to gefitinib.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "15897572-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that non-adenocarcinomas with EGFR mutations had no response to gefitinib, which contradicts the general sensitivity implied by the profile/drug pairing in the context of the other entries, or at least indicates resistance in this specific subset."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "second model: supported = no (The unit states that non-adenocarcinomas with EGFR mutations had no response to gefitinib, which contradicts the general sensitivity implied by the profile/drug pairing in the context of the other entries, or at least indicates resistance in this specific subset.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

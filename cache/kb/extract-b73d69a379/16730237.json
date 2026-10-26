@@ -1,0 +1,191 @@
+{
+ "pmid": "16730237",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 5,
+ "units_total": 5,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "ONCOGENIC",
+   "direction": "SUPPORTS",
+   "significance": "NA",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "Both bitransgenic lines developed lung adenocarcinoma after sustained hEGFR mutant expression, confirming their oncogenic potential.",
+   "cited_text": "Both bitransgenic lines developed lung adenocarcinoma after sustained hEGFR mutant expression, confirming their oncogenic potential.",
+   "code_problems": [],
+   "id": "16730237-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "ONCOGENIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "animal model",
+    "reason": "The unit states that the mutation drives tumor development in a mouse model, confirming oncogenic potential, but does not mention drug response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = no (The unit states that the mutation drives tumor development in a mouse model, confirming oncogenic potential, but does not mention drug response.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Treatment with small molecule inhibitors (erlotinib or HKI-272) as well as prolonged treatment with a humanized anti-hEGFR antibody (cetuximab) led to dramatic tumor regression.",
+   "cited_text": "Treatment with small molecule inhibitors (erlotinib or HKI-272) as well as prolonged treatment with a humanized anti-hEGFR antibody (cetuximab) led to dramatic tumor regression.",
+   "code_problems": [],
+   "id": "16730237-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "animal model",
+    "reason": "The unit reports that erlotinib treatment led to dramatic tumor regression in models with the EGFR mutation."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Treatment with small molecule inhibitors (erlotinib or HKI-272) as well as prolonged treatment with a humanized anti-hEGFR antibody (cetuximab) led to dramatic tumor regression.",
+   "cited_text": "Treatment with small molecule inhibitors (erlotinib or HKI-272) as well as prolonged treatment with a humanized anti-hEGFR antibody (cetuximab) led to dramatic tumor regression.",
+   "code_problems": [],
+   "id": "16730237-3",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "animal model",
+    "reason": "The cited unit mentions erlotinib, HKI-272, and cetuximab, but does not mention neratinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = no (The cited unit mentions erlotinib, HKI-272, and cetuximab, but does not mention neratinib.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1201577",
+     "name": "CETUXIMAB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Treatment with small molecule inhibitors (erlotinib or HKI-272) as well as prolonged treatment with a humanized anti-hEGFR antibody (cetuximab) led to dramatic tumor regression.",
+   "cited_text": "Treatment with small molecule inhibitors (erlotinib or HKI-272) as well as prolonged treatment with a humanized anti-hEGFR antibody (cetuximab) led to dramatic tumor regression.",
+   "code_problems": [],
+   "id": "16730237-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "animal model",
+    "reason": "The unit reports that cetuximab treatment led to dramatic tumor regression in models with the EGFR mutation."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

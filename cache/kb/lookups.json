@@ -8,22 +8,41 @@
 "chembl_id": "CHEMBL3353410",
 "name": "OSIMERTINIB"
 },
+"drug:bibw 2992": {
+"chembl_id": "CHEMBL1173655",
+"name": "AFATINIB"
+},
+"drug:cetuximab": {
+"chembl_id": "CHEMBL1201577",
+"name": "CETUXIMAB"
+},
 "drug:cl-387,785": null,
 "drug:egfr tkis": null,
 "drug:erlotinib": {
 "chembl_id": "CHEMBL553",
 "name": "ERLOTINIB"
 },
+"drug:first-generation egfr inhibitors": null,
 "drug:gefitinib": {
 "chembl_id": "CHEMBL939",
 "name": "GEFITINIB"
+},
+"drug:hki-272": {
+"chembl_id": "CHEMBL180022",
+"name": "NERATINIB"
 },
 "drug:osimertinib plus savolitinib": null,
 "drug:pf-00299804": {
 "chembl_id": "CHEMBL2110732",
 "name": "DACOMITINIB ANHYDROUS"
 },
+"drug:pf00299804": null,
 "drug:second-generation egfr tki": null,
+"gene:AKT": {
+"hgnc_id": "HGNC:391",
+"mane_nm": "NM_001382430.1",
+"symbol": "AKT1"
+},
 "gene:BRAF": {
 "hgnc_id": "HGNC:1097",
 "mane_nm": "NM_004333.6",
@@ -38,6 +57,11 @@
 "hgnc_id": "HGNC:3430",
 "mane_nm": "NM_004448.4",
 "symbol": "ERBB2"
+},
+"gene:HER3": {
+"hgnc_id": "HGNC:3431",
+"mane_nm": "NM_001982.4",
+"symbol": "ERBB3"
 },
 "gene:KRAS": {
 "hgnc_id": "HGNC:6407",
@@ -87,6 +111,18 @@
 "note": "ReferenceMismatchError: NP_005219.2:p.(Ala797Ser): Variant reference (A) does not agree with reference sequence (C); LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala797Ser) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, prob",
 "valid": false
 },
+"vv:NP_005219.2:p.(Ala859Thr)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Ala859Thr)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Asp761Tyr)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Asp761Tyr)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Asp770_Asn771insAsnProGly)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Asp770_Asn771insAsnProGly)",
@@ -111,6 +147,18 @@
 "note": "The amino acid at position 751 of NP_005219.2 is T not A; LovdSyntaxcheckInvalid: NP_005219.2:p.(Glu746_Ala751del) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSyntaxcheckWarning: We stopped rea",
 "valid": false
 },
+"vv:NP_005219.2:p.(Glu884Lys)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Glu884Lys)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Gly719Ala)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly719Ala)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Gly719Ser)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Gly719Ser)",
@@ -129,6 +177,12 @@
 "note": "reference amino acid confirmed",
 "valid": true
 },
+"vv:NP_005219.2:p.(Gly779Cys)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly779Cys)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Leu747_Pro753delinsSer)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Leu747_Pro753delinsSer)",
@@ -141,9 +195,39 @@
 "note": "reference amino acid confirmed",
 "valid": true
 },
+"vv:NP_005219.2:p.(Leu861Gln)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Leu861Gln)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Pro848Leu)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Pro848Leu)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Ser768Ile)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Ser768Ile)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Thr790Met)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Thr790Met)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Thr854Ala)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Thr854Ala)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Val802Ile)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Val802Ile)",
 "note": "reference amino acid confirmed",
 "valid": true
 }

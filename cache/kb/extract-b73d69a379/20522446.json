@@ -1,0 +1,65 @@
+{
+ "pmid": "20522446",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 5,
+ "units_total": 5,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A4"
+   ],
+   "quote": "who showed a good clinical response to gefitinib",
+   "cited_text": "We reported a case of non-small cell lung cancer harboring a rare epidermal growth factor somatic mutation, codon 768 AGC > ATC in exon 20 (S768I), who showed a good clinical response to gefitinib.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "20522446-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The cited unit describes a single patient with the EGFR S768I mutation who demonstrated a good clinical response to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

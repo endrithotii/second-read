@@ -1,0 +1,67 @@
+{
+ "pmid": "20493771",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 23,
+ "units_total": 23,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 618,
+   "units": [
+    "A15"
+   ],
+   "quote": "PFS was also significantly longer in patients with EGFR-positive immunohistochemistry who were treated with erlotinib (n=307) compared with EGFR-positive patients given placebo (n=311; median PFS 12.3 weeks in the erlotinib group vs 11.1 weeks in the placebo group; HR 0.69, 0.58-0.82; p<0.0001).",
+   "cited_text": "PFS was also significantly longer in patients with EGFR-positive immunohistochemistry who were treated with erlotinib (n=307) compared with EGFR-positive patients given placebo (n=311; median PFS 12.3 weeks in the erlotinib group vs 11.1 weeks in the placebo group; HR 0.69, 0.58-0.82; p<0.0001).",
+   "code_problems": [
+    "variant 'protein overexpression' is not named in the cited units",
+    "patient count 618 is not a number in the cited units"
+   ],
+   "id": "20493771-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a randomized comparison showing significantly longer PFS for EGFR-positive patients treated with erlotinib versus placebo, indicating predictive value for response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'protein overexpression' is not named in the cited units",
+    "patient count 618 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

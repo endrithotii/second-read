@@ -1,0 +1,209 @@
+{
+ "pmid": "18509184",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 20,
+ "units_total": 20,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "stage IIIB/IV chemotherapy-naive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 20,
+   "units": [
+    "A16"
+   ],
+   "quote": "exon 19 deletion (n = 20) were 95.0% and 8.9 months",
+   "cited_text": "The response rate and median TTF of the patients with exon 19 deletion (n = 20) were 95.0% and 8.9 months, for exon 21 L858R mutation (n = 23) were 73.9% and 9.1 month, and for other types of EGFR mutations (N = 12) were 16.7% and 2.3 months, respectively.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "18509184-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The data shows a high response rate (95.0%) and median TTF for patients with EGFR Exon 19 Deletion treated with gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "stage IIIB/IV chemotherapy-naive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 23,
+   "units": [
+    "A16"
+   ],
+   "quote": "exon 21 L858R mutation (n = 23) were 73.9% and 9.1 month",
+   "cited_text": "The response rate and median TTF of the patients with exon 19 deletion (n = 20) were 95.0% and 8.9 months, for exon 21 L858R mutation (n = 23) were 73.9% and 9.1 month, and for other types of EGFR mutations (N = 12) were 16.7% and 2.3 months, respectively.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "18509184-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The data shows a high response rate (73.9%) and median TTF for patients with EGFR L858R treated with gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "stage IIIB/IV chemotherapy-naive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 12,
+   "units": [
+    "A16"
+   ],
+   "quote": "other types of EGFR mutations (N = 12) were 16.7% and 2.3 months",
+   "cited_text": "The response rate and median TTF of the patients with exon 19 deletion (n = 20) were 95.0% and 8.9 months, for exon 21 L858R mutation (n = 23) were 73.9% and 9.1 month, and for other types of EGFR mutations (N = 12) were 16.7% and 2.3 months, respectively.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "18509184-3",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The data supports sensitivity for specific EGFR mutations (Exon 19 del, L858R) but shows poor response for 'other types', so it only partly supports the broad 'EGFR Mutation' profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = partly (The data supports sensitivity for specific EGFR mutations (Exon 19 del, L858R) but shows poor response for 'other types', so it only partly supports the broad 'EGFR Mutation' profile.)",
+    "models disagree on significance: RESISTANCE vs SENSITIVITYRESPONSE"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "stage IIIB/IV chemotherapy-naive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A18"
+   ],
+   "quote": "High copy number of MET seemed to correlate with shorter TTF in patients with gefitinib-sensitive activating EGFR mutations.",
+   "cited_text": "High copy number of MET seemed to correlate with shorter TTF in patients with gefitinib-sensitive activating EGFR mutations.",
+   "code_problems": [
+    "variant 'amplification' is not named in the cited units"
+   ],
+   "id": "18509184-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "High MET copy number correlates with shorter time to treatment failure (TTF) in patients with EGFR mutations treated with gefitinib, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'amplification' is not named in the cited units",
+    "models disagree on significance: REDUCED_SENSITIVITY vs RESISTANCE"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

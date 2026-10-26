@@ -56,7 +56,7 @@ td.num { font-variant-numeric: tabular-nums; }
   <p class="where"><a href="../">Second Read</a>, knowledge-base mode</p>
   <h1>Resistance to osimertinib in EGFR-mutant lung cancer: evidence entries, measured against expert curators</h1>
   <p class="lede">Papers become structured evidence entries (gene, variant, drug, disease, evidence type, direction, significance, level, and the exact sentence or table cell they rest on), each compared with the knowledge base. Every number below is measured against CIViC's curators on papers held out from prompt development, with a 95% interval.</p>
-  <p class="stamp">Generated 2026-10-26 00:09 UTC. Ground truth: 385 CIViC entries from 155 papers (111 papers held out, 44 used to build the prompts).</p>
+  <p class="stamp">Generated 2026-10-26 15:27 UTC. Ground truth: 385 CIViC entries from 155 papers (111 papers held out, 44 used to build the prompts).</p>
 </div></header>
 <main class="wrap">
 
@@ -65,8 +65,8 @@ td.num { font-variant-numeric: tabular-nums; }
   <ul>
     <li><b>The narrow topic is too small to measure on its own.</b> CIViC holds 13 curated entries on resistance to osimertinib. The evaluation therefore uses all CIViC evidence on EGFR inhibitors in lung cancer, and reports the osimertinib-resistance subset separately, with its wide interval.</li>
     <li><b>CIViC is not complete.</b> An entry CIViC lacks is not automatically wrong, so every precision figure measured against CIViC is a floor. The blind expert review below is what measures it properly.</li>
-    <li><b>Most papers have no open full text.</b> 0 of 0 evaluated papers could only be read as abstracts; results are split by source.</li>
-    <li><b>Progress:</b> 0 of 111 held-out papers extracted, 19 of 302 screening papers screened. Free model quotas limit how much runs per day; the numbers update as runs complete.</li>
+    <li><b>Most papers have no open full text.</b> 24 of 28 evaluated papers could only be read as abstracts; results are split by source.</li>
+    <li><b>Progress:</b> 28 of 111 held-out papers extracted, 19 of 302 screening papers screened. Free model quotas limit how much runs per day; the numbers update as runs complete.</li>
   </ul>
 </section>
 
@@ -103,30 +103,90 @@ td.num { font-variant-numeric: tabular-nums; }
 <section>
   <h2>2. Extracting the evidence</h2>
   <div class="grid">
-    <div class="metric"><div class="mlabel">Curated entries the system also produced</div><div class="mvalue none">not measured yet</div><p class="mnote">0 CIViC entries in 0 held-out papers. Matched on the same molecular profile and at least one drug.</p></div>
-    <div class="metric"><div class="mlabel">From full text</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div>
-    <div class="metric"><div class="mlabel">From the abstract only</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div>
-    <div class="metric"><div class="mlabel">System entries that CIViC also holds (floor)</div><div class="mvalue none">not measured yet</div><p class="mnote">0 entries produced. The rest are either errors or evidence CIViC has not curated; the expert review tells which.</p></div>
+    <div class="metric weak">
+  <div class="mlabel">Curated entries the system also produced</div>
+  <div class="mvalue">22%<small>95% interval 14% to 33%, n = 73</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:14.0%;width:18.7%"></span><span class="pt" style="left:21.9%"></span></div>
+  <p class="mnote">73 CIViC entries in 28 held-out papers. Matched on the same molecular profile and at least one drug.</p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">From full text</div>
+  <div class="mvalue">37%<small>95% interval 19% to 59%, n = 19</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:19.1%;width:39.8%"></span><span class="pt" style="left:36.8%"></span></div>
+  <p class="mnote"></p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">From the abstract only</div>
+  <div class="mvalue">17%<small>95% interval 9% to 29%, n = 54</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:9.0%;width:19.7%"></span><span class="pt" style="left:16.7%"></span></div>
+  <p class="mnote"></p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">System entries that CIViC also holds (floor)</div>
+  <div class="mvalue">19%<small>95% interval 12% to 28%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:11.9%;width:16.5%"></span><span class="pt" style="left:18.8%"></span></div>
+  <p class="mnote">85 entries produced. The rest are either errors or evidence CIViC has not curated; the expert review tells which.</p>
+</div>
   </div>
   <h3>Field accuracy, on entries matched to a CIViC entry</h3>
-  <div class="grid"><div class="metric"><div class="mlabel">Drugs</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Disease (same OncoTree branch)</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Evidence type</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Direction</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Clinical significance</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div><div class="metric"><div class="mlabel">Evidence level (A-E)</div><div class="mvalue none">not measured yet</div><p class="mnote"></p></div></div>
+  <div class="grid"><div class="metric mid">
+  <div class="mlabel">Drugs</div>
+  <div class="mvalue">75%<small>95% interval 51% to 90%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:50.5%;width:39.3%"></span><span class="pt" style="left:75.0%"></span></div>
+  <p class="mnote"></p>
+</div><div class="metric good">
+  <div class="mlabel">Disease (same OncoTree branch)</div>
+  <div class="mvalue">100%<small>95% interval 81% to 100%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:80.6%;width:19.4%"></span><span class="pt" style="left:100.0%"></span></div>
+  <p class="mnote"></p>
+</div><div class="metric good">
+  <div class="mlabel">Evidence type</div>
+  <div class="mvalue">100%<small>95% interval 81% to 100%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:80.6%;width:19.4%"></span><span class="pt" style="left:100.0%"></span></div>
+  <p class="mnote"></p>
+</div><div class="metric good">
+  <div class="mlabel">Direction</div>
+  <div class="mvalue">100%<small>95% interval 81% to 100%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:80.6%;width:19.4%"></span><span class="pt" style="left:100.0%"></span></div>
+  <p class="mnote"></p>
+</div><div class="metric good">
+  <div class="mlabel">Clinical significance</div>
+  <div class="mvalue">94%<small>95% interval 72% to 99%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:71.7%;width:27.2%"></span><span class="pt" style="left:93.8%"></span></div>
+  <p class="mnote"></p>
+</div><div class="metric good">
+  <div class="mlabel">Evidence level (A-E)</div>
+  <div class="mvalue">81%<small>95% interval 57% to 93%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:57.0%;width:36.4%"></span><span class="pt" style="left:81.2%"></span></div>
+  <p class="mnote"></p>
+</div></div>
   <h3>Writer and checker agreement (Cohen's kappa)</h3>
   <p class="note">The checker comes from a different model family, reads the same cited text and assigns the labels without seeing the writer's.</p>
-  <div class="tablewrap"><table><thead><tr><th>Field</th><th>Kappa</th><th>95% interval</th><th>Agreement</th><th>Entries</th></tr></thead><tbody><tr><td>Evidence type</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr><tr><td>Direction</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr><tr><td>Clinical significance</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr><tr><td>Evidence level</td><td class=num>n/a</td><td class=num></td><td>n/a</td><td class=num>0</td></tr></tbody></table></div>
+  <div class="tablewrap"><table><thead><tr><th>Field</th><th>Kappa</th><th>95% interval</th><th>Agreement</th><th>Entries</th></tr></thead><tbody><tr><td>Evidence type</td><td class=num>0.08</td><td class=num>-0.05 to 0.31</td><td>slight or none</td><td class=num>84</td></tr><tr><td>Direction</td><td class=num>0.14</td><td class=num>-0.09 to 0.38</td><td>slight or none</td><td class=num>84</td></tr><tr><td>Clinical significance</td><td class=num>0.60</td><td class=num>0.46 to 0.72</td><td>moderate</td><td class=num>84</td></tr><tr><td>Evidence level</td><td class=num>0.62</td><td class=num>0.49 to 0.74</td><td>substantial</td><td class=num>84</td></tr></tbody></table></div>
 </section>
 
 <section>
   <h2>3. What reaches a person</h2>
   <div class="grid">
-    <div class="metric"><div class="mlabel">Entries sent to a person</div><div class="mvalue none">not measured yet</div><p class="mnote">Every code check must pass, every name must be normalised, the checker must say the cited text supports the entry and agree on type, direction, significance and level.</p></div>
-    <div class="metric"><div class="mlabel">Errors among automatically accepted entries</div><div class="mvalue none">not measured yet</div><p class="mnote">0 accepted entries could be compared with CIViC; 0 accepted entries are not in CIViC and need the expert review.</p></div>
+    <div class="metric weak">
+  <div class="mlabel">Entries sent to a person</div>
+  <div class="mvalue">85%<small>95% interval 76% to 91%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:75.6%;width:15.3%"></span><span class="pt" style="left:84.7%"></span></div>
+  <p class="mnote">Every code check must pass, every name must be normalised, the checker must say the cited text supports the entry and agree on type, direction, significance and level.</p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">Errors among automatically accepted entries</div>
+  <div class="mvalue">40%<small>95% interval 12% to 77%, n = 5</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:11.8%;width:65.2%"></span><span class="pt" style="left:40.0%"></span></div>
+  <p class="mnote">5 accepted entries could be compared with CIViC; 8 accepted entries are not in CIViC and need the expert review.</p>
+</div>
   </div>
   <div class="two">
-    <div><h3>Why entries went to a person</h3><ul class="reasons"><li>None yet.</li></ul></div>
-    <div><h3>Accepted entries that disagree with CIViC</h3><ul class="reasons"><li>None among the entries that could be compared.</li></ul></div>
+    <div><h3>Why entries went to a person</h3><ul class="reasons"><li><b>54</b> drug</li><li><b>28</b> variant</li><li><b>24</b> second model</li><li><b>22</b> models disagree on significance</li><li><b>21</b> models disagree on evidence level</li><li><b>18</b> models disagree on direction</li><li><b>16</b> quote is not in the cited units</li><li><b>15</b> models disagree on evidence_type</li><li><b>11</b> patient count 1 is not a number in the cited units</li><li><b>3</b> patient count 54 is not a number in the cited units</li><li><b>2</b> patient count 3 is not a number in the cited units</li><li><b>2</b> patient count 6 is not a number in the cited units</li></ul></div>
+    <div><h3>Accepted entries that disagree with CIViC</h3><ul class="reasons"><li>PMID 17085664, entry 17085664-1 against CIViC EID3806: wrong drugs, level</li><li>PMID 17877814, entry 17877814-5 against CIViC EID3801: wrong significance</li></ul></div>
   </div>
   <h3>Compared with the knowledge base (other papers only)</h3>
-  <ul class="labels"><li><b>0</b> new</li><li><b>0</b> supports</li><li><b>0</b> refines</li><li><b>0</b> contradicts</li></ul>
+  <ul class="labels"><li><b>31</b> new</li><li><b>35</b> supports</li><li><b>16</b> refines</li><li><b>3</b> contradicts</li></ul>
 </section>
 
 <section>
@@ -145,12 +205,32 @@ td.num { font-variant-numeric: tabular-nums; }
   <h2>6. Against PubTator3</h2>
   <p class="note">NCBI's PubTator3 tags every variant mention. Of the variants curators recorded from a paper, how many does each find in it?</p>
   <div class="grid">
-    <div class="metric"><div class="mlabel">Specific variants (e.g. C797S): this system</div><div class="mvalue none">not measured yet</div><p class="mnote">Found only by this system: 0.</p></div>
-    <div class="metric"><div class="mlabel">Specific variants: PubTator3</div><div class="mvalue none">not measured yet</div><p class="mnote">Found only by PubTator3: 0.</p></div>
-    <div class="metric"><div class="mlabel">Exon-level and copy-number events: this system</div><div class="mvalue none">not measured yet</div><p class="mnote">Exon 19 deletion, amplification, generic mutation.</p></div>
-    <div class="metric"><div class="mlabel">Exon-level and copy-number events: PubTator3</div><div class="mvalue none">not measured yet</div><p class="mnote">PubTator3 does not tag these as variants.</p></div>
+    <div class="metric weak">
+  <div class="mlabel">Specific variants (e.g. C797S): this system</div>
+  <div class="mvalue">26%<small>95% interval 17% to 37%, n = 66</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:16.7%;width:20.7%"></span><span class="pt" style="left:25.8%"></span></div>
+  <p class="mnote">Found only by this system: 2.</p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">Specific variants: PubTator3</div>
+  <div class="mvalue">23%<small>95% interval 14% to 34%, n = 66</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:14.3%;width:19.9%"></span><span class="pt" style="left:22.7%"></span></div>
+  <p class="mnote">Found only by PubTator3: 0.</p>
+</div>
+    <div class="metric mid">
+  <div class="mlabel">Exon-level and copy-number events: this system</div>
+  <div class="mvalue">57%<small>95% interval 25% to 84%, n = 7</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:25.0%;width:59.1%"></span><span class="pt" style="left:57.1%"></span></div>
+  <p class="mnote">Exon 19 deletion, amplification, generic mutation.</p>
+</div>
+    <div class="metric weak">
+  <div class="mlabel">Exon-level and copy-number events: PubTator3</div>
+  <div class="mvalue">0%<small>95% interval 0% to 35%, n = 7</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:0.0%;width:35.4%"></span><span class="pt" style="left:0.0%"></span></div>
+  <p class="mnote">PubTator3 does not tag these as variants.</p>
+</div>
   </div>
-  <p class="note">Variants listed per paper: PubTator3 0.0, this system 0.0. Share of listed variants that curators recorded: PubTator3 0%, this system 0%.</p>
+  <p class="note">Variants listed per paper: PubTator3 1.6, this system 2.2. Share of listed variants that curators recorded: PubTator3 31%, this system 32%.</p>
 </section>
 
 <section>
@@ -158,16 +238,16 @@ td.num { font-variant-numeric: tabular-nums; }
   <ol class="flow">
     <li><b>16,786</b> papers found by the topic search (141 of 155 CIViC papers among them)</li>
     <li><b>19</b> screened in the evaluation sample</li>
-    <li><b>0</b> held-out papers read for evidence: <b>0</b> full text, <b>0</b> abstract only ()</li>
-    <li><b>0</b> retracted, <b>0</b> with a published correction</li>
-    <li><b>0</b> evidence entries: <b>0</b> accepted automatically, <b>0</b> sent to a person</li>
+    <li><b>28</b> held-out papers read for evidence: <b>4</b> full text, <b>24</b> abstract only (21 no PubMed Central copy; 3 PMC record has no body text (not in the open-access subset or author manuscripts))</li>
+    <li><b>0</b> retracted, <b>2</b> with a published correction</li>
+    <li><b>85</b> evidence entries: <b>13</b> accepted automatically, <b>72</b> sent to a person</li>
   </ol>
 </section>
 
 <section>
   <h2>8. Blind expert review</h2>
-  <p class="note">A fixed random sample of 0 automatically accepted entries, for a molecular pathologist or oncology researcher to judge from the source text alone. The reviewer does not see the models' reasoning or the routing. Error categories are fixed in advance: correct; wrong variant or molecular profile; wrong drug; wrong disease; wrong significance or direction; wrong evidence level; the quote does not support the entry; out of scope (not EGFR-TKI evidence in lung cancer); duplicate of another entry. <a href="expert_review.csv">Download the review sheet (CSV)</a>.</p>
-  <div class="tablewrap"><table><thead><tr><th>#</th><th>PMID</th><th>Profile</th><th>Drugs</th><th>Significance</th><th>Level</th></tr></thead><tbody><tr><td colspan=6>No accepted entries yet.</td></tr></tbody></table></div>
+  <p class="note">A fixed random sample of 13 automatically accepted entries, for a molecular pathologist or oncology researcher to judge from the source text alone. The reviewer does not see the models' reasoning or the routing. Error categories are fixed in advance: correct; wrong variant or molecular profile; wrong drug; wrong disease; wrong significance or direction; wrong evidence level; the quote does not support the entry; out of scope (not EGFR-TKI evidence in lung cancer); duplicate of another entry. <a href="expert_review.csv">Download the review sheet (CSV)</a>.</p>
+  <div class="tablewrap"><table><thead><tr><th>#</th><th>PMID</th><th>Profile</th><th>Drugs</th><th>Significance</th><th>Level</th></tr></thead><tbody><tr><td class=num>1</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR S768I</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>2</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19060236/'>19060236</a></td><td>EGFR Exon 19 Deletion</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>3</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/15118125/'>15118125</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>4</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/15118073/'>15118073</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>5</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17085664/'>17085664</a></td><td>EGFR T790M</td><td>GEFITINIB (CHEMBL939), ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>B</td></tr><tr><td class=num>6</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/15118073/'>15118073</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>7</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19060236/'>19060236</a></td><td>EGFR L858R</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>8</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/20038723/'>20038723</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>9</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR L858R</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>10</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR T790M</td><td>ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>D</td></tr><tr><td class=num>11</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/16730237/'>16730237</a></td><td>EGFR Mutation</td><td>CETUXIMAB (CHEMBL1201577)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>12</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/16730237/'>16730237</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>13</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19010870/'>19010870</a></td><td>EGFR L858R AND EGFR T854A</td><td>ERLOTINIB (CHEMBL553)</td><td>reduced_sensitivity</td><td>D</td></tr></tbody></table></div>
 </section>
 
 </main>

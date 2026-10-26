@@ -1,0 +1,115 @@
+{
+ "pmid": "15728811",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 6,
+ "units_total": 6,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "ANILINOQUINAZOLINE EGFR INHIBITORS"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "Mutations of the epidermal growth factor receptor (EGFR) gene have been identified in specimens from patients with non-small-cell lung cancer who have a response to anilinoquinazoline EGFR inhibitors.",
+   "cited_text": "Mutations of the epidermal growth factor receptor (EGFR) gene have been identified in specimens from patients with non-small-cell lung cancer who have a response to anilinoquinazoline EGFR inhibitors.",
+   "code_problems": [
+    "drug 'anilinoquinazoline EGFR inhibitors' not found in ChEMBL"
+   ],
+   "id": "15728811-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that EGFR mutations were identified in patients with NSCLC who responded to anilinoquinazoline EGFR inhibitors, linking the alteration to drug response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'anilinoquinazoline EGFR inhibitors' not found in ChEMBL",
+    "models disagree on evidence level: E vs B"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A5",
+    "A6"
+   ],
+   "quote": "this second mutation led to gefitinib resistance.",
+   "cited_text": "The DNA sequence of the EGFR gene in his tumor biopsy specimen at relapse revealed the presence of a second point mutation, resulting in threonine-to-methionine amino acid change at position 790 of EGFR. Structural modeling and biochemical studies showed that this second mutation led to gefitinib resistance.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "15728811-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes biochemical and structural studies showing that the EGFR T790M mutation leads to gefitinib resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "models disagree on evidence level: C vs D"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

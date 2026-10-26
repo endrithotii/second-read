@@ -1,0 +1,220 @@
+{
+ "pmid": "15870435",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 15,
+ "units_total": 15,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 33,
+   "units": [
+    "A10"
+   ],
+   "quote": "Amplification or high polysomy of the EGFR gene (seen in 33 of 102 patients) and high protein expression (seen in 58 of 98 patients) were statistically significantly associated with better response",
+   "cited_text": "Amplification or high polysomy of the EGFR gene (seen in 33 of 102 patients) and high protein expression (seen in 58 of 98 patients) were statistically significantly associated with better response (36% versus 3%, mean difference = 34%, 95% CI = 16.6 to 50.3; P<.001), disease control rate (67% versus 26%, mean difference = 40.6%, 95% CI = 21.5 to 59.7; P<.001), time to progression (9.0 versus 2.5 months, mean difference = 6.5 months, 95% CI = 2.8 to 10.3; P<.001), and survival (18.7 versus 7.0 months, mean difference = 11.7 months, 95% CI = 2.1 to 21.4; P = .03).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "15870435-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that EGFR amplification is significantly associated with better response and survival in patients treated with gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 58,
+   "units": [
+    "A10"
+   ],
+   "quote": "Amplification or high polysomy of the EGFR gene (seen in 33 of 102 patients) and high protein expression (seen in 58 of 98 patients) were statistically significantly associated with better response",
+   "cited_text": "Amplification or high polysomy of the EGFR gene (seen in 33 of 102 patients) and high protein expression (seen in 58 of 98 patients) were statistically significantly associated with better response (36% versus 3%, mean difference = 34%, 95% CI = 16.6 to 50.3; P<.001), disease control rate (67% versus 26%, mean difference = 40.6%, 95% CI = 21.5 to 59.7; P<.001), time to progression (9.0 versus 2.5 months, mean difference = 6.5 months, 95% CI = 2.8 to 10.3; P<.001), and survival (18.7 versus 7.0 months, mean difference = 11.7 months, 95% CI = 2.1 to 21.4; P = .03).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "15870435-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that high EGFR protein expression is significantly associated with better response and survival in patients treated with gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 15,
+   "units": [
+    "A11"
+   ],
+   "quote": "EGFR mutations (seen in 15 of 89 patients) were also statistically significantly related to response",
+   "cited_text": "EGFR mutations (seen in 15 of 89 patients) were also statistically significantly related to response and time to progression, but the association with survival was not statistically significant, and 40% of the patients with mutation had progressive disease.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "15870435-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that EGFR mutations are significantly related to response and time to progression in patients treated with gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "AKT1",
+     "kind": "unparsed",
+     "name": "phospho-Akt positive",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A13"
+   ],
+   "quote": "Independent of EGFR assessment method, EGFR+/P-Akt+ patients had a statistically significantly better outcome than EGFR-, P-Akt-, or EGFR+/P-Akt- patients",
+   "cited_text": "Independent of EGFR assessment method, EGFR+/P-Akt+ patients had a statistically significantly better outcome than EGFR-, P-Akt-, or EGFR+/P-Akt- patients.",
+   "code_problems": [
+    "variant 'high protein expression' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "variant phospho-Akt positive could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "15870435-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that the combination of EGFR positivity and P-Akt positivity is associated with better outcomes in patients treated with gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'high protein expression' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "variant phospho-Akt positive could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

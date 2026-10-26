@@ -1,0 +1,162 @@
+{
+ "pmid": "18227510",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 8,
+ "units_total": 8,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "Lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "emergence of drug resistance conferred by a second mutation, T790M",
+   "cited_text": "Lung cancers caused by activating mutations in the epidermal growth factor receptor (EGFR) are initially responsive to small molecule tyrosine kinase inhibitors (TKIs), but the efficacy of these agents is often limited because of the emergence of drug resistance conferred by a second mutation, T790M.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "18227510-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that the T790M mutation confers drug resistance to small molecule TKIs, which includes gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "Lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "emergence of drug resistance conferred by a second mutation, T790M",
+   "cited_text": "Lung cancers caused by activating mutations in the epidermal growth factor receptor (EGFR) are initially responsive to small molecule tyrosine kinase inhibitors (TKIs), but the efficacy of these agents is often limited because of the emergence of drug resistance conferred by a second mutation, T790M.",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "18227510-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that the T790M mutation confers drug resistance to small molecule TKIs, which includes erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "Lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "irreversible inhibitors overcome this resistance",
+   "cited_text": "We conclude that the T790M mutation is a \"generic\" resistance mutation that will reduce the potency of any ATP-competitive kinase inhibitor and that irreversible inhibitors overcome this resistance simply through covalent binding, not as a result of an alternative binding mode.",
+   "code_problems": [
+    "drug 'HKI-272' is not named in the cited units"
+   ],
+   "id": "18227510-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit concludes that the T790M mutation reduces the potency of ATP-competitive kinase inhibitors like neratinib, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'HKI-272' is not named in the cited units",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

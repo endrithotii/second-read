@@ -1,0 +1,66 @@
+{
+ "pmid": "20573926",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 14,
+ "units_total": 14,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 230,
+   "units": [
+    "A2"
+   ],
+   "quote": "non-small-cell lung cancer with sensitive mutations of the epidermal growth factor receptor (EGFR) is highly responsive to EGFR tyrosine kinase inhibitors such as gefitinib",
+   "cited_text": "Non-small-cell lung cancer with sensitive mutations of the epidermal growth factor receptor (EGFR) is highly responsive to EGFR tyrosine kinase inhibitors such as gefitinib, but little is known about how its efficacy and safety profile compares with that of standard chemotherapy.",
+   "code_problems": [
+    "patient count 230 is not a number in the cited units"
+   ],
+   "id": "20573926-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that NSCLC with sensitive EGFR mutations is highly responsive to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 230 is not a number in the cited units",
+    "models disagree on evidence level: B vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

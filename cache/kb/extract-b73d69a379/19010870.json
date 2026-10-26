@@ -1,0 +1,232 @@
+{
+ "pmid": "19010870",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 54,
+ "units_total": 145,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T854A",
+     "hgvs": "NP_005219.2:p.(Thr854Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S13"
+   ],
+   "quote": "Surrogate kinase assays show that the EGFR T854A mutation abrogates the inhibition of tyrosine phosphorylation by erlotinib.",
+   "cited_text": "PCR-RFLP assays for exon 19 deletions, and L858R and T790M missense mutations were performed as published (, ).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'T854A' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "19010870-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes the methodology for detecting mutations but does not provide data linking the T854A mutation to drug response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'T854A' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "second model: supported = no (The unit describes the methodology for detecting mutations but does not provide data linking the T854A mutation to drug response.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T854A",
+     "hgvs": "NP_005219.2:p.(Thr854Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S81"
+   ],
+   "quote": "cells harboring cDNAs encoding EGFR L858R plus T854A were ∼3-fold less sensitive to erlotinib compared to those harboring EGFR L858R alone",
+   "cited_text": "Consistent with these data, growth inhibition assays using transfected Ba/F3 cells demonstrated that cells harboring cDNAs encoding EGFR L858R plus T854A were ∼3-fold less sensitive to erlotinib compared to those harboring EGFR L858R alone, while cells harboring L858R plus T790M were >100-fold less sensitive vs those with L858R alone (data not shown).",
+   "code_problems": [],
+   "id": "19010870-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that cells with L858R plus T854A were ~3-fold less sensitive to erlotinib compared to L858R alone, indicating reduced sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T854A",
+     "hgvs": "NP_005219.2:p.(Thr854Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S95"
+   ],
+   "quote": "The drug inhibited the activity of both L858R plus T790M EGFR and L858R plus T854A EGFR in the 10-100 nanomolar range",
+   "cited_text": "The drug inhibited the activity of both L858R plus T790M EGFR and L858R plus T854A EGFR in the 10-100 nanomolar range (Figure 4C).",
+   "code_problems": [
+    "drug 'BIBW 2992' is not named in the cited units"
+   ],
+   "id": "19010870-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that afatinib inhibited the activity of EGFR L858R plus T854A, indicating sensitivity to the drug."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'BIBW 2992' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T854A",
+     "hgvs": "NP_005219.2:p.(Thr854Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A10"
+   ],
+   "quote": "A previously unreported mutation in exon 21 of EGFR, which leads to substitution of alanine for threonine at position 854 (T854A), was identified in one patient with a drug-sensitive EGFR L858R-mutant lung adenocarcinoma after long-term treatment with tyrosine kinase inhibitors.",
+   "cited_text": "A previously unreported mutation in exon 21 of EGFR, which leads to substitution of alanine for threonine at position 854 (T854A), was identified in one patient with a drug-sensitive EGFR L858R-mutant lung adenocarcinoma after long-term treatment with tyrosine kinase inhibitors.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "19010870-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit identifies the mutation in a patient who developed resistance after long-term TKI treatment, implying the mutation is associated with resistance, though the specific drug response data is not detailed in the snippet."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "second model: supported = no (The unit identifies the mutation in a patient who developed resistance after long-term TKI treatment, implying the mutation is associated with resistance, though the specific drug response data is not detailed in the snippet.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

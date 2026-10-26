@@ -1,0 +1,104 @@
+{
+ "pmid": "15118073",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 8,
+   "units": [
+    "A9"
+   ],
+   "quote": "Somatic mutations were identified in the tyrosine kinase domain of the EGFR gene in eight of nine patients with gefitinib-responsive lung cancer, as compared with none of the seven patients with no response (P<0.001).",
+   "cited_text": "Somatic mutations were identified in the tyrosine kinase domain of the EGFR gene in eight of nine patients with gefitinib-responsive lung cancer, as compared with none of the seven patients with no response (P<0.001).",
+   "code_problems": [],
+   "id": "15118073-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports a significant association between EGFR mutations and response to gefitinib in a patient cohort."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A13"
+   ],
+   "quote": "In vitro, EGFR mutants demonstrated enhanced tyrosine kinase activity in response to epidermal growth factor and increased sensitivity to inhibition by gefitinib.",
+   "cited_text": "In vitro, EGFR mutants demonstrated enhanced tyrosine kinase activity in response to epidermal growth factor and increased sensitivity to inhibition by gefitinib.",
+   "code_problems": [],
+   "id": "15118073-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes in vitro data showing increased sensitivity of EGFR mutants to gefitinib."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

@@ -1,0 +1,127 @@
+{
+ "pmid": "17085664",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 14,
+ "units_total": 14,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 7,
+   "units": [
+    "A2",
+    "A8"
+   ],
+   "quote": "acquired resistance to the tyrosine kinase inhibitors (TKI) gefitinib (Iressa) and erlotinib (Tarceva) has been associated with a second-site EGFR mutation, which leads to substitution of methionine for threonine at position 790 (T790M)",
+   "cited_text": "In patients whose lung adenocarcinomas harbor epidermal growth factor receptor (EGFR) tyrosine kinase domain mutations, acquired resistance to the tyrosine kinase inhibitors (TKI) gefitinib (Iressa) and erlotinib (Tarceva) has been associated with a second-site EGFR mutation, which leads to substitution of methionine for threonine at position 790 (T790M). Seven mutations were T790M and one was a novel D761Y mutation found in a brain metastasis.",
+   "code_problems": [],
+   "id": "17085664-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The text states that acquired resistance to gefitinib and erlotinib in lung adenocarcinoma patients is associated with the EGFR T790M mutation."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "D761Y",
+     "hgvs": "NP_005219.2:p.(Asp761Tyr)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "When combined with a drug-sensitive L858R mutation, the D761Y mutation modestly reduced the sensitivity of mutant EGFR to TKIs",
+   "cited_text": "When combined with a drug-sensitive L858R mutation, the D761Y mutation modestly reduced the sensitivity of mutant EGFR to TKIs in both surrogate kinase and cell viability assays.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "17085664-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The text indicates that the D761Y mutation, when combined with L858R, modestly reduced sensitivity to TKIs in surrogate kinase and cell viability assays."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

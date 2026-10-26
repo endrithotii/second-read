@@ -1,0 +1,335 @@
+{
+ "pmid": "17877814",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 51,
+ "units_total": 179,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Ins770SVD",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "Ins770SVD and Ins774HV confer increased kinase activity, but no erlotinib sensitivity",
+   "cited_text": "Using this assay, we show that the exon 20 insertions Ins770SVD and Ins774HV confer increased kinase activity, but no erlotinib sensitivity.",
+   "code_problems": [
+    "variant Ins770SVD could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "17877814-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that the Ins770SVD insertion confers no erlotinib sensitivity, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant Ins770SVD could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Ins774HV",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "Ins770SVD and Ins774HV confer increased kinase activity, but no erlotinib sensitivity",
+   "cited_text": "Using this assay, we show that the exon 20 insertions Ins770SVD and Ins774HV confer increased kinase activity, but no erlotinib sensitivity.",
+   "code_problems": [
+    "variant Ins774HV could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "17877814-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that the Ins774HV insertion confers no erlotinib sensitivity, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant Ins774HV could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S74"
+   ],
+   "quote": "phosphorylation of Akt induced by S768I was abrogated by 100 nM erlotinib",
+   "cited_text": "The phosphorylation of Akt induced by S768I was abrogated by 100 nM erlotinib, and fibril formation was noted upon treatment with 1 μM or higher concentration of the drug.",
+   "code_problems": [],
+   "id": "17877814-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit indicates that Akt phosphorylation induced by S768I was abrogated by erlotinib, demonstrating drug sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S81"
+   ],
+   "quote": "L858R induced phosphorylation of endogenous Akt, which was inhibited by 10 nM of erlotinib",
+   "cited_text": "In contrast, YFP-EGFR-ICD L858R induced phosphorylation of endogenous Akt, which was inhibited by 10 nM of erlotinib, and 100 nM or higher concentrations of the drug induced fibril formation.",
+   "code_problems": [],
+   "id": "17877814-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit indicates that Akt phosphorylation induced by L858R was inhibited by erlotinib, demonstrating drug sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S63"
+   ],
+   "quote": "the T790M mutation abrogated erlotinib sensitivity",
+   "cited_text": "In line with previous observations [] the T790M mutation abrogated erlotinib sensitivity.",
+   "code_problems": [],
+   "id": "17877814-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit explicitly states that the T790M mutation abrogated erlotinib sensitivity, indicating resistance."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "P848L",
+     "hgvs": "NP_005219.2:p.(Pro848Leu)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S125"
+   ],
+   "quote": "P848L ... did not confer increased kinase activity or erlotinib sensitivity",
+   "cited_text": "On the other hand, our functional analysis indicates that the uncommon exon 21 mutation P848L is not a kinase-activating mutation and does not confer increased sensitivity to erlotinib.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "17877814-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that P848L does not confer increased sensitivity to erlotinib, implying lack of response/resistance compared to sensitive variants."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "A859T",
+     "hgvs": "NP_005219.2:p.(Ala859Thr)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S128"
+   ],
+   "quote": "A859T ... did not confer increased kinase activity or erlotinib sensitivity",
+   "cited_text": "Like P848L, the A859T variant, which has been detected in two non-responding NSCLC patients [,], did not confer increased kinase activity or erlotinib sensitivity in our test.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "17877814-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that A859T did not confer erlotinib sensitivity, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

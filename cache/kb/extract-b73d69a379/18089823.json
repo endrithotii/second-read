@@ -1,0 +1,202 @@
+{
+ "pmid": "18089823",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 9,
+ "units_total": 9,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "a secondary EGFR mutation, T790M, has been identified that renders gefitinib and erlotinib ineffective",
+   "cited_text": "In 50% of such cancers, a secondary EGFR mutation, T790M, has been identified that renders gefitinib and erlotinib ineffective inhibitors of EGFR kinase activity.",
+   "code_problems": [],
+   "id": "18089823-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The text states that the T790M mutation renders gefitinib ineffective, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "a secondary EGFR mutation, T790M, has been identified that renders gefitinib and erlotinib ineffective",
+   "cited_text": "In 50% of such cancers, a secondary EGFR mutation, T790M, has been identified that renders gefitinib and erlotinib ineffective inhibitors of EGFR kinase activity.",
+   "code_problems": [],
+   "id": "18089823-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The text states that the T790M mutation renders erlotinib ineffective, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "PF00299804"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "PF00299804 is a potent inhibitor of EGFR-activating mutations as well as the EGFR T790M resistance mutation",
+   "cited_text": "The results from these studies show that PF00299804 is a potent inhibitor of EGFR-activating mutations as well as the EGFR T790M resistance mutation both in vitro and in vivo.",
+   "code_problems": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ],
+   "id": "18089823-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The text indicates PF00299804 is a potent inhibitor of the T790M mutation in vitro and in vivo, suggesting sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "PF00299804"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "PF00299804 is a potent inhibitor of EGFR-activating mutations as well as the EGFR T790M resistance mutation",
+   "cited_text": "The results from these studies show that PF00299804 is a potent inhibitor of EGFR-activating mutations as well as the EGFR T790M resistance mutation both in vitro and in vivo.",
+   "code_problems": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ],
+   "id": "18089823-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The text indicates PF00299804 is a potent inhibitor of EGFR-activating mutations in vitro and in vivo, suggesting sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'PF00299804' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

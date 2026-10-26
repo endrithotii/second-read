@@ -1,0 +1,157 @@
+{
+ "pmid": "20038723",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 9,
+ "units_total": 9,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A5"
+   ],
+   "quote": "EGFR mutation-positive patients had longer progression-free survival (PFS; hazard ratio [HR], 0.16; 95% CI, 0.05 to 0.49; P = .001) and higher objective response rate (ORR; 42.1% v 21.1%; P = .04)",
+   "cited_text": "EGFR mutation-positive patients had longer progression-free survival (PFS; hazard ratio [HR], 0.16; 95% CI, 0.05 to 0.49; P = .001) and higher objective response rate (ORR; 42.1% v 21.1%; P = .04), and patients with high EGFR copy number had higher ORR (13.0% v 7.4%; P = .04) with gefitinib versus docetaxel.",
+   "code_problems": [],
+   "id": "20038723-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit states that EGFR mutation-positive patients had significantly longer PFS and higher ORR with gefitinib compared to docetaxel, indicating predictive sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A5"
+   ],
+   "quote": "patients with high EGFR copy number had higher ORR (13.0% v 7.4%; P = .04) with gefitinib versus docetaxel",
+   "cited_text": "EGFR mutation-positive patients had longer progression-free survival (PFS; hazard ratio [HR], 0.16; 95% CI, 0.05 to 0.49; P = .001) and higher objective response rate (ORR; 42.1% v 21.1%; P = .04), and patients with high EGFR copy number had higher ORR (13.0% v 7.4%; P = .04) with gefitinib versus docetaxel.",
+   "code_problems": [
+    "variant 'amplification' is not named in the cited units"
+   ],
+   "id": "20038723-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit states that patients with high EGFR copy number (amplification) had a higher ORR with gefitinib compared to docetaxel, indicating predictive sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'amplification' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "There was no statistically significant difference between gefitinib and docetaxel in biomarker-negative patients.",
+   "cited_text": "There was no statistically significant difference between gefitinib and docetaxel in biomarker-negative patients.",
+   "code_problems": [
+    "variant 'wild-type' is not named in the cited units"
+   ],
+   "id": "20038723-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "randomised trial",
+    "reason": "The unit states there was no significant difference between gefitinib and docetaxel in biomarker-negative (wildtype) patients, implying lack of specific benefit or resistance relative to the standard of care."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'wild-type' is not named in the cited units",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS",
+    "models disagree on significance: NA vs RESISTANCE"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

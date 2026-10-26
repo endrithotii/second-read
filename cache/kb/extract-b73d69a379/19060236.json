@@ -1,0 +1,214 @@
+{
+ "pmid": "19060236",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 14,
+ "units_total": 14,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 12,
+   "units": [
+    "A9",
+    "A10"
+   ],
+   "quote": "patients with this mutation pattern had a higher response rate (83% versus 29%)",
+   "cited_text": "Among the 19 patients, 12 had complex mutations with the classical mutation pattern (L858R or deletion in exon 19). When compared with those without the classical mutation pattern, patients with this mutation pattern had a higher response rate (83% versus 29%), longer progression-free survival duration (median, 12.7 months versus 4.9 months), and longer overall survival time (median, 24.7 months versus 12.3 months) after gefitinib treatment.",
+   "code_problems": [],
+   "id": "19060236-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The study reports that patients with the classical mutation pattern (including L858R) had significantly higher response rates and longer survival after gefitinib treatment compared to those without."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 12,
+   "units": [
+    "A9",
+    "A10"
+   ],
+   "quote": "patients with this mutation pattern had a higher response rate (83% versus 29%)",
+   "cited_text": "Among the 19 patients, 12 had complex mutations with the classical mutation pattern (L858R or deletion in exon 19). When compared with those without the classical mutation pattern, patients with this mutation pattern had a higher response rate (83% versus 29%), longer progression-free survival duration (median, 12.7 months versus 4.9 months), and longer overall survival time (median, 24.7 months versus 12.3 months) after gefitinib treatment.",
+   "code_problems": [],
+   "id": "19060236-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The study reports that patients with the classical mutation pattern (including Exon 19 deletion) had significantly higher response rates and longer survival after gefitinib treatment compared to those without."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 12,
+   "units": [
+    "A11"
+   ],
+   "quote": "there were no statistical differences in the response rate (83% versus 73%)",
+   "cited_text": "Comparing patients harboring complex EGFR mutations with a classical mutation pattern with those harboring single classical mutations, there were no statistical differences in the response rate (83% versus 73%), progression-free survival time (median, 12.7 months versus 8.1 months,) or overall survival time (median, 24.7 months versus 16.4 months).",
+   "code_problems": [
+    "variant 'L858R' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 12 is not a number in the cited units"
+   ],
+   "id": "19060236-3",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The cited unit compares complex mutations with single classical mutations and finds no statistical difference in response, which does not support a specific predictive significance for L858R alone in this context."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L858R' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 12 is not a number in the cited units",
+    "second model: supported = no (The cited unit compares complex mutations with single classical mutations and finds no statistical difference in response, which does not support a specific predictive significance for L858R alone in this context.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 12,
+   "units": [
+    "A11"
+   ],
+   "quote": "there were no statistical differences in the response rate (83% versus 73%)",
+   "cited_text": "Comparing patients harboring complex EGFR mutations with a classical mutation pattern with those harboring single classical mutations, there were no statistical differences in the response rate (83% versus 73%), progression-free survival time (median, 12.7 months versus 8.1 months,) or overall survival time (median, 24.7 months versus 16.4 months).",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 12 is not a number in the cited units"
+   ],
+   "id": "19060236-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The cited unit compares complex mutations with single classical mutations and finds no statistical difference in response, which does not support a specific predictive significance for Exon 19 deletion alone in this context."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 12 is not a number in the cited units",
+    "second model: supported = no (The cited unit compares complex mutations with single classical mutations and finds no statistical difference in response, which does not support a specific predictive significance for Exon 19 deletion alone in this context.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

@@ -1,0 +1,407 @@
+{
+ "pmid": "15737014",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 53,
+ "units_total": 249,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 3,
+   "units": [
+    "S120"
+   ],
+   "quote": "the T790M mutation is associated with lesions that progress while on gefitinib or erlotinib.",
+   "cited_text": "Collectively, our results suggest that the T790M mutation is associated with lesions that progress while on gefitinib or erlotinib.",
+   "code_problems": [
+    "patient count 3 is not a number in the cited units"
+   ],
+   "id": "15737014-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that the T790M mutation is associated with lesions that progress while on gefitinib, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 3 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 3,
+   "units": [
+    "S120"
+   ],
+   "quote": "the T790M mutation is associated with lesions that progress while on gefitinib or erlotinib.",
+   "cited_text": "Collectively, our results suggest that the T790M mutation is associated with lesions that progress while on gefitinib or erlotinib.",
+   "code_problems": [
+    "patient count 3 is not a number in the cited units"
+   ],
+   "id": "15737014-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that the T790M mutation is associated with lesions that progress while on erlotinib, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 3 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 3,
+   "units": [
+    "S99"
+   ],
+   "quote": "tumors from all three patients contain EGFR mutations associated with sensitivity to the tyrosine kinase inhibitors gefitinib and erlotinib.",
+   "cited_text": "Collectively, these results demonstrate that tumors from all three patients contain EGFR mutations associated with sensitivity to the tyrosine kinase inhibitors gefitinib and erlotinib.",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ],
+   "id": "15737014-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit states that tumors with EGFR mutations (including Exon 19 Deletion) are associated with sensitivity to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 3,
+   "units": [
+    "S99"
+   ],
+   "quote": "tumors from all three patients contain EGFR mutations associated with sensitivity to the tyrosine kinase inhibitors gefitinib and erlotinib.",
+   "cited_text": "Collectively, these results demonstrate that tumors from all three patients contain EGFR mutations associated with sensitivity to the tyrosine kinase inhibitors gefitinib and erlotinib.",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ],
+   "id": "15737014-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit states that tumors with EGFR mutations (including Exon 19 Deletion) are associated with sensitivity to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S170"
+   ],
+   "quote": "The H3255 cell line, which harbors the L858R mutation ... was sensitive to treatment with gefitinib.",
+   "cited_text": "The H3255 cell line, which harbors the L858R mutation and no other EGFR TK domain mutations (Table 2), was sensitive to treatment with gefitinib, with an IC50 of about 0.01 μmol (Figure 5).",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "15737014-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that the H3255 cell line harboring L858R was sensitive to gefitinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 6,
+   "units": [
+    "A8"
+   ],
+   "quote": "no tumors with acquired resistance had KRAS mutations.",
+   "cited_text": "Moreover, no tumors with acquired resistance had KRAS mutations, which have been associated with primary resistance to these drugs.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 6 is not a number in the cited units"
+   ],
+   "id": "15737014-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that KRAS mutations are associated with primary resistance to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 6 is not a number in the cited units",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "KRAS",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 6,
+   "units": [
+    "A8"
+   ],
+   "quote": "no tumors with acquired resistance had KRAS mutations.",
+   "cited_text": "Moreover, no tumors with acquired resistance had KRAS mutations, which have been associated with primary resistance to these drugs.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 6 is not a number in the cited units"
+   ],
+   "id": "15737014-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that KRAS mutations are associated with primary resistance to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 6 is not a number in the cited units",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'T790M' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "15737014-8",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'T790M' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

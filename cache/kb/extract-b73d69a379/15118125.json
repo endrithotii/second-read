@@ -1,0 +1,61 @@
+{
+ "pmid": "15118125",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 5,
+ "units_total": 5,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "EGFR mutations were found in additional lung cancer samples from U.S. patients who responded to gefitinib therapy",
+   "cited_text": "EGFR mutations were found in additional lung cancer samples from U.S. patients who responded to gefitinib therapy and in a lung adenocarcinoma cell line that was hypersensitive to growth inhibition by gefitinib, but not in gefitinib-insensitive tumors or cell lines.",
+   "code_problems": [],
+   "id": "15118125-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The units state that EGFR mutations were found in patients and cell lines that responded to gefitinib, but not in those that were insensitive, linking the alteration to drug response."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

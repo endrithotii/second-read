@@ -1,0 +1,90 @@
+{
+ "pmid": "20826716",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 14,
+ "units_total": 14,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "increased copy number",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer (NSCLC)",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": 1689,
+   "units": [
+    "A9"
+   ],
+   "quote": "Increased EGFR gene copy number was associated with increased OS (HR = 0.77; 95% CI 0.66-0.89; P = 0.001), PFS (HR = 0.60; 95% CI 0.46-0.79; P<0.001) and TTP (HR = 0.50; 95% CI 0.28-0.91; P = 0.02).",
+   "cited_text": "Increased EGFR gene copy number was associated with increased OS (HR = 0.77; 95% CI 0.66-0.89; P = 0.001), PFS (HR = 0.60; 95% CI 0.46-0.79; P<0.001) and TTP (HR = 0.50; 95% CI 0.28-0.91; P = 0.02).",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1689 is not a number in the cited units",
+    "variant increased copy number could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "20826716-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PROGNOSTIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The cited unit reports associations with overall survival, progression-free survival, and time to progression, which are prognostic outcomes, but does not provide data on response or resistance to erlotinib or gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 1689 is not a number in the cited units",
+    "variant increased copy number could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The cited unit reports associations with overall survival, progression-free survival, and time to progression, which are prognostic outcomes, but does not provide data on response or resistance to erlotinib or gefitinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs PROGNOSTIC",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA",
+    "models disagree on evidence level: E vs B"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": null,
+   "reference": "Ann Oncol. 2011 Jul;22(7):1693"
+  },
+  {
+   "type": "erratum",
+   "pmid": null,
+   "reference": "Ann Oncol. 2011 Sep;22(9):2155"
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

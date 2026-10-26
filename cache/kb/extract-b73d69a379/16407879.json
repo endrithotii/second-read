@@ -1,0 +1,73 @@
+{
+ "pmid": "16407879",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 11,
+ "units_total": 11,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E884K",
+     "hgvs": "NP_005219.2:p.(Glu884Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "stage IV lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A9"
+   ],
+   "quote": "Erlotinib-refractory stage IV lung adenocarcinoma and end-stage symptomatic leptomeningeal metastases with a novel double L858R + E884K somatic mutation of the EGFR.",
+   "cited_text": "Erlotinib-refractory stage IV lung adenocarcinoma and end-stage symptomatic leptomeningeal metastases with a novel double L858R + E884K somatic mutation of the EGFR.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "16407879-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a patient with the EGFR L858R and E884K double mutation who was refractory to erlotinib, indicating resistance to the drug."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}

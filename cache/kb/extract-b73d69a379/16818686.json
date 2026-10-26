@@ -1,0 +1,134 @@
+{
+ "pmid": "16818686",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 16,
+ "units_total": 16,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 36,
+   "units": [
+    "A10"
+   ],
+   "quote": "Patients with an exon 19 deletion had a significantly longer overall survival compared with patients with an L858R mutation (38 versus 17 months; P = 0.04).",
+   "cited_text": "Patients with an exon 19 deletion had a significantly longer overall survival compared with patients with an L858R mutation (38 versus 17 months; P = 0.04).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 36 is not a number in the cited units"
+   ],
+   "id": "16818686-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PROGNOSTIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports a difference in overall survival between two mutation types, which is a prognostic finding, but does not explicitly state that the exon 19 deletion predicts response to gefitinib or erlotinib compared to a wild-type or other reference group in the context of drug efficacy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 36 is not a number in the cited units",
+    "second model: supported = no (The unit reports a difference in overall survival between two mutation types, which is a prognostic finding, but does not explicitly state that the exon 19 deletion predicts response to gefitinib or erlotinib compared to a wild-type or other reference group in the context of drug efficacy.)",
+    "models disagree on evidence_type: PREDICTIVE vs PROGNOSTIC",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 36,
+   "units": [
+    "A11"
+   ],
+   "quote": "There were also trends toward higher response rate (73% versus 50%) and improved time to progression (24 versus 10 months) for the patients with an exon 19 deletion, although these were not independently significant in a multivariate analysis.",
+   "cited_text": "There were also trends toward higher response rate (73% versus 50%) and improved time to progression (24 versus 10 months) for the patients with an exon 19 deletion, although these were not independently significant in a multivariate analysis.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 36 is not a number in the cited units"
+   ],
+   "id": "16818686-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PROGNOSTIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit describes trends in response rate and time to progression between mutation subtypes, which are prognostic indicators, but notes they were not independently significant, and does not establish a predictive link to the specific drugs listed."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 36 is not a number in the cited units",
+    "second model: supported = no (The unit describes trends in response rate and time to progression between mutation subtypes, which are prognostic indicators, but notes they were not independently significant, and does not establish a predictive link to the specific drugs listed.)",
+    "models disagree on evidence_type: PREDICTIVE vs PROGNOSTIC",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-26"
+}
