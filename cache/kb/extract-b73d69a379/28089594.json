@@ -1,0 +1,109 @@
+{
+ "pmid": "28089594",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 16,
+ "units_total": 16,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 19 insertion",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKI"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 18,
+   "units": [
+    "A13"
+   ],
+   "quote": "patients with an exon 19 insertion and treated with an EGFR TKI (n = 18) had a response rate of 56%",
+   "cited_text": "A review of the published data, together with the data from our patients, patients with an exon 19 insertion and treated with an EGFR TKI (n = 18) had a response rate of 56% and a median time to progression of 10.4 months.",
+   "code_problems": [
+    "variant exon 19 insertion could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "28089594-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit reports a 56% response rate in patients with EGFR exon 19 insertions treated with EGFR TKIs, indicating sensitivity to the therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 19 insertion could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKI"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 11,
+   "units": [
+    "A14"
+   ],
+   "quote": "Patients with the exon 20 insertion (A763_Y764 insFQEA) and treated with an EGFR TKI (n = 11) had a response rate of 73%",
+   "cited_text": "Patients with the exon 20 insertion (A763_Y764 insFQEA) and treated with an EGFR TKI (n = 11) had a response rate of 73% and a median time to progression of 5.0 months.",
+   "code_problems": [],
+   "id": "28089594-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports a 73% response rate in patients with EGFR exon 20 insertions treated with EGFR TKIs, indicating sensitivity to the therapy."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

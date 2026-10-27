@@ -1,0 +1,14 @@
+{
+ "pmid": "26229444",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Navigating into the binding pockets of the HER family protein kinases: discovery of novel EGFR inhibitor as antitumor agent."
+}

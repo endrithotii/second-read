@@ -1,0 +1,104 @@
+{
+ "pmid": "25939061",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 15,
+ "units_total": 75,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "expression of this mutant EGFR construct in a cell line rendered it resistant to AZD9291",
+   "cited_text": "We first performed next-generation sequencing of cfDNA from seven subjects and detected an acquired EGFR C797S mutation in one; expression of this mutant EGFR construct in a cell line rendered it resistant to AZD9291.",
+   "code_problems": [],
+   "id": "25939061-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that expression of the EGFR C797S mutant in a cell line rendered it resistant to AZD9291 (osimertinib)."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "advanced lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 6,
+   "units": [
+    "A4"
+   ],
+   "quote": "six cases acquired the C797S mutation",
+   "cited_text": "All were positive for the T790M mutation before treatment, but upon developing AZD9291 resistance three molecular subtypes emerged: six cases acquired the C797S mutation, five cases maintained the T790M mutation but did not acquire the C797S mutation and four cases lost the T790M mutation despite the presence of the underlying EGFR activating mutation.",
+   "code_problems": [],
+   "id": "25939061-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit describes a cohort of patients who developed resistance to AZD9291, with a subset acquiring the EGFR C797S mutation."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

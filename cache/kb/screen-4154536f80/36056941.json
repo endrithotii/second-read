@@ -1,0 +1,14 @@
+{
+ "pmid": "36056941",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Association between dermatologic adverse events and quality of life in lung cancer patients treated with epidermal growth factor receptor-tyrosine kinase inhibitors."
+}

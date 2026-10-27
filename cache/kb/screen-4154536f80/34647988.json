@@ -1,0 +1,14 @@
+{
+ "pmid": "34647988",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 95
+ },
+ "include": true,
+ "confidence": 95.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Treatment Outcomes and Safety of Mobocertinib in Platinum-Pretreated Patients With EGFR Exon 20 Insertion-Positive Metastatic Non-Small Cell Lung Cancer: A Phase 1/2 Open-label Nonrandomized Clinical Trial."
+}

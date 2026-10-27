@@ -1,0 +1,14 @@
+{
+ "pmid": "23846439",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Evaluation of 2 real-time PCR assays for in vitro diagnostic use in the rapid and multiplex detection of EGFR gene mutations in NSCLC."
+}

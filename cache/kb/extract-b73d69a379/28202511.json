@@ -1,0 +1,67 @@
+{
+ "pmid": "28202511",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 8,
+ "units_total": 8,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "THIRD-GENERATION EGFR TYROSINE KINASE INHIBITORS"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A5"
+   ],
+   "quote": "amplification of EGFR wild-type alleles but not mutant alleles was sufficient to confer acquired resistance",
+   "cited_text": "In addition, amplification of EGFR wild-type alleles but not mutant alleles was sufficient to confer acquired resistance.",
+   "code_problems": [
+    "drug 'third-generation EGFR tyrosine kinase inhibitors' is not named in the cited units",
+    "drug 'third-generation EGFR tyrosine kinase inhibitors' not found in ChEMBL"
+   ],
+   "id": "28202511-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that EGFR wild-type amplification confers acquired resistance to third-generation EGFR TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'third-generation EGFR tyrosine kinase inhibitors' is not named in the cited units",
+    "drug 'third-generation EGFR tyrosine kinase inhibitors' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

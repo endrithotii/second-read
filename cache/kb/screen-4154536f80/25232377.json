@@ -1,0 +1,14 @@
+{
+ "pmid": "25232377",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR mutations in patients with non-small cell lung cancer from mainland China and their relationships with clinicopathological features: a meta-analysis."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "28442018",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "[Recent Advances and Prospect of Advanced Non-small Cell Lung Cancer Targeted  Therapy: Focus on Small Molecular Tyrosine Kinase Inhibitors]."
+}

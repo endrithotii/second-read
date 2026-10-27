@@ -1,0 +1,318 @@
+{
+ "pmid": "23470965",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 67,
+ "units_total": 240,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 98,
+   "units": [
+    "A10"
+   ],
+   "quote": "Ninety-eight had second-site EGFR T790M mutations",
+   "cited_text": "Ninety-eight had second-site EGFR T790M mutations [63%; 95% confidence interval (CI), 55%-70%] and four had small cell transformation (3%, 95% CI, 0%-6%).",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "23470965-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports the frequency of T790M mutations in a cohort but does not provide data on drug response or resistance to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "second model: supported = no (The unit reports the frequency of T790M mutations in a cohort but does not provide data on drug response or resistance to erlotinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 98,
+   "units": [
+    "A10"
+   ],
+   "quote": "Ninety-eight had second-site EGFR T790M mutations",
+   "cited_text": "Ninety-eight had second-site EGFR T790M mutations [63%; 95% confidence interval (CI), 55%-70%] and four had small cell transformation (3%, 95% CI, 0%-6%).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "23470965-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports the frequency of T790M mutations in a cohort but does not provide data on drug response or resistance to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = no (The unit reports the frequency of T790M mutations in a cohort but does not provide data on drug response or resistance to gefitinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 4,
+   "units": [
+    "A11"
+   ],
+   "quote": "MET amplification was seen in 4 of 75 (5%; 95% CI, 1%-13%)",
+   "cited_text": "MET amplification was seen in 4 of 75 (5%; 95% CI, 1%-13%).",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "23470965-3",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports the frequency of MET amplification in a cohort but does not provide data on drug response or resistance to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "second model: supported = no (The unit reports the frequency of MET amplification in a cohort but does not provide data on drug response or resistance to erlotinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 4,
+   "units": [
+    "A11"
+   ],
+   "quote": "MET amplification was seen in 4 of 75 (5%; 95% CI, 1%-13%)",
+   "cited_text": "MET amplification was seen in 4 of 75 (5%; 95% CI, 1%-13%).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "23470965-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports the frequency of MET amplification in a cohort but does not provide data on drug response or resistance to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = no (The unit reports the frequency of MET amplification in a cohort but does not provide data on drug response or resistance to gefitinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 3,
+   "units": [
+    "A12"
+   ],
+   "quote": "HER2 amplification was seen in 3 of 24 (13%; 95% CI, 3%-32%)",
+   "cited_text": "HER2 amplification was seen in 3 of 24 (13%; 95% CI, 3%-32%).",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "23470965-5",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports the frequency of HER2 amplification in a cohort but does not provide data on drug response or resistance to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "second model: supported = no (The unit reports the frequency of HER2 amplification in a cohort but does not provide data on drug response or resistance to erlotinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung cancers",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 3,
+   "units": [
+    "A12"
+   ],
+   "quote": "HER2 amplification was seen in 3 of 24 (13%; 95% CI, 3%-32%)",
+   "cited_text": "HER2 amplification was seen in 3 of 24 (13%; 95% CI, 3%-32%).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "23470965-6",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit reports the frequency of HER2 amplification in a cohort but does not provide data on drug response or resistance to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = no (The unit reports the frequency of HER2 amplification in a cohort but does not provide data on drug response or resistance to gefitinib.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

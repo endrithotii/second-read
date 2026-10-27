@@ -1,0 +1,14 @@
+{
+ "pmid": "22133747",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Conversion from the \"oncogene addiction\" to \"drug addiction\" by intensive inhibition of the EGFR and MET in lung cancer with activating EGFR mutation."
+}

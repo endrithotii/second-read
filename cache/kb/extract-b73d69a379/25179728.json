@@ -1,0 +1,114 @@
+{
+ "pmid": "25179728",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 16,
+ "units_total": 16,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 39,
+   "units": [
+    "A4",
+    "A5",
+    "A9",
+    "A10",
+    "A11",
+    "A16"
+   ],
+   "quote": "A very high percentage (72.4%, 21/29) of NSCLC patients with EGFR mutations with PR demonstrates early radiological response to EGFR-TKIs",
+   "cited_text": "Stage IIIB/IV patients with histologically proven NSCLC were enrolled in this study if the tumor cells bore EGFR mutations other than T790M. Eligible patients were treated with either 250 mg of gefitinib or 150 mg of erlotinib once daily. A total of 29 patients (29/39, 74.4%) achieved partial response (PR). Twenty-one patients (21/39, 53.8%) had early radiological response on Day 14. The early radiological response rate in patients with PR was 72.4% (21/29). A very high percentage (72.4%, 21/29) of NSCLC patients with EGFR mutations with PR demonstrates early radiological response to EGFR-TKIs, which would advocate early radiological examination for EGFR-TKI therapy in NSCLC patients.",
+   "code_problems": [],
+   "id": "25179728-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The study reports a high partial response rate (74.4%) in NSCLC patients with EGFR mutations treated with gefitinib (or erlotinib), indicating sensitivity to the drug."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 39,
+   "units": [
+    "A4",
+    "A5",
+    "A9",
+    "A10",
+    "A11",
+    "A16"
+   ],
+   "quote": "A very high percentage (72.4%, 21/29) of NSCLC patients with EGFR mutations with PR demonstrates early radiological response to EGFR-TKIs",
+   "cited_text": "Stage IIIB/IV patients with histologically proven NSCLC were enrolled in this study if the tumor cells bore EGFR mutations other than T790M. Eligible patients were treated with either 250 mg of gefitinib or 150 mg of erlotinib once daily. A total of 29 patients (29/39, 74.4%) achieved partial response (PR). Twenty-one patients (21/39, 53.8%) had early radiological response on Day 14. The early radiological response rate in patients with PR was 72.4% (21/29). A very high percentage (72.4%, 21/29) of NSCLC patients with EGFR mutations with PR demonstrates early radiological response to EGFR-TKIs, which would advocate early radiological examination for EGFR-TKI therapy in NSCLC patients.",
+   "code_problems": [],
+   "id": "25179728-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The study reports a high partial response rate (74.4%) in NSCLC patients with EGFR mutations treated with erlotinib (or gefitinib), indicating sensitivity to the drug."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "31553438",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 60
+ },
+ "include": true,
+ "confidence": 60.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Final overall survival results of WJTOG3405, a randomized phase III trial comparing gefitinib versus cisplatin with docetaxel as the first-line treatment for patients with stage IIIB/IV or postoperative recurrent EGFR mutation-positive non-small-cell lung cancer."
+}

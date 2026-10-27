@@ -1,0 +1,14 @@
+{
+ "pmid": "22763646",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Surrogate end points for survival in the target treatment of advanced non-small-cell lung cancer with gefitinib or erlotinib."
+}

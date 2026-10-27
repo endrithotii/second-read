@@ -1,0 +1,14 @@
+{
+ "pmid": "35139880",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 85
+ },
+ "include": false,
+ "confidence": 85.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Zebrafish patient-derived xenograft models predict lymph node involvement and treatment outcome in non-small cell lung cancer."
+}

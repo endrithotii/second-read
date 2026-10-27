@@ -1,0 +1,14 @@
+{
+ "pmid": "33183014",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 85
+ },
+ "include": true,
+ "confidence": 85.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Multi-line treatment with tyrosine kinase inhibitors enabled in 4-year survival for patient with stage IV lung adenocarcinoma: a case report."
+}

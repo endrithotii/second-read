@@ -1,0 +1,14 @@
+{
+ "pmid": "23982599",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 20
+ },
+ "include": true,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Afatinib: first global approval."
+}

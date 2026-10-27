@@ -1,0 +1,300 @@
+{
+ "pmid": "26773740",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 12,
+ "units_total": 12,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 18 G719",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment",
+   "cited_text": "In particular, exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment, whereas exon 18 S720I showed a particularly poor outcome.",
+   "code_problems": [
+    "variant exon 18 G719 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26773740-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The text states that the EGFR exon 18 G719 mutation confers a good outcome with erlotinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 18 G719 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 19 K757R",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment",
+   "cited_text": "In particular, exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment, whereas exon 18 S720I showed a particularly poor outcome.",
+   "code_problems": [
+    "variant exon 19 K757R could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26773740-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The text states that the EGFR exon 19 K757R mutation confers a good outcome with erlotinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 19 K757R could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 19 E746G",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment",
+   "cited_text": "In particular, exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment, whereas exon 18 S720I showed a particularly poor outcome.",
+   "code_problems": [
+    "variant exon 19 E746G could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26773740-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The text states that the EGFR exon 19 E746G mutation confers a good outcome with erlotinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 19 E746G could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 20 S768I",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment",
+   "cited_text": "In particular, exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment, whereas exon 18 S720I showed a particularly poor outcome.",
+   "code_problems": [
+    "variant exon 20 S768I could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26773740-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The text states that the EGFR exon 20 S768I mutation confers a good outcome with erlotinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 20 S768I could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 21 G836S",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment",
+   "cited_text": "In particular, exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment, whereas exon 18 S720I showed a particularly poor outcome.",
+   "code_problems": [
+    "variant exon 21 G836S could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26773740-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The text states that the EGFR exon 21 G836S mutation confers a good outcome with erlotinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 21 G836S could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 18 S720I",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "exon 18 S720I showed a particularly poor outcome",
+   "cited_text": "In particular, exon 18 G719 mutations, exon 19 K757R and E746G mutations, the exon 20 S768I mutation, and the exon 21 G836S mutation appeared to confer a good outcome with erlotinib treatment, whereas exon 18 S720I showed a particularly poor outcome.",
+   "code_problems": [
+    "variant exon 18 S720I could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26773740-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The text states that the EGFR exon 18 S720I mutation shows a particularly poor outcome with erlotinib treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 18 S720I could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

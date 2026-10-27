@@ -1,0 +1,14 @@
+{
+ "pmid": "26171184",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Plasma neuron-specific enolase level as a prognostic marker in patients with non-small cell lung cancer receiving gefitinib."
+}

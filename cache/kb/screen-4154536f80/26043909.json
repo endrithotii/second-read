@@ -1,0 +1,14 @@
+{
+ "pmid": "26043909",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "A phase II trial of erlotinib monotherapy for pretreated elderly patients with advanced EGFR wild-type non-small cell lung cancer."
+}

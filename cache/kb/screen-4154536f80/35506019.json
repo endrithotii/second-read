@@ -1,0 +1,14 @@
+{
+ "pmid": "35506019",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Deconstructing ADAURA: It is Time to Forgo Adjuvant Platinum-Based Chemotherapy in Resected IB-IIIA EGFR+ NSCLC (Except with RB Alterations?) When Adopting Adjuvant Osimertinib."
+}

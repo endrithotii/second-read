@@ -1,0 +1,14 @@
+{
+ "pmid": "26773740",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Examining Treatment Outcomes with Erlotinib in Patients with Advanced Non-Small Cell Lung Cancer Whose Tumors Harbor Uncommon EGFR Mutations."
+}

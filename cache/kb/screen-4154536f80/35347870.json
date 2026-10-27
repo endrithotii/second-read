@@ -1,0 +1,14 @@
+{
+ "pmid": "35347870",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Establishment of prognostic nomograms for predicting the progression free survival of EGFR-sensitizing mutation, advanced lung cancer patients treated with EGFR-TKIs."
+}

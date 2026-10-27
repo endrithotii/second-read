@@ -1,0 +1,14 @@
+{
+ "pmid": "33894221",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "IRS4 promotes the progression of non-small cell lung cancer and confers resistance to EGFR-TKI through the activation of PI3K/Akt and Ras-MAPK pathways."
+}

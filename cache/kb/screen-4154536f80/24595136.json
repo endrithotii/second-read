@@ -1,0 +1,14 @@
+{
+ "pmid": "24595136",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": false,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Antitumor effects of a novel chromosome region maintenance 1 (CRM1) inhibitor on non-small cell lung cancer cells in vitro and in mouse tumor xenografts."
+}

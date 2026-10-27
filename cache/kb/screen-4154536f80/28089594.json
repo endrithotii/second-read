@@ -1,0 +1,14 @@
+{
+ "pmid": "28089594",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor-sensitive Exon 19 Insertion and Exon 20 Insertion in Patients With Advanced Non-Small-cell Lung Cancer."
+}

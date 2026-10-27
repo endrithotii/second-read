@@ -1,0 +1,156 @@
+{
+ "pmid": "24893891",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 50,
+ "units_total": 302,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S68"
+   ],
+   "quote": "only AZD9291 displayed low nanomolar activity against the lines harboring EGFR T790M (H1975, HCC827/ER1, PC-9/BRc1 and H3255/XLR)",
+   "cited_text": "However, only AZD9291 displayed low nanomolar activity against the lines harboring EGFR T790M (H1975, HCC827/ER1, PC-9/BRc1 and H3255/XLR) (Fig. 3B).",
+   "code_problems": [],
+   "id": "24893891-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that AZD9291 (osimertinib) displayed low nanomolar activity against cell lines harboring EGFR T790M, indicating sensitivity in preclinical models."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 2,
+   "units": [
+    "A7"
+   ],
+   "quote": "The treatment of 2 patients with advanced EGFRm(+) T790M(+) NSCLC is described as proof of principle",
+   "cited_text": "The treatment of 2 patients with advanced EGFRm(+) T790M(+) NSCLC is described as proof of principle.",
+   "code_problems": [
+    "drug 'AZD9291' is not named in the cited units"
+   ],
+   "id": "24893891-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes the treatment of 2 patients with EGFR T790M NSCLC as a proof of principle, implying a positive response to osimertinib in this specific patient population."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZD9291' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'L858R' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "24893891-3",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'L858R' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

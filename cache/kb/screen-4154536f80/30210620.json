@@ -1,0 +1,14 @@
+{
+ "pmid": "30210620",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 30
+ },
+ "include": true,
+ "confidence": 30.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Impact of menopausal status and HER-2/neu protein on efficacy of EGFR-TKI in EGFR mutant patients with non-small cell lung cancer."
+}

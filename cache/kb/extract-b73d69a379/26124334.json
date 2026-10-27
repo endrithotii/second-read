@@ -1,0 +1,362 @@
+{
+ "pmid": "26124334",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 16,
+ "units_total": 16,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "G719",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A15"
+   ],
+   "quote": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "cited_text": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "code_problems": [
+    "variant 'G719X' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "26124334-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with minor EGFR mutations (including G719) exhibited a modest response to EGFR-TKIs like gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'G719X' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "G719",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A15"
+   ],
+   "quote": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "cited_text": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "code_problems": [
+    "variant 'G719X' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "26124334-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with minor EGFR mutations (including G719) exhibited a modest response to EGFR-TKIs like erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'G719X' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L861Q",
+     "hgvs": "NP_005219.2:p.(Leu861Gln)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A15"
+   ],
+   "quote": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "cited_text": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "code_problems": [
+    "variant 'L861Q' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "26124334-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with minor EGFR mutations (including L861Q) exhibited a modest response to EGFR-TKIs like gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L861Q' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L861Q",
+     "hgvs": "NP_005219.2:p.(Leu861Gln)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A15"
+   ],
+   "quote": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "cited_text": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "code_problems": [
+    "variant 'L861Q' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "26124334-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with minor EGFR mutations (including L861Q) exhibited a modest response to EGFR-TKIs like erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L861Q' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G874S",
+     "hgvs": "NP_005219.2:p.(Gly874Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A15"
+   ],
+   "quote": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "cited_text": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "code_problems": [
+    "variant 'G874S' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "26124334-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with minor EGFR mutations (including G874S) exhibited a modest response to EGFR-TKIs like gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'G874S' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G874S",
+     "hgvs": "NP_005219.2:p.(Gly874Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A15"
+   ],
+   "quote": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "cited_text": "Patients with NSCLC harboring minor mutations of the EGFR gene exhibited a modest response to EGFR-TKI treatment.",
+   "code_problems": [
+    "variant 'G874S' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "26124334-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with minor EGFR mutations (including G874S) exhibited a modest response to EGFR-TKIs like erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'G874S' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "G719",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A13"
+   ],
+   "quote": "erlotinib therapy was associated with a longer PFS than gefitinib",
+   "cited_text": "In multivariate Cox analysis, erlotinib therapy was associated with a longer PFS than gefitinib (p=0.025).",
+   "code_problems": [
+    "variant 'G719X' is not named in the cited units"
+   ],
+   "id": "26124334-7",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The unit compares erlotinib and gefitinib outcomes generally but does not specify the EGFR G719 mutation or link the drug response to this specific alteration."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'G719X' is not named in the cited units",
+    "second model: supported = no (The unit compares erlotinib and gefitinib outcomes generally but does not specify the EGFR G719 mutation or link the drug response to this specific alteration.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "20826716",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR gene copy number as a predictive biomarker for patients receiving tyrosine kinase inhibitor treatment: a systematic review and meta-analysis in non-small-cell lung cancer."
+}

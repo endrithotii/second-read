@@ -1,0 +1,14 @@
+{
+ "pmid": "21549910",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 35
+ },
+ "include": true,
+ "confidence": 35.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "[A simple view on lung cancer biology: The EGFR pathway]."
+}

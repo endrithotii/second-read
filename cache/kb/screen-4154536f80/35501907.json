@@ -1,0 +1,14 @@
+{
+ "pmid": "35501907",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Sequence-dependent synergistic effect of aumolertinib-pemetrexed combined therapy on EGFR-mutant non-small-cell lung carcinoma with pre-clinical and clinical evidence."
+}

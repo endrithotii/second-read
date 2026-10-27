@@ -1,0 +1,244 @@
+{
+ "pmid": "27032107",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 56,
+ "units_total": 367,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKI"
+    }
+   ],
+   "disease_written": "advanced adenocarcinoma of the lung",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S5"
+   ],
+   "quote": "mutations in the exons coding for the intracellular EGFR kinase domain, in particular in exon 19 and 21 highly increase the sensitivity to EGFR TKI’s",
+   "cited_text": "Ten years ago it became clear that mutations in the exons coding for the intracellular EGFR kinase domain, in particular in exon 19 and 21 highly increase the sensitivity to EGFR TKI’s [, ].",
+   "code_problems": [],
+   "id": "27032107-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states that exon 19 deletions highly increase sensitivity to EGFR TKIs."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKI"
+    }
+   ],
+   "disease_written": "advanced adenocarcinoma of the lung",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S5"
+   ],
+   "quote": "mutations in the exons coding for the intracellular EGFR kinase domain, in particular in exon 19 and 21 highly increase the sensitivity to EGFR TKI’s",
+   "cited_text": "Ten years ago it became clear that mutations in the exons coding for the intracellular EGFR kinase domain, in particular in exon 19 and 21 highly increase the sensitivity to EGFR TKI’s [, ].",
+   "code_problems": [],
+   "id": "27032107-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states that mutations in the kinase domain (exons 19 and 21) increase sensitivity to EGFR TKIs."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKI"
+    }
+   ],
+   "disease_written": "advanced adenocarcinoma of the lung",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S8"
+   ],
+   "quote": "Mutations in exon 20 are generally not associated with increased sensitivity towards reversible TKI’s",
+   "cited_text": "Mutations in exon 20 are generally not associated with increased sensitivity towards reversible TKI’s [].",
+   "code_problems": [
+    "drug 'EGFR TKI' is not named in the cited units"
+   ],
+   "id": "27032107-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The text states that exon 20 mutations are generally not associated with increased sensitivity, implying resistance or lack of benefit."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKI' is not named in the cited units",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKI"
+    }
+   ],
+   "disease_written": "advanced adenocarcinoma of the lung",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S103"
+   ],
+   "quote": "One patient with an exon 18 mutation that is generally sensitive to EGFR TKI [], failed immediately",
+   "cited_text": "One patient with an exon 18 mutation that is generally sensitive to EGFR TKI [], failed immediately, received one second line of therapy and survived for 9 months.",
+   "code_problems": [],
+   "id": "27032107-4",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The text describes a single patient with an exon 18 mutation who failed therapy, contradicting the general statement that it is sensitive."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = partly (The text describes a single patient with an exon 18 mutation who failed therapy, contradicting the general statement that it is sensitive.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "advanced adenocarcinoma of the lung",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 46,
+   "units": [
+    "S180"
+   ],
+   "quote": "erlotinib was well tolerated and highly effective in the majority of the patients",
+   "cited_text": "In this prospective phase II study in phenotypically selected patients with a somatic EGFR mutation in their tumor erlotinib was well tolerated and highly effective in the majority of the patients.",
+   "code_problems": [
+    "patient count 46 is not a number in the cited units"
+   ],
+   "id": "27032107-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The text describes a prospective phase II study showing erlotinib was highly effective in patients with somatic EGFR mutations."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 46 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

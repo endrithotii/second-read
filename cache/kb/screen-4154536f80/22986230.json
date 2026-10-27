@@ -1,0 +1,14 @@
+{
+ "pmid": "22986230",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Photodynamic therapy activated signaling from epidermal growth factor receptor and STAT3: Targeting survival pathways to increase PDT efficacy in ovarian and lung cancer."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "35245845",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR-RAD51 fusion in lung adenocarcinoma with systemic and intracranial response to osimertinib: A case report and review of the literature."
+}

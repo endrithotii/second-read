@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27 05:19 UTC",
+ "generated": "2026-10-27 15:24 UTC",
  "ground_truth": {
   "items": 385,
   "papers": 155,
@@ -26,135 +26,144 @@
   }
  },
  "screening": {
-  "done": 19,
+  "done": 249,
   "planned": 302,
-  "positives_screened": 19,
-  "negatives_screened": 0,
+  "positives_screened": 102,
+  "negatives_screened": 147,
   "negative_weight": 83.225,
   "pool": 16786,
   "recall": {
-   "value": 0.9473684210526315,
-   "low": 0.7536078466345479,
-   "high": 0.99064824750947
+   "value": 0.9019607843137255,
+   "low": 0.8288700711192171,
+   "high": 0.9458725631569088
   },
   "precision": {
-   "value": 1.0,
-   "low": 1.0,
-   "high": 1.0
+   "value": 0.011502336412083706,
+   "low": 0.008793337099256185,
+   "high": 0.01511333216894139
   },
   "wss95": {
-   "value": -0.050000000000000044,
-   "low": -0.050000000000000044,
-   "high": -0.050000000000000044
+   "value": 0.267489558064456,
+   "low": 0.0015953521669673232,
+   "high": 0.3551211954767097
   },
-  "included_share": 0.9473684210526315,
+  "included_share": 0.6483727603796183,
   "missed": [
-   "15310767"
+   "15310767",
+   "20493771",
+   "22025157",
+   "22452896",
+   "25668228",
+   "27664271",
+   "28874593",
+   "29967253",
+   "37197637",
+   "38591867"
   ]
  },
  "extraction": {
-  "papers": 40,
+  "papers": 81,
   "papers_planned": 111,
-  "full_text_papers": 5,
-  "entries": 116,
-  "curated_items": 137,
+  "full_text_papers": 21,
+  "entries": 257,
+  "curated_items": 216,
   "item_recall": {
-   "value": 0.18248175182481752,
-   "low": 0.12676767353162915,
-   "high": 0.2555171059653377
+   "value": 0.21296296296296297,
+   "low": 0.16362770184731149,
+   "high": 0.27232982393488814
   },
   "item_recall_full_text": {
-   "value": 0.36,
-   "low": 0.20247656431735636,
-   "high": 0.5548184539895337,
-   "n": 25
+   "value": 0.32727272727272727,
+   "low": 0.21812895688825168,
+   "high": 0.45897023823900523,
+   "n": 55
   },
   "item_recall_abstract_only": {
-   "value": 0.14285714285714285,
-   "low": 0.08988584177181091,
-   "high": 0.21951596207067742,
-   "n": 112
+   "value": 0.17391304347826086,
+   "low": 0.12315244833826253,
+   "high": 0.23987241917090987,
+   "n": 161
   },
   "entry_precision_vs_civic": {
-   "value": 0.21551724137931033,
-   "low": 0.15045569151310173,
-   "high": 0.2988173489002438
+   "value": 0.17898832684824903,
+   "low": 0.13695487901767908,
+   "high": 0.23047730971295285
   },
   "field_accuracy": {
    "drugs": {
-    "value": 0.84,
-    "low": 0.6534598601976183,
-    "high": 0.9359665239142201,
-    "n": 25
+    "value": 0.8913043478260869,
+    "low": 0.7696189698736853,
+    "high": 0.9526692391725731,
+    "n": 46
    },
    "disease": {
-    "value": 1.0,
-    "low": 0.8668035060468213,
-    "high": 1.0,
-    "n": 25
+    "value": 0.9782608695652174,
+    "low": 0.8866444550566697,
+    "high": 0.9961522448887572,
+    "n": 46
    },
    "evidence_type": {
     "value": 1.0,
-    "low": 0.8668035060468213,
+    "low": 0.9229238226702192,
     "high": 1.0,
-    "n": 25
+    "n": 46
    },
    "direction": {
-    "value": 0.96,
-    "low": 0.8045552759497747,
-    "high": 0.9929039496133008,
-    "n": 25
+    "value": 0.8913043478260869,
+    "low": 0.7696189698736853,
+    "high": 0.9526692391725731,
+    "n": 46
    },
    "significance": {
-    "value": 0.92,
-    "low": 0.7503348787704218,
-    "high": 0.977780066308908,
-    "n": 25
+    "value": 0.9130434782608695,
+    "low": 0.796750643647758,
+    "high": 0.9656646881232924,
+    "n": 46
    },
    "level": {
-    "value": 0.8,
-    "low": 0.6086866446346177,
-    "high": 0.9113954589934752,
-    "n": 25
+    "value": 0.6956521739130435,
+    "low": 0.5519408125976183,
+    "high": 0.8092032919255109,
+    "n": 46
    }
   },
   "kappa": {
    "evidence_type": {
-    "value": 0.18181818181818213,
-    "low": -0.028880866425992503,
-    "high": 0.4264150943396226,
-    "n": 114
+    "value": 0.1238480871265007,
+    "low": -0.013039428748836348,
+    "high": 0.29259543940558497,
+    "n": 251
    },
    "direction": {
-    "value": 0.3351749539594846,
-    "low": 0.09177820267686428,
-    "high": 0.564885496183206,
-    "n": 114
+    "value": 0.4621261529861174,
+    "low": 0.2611720631522612,
+    "high": 0.6384443021766962,
+    "n": 251
    },
    "significance": {
-    "value": 0.6752522255192879,
-    "low": 0.5660758891400024,
-    "high": 0.7771115745568301,
-    "n": 114
+    "value": 0.7449519293400382,
+    "low": 0.6732961940959025,
+    "high": 0.8156971526474667,
+    "n": 251
    },
    "level": {
-    "value": 0.687632332793623,
-    "low": 0.5772919064058305,
-    "high": 0.7987389659520806,
-    "n": 114
+    "value": 0.739007724301842,
+    "low": 0.6693501170960187,
+    "high": 0.8018746916625553,
+    "n": 251
    }
   },
   "to_person": {
-   "value": 0.8017241379310345,
-   "low": 0.7200161148585192,
-   "high": 0.8640882362182353
+   "value": 0.8443579766536965,
+   "low": 0.795000916489344,
+   "high": 0.8835718265087052
   },
-  "accepted": 23,
-  "accepted_matched": 10,
+  "accepted": 40,
+  "accepted_matched": 15,
   "accepted_error_rate": {
    "value": 0.4,
-   "low": 0.16817758120350967,
-   "high": 0.6873304525498135
+   "low": 0.19824228082594664,
+   "high": 0.642535572434923
   },
   "accepted_errors": [
    {
@@ -191,64 +200,81 @@
      "significance",
      "level"
     ]
+   },
+   {
+    "pmid": "26269204",
+    "entry": "26269204-1",
+    "civic": 2157,
+    "wrong": [
+     "level"
+    ]
+   },
+   {
+    "pmid": "27211795",
+    "entry": "27211795-5",
+    "civic": 2906,
+    "wrong": [
+     "direction",
+     "level"
+    ]
    }
   ],
-  "accepted_not_in_civic": 13,
+  "accepted_not_in_civic": 25,
   "reasons": [
    [
     "drug",
-    67
+    142
    ],
    [
     "variant",
-    39
+    69
    ],
    [
     "second model",
-    27
-   ],
-   [
-    "models disagree on significance",
-    24
+    46
    ],
    [
     "models disagree on evidence level",
-    22
-   ],
-   [
-    "models disagree on direction",
-    19
+    42
    ],
    [
     "quote is not in the cited units",
-    17
+    40
+   ],
+   [
+    "models disagree on significance",
+    39
    ],
    [
     "models disagree on evidence_type",
-    15
+    25
    ],
    [
     "patient count 1 is not a number in the cited units",
-    12
+    23
    ],
    [
-    "patient count 54 is not a number in the cited units",
-    3
+    "models disagree on direction",
+    23
    ],
    [
-    "variant N771GY could not be validated",
-    3
+    "disease",
+    17
    ],
    [
-    "patient count 166 is not a number in the cited units",
-    3
+    "quote missing or too short",
+    7
+   ],
+   [
+    "variant L858R/T790M could not be validated",
+    7
    ]
   ],
   "kb_labels": {
-   "supports": 42,
-   "refines": 17,
-   "new": 54,
-   "contradicts": 3
+   "supports": 73,
+   "refines": 34,
+   "new": 141,
+   "contradicts": 9
   },
   "missed_items": [
    {
@@ -1266,16 +1292,550 @@
      "Erlotinib"
     ],
     "source": "abstract only"
+   },
+   {
+    "pmid": "22901364",
+    "eid": 923,
+    "profile": "EGFR Y1092 PHOSPHORYLATION",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "23749122",
+    "eid": 6177,
+    "profile": "EGFR A750T",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23749122",
+    "eid": 6181,
+    "profile": "EGFR G719A",
+    "therapies": [
+     "Erlotinib",
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23749122",
+    "eid": 6182,
+    "profile": "EGFR R705K",
+    "therapies": [
+     "Erlotinib",
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2154,
+    "profile": "EGFR L747_S752del",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2516,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2528,
+    "profile": "EGFR E746_T751>I",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2541,
+    "profile": "EGFR E746V",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2551,
+    "profile": "EGFR L747_A750delinsP",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2562,
+    "profile": "EGFR L747_T751delinsQ",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2572,
+    "profile": "EGFR E746_S752delinsD",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2582,
+    "profile": "EGFR L747_T751delinsP",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2590,
+    "profile": "EGFR L747_T751delLREAT",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2600,
+    "profile": "EGFR L747_P753>Q",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23816960",
+    "eid": 2611,
+    "profile": "EGFR L747_P753delinsS",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "23982599",
+    "eid": 2997,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "24457318",
+    "eid": 275,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "24755888",
+    "eid": 2156,
+    "profile": "EGFR L858R OR EGFR Exon 19 Deletion",
+    "therapies": [
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "24893891",
+    "eid": 2514,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Gefitinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "24893891",
+    "eid": 2625,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Gefitinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "24893891",
+    "eid": 4199,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "24893891",
+    "eid": 4293,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "24893891",
+    "eid": 4294,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "25179728",
+    "eid": 6036,
+    "profile": "EGFR G719A AND EGFR E709K",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "25668228",
+    "eid": 238,
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "25853010",
+    "eid": 3808,
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "25853010",
+    "eid": 4202,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "26096453",
+    "eid": 9222,
+    "profile": "EGFR Exon 20 Insertion",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "26124334",
+    "eid": 1736,
+    "profile": "EGFR G719S",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26206867",
+    "eid": 6038,
+    "profile": "EGFR Exon 18 deletion",
+    "therapies": [
+     "Erlotinib",
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26720284",
+    "eid": 966,
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26722081",
+    "eid": 977,
+    "profile": "EGFR Amplification",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26773740",
+    "eid": 1780,
+    "profile": "EGFR G719",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26773740",
+    "eid": 1782,
+    "profile": "EGFR S720",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26773740",
+    "eid": 1786,
+    "profile": "EGFR K757R",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26773740",
+    "eid": 1787,
+    "profile": "EGFR E746G",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26773740",
+    "eid": 1789,
+    "profile": "EGFR Exon 20 Insertion",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "26773740",
+    "eid": 1799,
+    "profile": "EGFR V769_D770insASV",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "27022112",
+    "eid": 6183,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "27022112",
+    "eid": 6184,
+    "profile": "EGFR Exon 19 Deletion",
+    "therapies": [
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "27022112",
+    "eid": 6186,
+    "profile": "EGFR Rare Mutation",
+    "therapies": [
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "27032107",
+    "eid": 4196,
+    "profile": "EGFR G719A",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27032107",
+    "eid": 4207,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27032107",
+    "eid": 4270,
+    "profile": "EGFR L747_P753delinsS",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27032107",
+    "eid": 4290,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27032107",
+    "eid": 4490,
+    "profile": "EGFR S768_D770dup",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27032107",
+    "eid": 4796,
+    "profile": "EGFR N771delinsVH",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27083334",
+    "eid": 1728,
+    "profile": "EGFR Mutation",
+    "therapies": [
+     "Afatinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "27102076",
+    "eid": 4291,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27304188",
+    "eid": 1667,
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Gefitinib",
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27612423",
+    "eid": 4204,
+    "profile": "EGFR E746_A750del",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27612423",
+    "eid": 4287,
+    "profile": "EGFR L858R",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27664271",
+    "eid": 5925,
+    "profile": "EGFR Amplification",
+    "therapies": [
+     "Erlotinib",
+     "Gefitinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "27959700",
+    "eid": 11598,
+    "profile": "EGFR T790M AND EGFR Exon 19 Deletion",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "27959700",
+    "eid": 11599,
+    "profile": "EGFR L858R AND EGFR T790M",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "28089594",
+    "eid": 11320,
+    "profile": "EGFR A763_Y764insFQEA",
+    "therapies": [
+     "Erlotinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "28202511",
+    "eid": 3015,
+    "profile": "EGFR Amplification",
+    "therapies": [
+     "Osimertinib",
+     "Rociletinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "28874593",
+    "eid": 6006,
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "abstract only"
    }
   ]
  },
  "osimertinib_resistance": {
   "items": 11,
-  "evaluated": 0,
+  "evaluated": 2,
   "recall": {
-   "value": null,
-   "low": null,
-   "high": null
+   "value": 0.5,
+   "low": 0.09452865480086614,
+   "high": 0.9054713451991339
   }
  },
  "time_travel": {
@@ -1566,60 +2126,60 @@
  },
  "pubtator": {
   "specific": {
-   "n": 120,
+   "n": 188,
    "system": {
-    "value": 0.19166666666666668,
-    "low": 0.13124933052612614,
-    "high": 0.2712131699583638
+    "value": 0.25,
+    "low": 0.19352676756262174,
+    "high": 0.316485659356253
    },
    "pubtator": {
-    "value": 0.16666666666666666,
-    "low": 0.11055912012704824,
-    "high": 0.24345439391023813
+    "value": 0.2553191489361702,
+    "low": 0.1983208815164517,
+    "high": 0.32211681291478744
    },
-   "only_system": 4,
-   "only_pubtator": 1
+   "only_system": 7,
+   "only_pubtator": 8
   },
   "category": {
-   "n": 20,
+   "n": 36,
    "system": {
-    "value": 0.5,
-    "low": 0.2992949144298199,
-    "high": 0.7007050855701801
+    "value": 0.5555555555555556,
+    "low": 0.3958078731600341,
+    "high": 0.7045897012345685
    },
    "pubtator": {
     "value": 0.0,
     "low": 0.0,
-    "high": 0.16113012549493322
+    "high": 0.09642183044857634
    },
-   "only_system": 10,
+   "only_system": 20,
    "only_pubtator": 0
   },
   "listed_per_paper": {
-   "pubtator": 1.375,
-   "system": 2.125
+   "pubtator": 2.45679012345679,
+   "system": 2.1604938271604937
   },
   "share_listed_that_curators_recorded": {
-   "pubtator": 0.32727272727272727,
-   "system": 0.35294117647058826
+   "pubtator": 0.22110552763819097,
+   "system": 0.3485714285714286
   }
  },
  "prisma": {
   "identified_by_search": 16786,
   "civic_papers": 155,
   "civic_papers_found_by_search": 141,
-  "screened_sample": 19,
-  "extracted_papers": 40,
-  "full_text": 5,
-  "abstract_only": 35,
+  "screened_sample": 249,
+  "extracted_papers": 81,
+  "full_text": 21,
+  "abstract_only": 60,
   "abstract_only_reasons": {
-   "no PubMed Central copy": 31,
-   "PMC record has no body text (not in the open-access subset or author manuscripts)": 4
+   "no PubMed Central copy": 54,
+   "PMC record has no body text (not in the open-access subset or author manuscripts)": 6
   },
   "retracted": 0,
-  "with_corrections": 4,
-  "entries": 116,
-  "accepted": 23,
-  "to_person": 93
+  "with_corrections": 5,
+  "entries": 257,
+  "accepted": 40,
+  "to_person": 217
  }
 }

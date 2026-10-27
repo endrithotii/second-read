@@ -1,0 +1,14 @@
+{
+ "pmid": "21531810",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Effectiveness of tyrosine kinase inhibitors on \"uncommon\" epidermal growth factor receptor mutations of unknown clinical significance in non-small cell lung cancer."
+}

@@ -1,0 +1,114 @@
+{
+ "pmid": "24868098",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 12,
+ "units_total": 12,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "erlotinib ... for the first-line treatment of patients ... whose tumors have epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations.",
+   "cited_text": "Food and Drug Administration approved erlotinib (Tarceva, Astellas Pharma Inc., Northbrook, IL, http://www.us.astellas.com/) for the first-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "24868098-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "guideline or regulatory approval",
+    "reason": "The FDA approval indicates that EGFR Exon 19 Deletion predicts response to erlotinib in metastatic NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "models disagree on evidence level: B vs A"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "erlotinib ... for the first-line treatment of patients ... whose tumors have epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations.",
+   "cited_text": "Food and Drug Administration approved erlotinib (Tarceva, Astellas Pharma Inc., Northbrook, IL, http://www.us.astellas.com/) for the first-line treatment of patients with metastatic non-small cell lung cancer (NSCLC) whose tumors have epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 (L858R) substitution mutations.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "24868098-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "guideline or regulatory approval",
+    "reason": "The FDA approval indicates that EGFR L858R predicts response to erlotinib in metastatic NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "models disagree on evidence level: B vs A"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

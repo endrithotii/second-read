@@ -1,0 +1,14 @@
+{
+ "pmid": "31675534",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Additional bevacizumab in EGFR-mutant lung adenocarcinoma patients who had oligo-progression after the failure of EGFR-TKI: A single-institute retrospective study."
+}

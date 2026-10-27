@@ -1,0 +1,14 @@
+{
+ "pmid": "27210094",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 30
+ },
+ "include": true,
+ "confidence": 30.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "[A Patient with Lung Adenocarcinoma, Lymphangitis Carcinomatosa, and Multiple Bone Metastases Who Achieved Long-Term Survival after Successful Treatment with Carboplatin, Paclitaxel, and Bevacizumab]."
+}

@@ -1,0 +1,114 @@
+{
+ "pmid": "23982599",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 8,
+ "units_total": 8,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "metastatic non-small-cell lung cancer (NSCLC)",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "guideline or regulatory approval",
+   "level": "A",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Afatinib has been approved in the US for the first-line treatment of patients with metastatic non-small-cell lung cancer (NSCLC) who have tumours with EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by a US FDA‑approved test.",
+   "cited_text": "Oral afatinib (GilotrifTM) has been approved in the US for the first-line treatment of patients with metastatic non-small-cell lung cancer (NSCLC) who have tumours with EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by a US FDA-approved test.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "23982599-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "guideline or regulatory approval",
+    "reason": "The unit states that afatinib is approved for first-line treatment of metastatic NSCLC patients with EGFR exon 19 deletions, indicating a predictive association with response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 21 (L858R) substitution",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "metastatic non-small-cell lung cancer (NSCLC)",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "guideline or regulatory approval",
+   "level": "A",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Afatinib has been approved in the US for the first-line treatment of patients with metastatic non-small-cell lung cancer (NSCLC) who have tumours with EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by a US FDA‑approved test.",
+   "cited_text": "Oral afatinib (GilotrifTM) has been approved in the US for the first-line treatment of patients with metastatic non-small-cell lung cancer (NSCLC) who have tumours with EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by a US FDA-approved test.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant exon 21 (L858R) substitution could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "23982599-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "guideline or regulatory approval",
+    "reason": "The unit states that afatinib is approved for first-line treatment of metastatic NSCLC patients with EGFR exon 21 (L858R) mutations, indicating a predictive association with response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant exon 21 (L858R) substitution could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

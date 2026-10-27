@@ -1,0 +1,14 @@
+{
+ "pmid": "23749122",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Routine EGFR molecular analysis in non-small-cell lung cancer patients is feasible: exons 18-21 sequencing results of 753 patients and subsequent clinical outcomes."
+}

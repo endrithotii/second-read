@@ -1,0 +1,274 @@
+{
+ "pmid": "22901364",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 70,
+ "units_total": 597,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "phosphorylated Tyr1068",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKIS"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 205,
+   "units": [
+    "A10"
+   ],
+   "quote": "Superior progression-free survival (PFS) was seen after EGFR-TKIs therapy in patients with pTyr1068 expression compared to pTyr1068 negative ones (median PFS 7.0 months vs. 1.2 months, P < 0.001).",
+   "cited_text": "Superior progression-free survival (PFS) was seen after EGFR-TKIs therapy in patients with pTyr1068 expression compared to pTyr1068 negative ones (median PFS 7.0 months vs. 1.2 months, P < 0.001).",
+   "code_problems": [
+    "patient count 205 is not a number in the cited units",
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ],
+   "id": "22901364-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports superior progression-free survival in patients with pTyr1068 expression treated with EGFR-TKIs, indicating predictive value for response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 205 is not a number in the cited units",
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "phosphorylated Tyr1173",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKIS"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 205,
+   "units": [
+    "A11"
+   ],
+   "quote": "Inversely, patients with pTyr1173 had a shorter PFS (4.8 months VS. 7.7 months, P = 0.016).",
+   "cited_text": "Inversely, patients with pTyr1173 had a shorter PFS (4.8 months VS.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'EGFR-TKIs' is not named in the cited units",
+    "patient count 205 is not a number in the cited units",
+    "variant phosphorylated Tyr1173 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ],
+   "id": "22901364-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that patients with pTyr1173 had shorter PFS, implying reduced benefit or resistance to EGFR-TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'EGFR-TKIs' is not named in the cited units",
+    "patient count 205 is not a number in the cited units",
+    "variant phosphorylated Tyr1173 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "phosphorylated Tyr1068",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKIS"
+    }
+   ],
+   "disease_written": "wild-type EGFR NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A13"
+   ],
+   "quote": "In subgroup of patients with wild-type EGFR, pTyr1068 expression positive ones had a significantly prolonged PFS (4.2 months vs.1.2 months P < 0.001) compared with those without pTyr1068 expression.",
+   "cited_text": "In subgroup of patients with wild-type EGFR, pTyr1068 expression positive ones had a significantly prolonged PFS (4.2 months vs.1.2 months P < 0.001) compared with those without pTyr1068 expression.",
+   "code_problems": [
+    "drug 'EGFR-TKIs' is not named in the cited units",
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ],
+   "id": "22901364-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "In the wild-type EGFR subgroup, pTyr1068 positivity was associated with significantly prolonged PFS on EGFR-TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR-TKIs' is not named in the cited units",
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "phosphorylated Tyr1068",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR-TKIS"
+    }
+   ],
+   "disease_written": "wild-type EGFR NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 16,
+   "units": [
+    "A14"
+   ],
+   "quote": "Sixteen patients with both wild-type EGFR and pTyr1068 who responded to EGFR-TKIs had median PFS of 15.6 months (95%CI: 7.28-23.9).",
+   "cited_text": "Sixteen patients with both wild-type EGFR and pTyr1068 who responded to EGFR-TKIs had median PFS of 15.6 months (95%CI: 7.28-23.9).",
+   "code_problems": [
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ],
+   "id": "22901364-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit describes a specific cohort of responders with wild-type EGFR and pTyr1068, detailing their median PFS on EGFR-TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR-TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "phosphorylated Tyr1068",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'phosphorylated Tyr1068' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "22901364-5",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'phosphorylated Tyr1068' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant phosphorylated Tyr1068 could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

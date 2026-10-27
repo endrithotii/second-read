@@ -1,0 +1,14 @@
+{
+ "pmid": "32525942",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Outcomes in oncogenic-addicted advanced NSCLC patients with actionable mutations identified by liquid biopsy genomic profiling using a tagged amplicon-based NGS assay."
+}

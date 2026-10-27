@@ -1,0 +1,14 @@
+{
+ "pmid": "21575252",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 5
+ },
+ "include": false,
+ "confidence": 5.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Germ-line mutations in epidermal growth factor receptor (EGFR) are rare but may contribute to oncogenesis: a novel germ-line mutation in EGFR detected in a patient with lung adenocarcinoma."
+}

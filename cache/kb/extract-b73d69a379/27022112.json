@@ -1,0 +1,114 @@
+{
+ "pmid": "27022112",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 401,
+   "units": [
+    "A10",
+    "A14"
+   ],
+   "quote": "Median PFS times in EGFR mutation-positive patients receiving gefitinib versus erlotinib were 8.3 and 10.0 months, respectively",
+   "cited_text": "Five hundred sixty-one patients were randomly assigned, including 401 patients (71.7%) with EGFR mutation. Median PFS times in EGFR mutation-positive patients receiving gefitinib versus erlotinib were 8.3 and 10.0 months, respectively (HR, 1.093; 95% CI, 0.879 to 1.358; P = .424).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "27022112-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a randomized trial showing that EGFR mutation-positive patients received gefitinib and achieved a median PFS of 8.3 months, indicating a response to the therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 401,
+   "units": [
+    "A10",
+    "A14"
+   ],
+   "quote": "Median PFS times in EGFR mutation-positive patients receiving gefitinib versus erlotinib were 8.3 and 10.0 months, respectively",
+   "cited_text": "Five hundred sixty-one patients were randomly assigned, including 401 patients (71.7%) with EGFR mutation. Median PFS times in EGFR mutation-positive patients receiving gefitinib versus erlotinib were 8.3 and 10.0 months, respectively (HR, 1.093; 95% CI, 0.879 to 1.358; P = .424).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "27022112-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a randomized trial showing that EGFR mutation-positive patients received erlotinib and achieved a median PFS of 10.0 months, indicating a response to the therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

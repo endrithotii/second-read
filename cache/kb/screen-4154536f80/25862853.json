@@ -1,0 +1,14 @@
+{
+ "pmid": "25862853",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 85
+ },
+ "include": true,
+ "confidence": 85.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Afatinib is especially effective against non-small cell lung cancer carrying an EGFR exon 19 deletion."
+}

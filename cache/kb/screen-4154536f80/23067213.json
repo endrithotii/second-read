@@ -1,0 +1,14 @@
+{
+ "pmid": "23067213",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Skin rash as useful marker of erlotinib efficacy in NSCLC and its impact on clinical practice."
+}

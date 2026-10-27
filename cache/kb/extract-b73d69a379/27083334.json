@@ -1,0 +1,130 @@
+{
+ "pmid": "27083334",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 26,
+ "units_total": 26,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "EGFR mutation-positive non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 160,
+   "units": [
+    "A6",
+    "A15"
+   ],
+   "quote": "common EGFR mutation (exon 19 deletion or Leu858Arg)",
+   "cited_text": "Treatment-naive patients with stage IIIB or IV NSCLC and a common EGFR mutation (exon 19 deletion or Leu858Arg) were randomly assigned (1:1) to receive afatinib (40 mg per day) or gefitinib (250 mg per day) until disease progression, or beyond if deemed beneficial by the investigator. Progression-free survival (median 11·0 months [95% CI 10·6-12·9] with afatinib vs 10·9 months [9·1-11·5] with gefitinib; hazard ratio [HR] 0·73 [95% CI 0·57-0·95], p=0·017) and time-to-treatment failure (median 13·7 months [95% CI 11·9-15·0] with afatinib vs 11·5 months [10·1-13·1] with gefitinib; HR 0·73 [95% CI 0·58-0·92], p=0·0073) were significantly longer with afatinib than with gefitinib.",
+   "code_problems": [
+    "patient count 160 is not a number in the cited units"
+   ],
+   "id": "27083334-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The LUX-Lung 3 trial demonstrated that patients with EGFR exon 19 deletions or L858R mutations had significantly longer progression-free survival with afatinib compared to gefitinib, supporting the use of afatinib in this population."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 160 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR mutation-positive non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 159,
+   "units": [
+    "A6",
+    "A15"
+   ],
+   "quote": "common EGFR mutation (exon 19 deletion or Leu858Arg)",
+   "cited_text": "Treatment-naive patients with stage IIIB or IV NSCLC and a common EGFR mutation (exon 19 deletion or Leu858Arg) were randomly assigned (1:1) to receive afatinib (40 mg per day) or gefitinib (250 mg per day) until disease progression, or beyond if deemed beneficial by the investigator. Progression-free survival (median 11·0 months [95% CI 10·6-12·9] with afatinib vs 10·9 months [9·1-11·5] with gefitinib; hazard ratio [HR] 0·73 [95% CI 0·57-0·95], p=0·017) and time-to-treatment failure (median 13·7 months [95% CI 11·9-15·0] with afatinib vs 11·5 months [10·1-13·1] with gefitinib; HR 0·73 [95% CI 0·58-0·92], p=0·0073) were significantly longer with afatinib than with gefitinib.",
+   "code_problems": [
+    "patient count 159 is not a number in the cited units"
+   ],
+   "id": "27083334-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The trial confirms that patients with these EGFR mutations respond to gefitinib, as it served as the active comparator with a median PFS of 10.9 months, establishing its efficacy in this disease context."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 159 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

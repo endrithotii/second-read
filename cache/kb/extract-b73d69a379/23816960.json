@@ -1,0 +1,153 @@
+{
+ "pmid": "23816960",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 16,
+ "units_total": 16,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "metastatic lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 308,
+   "units": [
+    "A12"
+   ],
+   "quote": "Median PFS among those with exon 19 deletions and L858R EGFR mutations (n = 308) was 13.6 months for afatinib and 6.9 months for chemotherapy",
+   "cited_text": "Median PFS among those with exon 19 deletions and L858R EGFR mutations (n = 308) was 13.6 months for afatinib and 6.9 months for chemotherapy (HR, 0.47; 95% CI, 0.34 to 0.65; P = .001).",
+   "code_problems": [],
+   "id": "23816960-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit reports a significant improvement in PFS for afatinib over chemotherapy in patients with EGFR exon 19 deletions, indicating sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "metastatic lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 308,
+   "units": [
+    "A12"
+   ],
+   "quote": "Median PFS among those with exon 19 deletions and L858R EGFR mutations (n = 308) was 13.6 months for afatinib and 6.9 months for chemotherapy",
+   "cited_text": "Median PFS among those with exon 19 deletions and L858R EGFR mutations (n = 308) was 13.6 months for afatinib and 6.9 months for chemotherapy (HR, 0.47; 95% CI, 0.34 to 0.65; P = .001).",
+   "code_problems": [],
+   "id": "23816960-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit reports a significant improvement in PFS for afatinib over chemotherapy in patients with EGFR L858R mutations, indicating sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "metastatic lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 345,
+   "units": [
+    "A11"
+   ],
+   "quote": "Median PFS was 11.1 months for afatinib and 6.9 months for chemotherapy",
+   "cited_text": "Median PFS was 11.1 months for afatinib and 6.9 months for chemotherapy (hazard ratio [HR], 0.58; 95% CI, 0.43 to 0.78; P = .001).",
+   "code_problems": [
+    "variant 'mutation-positive' is not named in the cited units",
+    "patient count 345 is not a number in the cited units"
+   ],
+   "id": "23816960-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit reports a significant improvement in PFS for afatinib over chemotherapy in patients with EGFR mutations, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation-positive' is not named in the cited units",
+    "patient count 345 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

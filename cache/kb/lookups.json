@@ -4,6 +4,7 @@
 "name": "AFATINIB"
 },
 "drug:anilinoquinazoline egfr inhibitors": null,
+"drug:az5104": null,
 "drug:azd9291": {
 "chembl_id": "CHEMBL3353410",
 "name": "OSIMERTINIB"
@@ -17,8 +18,17 @@
 "name": "CETUXIMAB"
 },
 "drug:cl-387,785": null,
+"drug:co-1686": {
+"chembl_id": "CHEMBL3545308",
+"name": "ROCILETINIB"
+},
+"drug:co1686": null,
+"drug:egfr tki": null,
 "drug:egfr tkis": null,
+"drug:egfr tyrosine kinase inhibitor": null,
+"drug:egfr tyrosine kinase inhibitors": null,
 "drug:egfr-tki": null,
+"drug:egfr-tkis": null,
 "drug:erlotinib": {
 "chembl_id": "CHEMBL553",
 "name": "ERLOTINIB"
@@ -32,15 +42,26 @@
 "chembl_id": "CHEMBL180022",
 "name": "NERATINIB"
 },
+"drug:neratinib": {
+"chembl_id": "CHEMBL180022",
+"name": "NERATINIB"
+},
+"drug:osimertinib": {
+"chembl_id": "CHEMBL3353410",
+"name": "OSIMERTINIB"
+},
 "drug:osimertinib plus savolitinib": null,
 "drug:pf-00299804": {
 "chembl_id": "CHEMBL2110732",
 "name": "DACOMITINIB ANHYDROUS"
 },
 "drug:pf00299804": null,
+"drug:platinum-pemetrexed": null,
 "drug:r1507": null,
 "drug:second-generation egfr tki": null,
+"drug:third-generation egfr tyrosine kinase inhibitors": null,
 "drug:tki": null,
+"drug:tkis": null,
 "gene:AKT": {
 "hgnc_id": "HGNC:391",
 "mane_nm": "NM_001382430.1",
@@ -55,6 +76,11 @@
 "hgnc_id": "HGNC:3236",
 "mane_nm": "NM_005228.5",
 "symbol": "EGFR"
+},
+"gene:ERBB2": {
+"hgnc_id": "HGNC:3430",
+"mane_nm": "NM_004448.4",
+"symbol": "ERBB2"
 },
 "gene:HER2": {
 "hgnc_id": "HGNC:3430",
@@ -82,6 +108,7 @@
 "symbol": "PIK3CA"
 },
 "np:NM_004333.6": "NP_004324.2",
+"np:NM_004448.4": "NP_004439.2",
 "np:NM_005228.5": "NP_005219.2",
 "vv:NM_005228.5:c.2390G>C": {
 "hgvs_c": "NM_005228.5:c.2390G>C",
@@ -92,6 +119,18 @@
 "vv:NP_004324.2:p.(Val600Glu)": {
 "hgvs_c": null,
 "hgvs_p": "NP_004324.2:p.(Val600Glu)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_004439.2:p.(Leu869Arg)": {
+"hgvs_c": null,
+"hgvs_p": "NP_004439.2:p.(Leu869Arg)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_004439.2:p.(Thr798Ile)": {
+"hgvs_c": null,
+"hgvs_p": "NP_004439.2:p.(Thr798Ile)",
 "note": "reference amino acid confirmed",
 "valid": true
 },
@@ -111,6 +150,12 @@
 "hgvs_c": null,
 "hgvs_p": null,
 "note": "HgvsSyntaxError: (Ala767_Val769dupAlaSerVal): char 17: expected the character ); LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala767_Val769dupAlaSerVal) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSy",
+"valid": false
+},
+"vv:NP_005219.2:p.(Ala76_Tyr764insPheGlnGluAla)": {
+"hgvs_c": null,
+"hgvs_p": null,
+"note": "insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala76_Tyr764insPheGlnGluAla) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSyntaxcheckWarning: We stopped reading past NP_005219",
 "valid": false
 },
 "vv:NP_005219.2:p.(Ala797Ser)": {
@@ -140,6 +185,12 @@
 "vv:NP_005219.2:p.(Cys797Ser)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Cys797Ser)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Glu709Lys)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Glu709Lys)",
 "note": "reference amino acid confirmed",
 "valid": true
 },
@@ -191,6 +242,12 @@
 "note": "reference amino acid confirmed",
 "valid": true
 },
+"vv:NP_005219.2:p.(Gly874Ser)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly874Ser)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Leu747_Pro753delinsSer)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Leu747_Pro753delinsSer)",
@@ -238,6 +295,12 @@
 "hgvs_p": "NP_005219.2:p.(Thr854Ala)",
 "note": "reference amino acid confirmed",
 "valid": true
+},
+"vv:NP_005219.2:p.(Val76_Asp770insAlaSerVal)": {
+"hgvs_c": null,
+"hgvs_p": null,
+"note": "insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Val76_Asp770insAlaSerVal) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSyntaxcheckWarning: We stopped reading past NP_005219.2.",
+"valid": false
 },
 "vv:NP_005219.2:p.(Val802Ile)": {
 "hgvs_c": null,

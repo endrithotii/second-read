@@ -1,0 +1,14 @@
+{
+ "pmid": "21411993",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Epidermal growth factor receptor mutations as a prognostic factor in Korean patients with advanced lung adenocarcinoma who had not been treated with received epidermal growth factor receptor tyrosine kinase inhibitors."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "35347039",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Real-world Afatinib Outcomes in Advanced Non-small Cell Lung Cancer Harboring EGFR Mutations."
+}

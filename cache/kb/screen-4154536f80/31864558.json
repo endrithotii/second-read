@@ -1,0 +1,14 @@
+{
+ "pmid": "31864558",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 85
+ },
+ "include": true,
+ "confidence": 85.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Intracranial Activity of Gefitinib and Capmatinib in a Patient with Previously Treated Non-Small Cell Lung Cancer Harboring a Concurrent EGFR Mutation and MET Amplification."
+}

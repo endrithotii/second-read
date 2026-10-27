@@ -1,0 +1,14 @@
+{
+ "pmid": "34455066",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 30
+ },
+ "include": true,
+ "confidence": 30.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Brain Metastases in EGFR- and ALK-Positive NSCLC: Outcomes of Central Nervous System-Penetrant Tyrosine Kinase Inhibitors Alone Versus in Combination With Radiation."
+}

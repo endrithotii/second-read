@@ -1,0 +1,155 @@
+{
+ "pmid": "25923549",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 20,
+ "units_total": 20,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TYROSINE KINASE INHIBITORS"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "The EGFR T790M mutation is the most common mechanism of drug resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors in patients who have lung cancer with an EGFR mutation (EGFR-mutated lung cancer).",
+   "cited_text": "The EGFR T790M mutation is the most common mechanism of drug resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors in patients who have lung cancer with an EGFR mutation (EGFR-mutated lung cancer).",
+   "code_problems": [
+    "drug 'EGFR tyrosine kinase inhibitors' not found in ChEMBL"
+   ],
+   "id": "25923549-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR T790M is the most common mechanism of drug resistance to EGFR TKIs in lung cancer."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR tyrosine kinase inhibitors' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A3"
+   ],
+   "quote": "In preclinical models, the EGFR inhibitor AZD9291 has been shown to be effective against both EGFR tyrosine kinase inhibitor-sensitizing and T790M resistance mutations.",
+   "cited_text": "In preclinical models, the EGFR inhibitor AZD9291 has been shown to be effective against both EGFR tyrosine kinase inhibitor-sensitizing and T790M resistance mutations.",
+   "code_problems": [],
+   "id": "25923549-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes preclinical models showing AZD9291 (osimertinib) is effective against T790M resistance mutations."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 127,
+   "units": [
+    "A15"
+   ],
+   "quote": "Among 127 patients with centrally confirmed EGFR T790M who could be evaluated for response, the response rate was 61% (95% CI, 52 to 70).",
+   "cited_text": "Among 127 patients with centrally confirmed EGFR T790M who could be evaluated for response, the response rate was 61% (95% CI, 52 to 70).",
+   "code_problems": [
+    "drug 'AZD9291' is not named in the cited units"
+   ],
+   "id": "25923549-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The unit reports a 61% response rate in patients with EGFR T790M, indicating sensitivity to the therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZD9291' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

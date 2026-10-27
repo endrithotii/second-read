@@ -1,0 +1,14 @@
+{
+ "pmid": "37279591",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Current treatment strategies for EGFR-mutated non-small cell lung cancer: from first line to beyond osimertinib resistance."
+}

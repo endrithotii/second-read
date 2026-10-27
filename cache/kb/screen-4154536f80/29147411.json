@@ -1,0 +1,14 @@
+{
+ "pmid": "29147411",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Pulsed Erlotinib as Sole Treatment of Leptomeningeal Carcinomatosis: Can We Avoid the Use of Intrathecal Therapy?"
+}

@@ -1,0 +1,546 @@
+{
+ "pmid": "26206867",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Ins20",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "exon 20 insertions (Ins20) are resistant to them",
+   "cited_text": "Lung cancers harboring common EGFR mutations respond to EGFR tyrosine kinase inhibitors (TKI), whereas exon 20 insertions (Ins20) are resistant to them.",
+   "code_problems": [
+    "variant Ins20 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "26206867-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR exon 20 insertions are resistant to EGFR TKIs, unlike common mutations."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant Ins20 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "26206867-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for gefitinib (1G TKI) in G719A are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "26206867-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for erlotinib (1G TKI) in G719A are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'AZD9291' is not named in the cited units"
+   ],
+   "id": "26206867-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for osimertinib (3G TKI) in G719A are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZD9291' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "CO1686"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'CO1686' is not named in the cited units",
+    "drug 'CO1686' not found in ChEMBL"
+   ],
+   "id": "26206867-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for CO1686 (3G TKI) in G719A are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'CO1686' is not named in the cited units",
+    "drug 'CO1686' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E709K",
+     "hgvs": "NP_005219.2:p.(Glu709Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "26206867-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for gefitinib (1G TKI) in E709K are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E709K",
+     "hgvs": "NP_005219.2:p.(Glu709Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "26206867-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for erlotinib (1G TKI) in E709K are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E709K",
+     "hgvs": "NP_005219.2:p.(Glu709Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'AZD9291' is not named in the cited units"
+   ],
+   "id": "26206867-8",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for osimertinib (3G TKI) in E709K are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZD9291' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E709K",
+     "hgvs": "NP_005219.2:p.(Glu709Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "CO1686"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'CO1686' is not named in the cited units",
+    "drug 'CO1686' not found in ChEMBL"
+   ],
+   "id": "26206867-9",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for CO1686 (3G TKI) in E709K are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'CO1686' is not named in the cited units",
+    "drug 'CO1686' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Del18",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19",
+   "cited_text": "IC90s of 1G and 3G TKIs in G719A, E709K, and Del18 were much higher than those in Del19 (by >11-50-fold), whereas IC90s of afatinib were only 3- to 7-fold greater than those for Del19.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units",
+    "variant Del18 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26206867-10",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The unit reports that IC90s for gefitinib (1G TKI) in Del18 are >11-fold higher than in Del19, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "variant Del18 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Del18",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'Del18' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant Del18 could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "26206867-11",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'Del18' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant Del18 could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

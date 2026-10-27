@@ -1,0 +1,14 @@
+{
+ "pmid": "29363250",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Osimertinib in patients with epidermal growth factor receptor T790M advanced non-small cell lung cancer selected using cytology samples."
+}

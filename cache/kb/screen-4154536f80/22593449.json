@@ -1,0 +1,14 @@
+{
+ "pmid": "22593449",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Utility of insulin-like growth factor receptor-1 expression in gefitinib-treated patients with non-small cell lung cancer."
+}

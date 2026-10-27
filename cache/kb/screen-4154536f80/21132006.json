@@ -1,0 +1,14 @@
+{
+ "pmid": "21132006",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Characterization of epidermal growth factor receptor mutations in non-small-cell lung cancer patients of African-American ancestry."
+}

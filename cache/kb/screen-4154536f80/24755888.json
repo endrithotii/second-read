@@ -1,0 +1,14 @@
+{
+ "pmid": "24755888",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "A phase II randomized trial evaluating gefitinib intercalated with pemetrexed/platinum chemotherapy or pemetrexed/platinum chemotherapy alone in unselected patients with advanced non-squamous non-small cell lung cancer."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "30457891",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 25
+ },
+ "include": true,
+ "confidence": 25.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Safety of osimertinib in EGFR-mutated non-small cell lung cancer."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "26269204",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR-independent mechanisms of acquired resistance to AZD9291 in EGFR T790M-positive NSCLC patients."
+}

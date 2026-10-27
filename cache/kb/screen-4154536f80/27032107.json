@@ -1,0 +1,14 @@
+{
+ "pmid": "27032107",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Prospective Evaluation of First-Line Erlotinib in Advanced Non-Small Cell Lung Cancer (NSCLC) Carrying an Activating EGFR Mutation: A Multicenter Academic Phase II Study in Caucasian Patients (FIELT)."
+}

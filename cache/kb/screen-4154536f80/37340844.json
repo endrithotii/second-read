@@ -1,0 +1,14 @@
+{
+ "pmid": "37340844",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Clinical Validation of the Unparalleled Sensitivity of the Novel Allele-Discriminating Priming System Technology-Based EGFR Mutation Assay in Patients with Operable Non-Small Cell Lung Cancer."
+}

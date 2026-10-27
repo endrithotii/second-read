@@ -1,0 +1,14 @@
+{
+ "pmid": "27022112",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Randomized Phase III Study Comparing Gefitinib With Erlotinib in Patients With Previously Treated Advanced Lung Adenocarcinoma: WJOG 5108L."
+}

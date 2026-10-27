@@ -1,0 +1,14 @@
+{
+ "pmid": "37481710",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 75
+ },
+ "include": true,
+ "confidence": 75.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Suppressing c-FOS expression by G-quadruplex ligands inhibits osimertinib-resistant non-small cell lung cancer."
+}

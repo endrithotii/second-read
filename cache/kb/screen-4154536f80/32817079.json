@@ -1,0 +1,14 @@
+{
+ "pmid": "32817079",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Biomarkers of Osimertinib Response in Patients with Refractory, EGFR-T790M-positive Non-Small Cell Lung Cancer and Central Nervous System Metastases: The APOLLO Study."
+}

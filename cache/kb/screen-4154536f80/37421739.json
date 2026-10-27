@@ -1,0 +1,14 @@
+{
+ "pmid": "37421739",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Gefitinib derivatives and drug-resistance: A perspective from molecular dynamics simulations."
+}

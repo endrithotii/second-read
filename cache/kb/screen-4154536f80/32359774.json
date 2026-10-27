@@ -1,0 +1,14 @@
+{
+ "pmid": "32359774",
+ "answers": {
+  "population": "yes",
+  "drug": "unclear",
+  "evidence": "unclear",
+  "confidence": 20
+ },
+ "include": true,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Prevalence of the EGFR T790M and other resistance mutations in the Australian population and histopathological correlation in a small subset of cases."
+}

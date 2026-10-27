@@ -1,0 +1,14 @@
+{
+ "pmid": "35117614",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Spred-3 mutation and Ras/Raf/MAPK activation confer acquired resistance to EGFR tyrosine kinase inhibitor in an EGFR mutated NSCLC cell line."
+}

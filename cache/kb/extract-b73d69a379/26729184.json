@@ -1,0 +1,64 @@
+{
+ "pmid": "26729184",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 6,
+ "units_total": 6,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A2",
+    "A3"
+   ],
+   "quote": "Osimertinib has been designed to target the EGFR T790M mutation",
+   "cited_text": "Osimertinib has been designed to target the EGFR T790M mutation that is often present in NSCLC patients with acquired EGFR TKI resistance, while sparing wild-type EGFR. In November 2015, the tablet formulation of osimertinib was granted accelerated approval in the USA for the treatment of patients with metastatic EGFR T790M mutation-positive NSCLC (as detected by an FDA-approved test) who have progressed on or after EGFR TKI therapy.",
+   "code_problems": [],
+   "id": "26729184-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "guideline or regulatory approval",
+    "reason": "The unit cites FDA accelerated approval for osimertinib in EGFR T790M-positive NSCLC, indicating the mutation predicts response to the drug."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: E vs A"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

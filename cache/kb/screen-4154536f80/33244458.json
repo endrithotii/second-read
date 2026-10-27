@@ -1,0 +1,14 @@
+{
+ "pmid": "33244458",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Efficacy and Tolerability of Erlotinib 100 mg/d vs. Gefitinib 250 mg/d in EGFR-Mutated Advanced Non-small Cell Lung Cancer (E100VG250): An Open-Label, Randomized, Phase 2 Study."
+}

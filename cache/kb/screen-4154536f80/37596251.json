@@ -1,0 +1,14 @@
+{
+ "pmid": "37596251",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Cezanne promoted autophagy through PIK3C3 stabilization and PIK3C2A transcription in lung adenocarcinoma."
+}

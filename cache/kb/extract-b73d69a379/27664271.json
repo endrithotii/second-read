@@ -1,0 +1,73 @@
+{
+ "pmid": "27664271",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 8,
+ "units_total": 8,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "gene copy number",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "advanced non-small-cell lung cancer (NSCLC)",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": 2047,
+   "units": [
+    "A4",
+    "A8"
+   ],
+   "quote": "increased EGFR gene copy number was associated with higher overall response rate (ORR), overall survival (OS) and progression-free survival (PFS",
+   "cited_text": "The overall analysis found that increased EGFR gene copy number was associated with higher overall response rate (ORR), overall survival (OS) and progression-free survival (PFS; p values ≤0.008) compared with patients without a high EGFR gene copy number. The result of the analysis found that EGFR gene copy number was associated with increased OS and PFS, supporting the idea that EGFR gene copy number is a biomarker for response to EGFR-TKI therapy in patients with advanced NSCLC.",
+   "code_problems": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "patient count 2047 is not a number in the cited units",
+    "variant gene copy number could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "27664271-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The cited units state that increased EGFR gene copy number is associated with higher response rates and survival in patients treated with EGFR-TKIs, supporting its role as a predictive biomarker."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "patient count 2047 is not a number in the cited units",
+    "variant gene copy number could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR TKIs' not found in ChEMBL",
+    "models disagree on evidence level: E vs B"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

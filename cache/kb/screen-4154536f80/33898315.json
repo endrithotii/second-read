@@ -1,0 +1,14 @@
+{
+ "pmid": "33898315",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 40
+ },
+ "include": false,
+ "confidence": 40.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "De Novo Versus Secondary Metastatic EGFR-Mutated Non-Small-Cell Lung Cancer."
+}

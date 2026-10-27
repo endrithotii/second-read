@@ -1,0 +1,14 @@
+{
+ "pmid": "21440325",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Treatment of advanced non-small-cell lung cancer: Italian Association of Thoracic Oncology (AIOT) clinical practice guidelines."
+}

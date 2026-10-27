@@ -1,0 +1,14 @@
+{
+ "pmid": "30922580",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Identification of a Novel MET Exon 14 Skipping Variant Coexistent with EGFR Mutation in Lung Adenocarcinoma Sensitive to Combined Treatment with Afatinib and Crizotinib."
+}

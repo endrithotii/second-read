@@ -1,0 +1,14 @@
+{
+ "pmid": "29216356",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Improved EGFR mutation detection using combined exosomal RNA and circulating tumor DNA in NSCLC patient plasma."
+}

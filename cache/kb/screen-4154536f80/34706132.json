@@ -1,0 +1,14 @@
+{
+ "pmid": "34706132",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Hsa_circ_0005576 promotes osimertinib resistance through the miR-512-5p/IGF1R axis in lung adenocarcinoma cells."
+}

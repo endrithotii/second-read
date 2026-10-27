@@ -1,0 +1,65 @@
+{
+ "pmid": "24755888",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "advanced non-squamous NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "PC-G significantly increased the PFS compared with the PC regimen in patients with EGFR mutations",
+   "cited_text": "Predefined subgroup analyses demonstrated that PC-G significantly increased the PFS compared with the PC regimen in patients with EGFR mutations (P = 0.017).",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "24755888-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a predefined subgroup analysis from a trial showing that patients with EGFR mutations had significantly increased PFS with the treatment regimen, indicating predictive value for response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

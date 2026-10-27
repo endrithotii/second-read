@@ -1,0 +1,14 @@
+{
+ "pmid": "35813735",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Afatinib 30 mg in the treatment of common and uncommon EGFR-mutated advanced lung adenocarcinomas: a retrospective, single-center, longitudinal study."
+}

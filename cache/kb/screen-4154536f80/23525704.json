@@ -1,0 +1,14 @@
+{
+ "pmid": "23525704",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR and TTF-1 gene amplification in surgically resected lung adenocarcinomas: clinicopathologic significance and effect on response to EGFR-tyrosine kinase inhibitors in recurred cases."
+}

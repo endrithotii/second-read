@@ -1,0 +1,221 @@
+{
+ "pmid": "24263064",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 48,
+ "units_total": 435,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 69,
+   "units": [
+    "T2.r18"
+   ],
+   "quote": "ORR (%) 72.5",
+   "cited_text": "(Table 2: ORR by investigator assessment (overall and by subgroups; FAS population)) [T2.r18.c1] Category: Exon 19 deletions; [T2.r18.c2] FAS (N=106) (n): 69; [T2.r18.c3] Objective responders (n): 50; [T2.r18.c4] ORR (%): 72.5; [T2.r18.c5] 95% CI: 61.0-81.6",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "24263064-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The data shows a 72.5% objective response rate for EGFR Exon 19 deletions treated with gefitinib, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 33,
+   "units": [
+    "T2.r19"
+   ],
+   "quote": "ORR (%) 63.6",
+   "cited_text": "(Table 2: ORR by investigator assessment (overall and by subgroups; FAS population)) [T2.r19.c1] Category: L858R; [T2.r19.c2] FAS (N=106) (n): 33; [T2.r19.c3] Objective responders (n): 21; [T2.r19.c4] ORR (%): 63.6; [T2.r19.c5] 95% CI: 46.6-77.8",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "24263064-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The data shows a 63.6% objective response rate for EGFR L858R treated with gefitinib, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'gefitinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "G719X (G719S/A/C)",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 2,
+   "units": [
+    "T2.r21"
+   ],
+   "quote": "Objective responders (n) 2",
+   "cited_text": "(Table 2: ORR by investigator assessment (overall and by subgroups; FAS population)) [T2.r21.c1] Category: G719X (G719S/A/C); [T2.r21.c2] FAS (N=106) (n): 2; [T2.r21.c3] Objective responders (n): 2; [T2.r21.c4] ORR (%): NC; [T2.r21.c5] 95% CI: NC-NC",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "variant G719X (G719S/A/C) could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24263064-3",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The data indicates 2 out of 2 patients with EGFR G719X responded to gefitinib, suggesting sensitivity, though the sample size is very small."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "variant G719X (G719S/A/C) could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = partly (The data indicates 2 out of 2 patients with EGFR G719X responded to gefitinib, suggesting sensitivity, though the sample size is very small.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 106,
+   "units": [
+    "A10"
+   ],
+   "quote": "ORR 69.8%",
+   "cited_text": "At data cutoff: ORR 69.8% (95% confidence interval (CI) 60.5-77.7), DCR 90.6% (95% CI 83.5-94.8), median PFS 9.7 months (95% CI 8.5-11.0), median OS 19.2 months (95% CI 17.0-NC; 27% maturity).",
+   "code_problems": [
+    "quote missing or too short",
+    "variant 'activating, sensitising EGFR mutations' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 106 is not a number in the cited units"
+   ],
+   "id": "24263064-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The data reports a 69.8% objective response rate and median PFS of 9.7 months for EGFR mutation-positive NSCLC treated with gefitinib, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote missing or too short",
+    "variant 'activating, sensitising EGFR mutations' is not named in the cited units",
+    "drug 'gefitinib' is not named in the cited units",
+    "patient count 106 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

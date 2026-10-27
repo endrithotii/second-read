@@ -1,0 +1,70 @@
+{
+ "pmid": "26722081",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "advanced-stage NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "NA",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 290,
+   "units": [
+    "A13"
+   ],
+   "quote": "EGFR gene amplification is not a feasible predictive biomarker for treatment with EGFR-TKIs in patients with advanced-stage NSCLC.",
+   "cited_text": "EGFR gene amplification is not a feasible predictive biomarker for treatment with EGFR-TKIs in patients with advanced-stage NSCLC.",
+   "code_problems": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "patient count 290 is not a number in the cited units",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "26722081-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit explicitly states that EGFR amplification is not a feasible predictive biomarker for EGFR-TKI treatment in advanced-stage NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "patient count 290 is not a number in the cited units",
+    "drug 'EGFR TKIs' not found in ChEMBL",
+    "models disagree on evidence level: B vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

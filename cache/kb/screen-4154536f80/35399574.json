@@ -1,0 +1,14 @@
+{
+ "pmid": "35399574",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR-RAD51 gene fusion NSCLC responsiveness to different generation EGFR-TKIs: two cases and review of the literature."
+}

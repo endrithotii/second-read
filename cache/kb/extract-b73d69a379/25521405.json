@@ -1,0 +1,166 @@
+{
+ "pmid": "25521405",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 10,
+ "units_total": 21,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S19"
+   ],
+   "quote": "This case provides conclusive evidence that EGFR S768I mutant lung adenocarcinomas are sensitive to erlotinib.",
+   "cited_text": "This case provides conclusive evidence that EGFR S768I mutant lung adenocarcinomas are sensitive to erlotinib.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "25521405-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit states that the case provides conclusive evidence of sensitivity to erlotinib in lung adenocarcinoma."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S20"
+   ],
+   "quote": "The in vivo emergence of EGFR T790M in the same allele confirms the selective pressure of erlotinib on the EGFR S768I mutant kinase.",
+   "cited_text": "The in vivo emergence of EGFR T790M in the same allele confirms the selective pressure of erlotinib on the EGFR S768I mutant kinase.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "25521405-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The emergence of T790M under erlotinib pressure indicates acquired resistance to the drug in the context of the S768I mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": null,
+   "units": [
+    "S16"
+   ],
+   "quote": "one prior clinical case of an EGFR S768I mutant lung adenocarcinoma reported apparent sensitivity to gefitinib",
+   "cited_text": "However, sensitivity to EGFR-TKIs has been controversial; in vitro studies reported relative resistance, whereas one prior clinical case of an EGFR S768I mutant lung adenocarcinoma reported apparent sensitivity to gefitinib.",
+   "code_problems": [],
+   "id": "25521405-3",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit cites a prior clinical case reporting apparent sensitivity to gefitinib, supporting the association despite noted controversy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = partly (The unit cites a prior clinical case reporting apparent sensitivity to gefitinib, supporting the association despite noted controversy.)",
+    "models disagree on evidence level: C vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

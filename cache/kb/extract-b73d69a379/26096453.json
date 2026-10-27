@@ -1,0 +1,167 @@
+{
+ "pmid": "26096453",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 73,
+ "units_total": 397,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon20ins",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 11,
+   "units": [
+    "A10",
+    "A11"
+   ],
+   "quote": "Among 11 patients with lung adenocarcinomas with EGFR exon20ins who received erlotinib, 3 patients (27%) had a partial response",
+   "cited_text": "Among 11 patients with lung adenocarcinomas with EGFR exon20ins who received erlotinib, 3 patients (27%) had a partial response (FQEA, 1; ASV, 1; and unknown variant, 1). TTP for patients with EGFR exon20ins and patients with EGFR exon19del/L858R on erlotinib were 3 and 12 months, respectively (P < .01).",
+   "code_problems": [
+    "variant exon20ins could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "26096453-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cohort or case series",
+    "reason": "The study reports significantly lower response rates and shorter time to progression for EGFR exon20ins patients compared to classic mutations, indicating reduced sensitivity to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon20ins could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS",
+    "models disagree on significance: RESISTANCE vs REDUCED_SENSITIVITY"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein indel",
+     "name": "A76_Y764insFQEA",
+     "hgvs": null,
+     "validated": false,
+     "note": "insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala76_Tyr764insPheGlnGluAla) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSyntaxcheckWarning: We stopped reading past NP_005219"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S9"
+   ],
+   "quote": "The EGFR exon20ins variant A763_Y764insFQEA was studied in vitro, and was the only EGFR exon20ins harboring cell line inhibited by erlotinib at concentrations of less than 0.1uM",
+   "cited_text": "The EGFR exon20ins variant A763_Y764insFQEA was studied in vitro, and was the only EGFR exon20ins harboring cell line inhibited by erlotinib at concentrations of less than 0.1uM.",
+   "code_problems": [
+    "variant A76_Y764insFQEA could not be validated: insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala76_Tyr764insPheGlnGluAla) is not syntactically cor"
+   ],
+   "id": "26096453-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "In vitro data shows the specific EGFR A763_Y764insFQEA variant is inhibited by erlotinib at low concentrations, demonstrating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant A76_Y764insFQEA could not be validated: insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Ala76_Tyr764insPheGlnGluAla) is not syntactically cor"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein indel",
+     "name": "V76_D770insASV",
+     "hgvs": null,
+     "validated": false,
+     "note": "insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Val76_Asp770insAlaSerVal) is not syntactically correct, see LovdSyntaxcheckSuggestions for details; LovdSyntaxcheckSuggestions: [suggestion = NP_005219.2, probability = 1]; LovdSyntaxcheckWarning: We stopped reading past NP_005219.2."
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "S65"
+   ],
+   "quote": "Patient 2 harbored a mutation in exon 20 outside the C-helix (V769_D770insASV), and exhibited a partial response to EGFR TKI, prolonged TTP of 20 months",
+   "cited_text": "Patient 2 harbored a mutation in exon 20 outside the C-helix (V769_D770insASV), and exhibited a partial response to EGFR TKI, prolonged TTP of 20 months and an OS of 24 months.",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant V76_D770insASV could not be validated: insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Val76_Asp770insAlaSerVal) is not syntactically correc"
+   ],
+   "id": "26096453-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "A single patient with the EGFR V769_D770insASV variant exhibited a partial response and prolonged time to progression on EGFR TKI therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant V76_D770insASV could not be validated: insertion length must be 1; LovdSyntaxcheckInvalid: NP_005219.2:p.(Val76_Asp770insAlaSerVal) is not syntactically correc",
+    "models disagree on evidence level: B vs C"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

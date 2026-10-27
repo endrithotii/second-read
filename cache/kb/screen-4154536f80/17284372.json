@@ -1,0 +1,14 @@
+{
+ "pmid": "17284372",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR sequence variations and real-time quantitative polymerase chain reaction analysis of gene dosage in brain metastases of solid tumors."
+}

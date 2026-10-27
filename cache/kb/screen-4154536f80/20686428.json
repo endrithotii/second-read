@@ -1,0 +1,14 @@
+{
+ "pmid": "20686428",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Chemoradiotherapy and gefitinib in stage III non-small cell lung cancer with epidermal growth factor receptor and KRAS mutation analysis: cancer and leukemia group B (CALEB) 30106, a CALGB-stratified phase II trial."
+}

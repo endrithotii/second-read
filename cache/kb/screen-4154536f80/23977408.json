@@ -1,0 +1,14 @@
+{
+ "pmid": "23977408",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Elevated neutrophil gelatinase-associated lipocalin contributes to erlotinib resistance in non-small cell lung cancer."
+}

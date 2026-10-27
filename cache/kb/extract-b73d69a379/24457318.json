@@ -1,0 +1,170 @@
+{
+ "pmid": "24457318",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TYROSINE KINASE INHIBITOR"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 70,
+   "units": [
+    "A2"
+   ],
+   "quote": "The presence of EGFR (epidermal growth factor receptor) mutations is a robust predictor of EGFR tyrosine kinase inhibitor (TKI) responsiveness.",
+   "cited_text": "The presence of EGFR (epidermal growth factor receptor) mutations is a robust predictor of EGFR tyrosine kinase inhibitor (TKI) responsiveness.",
+   "code_problems": [
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR tyrosine kinase inhibitor' not found in ChEMBL"
+   ],
+   "id": "24457318-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR mutations are a robust predictor of EGFR TKI responsiveness."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR tyrosine kinase inhibitor' not found in ChEMBL",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TYROSINE KINASE INHIBITOR"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 70,
+   "units": [
+    "A10"
+   ],
+   "quote": "major mutations (deletions in exon 19 and L858R point mutation in exon 21; HR, 2.46; 95% CI, 1.14-5.28; p = 0.022) were significant predictors of longer PFS.",
+   "cited_text": "In multivariate analysis, adenocarcinoma (hazard ratio, HR, 12.25; 95% CI, 37.7-41.10; p < 0.001) and major mutations (deletions in exon 19 and L858R point mutation in exon 21; HR, 2.46; 95% CI, 1.14-5.28; p = 0.022) were significant predictors of longer PFS.",
+   "code_problems": [
+    "drug 'EGFR tyrosine kinase inhibitor' is not named in the cited units",
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR tyrosine kinase inhibitor' not found in ChEMBL"
+   ],
+   "id": "24457318-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit identifies exon 19 deletions as significant predictors of longer progression-free survival (PFS) in the context of EGFR TKI treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR tyrosine kinase inhibitor' is not named in the cited units",
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR tyrosine kinase inhibitor' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TYROSINE KINASE INHIBITOR"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 70,
+   "units": [
+    "A10"
+   ],
+   "quote": "major mutations (deletions in exon 19 and L858R point mutation in exon 21; HR, 2.46; 95% CI, 1.14-5.28; p = 0.022) were significant predictors of longer PFS.",
+   "cited_text": "In multivariate analysis, adenocarcinoma (hazard ratio, HR, 12.25; 95% CI, 37.7-41.10; p < 0.001) and major mutations (deletions in exon 19 and L858R point mutation in exon 21; HR, 2.46; 95% CI, 1.14-5.28; p = 0.022) were significant predictors of longer PFS.",
+   "code_problems": [
+    "drug 'EGFR tyrosine kinase inhibitor' is not named in the cited units",
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR tyrosine kinase inhibitor' not found in ChEMBL"
+   ],
+   "id": "24457318-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit identifies major mutations, including exon 19 deletions, as significant predictors of longer progression-free survival (PFS) in the context of EGFR TKI treatment."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR tyrosine kinase inhibitor' is not named in the cited units",
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR tyrosine kinase inhibitor' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

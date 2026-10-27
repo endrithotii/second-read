@@ -1,0 +1,206 @@
+{
+ "pmid": "25853010",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 64,
+ "units_total": 215,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "delE746-A750",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung carcinoma",
+   "oncotree": "SCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T1.r3"
+   ],
+   "quote": "IC 50 of erlotinib [μM]: 0.004",
+   "cited_text": "(Table 1: Sensitivity of four human NSCLC cell lines to the anti-proliferative effect of erlotinib in vitro) [T1.r3.c1] Cell line: HCC827; [T1.r3.c2] Type of EGFR mutation: Activating (delE746-A750); [T1.r3.c3] IC 50 of erlotinib [μM]: 0.004 ± 0.0009; [T1.r3.c4] Erlotinib sensitive: Yes",
+   "code_problems": [
+    "variant delE746-A750 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "25853010-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit shows that the HCC827 cell line with EGFR delE746-A750 is sensitive to erlotinib with a low IC50."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant delE746-A750 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung carcinoma",
+   "oncotree": "SCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T1.r4"
+   ],
+   "quote": "IC 50 of erlotinib [μM]: 0.041",
+   "cited_text": "(Table 1: Sensitivity of four human NSCLC cell lines to the anti-proliferative effect of erlotinib in vitro) [T1.r4.c1] Cell line: NCI-H3255; [T1.r4.c2] Type of EGFR mutation: Activating (L858R point mutation); [T1.r4.c3] IC 50 of erlotinib [μM]: 0.041 ± 0.007; [T1.r4.c4] Erlotinib sensitive: Yes",
+   "code_problems": [],
+   "id": "25853010-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit shows that the NCI-H3255 cell line with an EGFR L858R mutation is sensitive to erlotinib."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "wtEGFR",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung carcinoma",
+   "oncotree": "SCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T1.r2"
+   ],
+   "quote": "IC 50 of erlotinib [μM]: 8.9",
+   "cited_text": "(Table 1: Sensitivity of four human NSCLC cell lines to the anti-proliferative effect of erlotinib in vitro) [T1.r2.c1] Cell line: QG56; [T1.r2.c2] Type of EGFR mutation: None (wtEGFR); [T1.r2.c3] IC 50 of erlotinib [μM]: 8.9 ± 0.5***; [T1.r2.c4] Erlotinib sensitive: No",
+   "code_problems": [
+    "variant wtEGFR could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "25853010-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit shows that the QG56 cell line with wild-type EGFR is not sensitive to erlotinib, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant wtEGFR could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung carcinoma",
+   "oncotree": "SCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T1.r5"
+   ],
+   "quote": "IC 50 of erlotinib [μM]: 4.3",
+   "cited_text": "(Table 1: Sensitivity of four human NSCLC cell lines to the anti-proliferative effect of erlotinib in vitro) [T1.r5.c1] Cell line: NCI-H1975; [T1.r5.c2] Type of EGFR mutation: Double mutation (L858R + T790M point mutations); [T1.r5.c3] IC 50 of erlotinib [μM]: 4.3 ± 0.8***; [T1.r5.c4] Erlotinib sensitive: No",
+   "code_problems": [],
+   "id": "25853010-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit shows that the NCI-H1975 cell line with EGFR L858R and T790M mutations is not sensitive to erlotinib, indicating resistance."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

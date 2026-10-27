@@ -1,0 +1,14 @@
+{
+ "pmid": "25342991",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 25
+ },
+ "include": true,
+ "confidence": 25.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Novel agents in development for advanced non-small cell lung cancer."
+}

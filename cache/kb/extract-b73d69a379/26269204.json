@@ -1,0 +1,243 @@
+{
+ "pmid": "26269204",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 14,
+ "units_total": 14,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "specifically targets both sensitizing and resistant T790M mutations",
+   "cited_text": "AZD9291 is an oral, irreversible, mutant-selective epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (EGFR-TKI), which specifically targets both sensitizing and resistant T790M mutations.",
+   "code_problems": [],
+   "id": "26269204-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that AZD9291 specifically targets the T790M mutation, implying sensitivity to the drug."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "C797",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A5"
+   ],
+   "quote": "Mutations at the EGFR C797 codon, located within the kinase-binding site, were very recently reported to be a potential mechanism of resistance to AZD9291 in T790M-positive patients",
+   "cited_text": "Mutations at the EGFR C797 codon, located within the kinase-binding site, were very recently reported to be a potential mechanism of resistance to AZD9291 in T790M-positive patients.",
+   "code_problems": [],
+   "id": "26269204-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit identifies C797 mutations as a potential mechanism of resistance to AZD9291."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 2,
+   "units": [
+    "A9"
+   ],
+   "quote": "We identified in two distinct cases, HER2 and MET amplification by FISH and CGH as a potential mechanism of acquired resistance to third-generation EGFR-TKI",
+   "cited_text": "We identified in two distinct cases, HER2 and MET amplification by FISH and CGH as a potential mechanism of acquired resistance to third-generation EGFR-TKI.",
+   "code_problems": [
+    "drug 'AZD9291' is not named in the cited units"
+   ],
+   "id": "26269204-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit identifies HER2 amplification as a potential mechanism of acquired resistance to third-generation EGFR-TKIs (including AZD9291) in two cases."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZD9291' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 2,
+   "units": [
+    "A9"
+   ],
+   "quote": "We identified in two distinct cases, HER2 and MET amplification by FISH and CGH as a potential mechanism of acquired resistance to third-generation EGFR-TKI",
+   "cited_text": "We identified in two distinct cases, HER2 and MET amplification by FISH and CGH as a potential mechanism of acquired resistance to third-generation EGFR-TKI.",
+   "code_problems": [
+    "drug 'AZD9291' is not named in the cited units"
+   ],
+   "id": "26269204-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit identifies MET amplification as a potential mechanism of acquired resistance to third-generation EGFR-TKIs (including AZD9291) in two cases."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZD9291' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": null,
+   "units": [
+    "A14"
+   ],
+   "quote": "AZD9291 efficiently suppresses the growth of T790M-positive cells, but a population of wild-type T790M cells at baseline will mediate the development of resistance",
+   "cited_text": "AZD9291 efficiently suppresses the growth of T790M-positive cells, but a population of wild-type T790M cells at baseline will mediate the development of resistance, here via a by-pass pathway activating either HER2 or MET.",
+   "code_problems": [],
+   "id": "26269204-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that wild-type EGFR cells mediate the development of resistance to AZD9291 via bypass pathways."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: C vs D"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

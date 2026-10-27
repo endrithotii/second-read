@@ -1,0 +1,14 @@
+{
+ "pmid": "30168457",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Frequency of T790M mutations after progression on epidermal growth factor receptor tyrosine kinase inhibitor in metastatic non-small cell lung cancer in Indian patients: real-time data from tertiary cancer hospital."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "36173763",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Discovery of Isoform-Selective Akt3 Degraders Overcoming Osimertinib-Induced Resistance in Non-Small Cell Lung Cancer Cells."
+}

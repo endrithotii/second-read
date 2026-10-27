@@ -1,0 +1,14 @@
+{
+ "pmid": "26911310",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Efficacy and safety of afatinib in Chinese patients with EGFR-mutated metastatic non-small-cell lung cancer (NSCLC) previously responsive to first-generation tyrosine-kinase inhibitors (TKI) and chemotherapy: comparison with historical cohort using erlotinib."
+}

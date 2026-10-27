@@ -1,0 +1,14 @@
+{
+ "pmid": "21767894",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": false,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "The anti-proliferative effect of heat shock protein 90 inhibitor, 17-DMAG, on non-small-cell lung cancers being resistant to EGFR tyrosine kinase inhibitor."
+}

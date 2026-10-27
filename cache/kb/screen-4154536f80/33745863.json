@@ -1,0 +1,14 @@
+{
+ "pmid": "33745863",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 85
+ },
+ "include": false,
+ "confidence": 85.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Second-line Afatinib or Chemotherapy Following Immunochemotherapy for the Treatment of Metastatic, Squamous Cell Carcinoma of the Lung: Real-world Effectiveness and Safety From a Multisite Retrospective Chart Review in the USA."
+}

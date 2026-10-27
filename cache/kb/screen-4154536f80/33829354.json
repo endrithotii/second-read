@@ -1,0 +1,14 @@
+{
+ "pmid": "33829354",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 85
+ },
+ "include": true,
+ "confidence": 85.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "FGFR leads to sustained activation of STAT3 to mediate resistance to EGFR-TKIs treatment."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "25343946",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "The effect of gefitinib in patients with postoperative recurrent non-small cell lung cancer harboring mutations of the epidermal growth factor receptor."
+}

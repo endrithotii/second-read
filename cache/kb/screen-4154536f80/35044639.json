@@ -1,0 +1,14 @@
+{
+ "pmid": "35044639",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 55
+ },
+ "include": true,
+ "confidence": 55.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Next-Generation Sequencing Liquid Biopsy-Guided Osimertinib Rechallenge in EGFR-Mutated Advanced Non-Small-Cell Lung Cancer Patients."
+}

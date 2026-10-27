@@ -1,0 +1,14 @@
+{
+ "pmid": "34149406",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Metformin Adjunct With Antineoplastic Agents for the Treatment of Lung Cancer: A Meta-Analysis of Randomized Controlled Trials and Observational Cohort Studies."
+}

@@ -1,0 +1,352 @@
+{
+ "pmid": "27612423",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 50,
+ "units_total": 271,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKIS"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "Non-small cell lung cancer (NSCLC) patients carrying specific EGFR kinase activating mutations (L858R, delE746-A750) respond well to tyrosine kinase inhibitors (TKIs).",
+   "cited_text": "Non-small cell lung cancer (NSCLC) patients carrying specific EGFR kinase activating mutations (L858R, delE746-A750) respond well to tyrosine kinase inhibitors (TKIs).",
+   "code_problems": [
+    "drug 'TKIs' not found in ChEMBL"
+   ],
+   "id": "27612423-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that NSCLC patients with EGFR L858R respond well to TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'TKIs' not found in ChEMBL",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "delE746-A750",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKIS"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "Non-small cell lung cancer (NSCLC) patients carrying specific EGFR kinase activating mutations (L858R, delE746-A750) respond well to tyrosine kinase inhibitors (TKIs).",
+   "cited_text": "Non-small cell lung cancer (NSCLC) patients carrying specific EGFR kinase activating mutations (L858R, delE746-A750) respond well to tyrosine kinase inhibitors (TKIs).",
+   "code_problems": [
+    "variant delE746-A750 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'TKIs' not found in ChEMBL"
+   ],
+   "id": "27612423-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that NSCLC patients with EGFR delE746-A750 respond well to TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant delE746-A750 could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'TKIs' not found in ChEMBL",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "TKIS"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A3"
+   ],
+   "quote": "In about 50% of such patients, acquired drug resistance is attributed to the enrichment of a constitutively active point mutation within the EGFR kinase domain (T790M).",
+   "cited_text": "In about 50% of such patients, acquired drug resistance is attributed to the enrichment of a constitutively active point mutation within the EGFR kinase domain (T790M).",
+   "code_problems": [
+    "drug 'TKIs' is not named in the cited units",
+    "drug 'TKIs' not found in ChEMBL"
+   ],
+   "id": "27612423-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR T790M is attributed to acquired drug resistance in patients."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'TKIs' is not named in the cited units",
+    "drug 'TKIs' not found in ChEMBL",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S67"
+   ],
+   "quote": "Such data indicate that erlotinib causes EGFR degradation only in the cases of L858R and delE746-A750 mutants, whereas, L858R/T790M mutants are stable, which correlates with cell death and the clinical outcome.",
+   "cited_text": "Such data indicate that erlotinib causes EGFR degradation only in the cases of L858R and delE746-A750 mutants, whereas, L858R/T790M mutants are stable, which correlates with cell death and the clinical outcome.",
+   "code_problems": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27612423-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit indicates that L858R/T790M mutants are stable to erlotinib-induced degradation, correlating with clinical outcome (resistance)."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "Third generation EGFR kinase inhibitor (AZD9291) inhibits the growth of L858R/T790M-EGFR driven cells and also induces EGFR degradation.",
+   "cited_text": "Third generation EGFR kinase inhibitor (AZD9291) inhibits the growth of L858R/T790M-EGFR driven cells and also induces EGFR degradation.",
+   "code_problems": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27612423-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that osimertinib (AZD9291) inhibits the growth of L858R/T790M-driven cells."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S68"
+   ],
+   "quote": "Third-generation EGFR TKI such as AZD9291 is known to inhibit EGFR phosphorylation independent to EGFR kinase mutations and appears to be effective for patients with T790M-EGFR tumors.",
+   "cited_text": "Third-generation EGFR TKI such as AZD9291 is known to inhibit EGFR phosphorylation independent to EGFR kinase mutations and appears to be effective for patients with T790M-EGFR tumors.",
+   "code_problems": [],
+   "id": "27612423-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that osimertinib appears to be effective for patients with T790M-EGFR tumors."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S17"
+   ],
+   "quote": "with greater affinity as seen with the bulky inhibitor Neratinib, which was found to have a Ki 50-fold more potent for L858R/T790M EGFR than for wild-type EGFR",
+   "cited_text": "Furthermore, irreversible inhibitors bind to the double mutants (L858R with T790M) with only slightly diminished affinity compared to wild-type enzyme [], or, with greater affinity as seen with the bulky inhibitor Neratinib, which was found to have a Ki 50-fold more potent for L858R/T790M EGFR than for wild-type EGFR [].",
+   "code_problems": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27612423-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that neratinib has greater affinity and potency for L858R/T790M EGFR than wild-type, implying sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

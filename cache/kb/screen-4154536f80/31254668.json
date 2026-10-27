@@ -1,0 +1,14 @@
+{
+ "pmid": "31254668",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "A Novel Acquired Exon 20 EGFR M766Q Mutation in Lung Adenocarcinoma Mediates Osimertinib Resistance but is Sensitive to Neratinib and Poziotinib."
+}

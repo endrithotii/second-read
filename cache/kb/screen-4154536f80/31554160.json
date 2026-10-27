@@ -1,0 +1,14 @@
+{
+ "pmid": "31554160",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 5
+ },
+ "include": false,
+ "confidence": 5.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Tumour Microenvironment and Immune Evasion in EGFR Addicted NSCLC: Hurdles and Possibilities."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "36657561",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Novel EGFR-mutant mouse models of lung adenocarcinoma reveal adaptive immunity requirement for durable osimertinib response."
+}

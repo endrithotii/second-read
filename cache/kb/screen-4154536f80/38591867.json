@@ -1,0 +1,14 @@
+{
+ "pmid": "38591867",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": false,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Phase II Study of Osimertinib in Patients With Epidermal Growth Factor Receptor Mutations: Results From the NCI-MATCH ECOG-ACRIN (EAY131) Trial Subprotocol E."
+}

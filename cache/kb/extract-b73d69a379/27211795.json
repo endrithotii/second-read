@@ -1,0 +1,348 @@
+{
+ "pmid": "27211795",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 34,
+ "units_total": 91,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "T1.r2.c2"
+   ],
+   "quote": "Best response on erlotinib: Progressive disease",
+   "cited_text": "Progressive disease",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "27211795-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit reports progressive disease, indicating a lack of response or resistance to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "G719",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "T1.r3.c2"
+   ],
+   "quote": "Best response on erlotinib: Partial response",
+   "cited_text": "Partial response",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "variant 'G719' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "27211795-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports a partial response, indicating sensitivity to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "variant 'G719' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719S",
+     "hgvs": "NP_005219.2:p.(Gly719Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "T1.r4.c2"
+   ],
+   "quote": "Best response on erlotinib: Stable disease",
+   "cited_text": "Stable disease",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "variant 'G719S' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "27211795-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports stable disease, which is generally considered a positive response (disease control) in this context."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "variant 'G719S' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "models disagree on significance: REDUCED_SENSITIVITY vs SENSITIVITYRESPONSE"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "T1.r5.c2"
+   ],
+   "quote": "Best response on erlotinib: Stable disease",
+   "cited_text": "Stable disease",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "variant 'L858R' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "27211795-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports stable disease, indicating disease control and sensitivity to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'S768I' is not named in the cited units",
+    "variant 'L858R' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 5,
+   "units": [
+    "S41"
+   ],
+   "quote": "identified 5 patients with S768I (2 with isolated mutation, 2 with a second exon 20 point mutation and 1 with compound exon 18 mutation) and suggested that S768I appeared to confer sensitivity to erlotinib",
+   "cited_text": "One analysis of patients with rare EGFR mutations treated with erlotinib in 7 trials (MERIT, SATURN, TITAN, TRUST, ATLAS, BeTa, and FASTACT-2) identified 5 patients with S768I (2 with isolated mutation, 2 with a second exon 20 point mutation and 1 with compound exon 18 mutation) and suggested that S768I appeared to confer sensitivity to erlotinib.",
+   "code_problems": [],
+   "id": "27211795-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit explicitly states that S768I appeared to confer sensitivity to erlotinib based on analysis of multiple trials."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S46"
+   ],
+   "quote": "objective response to afatinib was 100%, (95% CI 63.1-100.0), median PFS was 14.7 months in patients with S768I mutation and suggested that it had a favorable outcome",
+   "cited_text": "In this analysis, objective response to afatinib was 100%, (95% CI 63.1-100.0), median PFS was 14.7 months in patients with S768I mutation and suggested that it had a favorable outcome.",
+   "code_problems": [],
+   "id": "27211795-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The unit reports 100% objective response and favorable outcome with afatinib, indicating sensitivity."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

@@ -1,0 +1,65 @@
+{
+ "pmid": "25668228",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 5,
+ "units_total": 5,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "non small-cell lung carcinoma",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A3"
+   ],
+   "quote": "The T790M gatekeeper mutation in the EGFR tyrosine kinase domain accounts for half of resistance to these drugs.",
+   "cited_text": "The T790M gatekeeper mutation in the EGFR tyrosine kinase domain accounts for half of resistance to these drugs.",
+   "code_problems": [
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "25668228-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that the T790M mutation accounts for resistance to EGFR TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

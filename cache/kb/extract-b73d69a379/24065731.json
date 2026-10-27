@@ -1,0 +1,445 @@
+{
+ "pmid": "24065731",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 61,
+ "units_total": 293,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3545308",
+     "name": "ROCILETINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S4"
+   ],
+   "quote": "CO-1686 is a novel, irreversible, and orally delivered kinase inhibitor that specifically targets the mutant forms of EGFR, including T790M",
+   "cited_text": "Activating mutations in the epidermal growth factor receptor (EGFR) are key drivers of NSCLC malignancy in 10-15% of patients of European descent and approximately 30% of patients of East Asian descent ().",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'T790M' is not named in the cited units",
+    "drug 'CO-1686' is not named in the cited units"
+   ],
+   "id": "24065731-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "ONCOGENIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR mutations are drivers of NSCLC malignancy but does not mention Rociletinib or any drug response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'T790M' is not named in the cited units",
+    "drug 'CO-1686' is not named in the cited units",
+    "second model: supported = no (The unit states that EGFR mutations are drivers of NSCLC malignancy but does not mention Rociletinib or any drug response.)",
+    "models disagree on evidence_type: PREDICTIVE vs ONCOGENIC",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "delE746-A750",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S5"
+   ],
+   "quote": "Patients with the most common EGFR mutations (L858R mutation in exon 21 and delE746-A750 deletions in exon 19) typically have good responses to therapy with first-generation reversible EGFR tyrosine kinase inhibitors (TKIs), such as erlotinib or gefitinib",
+   "cited_text": "Patients with the most common EGFR mutations (L858R mutation in exon 21 and delE746-A750 deletions in exon 19) typically have good responses to therapy with first-generation reversible EGFR tyrosine kinase inhibitors (TKIs), such as erlotinib or gefitinib (-).",
+   "code_problems": [
+    "variant delE746-A750 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24065731-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that patients with these EGFR mutations typically have good responses to erlotinib or gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant delE746-A750 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S7"
+   ],
+   "quote": "driven in approximately 60% of cases by a second site EGFR point mutation that results in the substitution of threonine with methionine at amino acid position 790 (T790M)",
+   "cited_text": "Despite the impressive initial response to treatment, disease progression generally occurs after 9 to 14 months of erlotinib or gefitinib therapy, driven in approximately 60% of cases by a second site EGFR point mutation that results in the substitution of threonine with methionine at amino acid position 790 (T790M;(-)).",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "24065731-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that disease progression on erlotinib or gefitinib is driven by the T790M mutation, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3545308",
+     "name": "ROCILETINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T1.r3.c3"
+   ],
+   "quote": "EGFRL858R/T790M: 21.5 ± 1.7",
+   "cited_text": "21.5 ± 1.7",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'L858R/T790M' is not named in the cited units",
+    "drug 'CO-1686' is not named in the cited units",
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24065731-4",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit provides only a numerical value without context regarding drug response or mechanism."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'L858R/T790M' is not named in the cited units",
+    "drug 'CO-1686' is not named in the cited units",
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit provides only a numerical value without context regarding drug response or mechanism.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T1.r7.c3"
+   ],
+   "quote": "EGFRL858R/T790M: 98.0 ± 8.1",
+   "cited_text": "98.0 ± 8.1",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'L858R/T790M' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24065731-5",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit provides only a numerical value without context regarding drug response or mechanism."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'L858R/T790M' is not named in the cited units",
+    "drug 'erlotinib' is not named in the cited units",
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit provides only a numerical value without context regarding drug response or mechanism.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "del19/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3545308",
+     "name": "ROCILETINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S47"
+   ],
+   "quote": "CO-1686 inhibits cell proliferation and EGFR phosphorylation equally in the parental HCC827 (EGFR del19) as well as the erlotinib-resistant HCC827-EPR (del19/T790M) clone",
+   "cited_text": "CO-1686 inhibits cell proliferation and EGFR phosphorylation equally in the parental HCC827 (EGFR del19) as well as the erlotinib-resistant HCC827-EPR (del19/T790M) clone.",
+   "code_problems": [
+    "variant del19/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24065731-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that CO-1686 (Rociletinib) inhibits proliferation and EGFR phosphorylation in the del19/T790M clone, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant del19/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3545308",
+     "name": "ROCILETINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S61"
+   ],
+   "quote": "CO-1686 caused tumor regressions in two erlotinib-resistant models expressing the L858R/T790M EGFR mutation",
+   "cited_text": "At 100 mg/kg/day CO-1686 caused tumor regressions in two erlotinib-resistant models expressing the L858R/T790M EGFR mutation, the NCI-H1975 cell line xenograft (Fig. 3A) and the patient-derived lung tumor xenograft (PDX) LUM1868 (Fig. 3B), while erlotinib had no inhibitory effect on tumor growth (Fig. 3A, B).",
+   "code_problems": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24065731-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "animal model",
+    "reason": "The unit states that Rociletinib caused tumor regressions in L858R/T790M xenograft models while erlotinib had no effect."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L858R/T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3545308",
+     "name": "ROCILETINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "T2.r3.c2"
+   ],
+   "quote": "CO-1686 GI50 (nM): 3237±1114",
+   "cited_text": "3237±1114",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'L858R/T790M' is not named in the cited units",
+    "drug 'CO-1686' is not named in the cited units",
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "24065731-8",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit provides only a numerical value without context regarding drug response or mechanism."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'L858R/T790M' is not named in the cited units",
+    "drug 'CO-1686' is not named in the cited units",
+    "variant L858R/T790M could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit provides only a numerical value without context regarding drug response or mechanism.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

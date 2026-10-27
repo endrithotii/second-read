@@ -1,0 +1,14 @@
+{
+ "pmid": "35141163",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 25
+ },
+ "include": true,
+ "confidence": 25.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Cytology-Based Specimen Triage for Epidermal Growth Factor Receptor Mutation Testing of Malignant Pleural Effusions in Non-Small Cell Lung Cancer."
+}

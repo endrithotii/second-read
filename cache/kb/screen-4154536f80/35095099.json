@@ -1,0 +1,14 @@
+{
+ "pmid": "35095099",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "LncRNAs LCETRL3 and LCETRL4 at chromosome 4q12 diminish EGFR-TKIs efficiency in NSCLC through stabilizing TDP43 and EIF2S1."
+}

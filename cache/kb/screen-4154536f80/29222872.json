@@ -1,0 +1,14 @@
+{
+ "pmid": "29222872",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Comparison of therapeutic effects of EGFR-tyrosine kinase inhibitors on 19Del and L858R mutations in advanced lung adenocarcinoma and effect on cellular immune function."
+}

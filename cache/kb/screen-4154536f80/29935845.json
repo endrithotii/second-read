@@ -1,0 +1,14 @@
+{
+ "pmid": "29935845",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Primary Resistance to Afatinib in a Patient with Lung Adenocarcinoma Harboring Uncommon EGFR Mutations: S768I and V769L."
+}

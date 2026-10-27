@@ -1,0 +1,14 @@
+{
+ "pmid": "16850125",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 15
+ },
+ "include": true,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Biological and clinical implications of EGFR mutations in lung cancer."
+}

@@ -1,0 +1,501 @@
+{
+ "pmid": "28274957",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 52,
+ "units_total": 204,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L869R",
+     "hgvs": "NP_004439.2:p.(Leu869Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "HER2-mutant breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "HER2 L869R is a neratinib-sensitive, gain-of-function mutation",
+   "cited_text": "Laboratory studies suggested that HER2 L869R is a neratinib-sensitive, gain-of-function mutation that upon dimerization with mutant HER3 E928G , also present in the breast cancer, amplifies HER2 signaling.",
+   "code_problems": [
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ],
+   "id": "28274957-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "Laboratory studies indicate that the HER2 L869R mutation confers sensitivity to neratinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L869R",
+     "hgvs": "NP_004439.2:p.(Leu869Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "HER2-mutant breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A1",
+    "A4",
+    "A6"
+   ],
+   "quote": "acquired HER2 T798I gatekeeper mutation ... with acquired resistance to neratinib",
+   "cited_text": "We report a HER2 T798I gatekeeper mutation in a patient with HER2 L869R -mutant breast cancer with acquired resistance to neratinib. Upon clinical progression, HER2 T798I was detected in plasma tumor cell-free DNA. Neratinib blocked HER2-mediated signaling and growth in cells expressing HER2 L869R but not HER2 L869R/T798I In contrast, afatinib and the osimertinib metabolite AZ5104 strongly suppressed HER2 L869R/T798I -induced signaling and cell growth.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ],
+   "id": "28274957-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The addition of the T798I gatekeeper mutation to L869R confers resistance to neratinib in preclinical models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree",
+    "models disagree on evidence level: C vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L869R",
+     "hgvs": "NP_004439.2:p.(Leu869Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "HER2-mutant breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6",
+    "S79",
+    "S85",
+    "S135",
+    "S137"
+   ],
+   "quote": "afatinib strongly suppressed HER2 L869R/T798I -induced signaling and cell growth",
+   "cited_text": "Neratinib blocked HER2-mediated signaling and growth in cells expressing HER2 L869R but not HER2 L869R/T798I In contrast, afatinib and the osimertinib metabolite AZ5104 strongly suppressed HER2 L869R/T798I -induced signaling and cell growth. Treatment with afatinib and AZ5104 blocked phosphorylation of HER2WT as well as both HER2 mutants. Both neratinib and osimertinib failed to suppress growth of MCF10A/HER2L869R/T798I cells in 3D Matrigel, whereas this was completely blocked by afatinib and AZ5104, suggesting that the latter two inhibitors are able to overcome HER2T798I-mediated drug resistance. While afatinib and neratinib are both irreversible covalent EGFR/HER2 TKIs, we found that afatinib, but not neratinib, was able to block HER2L869R/T798I activity. Treatment with low doses of afatinib (10 nM), easily achievable in patients (), completely blocked growth of MCF10A/HER2L869R/T798I cells, while treatment with neratinib at clinically achievable concentrations () failed to do so (Fig. 4A,B).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ],
+   "id": "28274957-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "Afatinib effectively suppresses signaling and growth in cells with the L869R/T798I double mutation, overcoming neratinib resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L869R",
+     "hgvs": "NP_004439.2:p.(Leu869Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "AZ5104"
+    }
+   ],
+   "disease_written": "HER2-mutant breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6",
+    "S79",
+    "S85"
+   ],
+   "quote": "AZ5104 strongly suppressed HER2 L869R/T798I -induced signaling and cell growth",
+   "cited_text": "Neratinib blocked HER2-mediated signaling and growth in cells expressing HER2 L869R but not HER2 L869R/T798I In contrast, afatinib and the osimertinib metabolite AZ5104 strongly suppressed HER2 L869R/T798I -induced signaling and cell growth. Treatment with afatinib and AZ5104 blocked phosphorylation of HER2WT as well as both HER2 mutants. Both neratinib and osimertinib failed to suppress growth of MCF10A/HER2L869R/T798I cells in 3D Matrigel, whereas this was completely blocked by afatinib and AZ5104, suggesting that the latter two inhibitors are able to overcome HER2T798I-mediated drug resistance.",
+   "code_problems": [
+    "drug 'AZ5104' not found in ChEMBL",
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ],
+   "id": "28274957-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "AZ5104 strongly suppresses signaling and growth in cells with the L869R/T798I double mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZ5104' not found in ChEMBL",
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L869R",
+     "hgvs": "NP_004439.2:p.(Leu869Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    },
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "HER2-mutant breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S82",
+    "S85"
+   ],
+   "quote": "Both neratinib and osimertinib failed to suppress growth of MCF10A/HER2L869R/T798I cells",
+   "cited_text": "MCF10A/HER2L869R and MCF10A/HER2L869R/T798I were highly sensitive to afatinib and AZ5104 in growth factor-depleted media, whereas higher doses of osimertinib were required to block the growth of both cell types (Fig. 4A). Both neratinib and osimertinib failed to suppress growth of MCF10A/HER2L869R/T798I cells in 3D Matrigel, whereas this was completely blocked by afatinib and AZ5104, suggesting that the latter two inhibitors are able to overcome HER2T798I-mediated drug resistance.",
+   "code_problems": [
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ],
+   "id": "28274957-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "Osimertinib failed to suppress growth of cells with the L869R/T798I double mutation in 3D Matrigel assays."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'HER2-mutant breast cancer' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "HER2-amplified breast cancer cell line",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S94"
+   ],
+   "quote": "a few HER2T798M alleles can confer resistance to neratinib",
+   "cited_text": "Since only ~3% of the ERBB2 alleles in the BT474HER2-T798M cells harbor the mutation (), these data suggest that just a few HER2T798M alleles can confer resistance to neratinib, but not afatinib, in cells with WT HER2 gene amplification.",
+   "code_problems": [
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ],
+   "id": "28274957-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The T798M mutation (analogous to T798I) confers resistance to neratinib in HER2-amplified cell lines."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "HER2-amplified breast cancer cell line",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S93"
+   ],
+   "quote": "afatinib ... blocked pAKT, pERK, and pS6 in both BT474GFP and BT474HER2-T798M cells",
+   "cited_text": "Consistent with the findings in MCF10A cells, afatinib and AZ5104, but not osimertinib, blocked pAKT, pERK, and pS6 in both BT474GFP and BT474HER2-T798M cells.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ],
+   "id": "28274957-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "Afatinib blocks downstream signaling in cell lines harboring the T798M mutation, indicating retained sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "AZ5104"
+    }
+   ],
+   "disease_written": "HER2-amplified breast cancer cell line",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S93"
+   ],
+   "quote": "afatinib and AZ5104, but not osimertinib, blocked pAKT, pERK, and pS6",
+   "cited_text": "Consistent with the findings in MCF10A cells, afatinib and AZ5104, but not osimertinib, blocked pAKT, pERK, and pS6 in both BT474GFP and BT474HER2-T798M cells.",
+   "code_problems": [
+    "drug 'AZ5104' not found in ChEMBL",
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ],
+   "id": "28274957-8",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "AZ5104 blocks downstream signaling in cell lines harboring the T798M mutation, indicating retained sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'AZ5104' not found in ChEMBL",
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "T798I",
+     "hgvs": "NP_004439.2:p.(Thr798Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "HER2-amplified breast cancer cell line",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S93"
+   ],
+   "quote": "afatinib and AZ5104, but not osimertinib, blocked pAKT, pERK, and pS6",
+   "cited_text": "Consistent with the findings in MCF10A cells, afatinib and AZ5104, but not osimertinib, blocked pAKT, pERK, and pS6 in both BT474GFP and BT474HER2-T798M cells.",
+   "code_problems": [
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ],
+   "id": "28274957-9",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "Osimertinib failed to block downstream signaling in cell lines harboring the T798M mutation, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'HER2-amplified breast cancer cell line' not mapped to OncoTree"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": "30737217",
+   "reference": "Cancer Discov. 2019 Feb;9(2):303. doi: 10.1158/2159-8290.CD-18-1515."
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

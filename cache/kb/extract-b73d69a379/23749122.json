@@ -1,0 +1,114 @@
+{
+ "pmid": "23749122",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 21,
+ "units_total": 21,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A20"
+   ],
+   "quote": "exon 18 sensitizing mutations showed a worse PFS than exon 19 or 21 mutations",
+   "cited_text": "By contrast, exon 18 sensitizing mutations showed a worse PFS than exon 19 or 21 mutations.",
+   "code_problems": [
+    "drug 'erlotinib' is not named in the cited units"
+   ],
+   "id": "23749122-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cohort or case series",
+    "reason": "The unit states that exon 18 mutations have worse PFS than exon 19/21, implying reduced sensitivity, but does not explicitly name Erlotinib or specify the drug context in the provided text."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'erlotinib' is not named in the cited units",
+    "second model: supported = no (The unit states that exon 18 mutations have worse PFS than exon 19/21, implying reduced sensitivity, but does not explicitly name Erlotinib or specify the drug context in the provided text.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A20"
+   ],
+   "quote": "exon 18 sensitizing mutations showed a worse PFS than exon 19 or 21 mutations",
+   "cited_text": "By contrast, exon 18 sensitizing mutations showed a worse PFS than exon 19 or 21 mutations.",
+   "code_problems": [
+    "drug 'gefitinib' is not named in the cited units"
+   ],
+   "id": "23749122-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cohort or case series",
+    "reason": "The unit states that exon 18 mutations have worse PFS than exon 19/21, implying reduced sensitivity, but does not explicitly name Gefitinib or specify the drug context in the provided text."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'gefitinib' is not named in the cited units",
+    "second model: supported = no (The unit states that exon 18 mutations have worse PFS than exon 19/21, implying reduced sensitivity, but does not explicitly name Gefitinib or specify the drug context in the provided text.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

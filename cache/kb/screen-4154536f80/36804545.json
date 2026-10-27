@@ -1,0 +1,14 @@
+{
+ "pmid": "36804545",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Experimental study of EGFR-TKI aumolertinib combined with ionizing radiation in EGFR mutated NSCLC brain metastases tumor."
+}

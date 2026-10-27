@@ -1,0 +1,66 @@
+{
+ "pmid": "25862853",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 10,
+ "units_total": 10,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "afatinib ... is especially effective against non-small cell lung cancer (NSCLC) carrying an EGFR exon 19 deletion",
+   "cited_text": "A recent pooled analysis of the LUX-LUNG3 and LUX-LUNG6 trials suggested that afatinib (an irreversible epidermal growth factor receptor-tyrosine kinase inhibitor (EGFR-TKI)) is especially effective against non-small cell lung cancer (NSCLC) carrying an EGFR exon 19 deletion.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "25862853-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited pooled analysis of LUX-LUNG3 and LUX-LUNG6 (randomised trials) indicates that EGFR exon 19 deletion is associated with effective response to afatinib in NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "models disagree on evidence level: D vs B"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "27211795",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "S768I Mutation in EGFR in Patients with Lung Cancer."
+}

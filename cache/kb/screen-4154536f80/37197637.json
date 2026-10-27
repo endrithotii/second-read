@@ -1,0 +1,14 @@
+{
+ "pmid": "37197637",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": false,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Activity of osimertinib in a patient with stage IV non-small cell lung cancer harboring HER2 exon 19, p.L755P mutation: case report."
+}

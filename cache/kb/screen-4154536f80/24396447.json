@@ -1,0 +1,14 @@
+{
+ "pmid": "24396447",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "unclear",
+  "confidence": 30
+ },
+ "include": false,
+ "confidence": 30.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Acquired resistance L747S mutation in an epidermal growth factor receptor-tyrosine kinase inhibitor-naïve patient: A report of three cases."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "39637337",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Clinical and Radiographic Benefit of a Patient With Metastatic Non-Small Cell Lung Cancer Harboring an EGFR::ERBB4 Fusion Through Use of EGFR Tyrosine Kinase Inhibitors."
+}

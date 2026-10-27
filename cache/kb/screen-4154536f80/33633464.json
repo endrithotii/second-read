@@ -1,0 +1,14 @@
+{
+ "pmid": "33633464",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 60
+ },
+ "include": true,
+ "confidence": 60.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Systemic Inflammation Response Index (SIRI) Independently Predicts Survival in Advanced Lung Adenocarcinoma Patients Treated with First-Generation EGFR-TKIs."
+}

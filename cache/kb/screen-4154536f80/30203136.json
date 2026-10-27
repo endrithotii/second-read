@@ -1,0 +1,14 @@
+{
+ "pmid": "30203136",
+ "answers": {
+  "population": "no",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Identification of differentially expressed genes and signaling pathways using bioinformatics in interstitial lung disease due to tyrosine kinase inhibitors targeting the epidermal growth factor receptor."
+}

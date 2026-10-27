@@ -1,0 +1,264 @@
+{
+ "pmid": "27102076",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 56,
+ "units_total": 257,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "EGFR-RAD51",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 4,
+   "units": [
+    "A7",
+    "T1.r2.c11",
+    "T1.r3.c11",
+    "T1.r5.c11"
+   ],
+   "quote": "document responses to the EGFR inhibitor erlotinib in 4 patients whose tumors harbored EGFR fusions.",
+   "cited_text": "We report for the first time the identification and therapeutic targeting of EGFR C-terminal fusions in patients with lung cancer and document responses to the EGFR inhibitor erlotinib in 4 patients whose tumors harbored EGFR fusions. PR PR PR",
+   "code_problems": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27102076-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit reports therapeutic responses to erlotinib in 4 patients with EGFR fusions, including EGFR-RAD51."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "EGFR-PURB",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "S93",
+    "T1.r4.c11"
+   ],
+   "quote": "derived significant and sustained anti-tumor responses from treatment with the EGFR TKI, erlotinib.",
+   "cited_text": "While distinct EGFR fusions have previously been observed in glioma (), this is the first documentation of patients with EGFR fusion positive tumors that derived significant and sustained anti-tumor responses from treatment with the EGFR TKI, erlotinib. PR",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units",
+    "variant EGFR-PURB could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27102076-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit documents significant and sustained anti-tumor responses to erlotinib in patients with EGFR fusion positive tumors."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "variant EGFR-PURB could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "EGFR-RAD51",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S80",
+    "S82"
+   ],
+   "quote": "Each TKI effectively inhibited the growth of Ba/F3 cells expressing EGFR-RAD51 to varying degrees.",
+   "cited_text": "We treated Ba/F3 cells expressing EGFR-RAD51 with erlotinib (1st-generation reversible EGFR TKI), afatinib (2nd-generation irreversible EGFR/HER2 TKI), and osimertinib (3rd-generation irreversible EGFR TKI) to assess the effects of these inhibitors on cellular proliferation. Each TKI effectively inhibited the growth of Ba/F3 cells expressing EGFR-RAD51 to varying degrees (Fig. 3A, Supplementary Table S3).",
+   "code_problems": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27102076-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that afatinib effectively inhibited the growth of Ba/F3 cells expressing EGFR-RAD51."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "EGFR-RAD51",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S80",
+    "S82"
+   ],
+   "quote": "Each TKI effectively inhibited the growth of Ba/F3 cells expressing EGFR-RAD51 to varying degrees.",
+   "cited_text": "We treated Ba/F3 cells expressing EGFR-RAD51 with erlotinib (1st-generation reversible EGFR TKI), afatinib (2nd-generation irreversible EGFR/HER2 TKI), and osimertinib (3rd-generation irreversible EGFR TKI) to assess the effects of these inhibitors on cellular proliferation. Each TKI effectively inhibited the growth of Ba/F3 cells expressing EGFR-RAD51 to varying degrees (Fig. 3A, Supplementary Table S3).",
+   "code_problems": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27102076-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that osimertinib effectively inhibited the growth of Ba/F3 cells expressing EGFR-RAD51."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "EGFR-RAD51",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1201577",
+     "name": "CETUXIMAB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S87",
+    "S95"
+   ],
+   "quote": "proliferation of Ba/F3 cells expressing EGFR-RAD51 was potently inhibited by cetuximab.",
+   "cited_text": "In contrast to EGFR-L858R, proliferation of Ba/F3 cells expressing EGFR-RAD51 was potently inhibited by cetuximab (Figs. Interestingly, EGFR-RAD51 fusions were markedly sensitive to both EGFR TKIs and the EGFR antibody, cetuximab.",
+   "code_problems": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "27102076-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that proliferation of Ba/F3 cells expressing EGFR-RAD51 was potently inhibited by cetuximab."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant EGFR-RAD51 could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "26124334",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Effectiveness of Tyrosine Kinase Inhibitors in Japanese Patients with Non-small Cell Lung Cancer Harboring Minor Epidermal Growth Factor Receptor Mutations: Results from a Multicenter Retrospective Study (HANSHIN Oncology Group 0212)."
+}

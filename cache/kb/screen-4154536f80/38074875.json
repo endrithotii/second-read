@@ -1,0 +1,14 @@
+{
+ "pmid": "38074875",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Presence of MET exon 14 skipping and fusion as mechanism of osimertinb resistance in a lung adenocarcinoma with an EGFR exon 19 deletion that responds to combination of capmatinib and osimertinb: A case report."
+}

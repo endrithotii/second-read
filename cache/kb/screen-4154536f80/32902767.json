@@ -1,0 +1,14 @@
+{
+ "pmid": "32902767",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 60
+ },
+ "include": true,
+ "confidence": 60.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Intracranial disease control for EGFR-mutant and ALK-rearranged lung cancer with large volume or symptomatic brain metastases."
+}

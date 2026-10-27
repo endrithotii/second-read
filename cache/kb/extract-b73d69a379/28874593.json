@@ -1,0 +1,117 @@
+{
+ "pmid": "28874593",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 7,
+ "units_total": 7,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "metastatic pancreatic ductal adenocarcinoma",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A3",
+    "A4"
+   ],
+   "quote": "He experienced response to erlotinib for 10 months",
+   "cited_text": "This report describes a patient with chemotherapy-refractory metastatic pancreatic ductal adenocarcinoma (PDAC) whose tumor was characterized by an activating mutation in exon 19 of the epidermal growth factor receptor ( EGFR ). He experienced response to erlotinib for 10 months, and then developed disease progression in association with emergence of the T790M mutation.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units",
+    "disease 'metastatic pancreatic ductal adenocarcinoma' not mapped to OncoTree"
+   ],
+   "id": "28874593-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The case report describes a patient with EGFR Exon 19 Deletion who experienced a clinical response to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "disease 'metastatic pancreatic ductal adenocarcinoma' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "metastatic pancreatic ductal adenocarcinoma",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A4"
+   ],
+   "quote": "developed disease progression in association with emergence of the T790M mutation",
+   "cited_text": "He experienced response to erlotinib for 10 months, and then developed disease progression in association with emergence of the T790M mutation.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units",
+    "disease 'metastatic pancreatic ductal adenocarcinoma' not mapped to OncoTree"
+   ],
+   "id": "28874593-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The case report states that disease progression occurred in association with the emergence of the T790M mutation, indicating resistance to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "disease 'metastatic pancreatic ductal adenocarcinoma' not mapped to OncoTree"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

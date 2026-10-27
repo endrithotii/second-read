@@ -1,0 +1,121 @@
+{
+ "pmid": "24035188",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 70,
+   "units": [
+    "A2"
+   ],
+   "quote": "T790M mutation is considered to be the major mechanism of acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs)",
+   "cited_text": "Although T790M mutation is considered to be the major mechanism of acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) in patients with non-small cell lung cancer (NSCLC), its clinical implication remains undetermined.",
+   "code_problems": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "24035188-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The text explicitly identifies EGFR T790M as the major mechanism of acquired resistance to EGFR TKIs in NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "patient count 70 is not a number in the cited units",
+    "drug 'EGFR TKIs' not found in ChEMBL",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 34,
+   "units": [
+    "A10"
+   ],
+   "quote": "the median progression-free survival for afatinib ... 3.2 and 4.6 months for the groups with and without T790M, respectively (P = 0.33)",
+   "cited_text": "The median progression-free survival for afatinib was 3.7 months for the entire group, and 3.2 and 4.6 months for the groups with and without T790M, respectively (P = 0.33).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "patient count 34 is not a number in the cited units"
+   ],
+   "id": "24035188-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The study reports no statistically significant difference in progression-free survival between patients with and without the T790M mutation treated with afatinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "patient count 34 is not a number in the cited units",
+    "second model: supported = no (The study reports no statistically significant difference in progression-free survival between patients with and without the T790M mutation treated with afatinib.)",
+    "models disagree on significance: RESISTANCE vs NA"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}
