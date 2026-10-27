@@ -56,7 +56,7 @@ td.num { font-variant-numeric: tabular-nums; }
   <p class="where"><a href="../">Second Read</a>, knowledge-base mode</p>
   <h1>Resistance to osimertinib in EGFR-mutant lung cancer: evidence entries, measured against expert curators</h1>
   <p class="lede">Papers become structured evidence entries (gene, variant, drug, disease, evidence type, direction, significance, level, and the exact sentence or table cell they rest on), each compared with the knowledge base. Every number below is measured against CIViC's curators on papers held out from prompt development, with a 95% interval.</p>
-  <p class="stamp">Generated 2026-10-27 15:24 UTC. Ground truth: 385 CIViC entries from 155 papers (111 papers held out, 44 used to build the prompts).</p>
+  <p class="stamp">Generated 2026-10-27 20:59 UTC. Ground truth: 385 CIViC entries from 155 papers (111 papers held out, 44 used to build the prompts).</p>
 </div></header>
 <main class="wrap">
 
@@ -65,8 +65,8 @@ td.num { font-variant-numeric: tabular-nums; }
   <ul>
     <li><b>The narrow topic is too small to measure on its own.</b> CIViC holds 13 curated entries on resistance to osimertinib. The evaluation therefore uses all CIViC evidence on EGFR inhibitors in lung cancer, and reports the osimertinib-resistance subset separately, with its wide interval.</li>
     <li><b>CIViC is not complete.</b> An entry CIViC lacks is not automatically wrong, so every precision figure measured against CIViC is a floor. The blind expert review below is what measures it properly.</li>
-    <li><b>Most papers have no open full text.</b> 60 of 81 evaluated papers could only be read as abstracts; results are split by source.</li>
-    <li><b>Progress:</b> 81 of 111 held-out papers extracted, 249 of 302 screening papers screened. Free model quotas limit how much runs per day; the numbers update as runs complete.</li>
+    <li><b>Most papers have no open full text.</b> 69 of 95 evaluated papers could only be read as abstracts; results are split by source.</li>
+    <li><b>Progress:</b> 95 of 111 held-out papers extracted, 300 of 302 screening papers screened. Free model quotas limit how much runs per day; the numbers update as runs complete.</li>
   </ul>
 </section>
 
@@ -87,14 +87,14 @@ td.num { font-variant-numeric: tabular-nums; }
 </div>
     <div class="metric weak">
   <div class="mlabel">Screening precision (floor)</div>
-  <div class="mvalue">1%<small>95% interval 1% to 2%</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:0.9%;width:0.6%"></span><span class="pt" style="left:1.2%"></span></div>
-  <p class="mnote">147 other papers sampled at random from the search, each standing for 83. Papers CIViC never curated count as wrong.</p>
+  <div class="mvalue">1%<small>95% interval 1% to 1%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:0.6%;width:0.5%"></span><span class="pt" style="left:0.9%"></span></div>
+  <p class="mnote">198 other papers sampled at random from the search, each standing for 83. Papers CIViC never curated count as wrong.</p>
 </div>
     <div class="metric weak">
   <div class="mlabel">Work saved at 95% recall (WSS@95)</div>
-  <div class="mvalue">27%<small>95% interval 0% to 36%</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:0.2%;width:35.4%"></span><span class="pt" style="left:26.7%"></span></div>
+  <div class="mvalue">28%<small>95% interval -1% to 35%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:-1.0%;width:35.6%"></span><span class="pt" style="left:27.7%"></span></div>
   <p class="mnote">Share of the search results a person would not need to read, ranked by the screener, while still finding 95% of the curated papers, minus the 5% allowed to miss.</p>
 </div>
   </div>
@@ -105,64 +105,64 @@ td.num { font-variant-numeric: tabular-nums; }
   <div class="grid">
     <div class="metric weak">
   <div class="mlabel">Curated entries the system also produced</div>
-  <div class="mvalue">21%<small>95% interval 16% to 27%, n = 216</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:16.4%;width:10.9%"></span><span class="pt" style="left:21.3%"></span></div>
-  <p class="mnote">216 CIViC entries in 81 held-out papers. Matched on the same molecular profile and at least one drug.</p>
+  <div class="mvalue">22%<small>95% interval 17% to 28%, n = 249</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:17.4%;width:10.3%"></span><span class="pt" style="left:22.1%"></span></div>
+  <p class="mnote">249 CIViC entries in 95 held-out papers. Matched on the same molecular profile and at least one drug.</p>
 </div>
     <div class="metric weak">
   <div class="mlabel">From full text</div>
-  <div class="mvalue">33%<small>95% interval 22% to 46%, n = 55</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:21.8%;width:24.1%"></span><span class="pt" style="left:32.7%"></span></div>
+  <div class="mvalue">32%<small>95% interval 23% to 44%, n = 77</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:23.1%;width:20.5%"></span><span class="pt" style="left:32.5%"></span></div>
   <p class="mnote"></p>
 </div>
     <div class="metric weak">
   <div class="mlabel">From the abstract only</div>
-  <div class="mvalue">17%<small>95% interval 12% to 24%, n = 161</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:12.3%;width:11.7%"></span><span class="pt" style="left:17.4%"></span></div>
+  <div class="mvalue">17%<small>95% interval 12% to 24%, n = 172</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:12.5%;width:11.3%"></span><span class="pt" style="left:17.4%"></span></div>
   <p class="mnote"></p>
 </div>
     <div class="metric weak">
   <div class="mlabel">System entries that CIViC also holds (floor)</div>
   <div class="mvalue">18%<small>95% interval 14% to 23%</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:13.7%;width:9.4%"></span><span class="pt" style="left:17.9%"></span></div>
-  <p class="mnote">257 entries produced. The rest are either errors or evidence CIViC has not curated; the expert review tells which.</p>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:14.1%;width:8.6%"></span><span class="pt" style="left:18.0%"></span></div>
+  <p class="mnote">306 entries produced. The rest are either errors or evidence CIViC has not curated; the expert review tells which.</p>
 </div>
   </div>
   <h3>Field accuracy, on entries matched to a CIViC entry</h3>
   <div class="grid"><div class="metric good">
   <div class="mlabel">Drugs</div>
-  <div class="mvalue">89%<small>95% interval 77% to 95%, n = 46</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:77.0%;width:18.3%"></span><span class="pt" style="left:89.1%"></span></div>
+  <div class="mvalue">89%<small>95% interval 78% to 95%, n = 55</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:78.2%;width:16.7%"></span><span class="pt" style="left:89.1%"></span></div>
   <p class="mnote"></p>
 </div><div class="metric good">
   <div class="mlabel">Disease (same OncoTree branch)</div>
-  <div class="mvalue">98%<small>95% interval 89% to 100%, n = 46</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:88.7%;width:11.0%"></span><span class="pt" style="left:97.8%"></span></div>
+  <div class="mvalue">98%<small>95% interval 90% to 100%, n = 55</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:90.4%;width:9.3%"></span><span class="pt" style="left:98.2%"></span></div>
   <p class="mnote"></p>
 </div><div class="metric good">
   <div class="mlabel">Evidence type</div>
-  <div class="mvalue">100%<small>95% interval 92% to 100%, n = 46</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:92.3%;width:7.7%"></span><span class="pt" style="left:100.0%"></span></div>
+  <div class="mvalue">100%<small>95% interval 93% to 100%, n = 55</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:93.5%;width:6.5%"></span><span class="pt" style="left:100.0%"></span></div>
   <p class="mnote"></p>
 </div><div class="metric good">
   <div class="mlabel">Direction</div>
-  <div class="mvalue">89%<small>95% interval 77% to 95%, n = 46</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:77.0%;width:18.3%"></span><span class="pt" style="left:89.1%"></span></div>
+  <div class="mvalue">91%<small>95% interval 80% to 96%, n = 55</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:80.4%;width:15.6%"></span><span class="pt" style="left:90.9%"></span></div>
   <p class="mnote"></p>
 </div><div class="metric good">
   <div class="mlabel">Clinical significance</div>
-  <div class="mvalue">91%<small>95% interval 80% to 97%, n = 46</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:79.7%;width:16.9%"></span><span class="pt" style="left:91.3%"></span></div>
+  <div class="mvalue">93%<small>95% interval 83% to 97%, n = 55</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:82.7%;width:14.4%"></span><span class="pt" style="left:92.7%"></span></div>
   <p class="mnote"></p>
 </div><div class="metric mid">
   <div class="mlabel">Evidence level (A-E)</div>
-  <div class="mvalue">70%<small>95% interval 55% to 81%, n = 46</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:55.2%;width:25.7%"></span><span class="pt" style="left:69.6%"></span></div>
+  <div class="mvalue">65%<small>95% interval 52% to 77%, n = 55</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:52.3%;width:24.4%"></span><span class="pt" style="left:65.5%"></span></div>
   <p class="mnote"></p>
 </div></div>
   <h3>Writer and checker agreement (Cohen's kappa)</h3>
   <p class="note">The checker comes from a different model family, reads the same cited text and assigns the labels without seeing the writer's.</p>
-  <div class="tablewrap"><table><thead><tr><th>Field</th><th>Kappa</th><th>95% interval</th><th>Agreement</th><th>Entries</th></tr></thead><tbody><tr><td>Evidence type</td><td class=num>0.12</td><td class=num>-0.01 to 0.29</td><td>slight or none</td><td class=num>251</td></tr><tr><td>Direction</td><td class=num>0.46</td><td class=num>0.26 to 0.64</td><td>moderate</td><td class=num>251</td></tr><tr><td>Clinical significance</td><td class=num>0.74</td><td class=num>0.67 to 0.82</td><td>substantial</td><td class=num>251</td></tr><tr><td>Evidence level</td><td class=num>0.74</td><td class=num>0.67 to 0.80</td><td>substantial</td><td class=num>251</td></tr></tbody></table></div>
+  <div class="tablewrap"><table><thead><tr><th>Field</th><th>Kappa</th><th>95% interval</th><th>Agreement</th><th>Entries</th></tr></thead><tbody><tr><td>Evidence type</td><td class=num>0.10</td><td class=num>-0.01 to 0.24</td><td>slight or none</td><td class=num>299</td></tr><tr><td>Direction</td><td class=num>0.43</td><td class=num>0.24 to 0.61</td><td>moderate</td><td class=num>299</td></tr><tr><td>Clinical significance</td><td class=num>0.72</td><td class=num>0.65 to 0.78</td><td>substantial</td><td class=num>299</td></tr><tr><td>Evidence level</td><td class=num>0.70</td><td class=num>0.64 to 0.77</td><td>substantial</td><td class=num>299</td></tr></tbody></table></div>
 </section>
 
 <section>
@@ -170,32 +170,32 @@ td.num { font-variant-numeric: tabular-nums; }
   <div class="grid">
     <div class="metric weak">
   <div class="mlabel">Entries sent to a person</div>
-  <div class="mvalue">84%<small>95% interval 80% to 88%</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:79.5%;width:8.9%"></span><span class="pt" style="left:84.4%"></span></div>
+  <div class="mvalue">85%<small>95% interval 81% to 89%</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:80.9%;width:7.9%"></span><span class="pt" style="left:85.3%"></span></div>
   <p class="mnote">Every code check must pass, every name must be normalised, the checker must say the cited text supports the entry and agree on type, direction, significance and level.</p>
 </div>
     <div class="metric weak">
   <div class="mlabel">Errors among automatically accepted entries</div>
-  <div class="mvalue">40%<small>95% interval 20% to 64%, n = 15</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:19.8%;width:44.4%"></span><span class="pt" style="left:40.0%"></span></div>
-  <p class="mnote">15 accepted entries could be compared with CIViC; 25 accepted entries are not in CIViC and need the expert review.</p>
+  <div class="mvalue">44%<small>95% interval 23% to 67%, n = 16</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:23.1%;width:43.7%"></span><span class="pt" style="left:43.8%"></span></div>
+  <p class="mnote">16 accepted entries could be compared with CIViC; 29 accepted entries are not in CIViC and need the expert review.</p>
 </div>
   </div>
   <div class="two">
-    <div><h3>Why entries went to a person</h3><ul class="reasons"><li><b>142</b> drug</li><li><b>69</b> variant</li><li><b>46</b> second model</li><li><b>42</b> models disagree on evidence level</li><li><b>40</b> quote is not in the cited units</li><li><b>39</b> models disagree on significance</li><li><b>25</b> models disagree on evidence_type</li><li><b>23</b> patient count 1 is not a number in the cited units</li><li><b>23</b> models disagree on direction</li><li><b>17</b> disease</li><li><b>7</b> quote missing or too short</li><li><b>7</b> variant L858R/T790M could not be validated</li></ul></div>
-    <div><h3>Accepted entries that disagree with CIViC</h3><ul class="reasons"><li>PMID 17085664, entry 17085664-1 against CIViC EID3806: wrong drugs, level</li><li>PMID 17877814, entry 17877814-5 against CIViC EID3801: wrong significance</li><li>PMID 21969500, entry 21969500-1 against CIViC EID4201: wrong level</li><li>PMID 21969500, entry 21969500-2 against CIViC EID4213: wrong direction, significance, level</li><li>PMID 26269204, entry 26269204-1 against CIViC EID2157: wrong level</li><li>PMID 27211795, entry 27211795-5 against CIViC EID2906: wrong direction, level</li></ul></div>
+    <div><h3>Why entries went to a person</h3><ul class="reasons"><li><b>158</b> drug</li><li><b>90</b> variant</li><li><b>59</b> second model</li><li><b>58</b> models disagree on evidence level</li><li><b>55</b> quote is not in the cited units</li><li><b>50</b> models disagree on significance</li><li><b>33</b> models disagree on evidence_type</li><li><b>29</b> disease</li><li><b>26</b> patient count 1 is not a number in the cited units</li><li><b>26</b> models disagree on direction</li><li><b>8</b> quote missing or too short</li><li><b>7</b> cites no unit that exists in the paper</li></ul></div>
+    <div><h3>Accepted entries that disagree with CIViC</h3><ul class="reasons"><li>PMID 17085664, entry 17085664-1 against CIViC EID3806: wrong drugs, level</li><li>PMID 17877814, entry 17877814-5 against CIViC EID3801: wrong significance</li><li>PMID 21969500, entry 21969500-1 against CIViC EID4201: wrong level</li><li>PMID 21969500, entry 21969500-2 against CIViC EID4213: wrong direction, significance, level</li><li>PMID 26269204, entry 26269204-1 against CIViC EID2157: wrong level</li><li>PMID 27211795, entry 27211795-5 against CIViC EID2906: wrong direction, level</li><li>PMID 28958502, entry 28958502-2 against CIViC EID11239: wrong level</li></ul></div>
   </div>
   <h3>Compared with the knowledge base (other papers only)</h3>
-  <ul class="labels"><li><b>141</b> new</li><li><b>73</b> supports</li><li><b>34</b> refines</li><li><b>9</b> contradicts</li></ul>
+  <ul class="labels"><li><b>178</b> new</li><li><b>76</b> supports</li><li><b>39</b> refines</li><li><b>13</b> contradicts</li></ul>
 </section>
 
 <section>
   <h2>4. Resistance to osimertinib</h2>
-  <div class="grid"><div class="metric mid">
+  <div class="grid"><div class="metric weak">
   <div class="mlabel">Curated osimertinib-resistance entries found</div>
-  <div class="mvalue">50%<small>95% interval 9% to 91%, n = 2</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:9.5%;width:81.1%"></span><span class="pt" style="left:50.0%"></span></div>
-  <p class="mnote">2 of 11 held-out entries evaluated. Too few for a firm number; read the interval.</p>
+  <div class="mvalue">45%<small>95% interval 21% to 72%, n = 11</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:21.3%;width:50.7%"></span><span class="pt" style="left:45.5%"></span></div>
+  <p class="mnote">11 of 11 held-out entries evaluated. Too few for a firm number; read the interval.</p>
 </div></div>
 </section>
 
@@ -212,47 +212,47 @@ td.num { font-variant-numeric: tabular-nums; }
   <div class="grid">
     <div class="metric weak">
   <div class="mlabel">Specific variants (e.g. C797S): this system</div>
-  <div class="mvalue">25%<small>95% interval 19% to 32%, n = 188</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:19.4%;width:12.3%"></span><span class="pt" style="left:25.0%"></span></div>
-  <p class="mnote">Found only by this system: 7.</p>
+  <div class="mvalue">28%<small>95% interval 22% to 34%, n = 223</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:22.3%;width:11.7%"></span><span class="pt" style="left:27.8%"></span></div>
+  <p class="mnote">Found only by this system: 11.</p>
 </div>
     <div class="metric weak">
   <div class="mlabel">Specific variants: PubTator3</div>
-  <div class="mvalue">26%<small>95% interval 20% to 32%, n = 188</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:19.8%;width:12.4%"></span><span class="pt" style="left:25.5%"></span></div>
-  <p class="mnote">Found only by PubTator3: 8.</p>
+  <div class="mvalue">28%<small>95% interval 22% to 34%, n = 223</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:22.3%;width:11.7%"></span><span class="pt" style="left:27.8%"></span></div>
+  <p class="mnote">Found only by PubTator3: 11.</p>
 </div>
     <div class="metric mid">
   <div class="mlabel">Exon-level and copy-number events: this system</div>
-  <div class="mvalue">56%<small>95% interval 40% to 70%, n = 36</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:39.6%;width:30.9%"></span><span class="pt" style="left:55.6%"></span></div>
+  <div class="mvalue">53%<small>95% interval 39% to 67%, n = 45</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:39.1%;width:28.0%"></span><span class="pt" style="left:53.3%"></span></div>
   <p class="mnote">Exon 19 deletion, amplification, generic mutation.</p>
 </div>
     <div class="metric weak">
   <div class="mlabel">Exon-level and copy-number events: PubTator3</div>
-  <div class="mvalue">0%<small>95% interval 0% to 10%, n = 36</small></div>
-  <div class="track" aria-hidden="true"><span class="ci" style="left:0.0%;width:9.6%"></span><span class="pt" style="left:0.0%"></span></div>
+  <div class="mvalue">0%<small>95% interval 0% to 8%, n = 45</small></div>
+  <div class="track" aria-hidden="true"><span class="ci" style="left:0.0%;width:7.9%"></span><span class="pt" style="left:0.0%"></span></div>
   <p class="mnote">PubTator3 does not tag these as variants.</p>
 </div>
   </div>
-  <p class="note">Variants listed per paper: PubTator3 2.5, this system 2.2. Share of listed variants that curators recorded: PubTator3 22%, this system 35%.</p>
+  <p class="note">Variants listed per paper: PubTator3 2.5, this system 2.1. Share of listed variants that curators recorded: PubTator3 22%, this system 36%.</p>
 </section>
 
 <section>
   <h2>7. Flow of papers (PRISMA style)</h2>
   <ol class="flow">
     <li><b>16,786</b> papers found by the topic search (141 of 155 CIViC papers among them)</li>
-    <li><b>249</b> screened in the evaluation sample</li>
-    <li><b>81</b> held-out papers read for evidence: <b>21</b> full text, <b>60</b> abstract only (54 no PubMed Central copy; 6 PMC record has no body text (not in the open-access subset or author manuscripts))</li>
-    <li><b>0</b> retracted, <b>5</b> with a published correction</li>
-    <li><b>257</b> evidence entries: <b>40</b> accepted automatically, <b>217</b> sent to a person</li>
+    <li><b>300</b> screened in the evaluation sample</li>
+    <li><b>95</b> held-out papers read for evidence: <b>26</b> full text, <b>69</b> abstract only (63 no PubMed Central copy; 6 PMC record has no body text (not in the open-access subset or author manuscripts))</li>
+    <li><b>0</b> retracted, <b>6</b> with a published correction</li>
+    <li><b>306</b> evidence entries: <b>45</b> accepted automatically, <b>261</b> sent to a person</li>
   </ol>
 </section>
 
 <section>
   <h2>8. Blind expert review</h2>
   <p class="note">A fixed random sample of 30 automatically accepted entries, for a molecular pathologist or oncology researcher to judge from the source text alone. The reviewer does not see the models' reasoning or the routing. Error categories are fixed in advance: correct; wrong variant or molecular profile; wrong drug; wrong disease; wrong significance or direction; wrong evidence level; the quote does not support the entry; out of scope (not EGFR-TKI evidence in lung cancer); duplicate of another entry. <a href="expert_review.csv">Download the review sheet (CSV)</a>.</p>
-  <div class="tablewrap"><table><thead><tr><th>#</th><th>PMID</th><th>Profile</th><th>Drugs</th><th>Significance</th><th>Level</th></tr></thead><tbody><tr><td class=num>1</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25179728/'>25179728</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>2</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19010870/'>19010870</a></td><td>EGFR L858R AND EGFR T854A</td><td>ERLOTINIB (CHEMBL553)</td><td>reduced_sensitivity</td><td>D</td></tr><tr><td class=num>3</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/15118125/'>15118125</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>4</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/22895145/'>22895145</a></td><td>EGFR Mutation</td><td>TKI (no ChEMBL id)</td><td>resistance</td><td>E</td></tr><tr><td class=num>5</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR S768I</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>6</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21969500/'>21969500</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>7</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21783417/'>21783417</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>8</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21783417/'>21783417</a></td><td>EGFR Exon 19 Deletion</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>9</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/27032107/'>27032107</a></td><td>EGFR Mutation</td><td>EGFR TKI (no ChEMBL id)</td><td>sensitivityresponse</td><td>E</td></tr><tr><td class=num>10</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19060236/'>19060236</a></td><td>EGFR Exon 19 Deletion</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>11</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19060236/'>19060236</a></td><td>EGFR L858R</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>12</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR L858R</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>13</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17085664/'>17085664</a></td><td>EGFR T790M</td><td>GEFITINIB (CHEMBL939), ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>B</td></tr><tr><td class=num>14</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/26269204/'>26269204</a></td><td>EGFR T790M</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>sensitivityresponse</td><td>E</td></tr><tr><td class=num>15</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21969500/'>21969500</a></td><td>EGFR Expression</td><td>ERLOTINIB (CHEMBL553)</td><td>na</td><td>B</td></tr><tr><td class=num>16</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/24893891/'>24893891</a></td><td>EGFR T790M</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>17</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/22895145/'>22895145</a></td><td>EGFR Mutation</td><td>TKI (no ChEMBL id)</td><td>resistance</td><td>B</td></tr><tr><td class=num>18</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21132006/'>21132006</a></td><td>EGFR S768N</td><td>ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>D</td></tr><tr><td class=num>19</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25179728/'>25179728</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>20</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25853010/'>25853010</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>21</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25923549/'>25923549</a></td><td>EGFR T790M</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>22</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/16730237/'>16730237</a></td><td>EGFR Mutation</td><td>CETUXIMAB (CHEMBL1201577)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>23</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21132006/'>21132006</a></td><td>EGFR T790M</td><td>ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>D</td></tr><tr><td class=num>24</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/23816960/'>23816960</a></td><td>EGFR L858R</td><td>AFATINIB (CHEMBL1173655)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>25</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/20038723/'>20038723</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>26</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/16730237/'>16730237</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>27</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/27032107/'>27032107</a></td><td>EGFR Exon 19 Deletion</td><td>EGFR TKI (no ChEMBL id)</td><td>sensitivityresponse</td><td>E</td></tr><tr><td class=num>28</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25939061/'>25939061</a></td><td>EGFR C797S</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>resistance</td><td>D</td></tr><tr><td class=num>29</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/22895145/'>22895145</a></td><td>EGFR Mutation</td><td>TKI (no ChEMBL id)</td><td>resistance</td><td>E</td></tr><tr><td class=num>30</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/26269204/'>26269204</a></td><td>EGFR C797</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>resistance</td><td>E</td></tr></tbody></table></div>
+  <div class="tablewrap"><table><thead><tr><th>#</th><th>PMID</th><th>Profile</th><th>Drugs</th><th>Significance</th><th>Level</th></tr></thead><tbody><tr><td class=num>1</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25179728/'>25179728</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>2</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19010870/'>19010870</a></td><td>EGFR L858R AND EGFR T854A</td><td>ERLOTINIB (CHEMBL553)</td><td>reduced_sensitivity</td><td>D</td></tr><tr><td class=num>3</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/15118125/'>15118125</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>4</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/28958502/'>28958502</a></td><td>EGFR L858R</td><td>DACOMITINIB (CHEMBL2105719)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>5</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/22895145/'>22895145</a></td><td>EGFR Mutation</td><td>TKI (no ChEMBL id)</td><td>resistance</td><td>E</td></tr><tr><td class=num>6</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR S768I</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>7</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21969500/'>21969500</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>8</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21783417/'>21783417</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>9</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21783417/'>21783417</a></td><td>EGFR Exon 19 Deletion</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>10</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25939061/'>25939061</a></td><td>EGFR C797S</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>resistance</td><td>B</td></tr><tr><td class=num>11</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/28958502/'>28958502</a></td><td>EGFR Exon 19 Deletion</td><td>DACOMITINIB (CHEMBL2105719)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>12</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/22895145/'>22895145</a></td><td>EGFR Mutation</td><td>TKI (no ChEMBL id)</td><td>resistance</td><td>E</td></tr><tr><td class=num>13</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/26269204/'>26269204</a></td><td>EGFR C797</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>resistance</td><td>E</td></tr><tr><td class=num>14</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21132006/'>21132006</a></td><td>EGFR T790M</td><td>ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>D</td></tr><tr><td class=num>15</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17085664/'>17085664</a></td><td>EGFR T790M</td><td>GEFITINIB (CHEMBL939), ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>B</td></tr><tr><td class=num>16</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/27211795/'>27211795</a></td><td>EGFR S768I</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>17</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21969500/'>21969500</a></td><td>EGFR Expression</td><td>ERLOTINIB (CHEMBL553)</td><td>na</td><td>B</td></tr><tr><td class=num>18</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25853010/'>25853010</a></td><td>EGFR Mutation</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>19</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/22895145/'>22895145</a></td><td>EGFR Mutation</td><td>TKI (no ChEMBL id)</td><td>resistance</td><td>B</td></tr><tr><td class=num>20</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/21132006/'>21132006</a></td><td>EGFR S768N</td><td>ERLOTINIB (CHEMBL553)</td><td>resistance</td><td>D</td></tr><tr><td class=num>21</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25923549/'>25923549</a></td><td>EGFR T790M</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>22</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/17877814/'>17877814</a></td><td>EGFR L858R</td><td>ERLOTINIB (CHEMBL553)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>23</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/27032107/'>27032107</a></td><td>EGFR Exon 19 Deletion</td><td>EGFR TKI (no ChEMBL id)</td><td>sensitivityresponse</td><td>E</td></tr><tr><td class=num>24</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/19060236/'>19060236</a></td><td>EGFR Exon 19 Deletion</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>25</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/16730237/'>16730237</a></td><td>EGFR Mutation</td><td>CETUXIMAB (CHEMBL1201577)</td><td>sensitivityresponse</td><td>D</td></tr><tr><td class=num>26</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/25939061/'>25939061</a></td><td>EGFR C797S</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>resistance</td><td>D</td></tr><tr><td class=num>27</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/26269204/'>26269204</a></td><td>EGFR T790M</td><td>OSIMERTINIB (CHEMBL3353410)</td><td>sensitivityresponse</td><td>E</td></tr><tr><td class=num>28</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/20038723/'>20038723</a></td><td>EGFR Mutation</td><td>GEFITINIB (CHEMBL939)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>29</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/28089594/'>28089594</a></td><td>EGFR Exon 20 Insertion</td><td>EGFR TKI (no ChEMBL id)</td><td>sensitivityresponse</td><td>B</td></tr><tr><td class=num>30</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/27211795/'>27211795</a></td><td>EGFR S768I</td><td>AFATINIB (CHEMBL1173655)</td><td>sensitivityresponse</td><td>B</td></tr></tbody></table></div>
 </section>
 
 </main>

@@ -1,0 +1,14 @@
+{
+ "pmid": "37760942",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 25
+ },
+ "include": true,
+ "confidence": 25.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "A Prospective Cohort Study Assessing the Relationship between Plasma Levels of Osimertinib and Treatment Efficacy and Safety."
+}

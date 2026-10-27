@@ -1,0 +1,14 @@
+{
+ "pmid": "40824872",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Microdroplet Digital Polymerase Chain Reaction for Precision Detection of Non-Small Cell Lung Cancer Mutations."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "40502411",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Assessing mutation-clinical correlations and treatment outcomes in Vietnamese non-small cell lung cancer patients."
+}

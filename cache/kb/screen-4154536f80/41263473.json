@@ -1,0 +1,14 @@
+{
+ "pmid": "41263473",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 25
+ },
+ "include": true,
+ "confidence": 25.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Small cell lung cancer transdifferentiation: not a negligible phenomenon."
+}

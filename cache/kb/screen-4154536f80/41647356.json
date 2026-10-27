@@ -1,0 +1,14 @@
+{
+ "pmid": "41647356",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 60
+ },
+ "include": false,
+ "confidence": 60.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Synthesis, radiolabeling, and evaluation of a &lt;sup&gt;68&lt;/sup&gt;Ga-labeled tyrosine kinase inhibitor for detecting EGFR&lt;sup&gt;T790M&lt;/sup&gt; mutations &lt;i&gt;in vivo&lt;/i&gt;."
+}

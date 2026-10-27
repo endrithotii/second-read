@@ -1,0 +1,118 @@
+{
+ "pmid": "32479794",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 24,
+ "units_total": 24,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3402762",
+     "name": "TEPOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 19,
+   "units": [
+    "A19"
+   ],
+   "quote": "MET amplification (n=19; median PFS 16·6 months",
+   "cited_text": "PFS and OS were longer with tepotinib plus gefitinib than with chemotherapy in patients with high (IHC3+) MET overexpression (n=34; median PFS 8·3 months [4·1-16·6] vs 4·4 months [4·1-6·8]; HR 0·35, 0·17-0·74; median OS 37·3 months [90% CI 24·2-37·3] vs 17·9 months [12·0-20·7]; HR 0·33, 0·14-0·76) or MET amplification (n=19; median PFS 16·6 months [8·3-not estimable] vs 4·2 months [1·4-7·0]; HR 0·13, 0·04-0·43; median OS 37·3 months [90% CI not estimable] vs 13·1 months [3·25-not estimable]; HR 0·08, 0·01-0·51).",
+   "code_problems": [],
+   "id": "32479794-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited data from a randomized trial (implied by the comparison to chemotherapy and HRs) shows significantly improved PFS and OS for patients with MET amplification treated with tepotinib plus gefitinib compared to chemotherapy."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3402762",
+     "name": "TEPOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 34,
+   "units": [
+    "A19"
+   ],
+   "quote": "high (IHC3+) MET overexpression (n=34; median PFS 8·3 months",
+   "cited_text": "PFS and OS were longer with tepotinib plus gefitinib than with chemotherapy in patients with high (IHC3+) MET overexpression (n=34; median PFS 8·3 months [4·1-16·6] vs 4·4 months [4·1-6·8]; HR 0·35, 0·17-0·74; median OS 37·3 months [90% CI 24·2-37·3] vs 17·9 months [12·0-20·7]; HR 0·33, 0·14-0·76) or MET amplification (n=19; median PFS 16·6 months [8·3-not estimable] vs 4·2 months [1·4-7·0]; HR 0·13, 0·04-0·43; median OS 37·3 months [90% CI not estimable] vs 13·1 months [3·25-not estimable]; HR 0·08, 0·01-0·51).",
+   "code_problems": [],
+   "id": "32479794-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited data shows significantly improved PFS and OS for patients with high MET overexpression (IHC3+) treated with tepotinib plus gefitinib compared to chemotherapy, supporting the predictive value of MET expression."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": "32563277",
+   "reference": "Lancet Respir Med. 2020 Jul;8(7):e59. doi: 10.1016/S2213-2600(20)30271-X"
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

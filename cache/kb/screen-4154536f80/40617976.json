@@ -1,0 +1,14 @@
+{
+ "pmid": "40617976",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Phase II study of afatinib for advanced non-small cell lung cancer with uncommon epidermal growth factor receptor mutations, including compound mutations detected by next-generation sequencing."
+}

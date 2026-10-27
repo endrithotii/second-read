@@ -1,0 +1,14 @@
+{
+ "pmid": "41294708",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Serial Functional and Genomic Analyses Illuminate Clonal Evolution in Metastatic NSCLC with 12-Year Survival."
+}

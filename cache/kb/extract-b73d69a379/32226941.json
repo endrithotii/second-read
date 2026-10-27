@@ -1,0 +1,473 @@
+{
+ "pmid": "32226941",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 36,
+ "units_total": 168,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G598V",
+     "hgvs": "NP_005219.2:p.(Gly598Val)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S49"
+   ],
+   "quote": "BT53, an EGFR-mutant BTSC culture with an activating G598V mutation ... responded to afatinib treatment at low nanomolar concentrations and were more sensitive to afatinib than the EGFR-wildtype BTSC cultures",
+   "cited_text": "BT53, an EGFR-mutant BTSC culture with an activating G598V mutation and the EGFRvIII mt BTSC cultures, BT73, BT68, and BT147 responded to afatinib treatment at low nanomolar concentrations and were more sensitive to afatinib than the EGFR-wildtype BTSC cultures (Figure 1A).",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "32226941-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that BT53, an EGFR G598V mutant culture, responded to afatinib at low nanomolar concentrations."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "vIII",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S49"
+   ],
+   "quote": "the EGFRvIII mt BTSC cultures ... responded to afatinib treatment at low nanomolar concentrations and were more sensitive to afatinib than the EGFR-wildtype BTSC cultures",
+   "cited_text": "BT53, an EGFR-mutant BTSC culture with an activating G598V mutation and the EGFRvIII mt BTSC cultures, BT73, BT68, and BT147 responded to afatinib treatment at low nanomolar concentrations and were more sensitive to afatinib than the EGFR-wildtype BTSC cultures (Figure 1A).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "32226941-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that EGFRvIII mutant BTSC cultures responded to afatinib at low nanomolar concentrations."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S48"
+   ],
+   "quote": "the degree of sensitivity was influenced by the status of common GBM molecular alterations, including EGFR mutations and PTEN inactivation",
+   "cited_text": "Afatinib-mediated EGFR inhibition was effective against all BTSCs tested; however, the degree of sensitivity was influenced by the status of common GBM molecular alterations, including EGFR mutations and PTEN inactivation (Figure 1A and Supplementary Table S1).",
+   "code_problems": [
+    "variant 'wildtype' is not named in the cited units"
+   ],
+   "id": "32226941-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that afatinib-mediated EGFR inhibition was effective against all BTSCs tested, including wildtype, though sensitivity varied."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'wildtype' is not named in the cited units",
+    "models disagree on significance: REDUCED_SENSITIVITY vs SENSITIVITYRESPONSE",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S50"
+   ],
+   "quote": "This was also observed with 2 other EGFR inhibitors tested, erlotinib",
+   "cited_text": "This was also observed with 2 other EGFR inhibitors tested, erlotinib (Supplementary Figure S1A and B) and AZD9291 (Supplementary Figure S1C and D).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "32226941-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit indicates that the observed response (implied from context of EGFR inhibitors) was also seen with erlotinib in EGFR mutant models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S50"
+   ],
+   "quote": "This was also observed with 2 other EGFR inhibitors tested, ... AZD9291",
+   "cited_text": "This was also observed with 2 other EGFR inhibitors tested, erlotinib (Supplementary Figure S1A and B) and AZD9291 (Supplementary Figure S1C and D).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "32226941-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit indicates that the observed response was also seen with AZD9291 (osimertinib) in EGFR mutant models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'mutation' is not named in the cited units",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S80"
+   ],
+   "quote": "Treatment with 15 mg/kg afatinib failed to provide a survival advantage in mice bearing tumors from BT67 (EGFR wt)",
+   "cited_text": "Treatment with 15 mg/kg afatinib failed to provide a survival advantage in mice bearing tumors from BT67 (EGFR wt) (Figure 4C).",
+   "code_problems": [
+    "variant 'wildtype' is not named in the cited units"
+   ],
+   "id": "32226941-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "animal model",
+    "reason": "The unit states that afatinib failed to provide a survival advantage in mice bearing EGFR wildtype tumors."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'wildtype' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "vIII",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    },
+    {
+     "chembl_id": "CHEMBL2035187",
+     "name": "PACRITINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S12",
+    "S130"
+   ],
+   "quote": "afatinib improved survival in EGFRvIII mt orthotopic xenograft models",
+   "cited_text": "Primary antibodies included p-STAT3 Y705 (1:1000; Cell Signaling Technology [CST]), STAT3 (1:1000; CST), p-EGFR Y1068 (1:1000; CST), EGFR (1:1000; CST), p-p44/42 MAPK (T202/Y204) (1:1000; CST), p44/42 MAPK (1:4000; CST), β-tubulin (1:1000; CST), and Actin (1:1000; Santa Cruz Biotechnology). Strikingly, STAT3 activation in response to EGFR inhibition was abrogated with combinatorial afatinib and pacritinib treatment in vivo.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'vIII' is not named in the cited units",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "32226941-7",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes the abrogation of STAT3 activation by the drug combination, which is a functional mechanism, not a direct statement of clinical or preclinical drug response efficacy for the specific profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'vIII' is not named in the cited units",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit describes the abrogation of STAT3 activation by the drug combination, which is a functional mechanism, not a direct statement of clinical or preclinical drug response efficacy for the specific profile.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    },
+    {
+     "chembl_id": "CHEMBL2035187",
+     "name": "PACRITINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S72"
+   ],
+   "quote": "In BT67 (EGFR wt), BT69 (EGFR het), and BT73 (EGFRvIII mt), extensive synergy was observed when pacritinib and afatinib were used in combination",
+   "cited_text": "In BT67 (EGFR wt), BT69 (EGFR het), and BT73 (EGFRvIII mt), extensive synergy was observed when pacritinib and afatinib were used in combination, as demonstrated by excess over bliss values greater than 0 (Figure 3B).",
+   "code_problems": [
+    "variant 'wildtype' is not named in the cited units"
+   ],
+   "id": "32226941-8",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that extensive synergy was observed between pacritinib and afatinib in EGFR wildtype BTSCs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'wildtype' is not named in the cited units",
+    "models disagree on evidence level: B vs D"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Wildtype",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL2035187",
+     "name": "PACRITINIB"
+    }
+   ],
+   "disease_written": "glioblastoma",
+   "oncotree": "GB",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S73"
+   ],
+   "quote": "Extensive synergy was also observed when using erlotinib in combination with pacritinib in both EGFR wt and EGFR mt BTSCs",
+   "cited_text": "Extensive synergy was also observed when using erlotinib in combination with pacritinib (Supplementary Figure S4C) in both EGFR wt and EGFR mt BTSCs.",
+   "code_problems": [
+    "variant 'wildtype' is not named in the cited units"
+   ],
+   "id": "32226941-9",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that extensive synergy was observed with erlotinib and pacritinib in EGFR wildtype BTSCs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'wildtype' is not named in the cited units",
+    "models disagree on evidence level: B vs D"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

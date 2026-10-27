@@ -1,0 +1,14 @@
+{
+ "pmid": "38758372",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "The later-line efficacy and safety of immune checkpoint inhibitors plus anlotinib in EGFR-mutant patients with EGFR-TKI-resistant NSCLC: a single-center retrospective study."
+}

@@ -1,0 +1,359 @@
+{
+ "pmid": "29967253",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L755P",
+     "hgvs": "NP_004439.2:p.(Leu755Pro)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "only osimertinib demonstrated good efficacy against L755P and L755S mutations, the most common mutations in breast cancer",
+   "cited_text": "Although afatinib, neratinib, and osimertinib were shown to be effective against most of the ERBB2 mutations, only osimertinib demonstrated good efficacy against L755P and L755S mutations, the most common mutations in breast cancer.",
+   "code_problems": [
+    "disease 'breast cancer' not mapped to OncoTree"
+   ],
+   "id": "29967253-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states that osimertinib demonstrated good efficacy against the L755P mutation in breast cancer."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'breast cancer' not mapped to OncoTree",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "protein change",
+     "name": "L755S",
+     "hgvs": "NP_004439.2:p.(Leu755Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "breast cancer",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "only osimertinib demonstrated good efficacy against L755P and L755S mutations, the most common mutations in breast cancer",
+   "cited_text": "Although afatinib, neratinib, and osimertinib were shown to be effective against most of the ERBB2 mutations, only osimertinib demonstrated good efficacy against L755P and L755S mutations, the most common mutations in breast cancer.",
+   "code_problems": [
+    "disease 'breast cancer' not mapped to OncoTree"
+   ],
+   "id": "29967253-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states that osimertinib demonstrated good efficacy against the L755S mutation in breast cancer."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'breast cancer' not mapped to OncoTree",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "A775_776insYVMA",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "afatinib and neratinib were predicted to be more effective than other inhibitors for the A775_776insYVMA mutation, the most frequent ERBB2 mutation in lung cancer",
+   "cited_text": "In contrast, afatinib and neratinib were predicted to be more effective than other inhibitors for the A775_776insYVMA mutation, the most frequent ERBB2 mutation in lung cancer.",
+   "code_problems": [
+    "variant A775_776insYVMA could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "29967253-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states that afatinib was predicted to be more effective for the A775_776insYVMA mutation in lung cancer."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant A775_776insYVMA could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "A775_776insYVMA",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "afatinib and neratinib were predicted to be more effective than other inhibitors for the A775_776insYVMA mutation, the most frequent ERBB2 mutation in lung cancer",
+   "cited_text": "In contrast, afatinib and neratinib were predicted to be more effective than other inhibitors for the A775_776insYVMA mutation, the most frequent ERBB2 mutation in lung cancer.",
+   "code_problems": [
+    "variant A775_776insYVMA could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "29967253-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states that neratinib was predicted to be more effective for the A775_776insYVMA mutation in lung cancer."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant A775_776insYVMA could not be validated: not recognised as a protein change, HGVS or known category",
+    "models disagree on evidence level: D vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "L755S (compound)",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "cancers",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "compound mutations involving L755S were sensitive to osimertinib",
+   "cited_text": "Furthermore, the MANO method was applied to evaluate the functional significance of 17 compound mutations within ERBB2 reported in the COSMIC database, revealing that compound mutations involving L755S were sensitive to osimertinib but insensitive to afatinib and neratinib.",
+   "code_problems": [
+    "variant L755S (compound) could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'cancers' not mapped to OncoTree"
+   ],
+   "id": "29967253-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The MANO method evaluation revealed that compound mutations involving L755S were sensitive to osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant L755S (compound) could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'cancers' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "L755S (compound)",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "cancers",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "but insensitive to afatinib",
+   "cited_text": "Furthermore, the MANO method was applied to evaluate the functional significance of 17 compound mutations within ERBB2 reported in the COSMIC database, revealing that compound mutations involving L755S were sensitive to osimertinib but insensitive to afatinib and neratinib.",
+   "code_problems": [
+    "variant L755S (compound) could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'cancers' not mapped to OncoTree"
+   ],
+   "id": "29967253-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The MANO method evaluation revealed that compound mutations involving L755S were insensitive to afatinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant L755S (compound) could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'cancers' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "L755S (compound)",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL180022",
+     "name": "NERATINIB"
+    }
+   ],
+   "disease_written": "cancers",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "but insensitive to neratinib",
+   "cited_text": "Furthermore, the MANO method was applied to evaluate the functional significance of 17 compound mutations within ERBB2 reported in the COSMIC database, revealing that compound mutations involving L755S were sensitive to osimertinib but insensitive to afatinib and neratinib.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant L755S (compound) could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'cancers' not mapped to OncoTree"
+   ],
+   "id": "29967253-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The MANO method evaluation revealed that compound mutations involving L755S were insensitive to neratinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant L755S (compound) could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'cancers' not mapped to OncoTree"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

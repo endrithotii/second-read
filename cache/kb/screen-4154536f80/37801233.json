@@ -1,0 +1,14 @@
+{
+ "pmid": "37801233",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Current and Emerging Treatment Options for Patients with Metastatic EGFR-Mutated Non-small Cell Lung Cancer After Progression on Osimertinib and Platinum-Based Chemotherapy: A Podcast Discussion."
+}

@@ -1,0 +1,310 @@
+{
+ "pmid": "34339292",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 50,
+ "units_total": 143,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Exon20ins",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "Non-small-cell lung cancer (NSCLC) with epidermal growth factor receptor ( EGFR ) exon 20 insertion (Exon20ins) mutations exhibits inherent resistance to approved tyrosine kinase inhibitors.",
+   "cited_text": "Non-small-cell lung cancer (NSCLC) with epidermal growth factor receptor ( EGFR ) exon 20 insertion (Exon20ins) mutations exhibits inherent resistance to approved tyrosine kinase inhibitors.",
+   "code_problems": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "variant Exon20ins could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "34339292-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that NSCLC with EGFR Exon20ins exhibits inherent resistance to approved EGFR TKIs."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' is not named in the cited units",
+    "variant Exon20ins could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Exon20ins",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 81,
+   "units": [
+    "A10"
+   ],
+   "quote": "The overall response rate was 40% (95% CI, 29 to 51), including three complete responses, with a median duration of response of 11.1 months (95% CI, 6.9 to not reached).",
+   "cited_text": "The overall response rate was 40% (95% CI, 29 to 51), including three complete responses, with a median duration of response of 11.1 months (95% CI, 6.9 to not reached).",
+   "code_problems": [
+    "variant 'Exon20ins' is not named in the cited units",
+    "drug 'amivantamab' is not named in the cited units",
+    "patient count 81 is not a number in the cited units",
+    "variant Exon20ins could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "34339292-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The unit reports an overall response rate of 40% and median duration of response, indicating activity of amivantamab in this population."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'Exon20ins' is not named in the cited units",
+    "drug 'amivantamab' is not named in the cited units",
+    "patient count 81 is not a number in the cited units",
+    "variant Exon20ins could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "S91"
+   ],
+   "quote": "Through central NGS testing, one patient was identified with MET amplification (copy number of 8); this patient had a PR.",
+   "cited_text": "Through central NGS testing, one patient was identified with MET amplification (copy number of 8); this patient had a PR.",
+   "code_problems": [
+    "drug 'amivantamab' is not named in the cited units"
+   ],
+   "id": "34339292-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with MET amplification who achieved a partial response to amivantamab."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'amivantamab' is not named in the cited units",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "S116"
+   ],
+   "quote": "Similarly, one patient from the present study, previously treated with poziotinib and with T790M resistance mutation, had a PR to amivantamab.",
+   "cited_text": "Amivantamab has demonstrated preliminary activity in EGFR TKI-resistant tumors driven by EGFR secondary mutations (T790M and/or C797S) or new MET amplification.- Similarly, one patient from the present study, previously treated with poziotinib and with T790M resistance mutation, had a PR to amivantamab.",
+   "code_problems": [],
+   "id": "34339292-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit cites preliminary activity and a specific case of a patient with T790M mutation achieving a partial response to amivantamab."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S116"
+   ],
+   "quote": "amivantamab has demonstrated preliminary activity in EGFR TKI-resistant tumors driven by EGFR secondary mutations (T790M and/or C797S) or new MET amplification.",
+   "cited_text": "Amivantamab has demonstrated preliminary activity in EGFR TKI-resistant tumors driven by EGFR secondary mutations (T790M and/or C797S) or new MET amplification.- Similarly, one patient from the present study, previously treated with poziotinib and with T790M resistance mutation, had a PR to amivantamab.",
+   "code_problems": [],
+   "id": "34339292-5",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit mentions preliminary activity in tumors driven by C797S, but the specific case cited involves T790M, not C797S."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = partly (The unit mentions preliminary activity in tumors driven by C797S, but the specific case cited involves T790M, not C797S.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "Exon20ins",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'Exon20ins' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant Exon20ins could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "34339292-6",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'Exon20ins' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant Exon20ins could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

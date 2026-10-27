@@ -1,0 +1,14 @@
+{
+ "pmid": "40546658",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Traditional Chinese Medicines as Anticancer Agents for Non-Small Cell Lung Cancer with EGFR Mutations: A Review."
+}

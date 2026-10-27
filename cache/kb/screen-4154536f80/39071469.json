@@ -1,0 +1,14 @@
+{
+ "pmid": "39071469",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Concomitant epidermal growth factor receptor mutation/c-ros oncogene 1 rearrangement in non-small cell lung cancer: A case report."
+}

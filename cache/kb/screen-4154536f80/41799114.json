@@ -1,0 +1,14 @@
+{
+ "pmid": "41799114",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR Mutations and Tyrosine Kinase Inhibitors: Structural Insights and Therapeutic Advances."
+}

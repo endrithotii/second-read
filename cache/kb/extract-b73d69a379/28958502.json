@@ -1,0 +1,198 @@
+{
+ "pmid": "28958502",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 21,
+ "units_total": 21,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL2105719",
+     "name": "DACOMITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A5",
+    "A19"
+   ],
+   "quote": "Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC",
+   "cited_text": "In this international, multicentre, randomised, open-label, phase 3 study (ARCHER 1050), we enrolled adults (aged ≥18 years or ≥20 years in Japan and South Korea) with newly diagnosed advanced NSCLC and one EGFR mutation (exon 19 deletion or Leu858Arg) at 71 academic medical centres and university hospitals in seven countries or special administrative regions. Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC and should be considered as a new treatment option for this population.",
+   "code_problems": [],
+   "id": "28958502-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The ARCHER 1050 trial demonstrated that dacomitinib significantly improved progression-free survival in patients with EGFR exon 19 deletions compared to gefitinib."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL2105719",
+     "name": "DACOMITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A5",
+    "A19"
+   ],
+   "quote": "Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC",
+   "cited_text": "In this international, multicentre, randomised, open-label, phase 3 study (ARCHER 1050), we enrolled adults (aged ≥18 years or ≥20 years in Japan and South Korea) with newly diagnosed advanced NSCLC and one EGFR mutation (exon 19 deletion or Leu858Arg) at 71 academic medical centres and university hospitals in seven countries or special administrative regions. Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC and should be considered as a new treatment option for this population.",
+   "code_problems": [],
+   "id": "28958502-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The ARCHER 1050 trial demonstrated that dacomitinib significantly improved progression-free survival in patients with EGFR L858R mutations compared to gefitinib."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A5",
+    "A19"
+   ],
+   "quote": "Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC",
+   "cited_text": "In this international, multicentre, randomised, open-label, phase 3 study (ARCHER 1050), we enrolled adults (aged ≥18 years or ≥20 years in Japan and South Korea) with newly diagnosed advanced NSCLC and one EGFR mutation (exon 19 deletion or Leu858Arg) at 71 academic medical centres and university hospitals in seven countries or special administrative regions. Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC and should be considered as a new treatment option for this population.",
+   "code_problems": [],
+   "id": "28958502-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The trial established gefitinib as an effective treatment option for patients with EGFR exon 19 deletions, serving as the comparator arm with demonstrated efficacy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on significance: REDUCED_SENSITIVITY vs SENSITIVITYRESPONSE"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutation-positive NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A5",
+    "A19"
+   ],
+   "quote": "Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC",
+   "cited_text": "In this international, multicentre, randomised, open-label, phase 3 study (ARCHER 1050), we enrolled adults (aged ≥18 years or ≥20 years in Japan and South Korea) with newly diagnosed advanced NSCLC and one EGFR mutation (exon 19 deletion or Leu858Arg) at 71 academic medical centres and university hospitals in seven countries or special administrative regions. Dacomitinib significantly improved progression-free survival over gefitinib in first-line treatment of patients with EGFR-mutation-positive NSCLC and should be considered as a new treatment option for this population.",
+   "code_problems": [],
+   "id": "28958502-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The trial established gefitinib as an effective treatment option for patients with EGFR L858R mutations, serving as the comparator arm with demonstrated efficacy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on significance: REDUCED_SENSITIVITY vs SENSITIVITYRESPONSE"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

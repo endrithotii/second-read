@@ -3,6 +3,10 @@
 "chembl_id": "CHEMBL1173655",
 "name": "AFATINIB"
 },
+"drug:amivantamab": {
+"chembl_id": "CHEMBL4297774",
+"name": "AMIVANTAMAB"
+},
 "drug:anilinoquinazoline egfr inhibitors": null,
 "drug:az5104": null,
 "drug:azd9291": {
@@ -23,6 +27,10 @@
 "name": "ROCILETINIB"
 },
 "drug:co1686": null,
+"drug:dacomitinib": {
+"chembl_id": "CHEMBL2105719",
+"name": "DACOMITINIB"
+},
 "drug:egfr tki": null,
 "drug:egfr tkis": null,
 "drug:egfr tyrosine kinase inhibitor": null,
@@ -34,6 +42,7 @@
 "name": "ERLOTINIB"
 },
 "drug:first-generation egfr inhibitors": null,
+"drug:first-generation egfr tkis": null,
 "drug:gefitinib": {
 "chembl_id": "CHEMBL939",
 "name": "GEFITINIB"
@@ -41,6 +50,10 @@
 "drug:hki-272": {
 "chembl_id": "CHEMBL180022",
 "name": "NERATINIB"
+},
+"drug:mobocertinib": {
+"chembl_id": "CHEMBL4650319",
+"name": "MOBOCERTINIB"
 },
 "drug:neratinib": {
 "chembl_id": "CHEMBL180022",
@@ -51,14 +64,31 @@
 "name": "OSIMERTINIB"
 },
 "drug:osimertinib plus savolitinib": null,
+"drug:pacritinib": {
+"chembl_id": "CHEMBL2035187",
+"name": "PACRITINIB"
+},
 "drug:pf-00299804": {
 "chembl_id": "CHEMBL2110732",
 "name": "DACOMITINIB ANHYDROUS"
 },
 "drug:pf00299804": null,
 "drug:platinum-pemetrexed": null,
+"drug:poziotinib": {
+"chembl_id": "CHEMBL3545154",
+"name": "POZIOTINIB"
+},
 "drug:r1507": null,
+"drug:ramucirumab": {
+"chembl_id": "CHEMBL1743062",
+"name": "RAMUCIRUMAB"
+},
 "drug:second-generation egfr tki": null,
+"drug:second-generation egfr tkis": null,
+"drug:tepotinib": {
+"chembl_id": "CHEMBL3402762",
+"name": "TEPOTINIB"
+},
 "drug:third-generation egfr tyrosine kinase inhibitors": null,
 "drug:tki": null,
 "drug:tkis": null,
@@ -119,6 +149,18 @@
 "vv:NP_004324.2:p.(Val600Glu)": {
 "hgvs_c": null,
 "hgvs_p": "NP_004324.2:p.(Val600Glu)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_004439.2:p.(Leu755Pro)": {
+"hgvs_c": null,
+"hgvs_p": "NP_004439.2:p.(Leu755Pro)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_004439.2:p.(Leu755Ser)": {
+"hgvs_c": null,
+"hgvs_p": "NP_004439.2:p.(Leu755Ser)",
 "note": "reference amino acid confirmed",
 "valid": true
 },
@@ -212,6 +254,12 @@
 "note": "reference amino acid confirmed",
 "valid": true
 },
+"vv:NP_005219.2:p.(Gly598Val)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Gly598Val)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Gly719Ala)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Gly719Ala)",
@@ -248,6 +296,18 @@
 "note": "reference amino acid confirmed",
 "valid": true
 },
+"vv:NP_005219.2:p.(Leu718Gln)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Leu718Gln)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Leu718Val)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Leu718Val)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
 "vv:NP_005219.2:p.(Leu747_Pro753delinsSer)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Leu747_Pro753delinsSer)",
@@ -263,6 +323,12 @@
 "vv:NP_005219.2:p.(Leu861Gln)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Leu861Gln)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Met766Gln)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Met766Gln)",
 "note": "reference amino acid confirmed",
 "valid": true
 },

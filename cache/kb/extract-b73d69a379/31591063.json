@@ -1,0 +1,126 @@
+{
+ "pmid": "31591063",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 26,
+ "units_total": 26,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1743062",
+     "name": "RAMUCIRUMAB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "untreated EGFR-mutated metastatic NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 449,
+   "units": [
+    "A6",
+    "A15"
+   ],
+   "quote": "progression-free survival was significantly longer in the ramucirumab plus erlotinib group (19·4 months [95% CI 15·4-21·6]) than in the placebo plus erlotinib group (12·4 months [11·0-13·5])",
+   "cited_text": "Eligible patients were aged 18 years or older (20 years or older in Japan and Taiwan) at the time of study entry, had stage IV NSCLC, with an EGFR exon 19 deletion (ex19del) or exon 21 substitution (Leu858Arg) mutation, an Eastern Cooperative Oncology Group performance status of 0 or 1, and no CNS metastases. At the time of primary analysis, progression-free survival was significantly longer in the ramucirumab plus erlotinib group (19·4 months [95% CI 15·4-21·6]) than in the placebo plus erlotinib group (12·4 months [11·0-13·5]), with a stratified hazard ratio of 0·59 (95% CI 0·46-0·76; p<0·0001).",
+   "code_problems": [
+    "patient count 449 is not a number in the cited units"
+   ],
+   "id": "31591063-1",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit describes a randomised trial showing improved PFS for ramucirumab plus erlotinib in a cohort including EGFR exon 19 deletions, but the specific benefit for this profile is not isolated from the exon 21 substitution group."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 449 is not a number in the cited units",
+    "second model: supported = partly (The cited unit describes a randomised trial showing improved PFS for ramucirumab plus erlotinib in a cohort including EGFR exon 19 deletions, but the specific benefit for this profile is not isolated from the exon 21 substitution group.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 21 substitution (Leu858Arg)",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1743062",
+     "name": "RAMUCIRUMAB"
+    },
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "untreated EGFR-mutated metastatic NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 449,
+   "units": [
+    "A6",
+    "A15"
+   ],
+   "quote": "progression-free survival was significantly longer in the ramucirumab plus erlotinib group (19·4 months [95% CI 15·4-21·6]) than in the placebo plus erlotinib group (12·4 months [11·0-13·5])",
+   "cited_text": "Eligible patients were aged 18 years or older (20 years or older in Japan and Taiwan) at the time of study entry, had stage IV NSCLC, with an EGFR exon 19 deletion (ex19del) or exon 21 substitution (Leu858Arg) mutation, an Eastern Cooperative Oncology Group performance status of 0 or 1, and no CNS metastases. At the time of primary analysis, progression-free survival was significantly longer in the ramucirumab plus erlotinib group (19·4 months [95% CI 15·4-21·6]) than in the placebo plus erlotinib group (12·4 months [11·0-13·5]), with a stratified hazard ratio of 0·59 (95% CI 0·46-0·76; p<0·0001).",
+   "code_problems": [
+    "patient count 449 is not a number in the cited units",
+    "variant exon 21 substitution (Leu858Arg) could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "31591063-2",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit describes a randomised trial showing improved PFS for ramucirumab plus erlotinib in a cohort including EGFR exon 21 substitutions, but the specific benefit for this profile is not isolated from the exon 19 deletion group."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 449 is not a number in the cited units",
+    "variant exon 21 substitution (Leu858Arg) could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = partly (The cited unit describes a randomised trial showing improved PFS for ramucirumab plus erlotinib in a cohort including EGFR exon 21 substitutions, but the specific benefit for this profile is not isolated from the exon 19 deletion group.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

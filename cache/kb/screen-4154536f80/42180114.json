@@ -1,0 +1,14 @@
+{
+ "pmid": "42180114",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 40
+ },
+ "include": true,
+ "confidence": 40.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Case Report: Immune checkpoint inhibitor plus chemotherapy benefited an elderly patient with non-small cell lung cancer following EGFR-TKI resistance."
+}

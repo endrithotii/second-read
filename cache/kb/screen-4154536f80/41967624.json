@@ -1,0 +1,14 @@
+{
+ "pmid": "41967624",
+ "answers": {
+  "population": "unclear",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 70
+ },
+ "include": true,
+ "confidence": 70.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Artesunate reverses gefitinib resistance in lung adenocarcinoma by inducing ferroptosis and suppressing the Wnt/β-catenin pathway."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "39743996",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 80
+ },
+ "include": true,
+ "confidence": 80.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "A good response to furmonertinib fourth-line treatment of an advanced lung adenocarcinoma patient with EGFR exon20in and PIK3CA mutation: a case report and literature review."
+}

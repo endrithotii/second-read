@@ -1,0 +1,14 @@
+{
+ "pmid": "38879996",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 20
+ },
+ "include": false,
+ "confidence": 20.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Exploring the structural activity relationship of the Osimertinib: A covalent inhibitor of double mutant EGFRL858R/T790M tyrosine kinase for the treatment of Non-Small Cell Lung Cancer (NSCLC)."
+}

@@ -1,0 +1,14 @@
+{
+ "pmid": "38553005",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR Oncogenic Mutations in NSCLC Impair Macrophage Phagocytosis and Mediate Innate Immune Evasion Through Up-Regulation of CD47."
+}

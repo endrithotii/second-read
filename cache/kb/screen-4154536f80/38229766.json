@@ -1,0 +1,14 @@
+{
+ "pmid": "38229766",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "The Impact of On-Target Resistance Mediated by EGFR-T790M or EGFR-C797S on EGFR Exon 20 Insertion Mutation Active Tyrosine Kinase Inhibitors."
+}

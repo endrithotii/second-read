@@ -1,0 +1,14 @@
+{
+ "pmid": "38394807",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Detection of EGFR T790M mutation using liquid biopsy for non-small cell lung cancer: Utility of droplet digital polymerase chain reaction vs. cobas real-time polymerase chain reaction."
+}

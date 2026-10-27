@@ -1,0 +1,14 @@
+{
+ "pmid": "40543420",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 60
+ },
+ "include": true,
+ "confidence": 60.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Genomic profiling and prognostic factors of leptomeningeal metastasis in EGFR-mutant NSCLC after resistant to third-generation EGFR-tyrosine kinase inhibitors."
+}

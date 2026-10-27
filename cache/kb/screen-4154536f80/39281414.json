@@ -1,0 +1,14 @@
+{
+ "pmid": "39281414",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 60
+ },
+ "include": true,
+ "confidence": 60.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Enhancing intracranial efficacy prediction of osimertinib in non-small cell lung cancer: a novel approach through brain MRI radiomics."
+}

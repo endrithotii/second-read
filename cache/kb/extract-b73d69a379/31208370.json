@@ -1,0 +1,123 @@
+{
+ "pmid": "31208370",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 53,
+ "units_total": 291,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "FIRST-GENERATION EGFR TKIS"
+    },
+    {
+     "chembl_id": null,
+     "name": "SECOND-GENERATION EGFR TKIS"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S14"
+   ],
+   "quote": "most EGFRex20ins (except for few subtypes such as EGFR A763_Y764insFQEA) mutant tumors confer resistance to the 1st and 2nd generation EGFR TKIs",
+   "cited_text": "Preclinical and clinical studies have shown that most EGFRex20ins (except for few subtypes such as EGFR A763_Y764insFQEA) mutant tumors confer resistance to the 1st and 2nd generation EGFR TKIs because the insertions produce steric hindrance and activate EGFR without saliently decreasing affinity for ATP or enhancing affinity for EGFR TKIs [, -].",
+   "code_problems": [
+    "drug 'first-generation EGFR TKIs' is not named in the cited units",
+    "drug 'second-generation EGFR TKIs' is not named in the cited units",
+    "drug 'first-generation EGFR TKIs' not found in ChEMBL",
+    "drug 'second-generation EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "31208370-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR exon 20 insertions confer resistance to first- and second-generation EGFR TKIs in preclinical and clinical studies."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'first-generation EGFR TKIs' is not named in the cited units",
+    "drug 'second-generation EGFR TKIs' is not named in the cited units",
+    "drug 'first-generation EGFR TKIs' not found in ChEMBL",
+    "drug 'second-generation EGFR TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "non-small-cell lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Preclinical models have shown that osimertinib is active in NSCLC harboring EGFRex20ins",
+   "cited_text": "Preclinical models have shown that osimertinib is active in NSCLC harboring EGFRex20ins, while the antitumor activity of osimertinib remains to be evaluated in patients with EGFRex20ins mutations.",
+   "code_problems": [
+    "variant 'exon 20 insertion' is not named in the cited units"
+   ],
+   "id": "31208370-2",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit cites preclinical models showing osimertinib activity, but notes that clinical evaluation in patients is still pending."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 20 insertion' is not named in the cited units",
+    "second model: supported = partly (The unit cites preclinical models showing osimertinib activity, but notes that clinical evaluation in patients is still pending.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

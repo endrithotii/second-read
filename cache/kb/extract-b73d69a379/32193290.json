@@ -1,0 +1,159 @@
+{
+ "pmid": "32193290",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 48,
+ "units_total": 256,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR -mutant lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "we modeled acquired resistance to osimertinib ... and found that it is mediated largely through secondary mutations in EGFR -either C797S or L718V/Q",
+   "cited_text": "We modeled acquired resistance to osimertinib in transgenic mouse models of EGFR L858R -induced lung adenocarcinoma and found that it is mediated largely through secondary mutations in EGFR -either C797S or L718V/Q.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "32193290-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "animal model",
+    "reason": "The study demonstrates that the EGFR C797S mutation mediates acquired resistance to osimertinib in mouse models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L718V",
+     "hgvs": "NP_005219.2:p.(Leu718Val)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR -mutant lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "we modeled acquired resistance to osimertinib ... and found that it is mediated largely through secondary mutations in EGFR -either C797S or L718V/Q",
+   "cited_text": "We modeled acquired resistance to osimertinib in transgenic mouse models of EGFR L858R -induced lung adenocarcinoma and found that it is mediated largely through secondary mutations in EGFR -either C797S or L718V/Q.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "32193290-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "animal model",
+    "reason": "The study demonstrates that the EGFR L718V mutation mediates acquired resistance to osimertinib in mouse models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L718Q",
+     "hgvs": "NP_005219.2:p.(Leu718Gln)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR -mutant lung cancer",
+   "oncotree": "LUNG",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "we modeled acquired resistance to osimertinib ... and found that it is mediated largely through secondary mutations in EGFR -either C797S or L718V/Q",
+   "cited_text": "We modeled acquired resistance to osimertinib in transgenic mouse models of EGFR L858R -induced lung adenocarcinoma and found that it is mediated largely through secondary mutations in EGFR -either C797S or L718V/Q.",
+   "code_problems": [
+    "quote is not in the cited units"
+   ],
+   "id": "32193290-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "animal model",
+    "reason": "The study demonstrates that the EGFR L718Q mutation mediates acquired resistance to osimertinib in mouse models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

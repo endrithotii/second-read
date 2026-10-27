@@ -1,0 +1,14 @@
+{
+ "pmid": "42628300",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Genomic Profiling, Risk Stratification, and Post-Transformation Treatment Outcomes in Patients with Transformed Small-Cell Lung Cancer: A Multicenter Analysis."
+}

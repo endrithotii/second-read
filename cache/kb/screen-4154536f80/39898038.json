@@ -1,0 +1,14 @@
+{
+ "pmid": "39898038",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 30
+ },
+ "include": true,
+ "confidence": 30.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Remodeling of tumor microenvironments by EGFR tyrosine kinase inhibitors in EGFR-mutant non-small cell lung cancer."
+}

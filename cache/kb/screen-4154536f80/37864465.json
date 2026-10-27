@@ -1,0 +1,14 @@
+{
+ "pmid": "37864465",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "NOTCH1 and CREBBP co-mutations negatively affect the benefit of adjuvant therapy in completely resected EGFR-mutated NSCLC: translational research of phase III IMPACT study."
+}

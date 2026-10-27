@@ -1,0 +1,14 @@
+{
+ "pmid": "38523520",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 15
+ },
+ "include": false,
+ "confidence": 15.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "A Radiomics-clinical Nomogram based on CT Radiomics to Predict Acquired T790M Mutation Status in Non-small Cell Lung Cancer Patients."
+}

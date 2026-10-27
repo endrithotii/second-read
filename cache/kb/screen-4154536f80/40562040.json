@@ -1,0 +1,14 @@
+{
+ "pmid": "40562040",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 40
+ },
+ "include": true,
+ "confidence": 40.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "EGFR TKIs suppress MUC1 glycosylation through the PI3K/AKT/SP1/C1GALT1 pathway to enhance TnMUC1 CAR-T efficacy in EGFR-mutant NSCLC."
+}

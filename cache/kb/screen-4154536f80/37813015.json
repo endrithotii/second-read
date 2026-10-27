@@ -1,0 +1,14 @@
+{
+ "pmid": "37813015",
+ "answers": {
+  "population": "no",
+  "drug": "no",
+  "evidence": "no",
+  "confidence": 5
+ },
+ "include": false,
+ "confidence": 5.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Management of HER2 alterations in non-small cell lung cancer - The past, present, and future."
+}

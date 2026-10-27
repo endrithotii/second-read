@@ -1,0 +1,14 @@
+{
+ "pmid": "39638994",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "CXCR1&lt;sup&gt;+&lt;/sup&gt; neutrophil infiltration orchestrates response to third-generation EGFR-TKI in EGFR mutant non-small-cell lung cancer."
+}

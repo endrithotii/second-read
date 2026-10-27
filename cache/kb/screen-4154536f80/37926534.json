@@ -1,0 +1,14 @@
+{
+ "pmid": "37926534",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "no",
+  "confidence": 10
+ },
+ "include": false,
+ "confidence": 10.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "De novo Hepatitis B Virus Reactivation during Treatment with an Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor in a Patient with Advanced Lung Cancer."
+}

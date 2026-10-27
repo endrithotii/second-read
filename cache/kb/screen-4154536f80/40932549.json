@@ -1,0 +1,14 @@
+{
+ "pmid": "40932549",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Design and synthesis of novel Osimertinib analogs for dual EGFR and P-glycoprotein 1 inhibition targeting multidrug resistance in non-small cell lung cancer: In vitro and in vivo evaluation."
+}

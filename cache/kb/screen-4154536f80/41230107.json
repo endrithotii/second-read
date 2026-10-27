@@ -1,0 +1,14 @@
+{
+ "pmid": "41230107",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": true,
+ "confidence": 90.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Patients with Advanced Non-Small Cell Lung Cancer and the EGFR Exon 19 Deletion p.L747 Benefit from Chemotherapy and First-Generation Tyrosine Kinase Inhibitors Compared with Patients with p.E746."
+}

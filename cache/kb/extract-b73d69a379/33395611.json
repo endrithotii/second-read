@@ -1,0 +1,306 @@
+{
+ "pmid": "33395611",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "cancers having insertional mutations within exon 20 of EGFR",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "All of the exon 20 insertions were resistant to gefitinib and afatinib",
+   "cited_text": "All of the exon 20 insertions were resistant to gefitinib and afatinib, whereas several mutants were sensitive to osimertinib.",
+   "code_problems": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ],
+   "id": "33395611-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit explicitly states that all exon 20 insertions were resistant to gefitinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "cancers having insertional mutations within exon 20 of EGFR",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "All of the exon 20 insertions were resistant to gefitinib and afatinib",
+   "cited_text": "All of the exon 20 insertions were resistant to gefitinib and afatinib, whereas several mutants were sensitive to osimertinib.",
+   "code_problems": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ],
+   "id": "33395611-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit explicitly states that all exon 20 insertions were resistant to afatinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "cancers having insertional mutations within exon 20 of EGFR",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A9"
+   ],
+   "quote": "several mutants were sensitive to osimertinib",
+   "cited_text": "All of the exon 20 insertions were resistant to gefitinib and afatinib, whereas several mutants were sensitive to osimertinib.",
+   "code_problems": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ],
+   "id": "33395611-3",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit states that only 'several' mutants were sensitive to osimertinib, not all, so it partially supports sensitivity for the general profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree",
+    "second model: supported = partly (The cited unit states that only 'several' mutants were sensitive to osimertinib, not all, so it partially supports sensitivity for the general profile.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3545154",
+     "name": "POZIOTINIB"
+    }
+   ],
+   "disease_written": "cancers having insertional mutations within exon 20 of EGFR",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "EGFR exon 20 insertions exhibited relatively good responses to poziotinib and mobocertinib",
+   "cited_text": "EGFR exon 20 insertions exhibited relatively good responses to poziotinib and mobocertinib.",
+   "code_problems": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ],
+   "id": "33395611-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit states that EGFR exon 20 insertions exhibited relatively good responses to poziotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4650319",
+     "name": "MOBOCERTINIB"
+    }
+   ],
+   "disease_written": "cancers having insertional mutations within exon 20 of EGFR",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "EGFR exon 20 insertions exhibited relatively good responses to poziotinib and mobocertinib",
+   "cited_text": "EGFR exon 20 insertions exhibited relatively good responses to poziotinib and mobocertinib.",
+   "code_problems": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ],
+   "id": "33395611-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit states that EGFR exon 20 insertions exhibited relatively good responses to mobocertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "cancers having insertional mutations within exon 20 of EGFR",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "DOES_NOT_SUPPORT",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "The sensitivity of EGFR exon 20 insertions to EGFR tyrosine kinase inhibitors (TKIs) was generally lower than that of the L858R mutation or exon 19 deletions",
+   "cited_text": "The sensitivity of EGFR exon 20 insertions to EGFR tyrosine kinase inhibitors (TKIs) was generally lower than that of the L858R mutation or exon 19 deletions.",
+   "code_problems": [
+    "drug 'EGFR TKIs' not found in ChEMBL",
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree"
+   ],
+   "id": "33395611-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit states that sensitivity to EGFR TKIs was generally lower than for other common EGFR mutations, indicating reduced sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' not found in ChEMBL",
+    "disease 'cancers having insertional mutations within exon 20 of EGFR' not mapped to OncoTree",
+    "models disagree on direction: DOES_NOT_SUPPORT vs SUPPORTS"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-27"
+}

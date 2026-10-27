@@ -1,0 +1,14 @@
+{
+ "pmid": "39478233",
+ "answers": {
+  "population": "yes",
+  "drug": "yes",
+  "evidence": "unclear",
+  "confidence": 45
+ },
+ "include": true,
+ "confidence": 45.0,
+ "model": "groq/openai/gpt-oss-20b",
+ "prompt": "2e16288fc5b8",
+ "title": "Spatially resolved subcellular protein-protein interactomics in drug-perturbed lung-cancer cultures and tissues."
+}
