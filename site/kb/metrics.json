@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27 20:59 UTC",
+ "generated": "2026-10-28 06:04 UTC",
  "ground_truth": {
   "items": 385,
   "papers": 155,
@@ -62,103 +62,103 @@
   ]
  },
  "extraction": {
-  "papers": 95,
+  "papers": 111,
   "papers_planned": 111,
-  "full_text_papers": 26,
-  "entries": 306,
-  "curated_items": 249,
+  "full_text_papers": 34,
+  "entries": 344,
+  "curated_items": 267,
   "item_recall": {
-   "value": 0.22088353413654618,
-   "low": 0.17381421632530147,
-   "high": 0.2764344769277075
+   "value": 0.2209737827715356,
+   "low": 0.17535982683621246,
+   "high": 0.2745031188855674
   },
   "item_recall_full_text": {
-   "value": 0.3246753246753247,
-   "low": 0.23059228059320142,
-   "high": 0.4354212569914086,
-   "n": 77
+   "value": 0.3103448275862069,
+   "low": 0.22289014167438978,
+   "high": 0.4138401669067009,
+   "n": 87
   },
   "item_recall_abstract_only": {
-   "value": 0.1744186046511628,
-   "low": 0.12499412236734236,
-   "high": 0.23806899807742155,
-   "n": 172
+   "value": 0.17777777777777778,
+   "low": 0.128835160551391,
+   "high": 0.2401868671072021,
+   "n": 180
   },
   "entry_precision_vs_civic": {
-   "value": 0.17973856209150327,
-   "low": 0.1407707440114495,
-   "high": 0.22664796283746946
+   "value": 0.17151162790697674,
+   "low": 0.1353591152166771,
+   "high": 0.21491986234092386
   },
   "field_accuracy": {
    "drugs": {
-    "value": 0.8909090909090909,
-    "low": 0.7817420620476804,
-    "high": 0.9490334437169486,
-    "n": 55
+    "value": 0.864406779661017,
+    "low": 0.7546010154508226,
+    "high": 0.9296590925031444,
+    "n": 59
    },
    "disease": {
-    "value": 0.9818181818181818,
-    "low": 0.9039399953951678,
-    "high": 0.9967833024077472,
-    "n": 55
+    "value": 0.9661016949152542,
+    "low": 0.8845621301839242,
+    "high": 0.9906542869664985,
+    "n": 59
    },
    "evidence_type": {
     "value": 1.0,
-    "low": 0.9347128562105721,
-    "high": 0.9999999999999999,
-    "n": 55
+    "low": 0.938868520215908,
+    "high": 1.0,
+    "n": 59
    },
    "direction": {
-    "value": 0.9090909090909091,
-    "low": 0.8042226375086602,
-    "high": 0.9605424266636261,
-    "n": 55
+    "value": 0.9152542372881356,
+    "low": 0.8164797538583944,
+    "high": 0.9632585086938003,
+    "n": 59
    },
    "significance": {
-    "value": 0.9272727272727272,
-    "low": 0.827398219083632,
-    "high": 0.9713564034963114,
-    "n": 55
+    "value": 0.9322033898305084,
+    "low": 0.8382425011833289,
+    "high": 0.9733218129016085,
+    "n": 59
    },
    "level": {
-    "value": 0.6545454545454545,
-    "low": 0.5225365801066263,
-    "high": 0.7663746663584595,
-    "n": 55
+    "value": 0.6101694915254238,
+    "low": 0.4826610956186712,
+    "high": 0.724208239344156,
+    "n": 59
    }
   },
   "kappa": {
    "evidence_type": {
-    "value": 0.0959318306761954,
-    "low": -0.01096591428310369,
-    "high": 0.24131595065185021,
-    "n": 299
+    "value": 0.08902189559815184,
+    "low": -0.009509767784740681,
+    "high": 0.2203268091219259,
+    "n": 334
    },
    "direction": {
-    "value": 0.4332993147689164,
-    "low": 0.23646578140960123,
-    "high": 0.60731319554849,
-    "n": 299
+    "value": 0.4385828807861394,
+    "low": 0.25541401273885334,
+    "high": 0.6092176213246513,
+    "n": 334
    },
    "significance": {
-    "value": 0.722577891591976,
-    "low": 0.6541728412910689,
-    "high": 0.7811794840519606,
-    "n": 299
+    "value": 0.7223949515160842,
+    "low": 0.6590290381125227,
+    "high": 0.7812774521234965,
+    "n": 334
    },
    "level": {
-    "value": 0.7029055026382512,
-    "low": 0.636785702399574,
-    "high": 0.765146358066712,
-    "n": 299
+    "value": 0.7060447253670441,
+    "low": 0.6456163791409597,
+    "high": 0.7677733356509647,
+    "n": 334
    }
   },
   "to_person": {
-   "value": 0.8529411764705882,
-   "low": 0.808887298785971,
-   "high": 0.8882431059111386
+   "value": 0.8546511627906976,
+   "low": 0.8134883026431442,
+   "high": 0.8879804118521893
   },
-  "accepted": 45,
+  "accepted": 50,
   "accepted_matched": 16,
   "accepted_error_rate": {
    "value": 0.4375,
@@ -227,43 +227,43 @@
     ]
    }
   ],
-  "accepted_not_in_civic": 29,
+  "accepted_not_in_civic": 34,
   "reasons": [
    [
     "drug",
-    158
+    169
    ],
    [
     "variant",
-    90
-   ],
-   [
-    "second model",
-    59
+    108
    ],
    [
     "models disagree on evidence level",
-    58
+    66
    ],
    [
     "quote is not in the cited units",
-    55
+    64
+   ],
+   [
+    "second model",
+    64
    ],
    [
     "models disagree on significance",
-    50
-   ],
-   [
-    "models disagree on evidence_type",
-    33
-   ],
-   [
-    "disease",
-    29
+    54
    ],
    [
     "patient count 1 is not a number in the cited units",
-    26
+    42
+   ],
+   [
+    "disease",
+    36
+   ],
+   [
+    "models disagree on evidence_type",
+    36
    ],
    [
     "models disagree on direction",
@@ -271,18 +271,18 @@
    ],
    [
     "quote missing or too short",
-    8
+    11
    ],
    [
     "cites no unit that exists in the paper",
-    7
+    10
    ]
   ],
   "kb_labels": {
    "supports": 76,
-   "refines": 39,
-   "new": 178,
-   "contradicts": 13
+   "refines": 45,
+   "new": 207,
+   "contradicts": 16
   },
   "missed_items": [
    {
@@ -2068,6 +2068,64 @@
      "Amivantamab"
     ],
     "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "35245845",
+    "eid": 11021,
+    "profile": "EGFR::RAD51 Fusion",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "35399574",
+    "eid": 12370,
+    "profile": "EGFR::RAD51 Fusion",
+    "therapies": [
+     "Erlotinib",
+     "Osimertinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "37197637",
+    "eid": 12107,
+    "profile": "ERBB2 L755P",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "37481710",
+    "eid": 12139,
+    "profile": "EGFR Alteration",
+    "therapies": [
+     "BMVC-8C3O",
+     "G-Quadruplex Stabilizer BMVC",
+     "Osimertinib"
+    ],
+    "source": "abstract only"
+   },
+   {
+    "pmid": "37641467",
+    "eid": 12066,
+    "profile": "EGFR T790M",
+    "therapies": [
+     "Osimertinib"
+    ],
+    "source": "full text (PMC JATS)"
+   },
+   {
+    "pmid": "37870976",
+    "eid": 12014,
+    "profile": "EGFR Exon 20 Insertion",
+    "therapies": [
+     "Amivantamab",
+     "Chemotherapy"
+    ],
+    "source": "abstract only"
    }
   ]
  },
@@ -2083,13 +2141,13 @@
  "time_travel": {
   "cutoff": "2025-10-26",
   "items_after_cutoff": 16,
-  "eligible": 0,
+  "eligible": 14,
   "flagged": {
-   "value": null,
-   "low": null,
-   "high": null
+   "value": 0.07142857142857142,
+   "low": 0.012721886112291636,
+   "high": 0.3146926955395781
   },
-  "median_lead_days": null,
+  "median_lead_days": 1287,
   "rows": [
    {
     "eid": 12623,
@@ -2102,7 +2160,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-11-19",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2119,7 +2177,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-11-21",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2136,7 +2194,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-11-21",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2153,7 +2211,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-11-21",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2170,7 +2228,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-11-21",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2187,7 +2245,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-11-21",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2204,11 +2262,11 @@
     "paper_indexed": "2022-05-24",
     "civic_submitted": "2025-12-01",
     "paper_before_cutoff": true,
-    "processed": false,
-    "flagged": false,
-    "route": null,
-    "label_vs_kb_at_cutoff": null,
-    "lead_days": null
+    "processed": true,
+    "flagged": true,
+    "route": "to a person",
+    "label_vs_kb_at_cutoff": "new",
+    "lead_days": 1287
    },
    {
     "eid": 12718,
@@ -2221,7 +2279,7 @@
     "paper_indexed": "2025-09-09",
     "civic_submitted": "2025-12-08",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2238,7 +2296,7 @@
     "paper_indexed": "2025-09-14",
     "civic_submitted": "2026-01-18",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2255,7 +2313,7 @@
     "paper_indexed": "2025-09-14",
     "civic_submitted": "2026-01-18",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2272,7 +2330,7 @@
     "paper_indexed": "2025-09-14",
     "civic_submitted": "2026-01-18",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2289,7 +2347,7 @@
     "paper_indexed": "2025-09-14",
     "civic_submitted": "2026-01-18",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2306,7 +2364,7 @@
     "paper_indexed": "2026-01-27",
     "civic_submitted": "2026-03-20",
     "paper_before_cutoff": false,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2341,7 +2399,7 @@
     "paper_indexed": "2023-12-22",
     "civic_submitted": "2026-04-20",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2358,7 +2416,7 @@
     "paper_indexed": "2023-12-22",
     "civic_submitted": "2026-04-20",
     "paper_before_cutoff": true,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
@@ -2368,42 +2426,42 @@
  },
  "pubtator": {
   "specific": {
-   "n": 223,
+   "n": 240,
    "system": {
-    "value": 0.27802690582959644,
-    "low": 0.22336095816527038,
-    "high": 0.34021115559164206
+    "value": 0.2791666666666667,
+    "low": 0.22623282535841227,
+    "high": 0.33905874096989264
    },
    "pubtator": {
-    "value": 0.27802690582959644,
-    "low": 0.22336095816527038,
-    "high": 0.34021115559164206
+    "value": 0.2916666666666667,
+    "low": 0.23780336603417557,
+    "high": 0.3520943380491309
    },
-   "only_system": 11,
-   "only_pubtator": 11
+   "only_system": 14,
+   "only_pubtator": 17
   },
   "category": {
-   "n": 45,
+   "n": 56,
    "system": {
-    "value": 0.5333333333333333,
-    "low": 0.3907720886241046,
-    "high": 0.6706509605798527
+    "value": 0.5178571428571429,
+    "low": 0.3901016225125491,
+    "high": 0.6433199437557326
    },
    "pubtator": {
     "value": 0.0,
     "low": 0.0,
-    "high": 0.07865426194064076
+    "high": 0.06419614448811528
    },
-   "only_system": 24,
+   "only_system": 29,
    "only_pubtator": 0
   },
   "listed_per_paper": {
-   "pubtator": 2.463157894736842,
-   "system": 2.1052631578947367
+   "pubtator": 2.828828828828829,
+   "system": 2.027027027027027
   },
   "share_listed_that_curators_recorded": {
-   "pubtator": 0.2222222222222222,
-   "system": 0.355
+   "pubtator": 0.18471337579617833,
+   "system": 0.36
   }
  },
  "prisma": {
@@ -2411,17 +2469,17 @@
   "civic_papers": 155,
   "civic_papers_found_by_search": 141,
   "screened_sample": 300,
-  "extracted_papers": 95,
-  "full_text": 26,
-  "abstract_only": 69,
+  "extracted_papers": 111,
+  "full_text": 34,
+  "abstract_only": 77,
   "abstract_only_reasons": {
-   "no PubMed Central copy": 63,
-   "PMC record has no body text (not in the open-access subset or author manuscripts)": 6
+   "no PubMed Central copy": 70,
+   "PMC record has no body text (not in the open-access subset or author manuscripts)": 7
   },
   "retracted": 0,
-  "with_corrections": 6,
-  "entries": 306,
-  "accepted": 45,
-  "to_person": 261
+  "with_corrections": 7,
+  "entries": 344,
+  "accepted": 50,
+  "to_person": 294
  }
 }

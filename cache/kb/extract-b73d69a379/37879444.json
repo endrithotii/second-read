@@ -1,0 +1,216 @@
+{
+ "pmid": "37879444",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 18,
+ "units_total": 18,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    }
+   ],
+   "disease_written": "EGFR-mutated (exon 19 deletions or L858R) locally advanced or metastatic NSCLC after disease progression on osimertinib",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "PFS was significantly longer for amivantamab-chemotherapy versus chemotherapy",
+   "cited_text": "PFS was significantly longer for amivantamab-chemotherapy and amivantamab-lazertinib-chemotherapy versus chemotherapy [hazard ratio (HR) for disease progression or death 0.48 and 0.44, respectively; P < 0.001 for both; median of 6.3 and 8.3 versus 4.2 months, respectively].",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ],
+   "id": "37879444-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit reports significantly longer PFS for amivantamab-containing regimens versus chemotherapy in patients with EGFR exon 19 deletions, indicating a predictive benefit."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    }
+   ],
+   "disease_written": "EGFR-mutated (exon 19 deletions or L858R) locally advanced or metastatic NSCLC after disease progression on osimertinib",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "PFS was significantly longer for amivantamab-chemotherapy versus chemotherapy",
+   "cited_text": "PFS was significantly longer for amivantamab-chemotherapy and amivantamab-lazertinib-chemotherapy versus chemotherapy [hazard ratio (HR) for disease progression or death 0.48 and 0.44, respectively; P < 0.001 for both; median of 6.3 and 8.3 versus 4.2 months, respectively].",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'L858R' is not named in the cited units"
+   ],
+   "id": "37879444-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit reports significantly longer PFS for amivantamab-containing regimens versus chemotherapy in patients with EGFR L858R mutations, indicating a predictive benefit."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'L858R' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated (exon 19 deletions or L858R) locally advanced or metastatic NSCLC after disease progression on osimertinib",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "PFS was significantly longer for amivantamab-lazertinib-chemotherapy versus chemotherapy",
+   "cited_text": "PFS was significantly longer for amivantamab-chemotherapy and amivantamab-lazertinib-chemotherapy versus chemotherapy [hazard ratio (HR) for disease progression or death 0.48 and 0.44, respectively; P < 0.001 for both; median of 6.3 and 8.3 versus 4.2 months, respectively].",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'exon 19 deletion' is not named in the cited units"
+   ],
+   "id": "37879444-3",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit shows benefit for the combination including lazertinib, but does not isolate lazertinib's effect from amivantamab or chemotherapy, so support is partial."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "second model: supported = partly (The cited unit shows benefit for the combination including lazertinib, but does not isolate lazertinib's effect from amivantamab or chemotherapy, so support is partial.)"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated (exon 19 deletions or L858R) locally advanced or metastatic NSCLC after disease progression on osimertinib",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A10"
+   ],
+   "quote": "PFS was significantly longer for amivantamab-lazertinib-chemotherapy versus chemotherapy",
+   "cited_text": "PFS was significantly longer for amivantamab-chemotherapy and amivantamab-lazertinib-chemotherapy versus chemotherapy [hazard ratio (HR) for disease progression or death 0.48 and 0.44, respectively; P < 0.001 for both; median of 6.3 and 8.3 versus 4.2 months, respectively].",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'L858R' is not named in the cited units"
+   ],
+   "id": "37879444-4",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit shows benefit for the combination including lazertinib, but does not isolate lazertinib's effect from amivantamab or chemotherapy, so support is partial."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'L858R' is not named in the cited units",
+    "second model: supported = partly (The cited unit shows benefit for the combination including lazertinib, but does not isolate lazertinib's effect from amivantamab or chemotherapy, so support is partial.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

@@ -1,0 +1,198 @@
+{
+ "pmid": "39637337",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 23,
+ "units_total": 81,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4650319",
+     "name": "MOBOCERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S4"
+   ],
+   "quote": "demonstrating marked response to the EGFR TKI mobocertinib",
+   "cited_text": "Nevertheless, EGFR fusions are rare with unclear treatment implications.- Here, we describe a patient with EGFR::ERBB4 fusion-positive NSCLC demonstrating marked response to the EGFR TKI mobocertinib followed by osimertinib.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "39637337-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with an EGFR fusion who demonstrated a marked response to mobocertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S67"
+   ],
+   "quote": "Our patient's intracranial response on osimertinib suggests",
+   "cited_text": "The EGFR TKI osimertinib is currently first-line therapy for patients with EGFR exon 19, exon 20 T790M, and exon 21 L858R NSCLC., Our patient's intracranial response on osimertinib suggests that her progression on mobocertinib reflects limited drug CNS penetrance as opposed to acquired resistance to therapy.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "39637337-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit reports an intracranial response to osimertinib in a patient with an EGFR fusion, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S45"
+   ],
+   "quote": "In a study of EGFR::ERBB4-transduced cells treated with EGFR or pan-HER TKIs including osimertinib and tarloxotinib, levels of activated EGFR, ERBB4, and downstream signaling proteins decreased",
+   "cited_text": "In a study of EGFR::ERBB4-transduced cells treated with EGFR or pan-HER TKIs including osimertinib and tarloxotinib, levels of activated EGFR, ERBB4, and downstream signaling proteins decreased.",
+   "code_problems": [],
+   "id": "39637337-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes preclinical data where osimertinib treatment reduced signaling in EGFR fusion-transduced cells."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297661",
+     "name": "TARLOXOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S45"
+   ],
+   "quote": "In a study of EGFR::ERBB4-transduced cells treated with EGFR or pan-HER TKIs including osimertinib and tarloxotinib, levels of activated EGFR, ERBB4, and downstream signaling proteins decreased",
+   "cited_text": "In a study of EGFR::ERBB4-transduced cells treated with EGFR or pan-HER TKIs including osimertinib and tarloxotinib, levels of activated EGFR, ERBB4, and downstream signaling proteins decreased.",
+   "code_problems": [],
+   "id": "39637337-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes preclinical data where tarloxotinib treatment reduced signaling in EGFR fusion-transduced cells."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

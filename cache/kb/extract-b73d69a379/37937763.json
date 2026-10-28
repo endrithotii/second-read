@@ -1,0 +1,114 @@
+{
+ "pmid": "37937763",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 11,
+ "units_total": 11,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 557,
+   "units": [
+    "A5",
+    "A10"
+   ],
+   "quote": "investigator-assessed progression-free survival was significantly longer in the osimertinib-chemotherapy group than in the osimertinib group",
+   "cited_text": "In this phase 3, international, open-label trial, we randomly assigned in a 1:1 ratio patients with EGFR -mutated (exon 19 deletion or L858R mutation) advanced non-small-cell lung cancer (NSCLC) who had not previously received treatment for advanced disease to receive osimertinib (80 mg once daily) with chemotherapy (pemetrexed [500 mg per square meter of body-surface area] plus either cisplatin [75 mg per square meter] or carboplatin [pharmacologically guided dose]) or to receive osimertinib monotherapy (80 mg once daily). Investigator-assessed progression-free survival was significantly longer in the osimertinib-chemotherapy group than in the osimertinib group (hazard ratio for disease progression or death, 0.62; 95% confidence interval [CI], 0.49 to 0.79; P EGFR -mutated advanced NSCLC.",
+   "code_problems": [
+    "patient count 557 is not a number in the cited units"
+   ],
+   "id": "37937763-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited phase 3 trial demonstrates that patients with EGFR exon 19 deletions (among other mutations) have a significant response to osimertinib-based therapy in advanced NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 557 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 557,
+   "units": [
+    "A5",
+    "A10"
+   ],
+   "quote": "investigator-assessed progression-free survival was significantly longer in the osimertinib-chemotherapy group than in the osimertinib group",
+   "cited_text": "In this phase 3, international, open-label trial, we randomly assigned in a 1:1 ratio patients with EGFR -mutated (exon 19 deletion or L858R mutation) advanced non-small-cell lung cancer (NSCLC) who had not previously received treatment for advanced disease to receive osimertinib (80 mg once daily) with chemotherapy (pemetrexed [500 mg per square meter of body-surface area] plus either cisplatin [75 mg per square meter] or carboplatin [pharmacologically guided dose]) or to receive osimertinib monotherapy (80 mg once daily). Investigator-assessed progression-free survival was significantly longer in the osimertinib-chemotherapy group than in the osimertinib group (hazard ratio for disease progression or death, 0.62; 95% confidence interval [CI], 0.49 to 0.79; P EGFR -mutated advanced NSCLC.",
+   "code_problems": [
+    "patient count 557 is not a number in the cited units"
+   ],
+   "id": "37937763-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited phase 3 trial demonstrates that patients with EGFR mutations (including exon 19 deletions) have a significant response to osimertinib-based therapy in advanced NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 557 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

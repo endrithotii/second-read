@@ -1,0 +1,65 @@
+{
+ "pmid": "40923280",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon20ins",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL5314564",
+     "name": "SUNVOZERTINIB"
+    }
+   ],
+   "disease_written": "advanced EGFR exon20ins NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "Sunvozertinib is efficacious at both 200 and 300 mg once daily in treating platinum-pretreated patients with advanced EGFR exon20ins NSCLC.",
+   "cited_text": "Sunvozertinib is efficacious at both 200 and 300 mg once daily in treating platinum-pretreated patients with advanced EGFR exon20ins NSCLC.",
+   "code_problems": [
+    "variant exon20ins could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "40923280-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The unit states that sunvozertinib is efficacious in treating patients with advanced EGFR exon20ins NSCLC, indicating a predictive response to the drug."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon20ins could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

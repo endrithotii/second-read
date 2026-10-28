@@ -1,0 +1,136 @@
+{
+ "pmid": "41590375",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 66,
+ "units_total": 290,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "E701fs",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S9"
+   ],
+   "quote": "patient demonstrated a radiological and biochemical response to osimertinib",
+   "cited_text": "Identification of molecular alterations helps guide targeted therapy in both early- and advanced-stage disease [].",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'E701fs' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant E701fs could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "41590375-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The cited unit provides a general statement about the utility of molecular profiling for guiding therapy but does not contain specific evidence linking the EGFR E701fs alteration to osimertinib response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'E701fs' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant E701fs could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The cited unit provides a general statement about the utility of molecular profiling for guiding therapy but does not contain specific evidence linking the EGFR E701fs alteration to osimertinib response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "L702fs",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S9"
+   ],
+   "quote": "patient demonstrated a radiological and biochemical response to osimertinib",
+   "cited_text": "Identification of molecular alterations helps guide targeted therapy in both early- and advanced-stage disease [].",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'L702fs' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant L702fs could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "41590375-2",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "review or inference",
+    "reason": "The cited unit provides a general statement about the utility of molecular profiling for guiding therapy but does not contain specific evidence linking the EGFR L702fs alteration to osimertinib response or resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'L702fs' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant L702fs could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The cited unit provides a general statement about the utility of molecular profiling for guiding therapy but does not contain specific evidence linking the EGFR L702fs alteration to osimertinib response or resistance.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA",
+    "models disagree on evidence level: C vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

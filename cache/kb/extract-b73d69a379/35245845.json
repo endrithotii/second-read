@@ -1,0 +1,65 @@
+{
+ "pmid": "35245845",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 4,
+ "units_total": 4,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A3"
+   ],
+   "quote": "sustained near-complete systemic and intracranial response to osimertinib",
+   "cited_text": "We report a widely metastatic non-small cell lung cancer in a never-smoker young male patient with sustained near-complete systemic and intracranial response to osimertinib, a third-generation EGFR tyrosine-kinase inhibitor (TKI).",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "35245845-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with an EGFR fusion who had a sustained near-complete response to osimertinib, supporting a sensitivity response in this disease."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

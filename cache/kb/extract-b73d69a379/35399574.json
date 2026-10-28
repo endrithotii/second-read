@@ -1,0 +1,271 @@
+{
+ "pmid": "35399574",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 48,
+ "units_total": 193,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL553",
+     "name": "ERLOTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 6,
+   "units": [
+    "S9",
+    "S24",
+    "T1.r2.c9",
+    "T1.r2.c10",
+    "T1.r4.c9",
+    "T1.r4.c10",
+    "T1.r5.c9",
+    "T1.r5.c10",
+    "T1.r6.c9",
+    "T1.r6.c10",
+    "T1.r11.c9",
+    "T1.r11.c10"
+   ],
+   "quote": "Interestingly, all NSCLC patients with EGFR-RAD51 fusion responded to erlotinib ()",
+   "cited_text": "Interestingly, all NSCLC patients with EGFR-RAD51 fusion responded to erlotinib (). In light of existing literature, first-generation EGFR-TKI erlotinib (150 mg daily, then reduced to 100 mg daily due to recurrent grade 2 hyperbilirubinemia) was administered leading to a PR on all tumor sites, including brain, after only three weeks from treatment initiation (Figure 1). ERL followed by OSI PR ERL PR ERL PR ERL PR ERL PR",
+   "code_problems": [
+    "patient count 6 is not a number in the cited units"
+   ],
+   "id": "35399574-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a patient with an EGFR fusion who achieved a partial response to erlotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 6 is not a number in the cited units",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL939",
+     "name": "GEFITINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A8",
+    "S69",
+    "T1.r3.c9",
+    "T1.r3.c10"
+   ],
+   "quote": "the second was treated with gefitinib",
+   "cited_text": "The first patient initially received erlotinib, then switched to osimertinib for renal toxicity, while the second was treated with gefitinib. The current case series represents the first documented evidence of clinical activity of osimertinib and gefitinib in two NSCLC patients harboring EGFR-RAD51 gene fusion. GEF CR",
+   "code_problems": [],
+   "id": "35399574-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit documents a complete response to gefitinib in a patient with an EGFR fusion."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A8",
+    "A9",
+    "S69",
+    "T1.r2.c9"
+   ],
+   "quote": "first report describing response to the 3rd EGFR TKI osimertinib",
+   "cited_text": "The first patient initially received erlotinib, then switched to osimertinib for renal toxicity, while the second was treated with gefitinib. This is, to our knowledge, the first report describing response to the 3rd EGFR TKI osimertinib. The current case series represents the first documented evidence of clinical activity of osimertinib and gefitinib in two NSCLC patients harboring EGFR-RAD51 gene fusion. ERL followed by OSI",
+   "code_problems": [],
+   "id": "35399574-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit reports clinical activity and response to osimertinib in a patient with an EGFR fusion."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T1.r9.c9",
+    "T1.r9.c10"
+   ],
+   "quote": "EGFR TKI: AFA",
+   "cited_text": "AFA PR",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'EGFR-RAD51 gene fusion' is not named in the cited units",
+    "drug 'afatinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "35399574-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit indicates a partial response (PR) to afatinib in the context of the described EGFR fusion cases."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'EGFR-RAD51 gene fusion' is not named in the cited units",
+    "drug 'afatinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'EGFR-RAD51 gene fusion' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "35399574-5",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'EGFR-RAD51 gene fusion' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

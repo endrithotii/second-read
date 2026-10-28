@@ -1,0 +1,494 @@
+{
+ "pmid": "40940797",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 52,
+ "units_total": 126,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "delE709_T710insD",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "cited_text": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "code_problems": [
+    "variant 'delE709_T710insD' is not named in the cited units",
+    "variant delE709_T710insD could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "40940797-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states afatinib was active against all uncommon EGFR mutations tested, implying sensitivity for this profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'delE709_T710insD' is not named in the cited units",
+    "variant delE709_T710insD could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E709K",
+     "hgvs": "NP_005219.2:p.(Glu709Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "cited_text": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "code_problems": [
+    "variant 'E709K' is not named in the cited units"
+   ],
+   "id": "40940797-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states afatinib was active against all uncommon EGFR mutations tested, implying sensitivity for this profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'E709K' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "cited_text": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "code_problems": [
+    "variant 'G719A' is not named in the cited units"
+   ],
+   "id": "40940797-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states afatinib was active against all uncommon EGFR mutations tested, implying sensitivity for this profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'G719A' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "cited_text": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "code_problems": [
+    "variant 'S768I' is not named in the cited units"
+   ],
+   "id": "40940797-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states afatinib was active against all uncommon EGFR mutations tested, implying sensitivity for this profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'S768I' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L861Q",
+     "hgvs": "NP_005219.2:p.(Leu861Gln)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "cited_text": "Afatinib was active against all uncommon EGFR mutations tested.",
+   "code_problems": [
+    "variant 'L861Q' is not named in the cited units"
+   ],
+   "id": "40940797-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states afatinib was active against all uncommon EGFR mutations tested, implying sensitivity for this profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L861Q' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L861Q",
+     "hgvs": "NP_005219.2:p.(Leu861Gln)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4761468",
+     "name": "AUMOLERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "The 3G-TKIs were all active against the L861Q mutation",
+   "cited_text": "The 3G-TKIs were all active against the L861Q mutation and were inactive against the S768I mutation.",
+   "code_problems": [
+    "drug 'almonertinib' is not named in the cited units"
+   ],
+   "id": "40940797-6",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states 3G-TKIs (including aumolertinib) were active against the L861Q mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'almonertinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "S768I",
+     "hgvs": "NP_005219.2:p.(Ser768Ile)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4761468",
+     "name": "AUMOLERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "The 3G-TKIs were ... inactive against the S768I mutation",
+   "cited_text": "The 3G-TKIs were all active against the L861Q mutation and were inactive against the S768I mutation.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'almonertinib' is not named in the cited units"
+   ],
+   "id": "40940797-7",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states 3G-TKIs (including aumolertinib) were inactive against the S768I mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'almonertinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "delE709_T710insD",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "Furmonertinib and befotertinib showed efficacy against exon 18 mutations (Del18, E709K, and G719A)",
+   "cited_text": "Furmonertinib and befotertinib showed efficacy against exon 18 mutations (Del18, E709K, and G719A).",
+   "code_problems": [
+    "variant 'delE709_T710insD' is not named in the cited units",
+    "variant delE709_T710insD could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "40940797-8",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The unit lists efficacy for Del18, E709K, and G719A, but does not explicitly mention the specific delE709_T710insD profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'delE709_T710insD' is not named in the cited units",
+    "variant delE709_T710insD could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit lists efficacy for Del18, E709K, and G719A, but does not explicitly mention the specific delE709_T710insD profile.)",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "E709K",
+     "hgvs": "NP_005219.2:p.(Glu709Lys)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "Furmonertinib and befotertinib showed efficacy against exon 18 mutations (Del18, E709K, and G719A)",
+   "cited_text": "Furmonertinib and befotertinib showed efficacy against exon 18 mutations (Del18, E709K, and G719A).",
+   "code_problems": [],
+   "id": "40940797-9",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit explicitly states furmonertinib showed efficacy against E709K."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "G719A",
+     "hgvs": "NP_005219.2:p.(Gly719Ala)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'G719A' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "40940797-10",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'G719A' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

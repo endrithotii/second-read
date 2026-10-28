@@ -3,10 +3,16 @@
 "chembl_id": "CHEMBL1173655",
 "name": "AFATINIB"
 },
+"drug:almonertinib": {
+"chembl_id": "CHEMBL4761468",
+"name": "AUMOLERTINIB"
+},
 "drug:amivantamab": {
 "chembl_id": "CHEMBL4297774",
 "name": "AMIVANTAMAB"
 },
+"drug:amivantamab plus chemotherapy": null,
+"drug:amivantamab-lazertinib": null,
 "drug:anilinoquinazoline egfr inhibitors": null,
 "drug:az5104": null,
 "drug:azd9291": {
@@ -16,6 +22,10 @@
 "drug:bibw 2992": {
 "chembl_id": "CHEMBL1173655",
 "name": "AFATINIB"
+},
+"drug:capmatinib": {
+"chembl_id": "CHEMBL3188267",
+"name": "CAPMATINIB"
 },
 "drug:cetuximab": {
 "chembl_id": "CHEMBL1201577",
@@ -43,6 +53,10 @@
 },
 "drug:first-generation egfr inhibitors": null,
 "drug:first-generation egfr tkis": null,
+"drug:furmonertinib": {
+"chembl_id": "CHEMBL4297258",
+"name": "FIRMONERTINIB"
+},
 "drug:gefitinib": {
 "chembl_id": "CHEMBL939",
 "name": "GEFITINIB"
@@ -50,6 +64,10 @@
 "drug:hki-272": {
 "chembl_id": "CHEMBL180022",
 "name": "NERATINIB"
+},
+"drug:lazertinib": {
+"chembl_id": "CHEMBL4558324",
+"name": "LAZERTINIB"
 },
 "drug:mobocertinib": {
 "chembl_id": "CHEMBL4650319",
@@ -85,6 +103,14 @@
 },
 "drug:second-generation egfr tki": null,
 "drug:second-generation egfr tkis": null,
+"drug:sunvozertinib": {
+"chembl_id": "CHEMBL5314564",
+"name": "SUNVOZERTINIB"
+},
+"drug:tarloxotinib": {
+"chembl_id": "CHEMBL4297661",
+"name": "TARLOXOTINIB"
+},
 "drug:tepotinib": {
 "chembl_id": "CHEMBL3402762",
 "name": "TEPOTINIB"
@@ -112,6 +138,11 @@
 "mane_nm": "NM_004448.4",
 "symbol": "ERBB2"
 },
+"gene:FOS": {
+"hgnc_id": "HGNC:3796",
+"mane_nm": "NM_005252.4",
+"symbol": "FOS"
+},
 "gene:HER2": {
 "hgnc_id": "HGNC:3430",
 "mane_nm": "NM_004448.4",
@@ -136,6 +167,11 @@
 "hgnc_id": "HGNC:8975",
 "mane_nm": "NM_006218.4",
 "symbol": "PIK3CA"
+},
+"gene:TP53": {
+"hgnc_id": "HGNC:11998",
+"mane_nm": "NM_000546.6",
+"symbol": "TP53"
 },
 "np:NM_004333.6": "NP_004324.2",
 "np:NM_004448.4": "NP_004439.2",
@@ -221,6 +257,12 @@
 "vv:NP_005219.2:p.(Asp770_Asn771insAsnProGly)": {
 "hgvs_c": null,
 "hgvs_p": "NP_005219.2:p.(Asp770_Asn771insAsnProGly)",
+"note": "reference amino acid confirmed",
+"valid": true
+},
+"vv:NP_005219.2:p.(Asp770_Asn771insSerValAsp)": {
+"hgvs_c": null,
+"hgvs_p": "NP_005219.2:p.(Asp770_Asn771insSerValAsp)",
 "note": "reference amino acid confirmed",
 "valid": true
 },

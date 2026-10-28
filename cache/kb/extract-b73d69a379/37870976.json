@@ -1,0 +1,67 @@
+{
+ "pmid": "37870976",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 12,
+ "units_total": 12,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "AMIVANTAMAB PLUS CHEMOTHERAPY"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 308,
+   "units": [
+    "A11"
+   ],
+   "quote": "Progression-free survival was significantly longer in the amivantamab-chemotherapy group than in the chemotherapy group",
+   "cited_text": "Progression-free survival was significantly longer in the amivantamab-chemotherapy group than in the chemotherapy group (median, 11.4 months and 6.7 months, respectively; hazard ratio for disease progression or death, 0.40; 95% confidence interval [CI], 0.30 to 0.53; P EGFR exon 20 insertions.",
+   "code_problems": [
+    "patient count 308 is not a number in the cited units",
+    "drug 'amivantamab plus chemotherapy' not found in ChEMBL"
+   ],
+   "id": "37870976-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit reports significantly longer progression-free survival for amivantamab plus chemotherapy compared to chemotherapy alone in patients with EGFR exon 20 insertions, indicating a predictive benefit of the therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 308 is not a number in the cited units",
+    "drug 'amivantamab plus chemotherapy' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

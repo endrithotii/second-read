@@ -1,0 +1,221 @@
+{
+ "pmid": "37641467",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 36,
+ "units_total": 183,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "squamous cell lung cancer",
+   "oncotree": "LUSC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S6"
+   ],
+   "quote": "who exhibited a positive response to treatment with osimertinib",
+   "cited_text": "Here, we report the case of a patient with SCC having both an EGFR exon 19 deletion and a de novo T790M mutation, who exhibited a positive response to treatment with osimertinib.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "37641467-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with the specified profile who exhibited a positive response to osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "squamous cell lung cancer",
+   "oncotree": "LUSC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T1.r2"
+   ],
+   "quote": "EGFR mutation: L858R; [T1.r2.c8] Best overall response: PD",
+   "cited_text": "(TABLE 1: Case reports of osimertinib used for patients with EGFR-positive squamous cell lung cancer.) [T1.r2.c1] Case: 1; [T1.r2.c2] Author: Rekowska et al.4; [T1.r2.c3] Age: 63; [T1.r2.c4] Sex M/F: F; [T1.r2.c5] Smoking history: Never; [T1.r2.c6] Treatment line with osimertinib: First; [T1.r2.c7] EGFR mutation: L858R; [T1.r2.c8] Best overall response: PD",
+   "code_problems": [],
+   "id": "37641467-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit reports a case of EGFR L858R in squamous cell lung cancer with progressive disease (PD) on osimertinib, indicating resistance."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "squamous cell lung cancer",
+   "oncotree": "LUSC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "T1.r3"
+   ],
+   "quote": "EGFR mutation: del19; [T1.r3.c8] Best overall response: PD",
+   "cited_text": "(TABLE 1: Case reports of osimertinib used for patients with EGFR-positive squamous cell lung cancer.) [T1.r3.c1] Case: 2; [T1.r3.c2] Author: Nishimura et al.5; [T1.r3.c3] Age: 83; [T1.r3.c4] Sex M/F: M; [T1.r3.c5] Smoking history: 30 pack years; [T1.r3.c6] Treatment line with osimertinib: First; [T1.r3.c7] EGFR mutation: del19; [T1.r3.c8] Best overall response: PD",
+   "code_problems": [
+    "variant 'exon19 deletion' is not named in the cited units"
+   ],
+   "id": "37641467-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit reports a case of EGFR Exon 19 Deletion in squamous cell lung cancer with progressive disease (PD) on osimertinib, indicating resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon19 deletion' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'exon19 deletion' is not named in the cited units",
+    "variant 'T790M' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "37641467-4",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'exon19 deletion' is not named in the cited units",
+    "variant 'T790M' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

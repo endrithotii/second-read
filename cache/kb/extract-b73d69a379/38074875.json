@@ -1,0 +1,242 @@
+{
+ "pmid": "38074875",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 42,
+ "units_total": 166,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A4",
+    "A5"
+   ],
+   "quote": "This patient eventually developed resistance to both Erlotinib and Osimertinib after 28 months of treatment. Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion.",
+   "cited_text": "This patient eventually developed resistance to both Erlotinib and Osimertinib after 28 months of treatment. Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "38074875-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The case report describes the development of resistance to Osimertinib in a patient with EGFR Exon 19 Deletion."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "unparsed",
+     "name": "exon 14 skipping",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A5"
+   ],
+   "quote": "Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion.",
+   "cited_text": "Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion.",
+   "code_problems": [
+    "drug 'Osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 14 skipping could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "38074875-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The emergence of MET exon 14 skipping is identified as a mechanism of resistance to Osimertinib in this case."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'Osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 14 skipping could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A5"
+   ],
+   "quote": "Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion.",
+   "cited_text": "Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion.",
+   "code_problems": [
+    "drug 'Osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "38074875-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The emergence of MET fusion is identified as a mechanism of resistance to Osimertinib in this case."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'Osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "MET",
+     "kind": "unparsed",
+     "name": "exon 14 skipping",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    },
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Fusion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL3188267",
+     "name": "CAPMATINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A6",
+    "A7"
+   ],
+   "quote": "In light of this complex molecular profile, the patient was administered a combination therapy consisting of Osimertinib and Capmatinib. This novel approach yielded a partial response, and notably, the patient experienced a progression-free survival exceeding 7 months.",
+   "cited_text": "In light of this complex molecular profile, the patient was administered a combination therapy consisting of Osimertinib and Capmatinib. This novel approach yielded a partial response, and notably, the patient experienced a progression-free survival exceeding 7 months.",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "variant 'exon 14 skipping' is not named in the cited units",
+    "variant 'fusion' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 14 skipping could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "38074875-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The patient with the combined profile achieved a partial response to the combination of Osimertinib and Capmatinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "variant 'exon 14 skipping' is not named in the cited units",
+    "variant 'fusion' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 14 skipping could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

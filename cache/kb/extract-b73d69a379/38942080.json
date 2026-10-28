@@ -1,0 +1,67 @@
+{
+ "pmid": "38942080",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 16,
+ "units_total": 16,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "TP53",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "AMIVANTAMAB-LAZERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A11"
+   ],
+   "quote": "Amivantamab-lazertinib improved median PFS (mPFS) versus osimertinib for patients with TP53 co-mutations",
+   "cited_text": "Amivantamab-lazertinib improved median PFS (mPFS) versus osimertinib for patients with TP53 co-mutations {18.2 versus 12.9 months; HR 0.65 [95% confidence interval (CI) 0.48-0.87]; P = 0.003} and for patients with wild-type TP53 [22.1 versus 19.9 months; HR 0.75 (95% CI 0.52-1.07)].",
+   "code_problems": [
+    "variant 'co-mutation' is not named in the cited units",
+    "drug 'amivantamab-lazertinib' not found in ChEMBL"
+   ],
+   "id": "38942080-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit reports that TP53 co-mutation is associated with improved progression-free survival for amivantamab-lazertinib compared to osimertinib in a randomized trial context."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'co-mutation' is not named in the cited units",
+    "drug 'amivantamab-lazertinib' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

@@ -1,0 +1,67 @@
+{
+ "pmid": "38828946",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 10,
+ "units_total": 10,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR‑mutated NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 216,
+   "units": [
+    "A9"
+   ],
+   "quote": "Osimertinib resulted in a significant progression-free survival benefit as compared with placebo",
+   "cited_text": "Osimertinib resulted in a significant progression-free survival benefit as compared with placebo: the median progression-free survival was 39.1 months with osimertinib versus 5.6 months with placebo, with a hazard ratio for disease progression or death of 0.16 (95% confidence interval [CI], 0.10 to 0.24; P EGFR -mutated NSCLC.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "patient count 216 is not a number in the cited units"
+   ],
+   "id": "38828946-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The unit describes a randomized trial showing significant PFS benefit of osimertinib over placebo in EGFR-mutated NSCLC, indicating sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "patient count 216 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

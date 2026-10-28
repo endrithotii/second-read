@@ -1,0 +1,85 @@
+{
+ "pmid": "34647988",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 53,
+ "units_total": 464,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 20 Insertion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4650319",
+     "name": "MOBOCERTINIB"
+    }
+   ],
+   "disease_written": "EGFRex20ins-positive metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 114,
+   "units": [
+    "T2.r4.c2",
+    "T2.r4.c3"
+   ],
+   "quote": "32 (28) [20-37]",
+   "cited_text": "32 (28) [20-37] 24 (25) [17-35]",
+   "code_problems": [
+    "variant 'exon 20 insertion' is not named in the cited units",
+    "drug 'mobocertinib' is not named in the cited units",
+    "patient count 114 is not a number in the cited units"
+   ],
+   "id": "34647988-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "FUNCTIONAL",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cell line or biochemical",
+    "reason": "The cited units are numerical values (likely IC50 or fold-change) without explicit text linking the profile to drug response in the provided snippet, and mobocertinib is not a standard approved therapy for this indication in the context of typical CIViC evidence structures which usually cite specific trial data or functional assays; however, given the lack of explicit 'response' or 'resistance' text in the units, it defaults to functional or unsupported. Wait, looking at the units '32 (28) [20-37]', these look like statistical data or IC50 values. Without explicit text stating 'sensitivity' or 'resistance', I cannot confirm PREDICTIVE. However, usually, these entries in this format imply a functional assay result. Let's look closer. The prompt says 'assign them yourself, from the cited units only'. The units are just numbers. This is ambiguous. But typically, if a drug is named and numbers are given, it implies a functional assay (IC50). If the numbers represent sensitivity, it would be PREDICTIVE. But without the label 'sensitive' or 'resistant', I must be careful. Let's assume the numbers represent IC50 values which indicate sensitivity. However, the prompt asks for 'supported' based on whether the units *state* the association. Numbers alone don't state it. But in the context of these tasks, often the 'units' field contains the key evidence. If I must choose, 'FUNCTIONAL' is safer if no clinical outcome is mentioned. But 'MOBOCERTINIB' is a specific drug. Let's look at the definition: PREDICTIVE requires 'changes response... in patients or preclinical models'. Cell lines count. If the numbers are IC50s, they show response. But do the units *state* it? No, they are just data. I will mark 'no' for supported because the units do not explicitly state the association, only provide data points. Actually, looking at similar examples, if the units are just numbers, it's often a 'FUNCTIONAL' evidence type if it's about mechanism, or 'PREDICTIVE' if it's about drug response. Given the drug is named, it's likely a drug response assay. But without the word 'sensitive' or 'resistant', I will stick to 'FUNCTIONAL' as the alteration's effect on the protein/drug interaction is shown, but the clinical/preclinical 'response' label is missing from the text. Wait, 'cell lines treated with the drug count as PREDICTIVE'. If the units are IC50s from cell lines, it is PREDICTIVE. But I don't know if they are IC50s. They could be anything. I will mark 'no' for supported because the units do not explicitly state the association."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 20 insertion' is not named in the cited units",
+    "drug 'mobocertinib' is not named in the cited units",
+    "patient count 114 is not a number in the cited units",
+    "second model: supported = no (The cited units are numerical values (likely IC50 or fold-change) without explicit text linking the profile to drug response in the provided snippet, and mobocertinib is not a standard approved therapy for this indication in the context of typical CIViC evidence structures which usually cite specific trial data or functional assays; however, given the lack of explicit 'response' or 'resistance' text in the units, it defaults to functional or unsupported. Wait, looking at the units '32 (28) [20-37]', these look like statistical data or IC50 values. Without explicit text stating 'sensitivity' or 'resistance', I cannot confirm PREDICTIVE. However, usually, these entries in this format imply a functional assay result. Let's look closer. The prompt says 'assign them yourself, from the cited units only'. The units are just numbers. This is ambiguous. But typically, if a drug is named and numbers are given, it implies a functional assay (IC50). If the numbers represent sensitivity, it would be PREDICTIVE. But without the label 'sensitive' or 'resistant', I must be careful. Let's assume the numbers represent IC50 values which indicate sensitivity. However, the prompt asks for 'supported' based on whether the units *state* the association. Numbers alone don't state it. But in the context of these tasks, often the 'units' field contains the key evidence. If I must choose, 'FUNCTIONAL' is safer if no clinical outcome is mentioned. But 'MOBOCERTINIB' is a specific drug. Let's look at the definition: PREDICTIVE requires 'changes response... in patients or preclinical models'. Cell lines count. If the numbers are IC50s, they show response. But do the units *state* it? No, they are just data. I will mark 'no' for supported because the units do not explicitly state the association, only provide data points. Actually, looking at similar examples, if the units are just numbers, it's often a 'FUNCTIONAL' evidence type if it's about mechanism, or 'PREDICTIVE' if it's about drug response. Given the drug is named, it's likely a drug response assay. But without the word 'sensitive' or 'resistant', I will stick to 'FUNCTIONAL' as the alteration's effect on the protein/drug interaction is shown, but the clinical/preclinical 'response' label is missing from the text. Wait, 'cell lines treated with the drug count as PREDICTIVE'. If the units are IC50s from cell lines, it is PREDICTIVE. But I don't know if they are IC50s. They could be anything. I will mark 'no' for supported because the units do not explicitly state the association.)",
+    "models disagree on evidence_type: PREDICTIVE vs FUNCTIONAL",
+    "models disagree on significance: SENSITIVITYRESPONSE vs NA",
+    "models disagree on evidence level: B vs D"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [
+  {
+   "type": "erratum",
+   "pmid": "35201294",
+   "reference": "JAMA Oncol. 2024 Oct 1;10(10):1443. doi: 10.1001/jamaoncol.2022.0062."
+  },
+  {
+   "type": "erratum",
+   "pmid": "36107172",
+   "reference": "JAMA Oncol. 2022 Sep 1;8(9):1359. doi: 10.1001/jamaoncol.2022.4366."
+  }
+ ],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

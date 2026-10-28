@@ -1,0 +1,180 @@
+{
+ "pmid": "38591867",
+ "text_source": "abstract only",
+ "why_abstract_only": "PMC record has no body text (not in the open-access subset or author manuscripts)",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 20 S768T",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "neuroendocrine carcinoma not otherwise specified",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "A13"
+   ],
+   "quote": "EGFR exon 20 S768T and exon 18 G719C mutation",
+   "cited_text": "The two confirmed RECIST responses were observed in a patient with neuroendocrine carcinoma not otherwise specified ( EGFR exon 20 S768T and exon 18 G719C mutation) and a patient with low-grade epithelial carcinoma of the paranasal sinus ( EGFR D770_N771insSVD).",
+   "code_problems": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 20 S768T could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'neuroendocrine carcinoma not otherwise specified' not mapped to OncoTree"
+   ],
+   "id": "38591867-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a confirmed RECIST response in a patient with this specific EGFR mutation treated with osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 20 S768T could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'neuroendocrine carcinoma not otherwise specified' not mapped to OncoTree",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 18 G719C",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "neuroendocrine carcinoma not otherwise specified",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "A13"
+   ],
+   "quote": "EGFR exon 20 S768T and exon 18 G719C mutation",
+   "cited_text": "The two confirmed RECIST responses were observed in a patient with neuroendocrine carcinoma not otherwise specified ( EGFR exon 20 S768T and exon 18 G719C mutation) and a patient with low-grade epithelial carcinoma of the paranasal sinus ( EGFR D770_N771insSVD).",
+   "code_problems": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 18 G719C could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'neuroendocrine carcinoma not otherwise specified' not mapped to OncoTree"
+   ],
+   "id": "38591867-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a confirmed RECIST response in a patient with this specific EGFR mutation (co-occurring with S768T) treated with osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant exon 18 G719C could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'neuroendocrine carcinoma not otherwise specified' not mapped to OncoTree",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein indel",
+     "name": "D770_N771insSVD",
+     "hgvs": "NP_005219.2:p.(Asp770_Asn771insSerValAsp)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "low-grade epithelial carcinoma of the paranasal sinus",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "A13"
+   ],
+   "quote": "EGFR D770_N771insSVD mutation",
+   "cited_text": "The two confirmed RECIST responses were observed in a patient with neuroendocrine carcinoma not otherwise specified ( EGFR exon 20 S768T and exon 18 G719C mutation) and a patient with low-grade epithelial carcinoma of the paranasal sinus ( EGFR D770_N771insSVD).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "disease 'low-grade epithelial carcinoma of the paranasal sinus' not mapped to OncoTree"
+   ],
+   "id": "38591867-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a confirmed RECIST response in a patient with this specific EGFR insertion mutation treated with osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "disease 'low-grade epithelial carcinoma of the paranasal sinus' not mapped to OncoTree",
+    "models disagree on evidence level: B vs C"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

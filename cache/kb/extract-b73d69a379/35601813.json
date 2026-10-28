@@ -1,0 +1,120 @@
+{
+ "pmid": "35601813",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 48,
+ "units_total": 225,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "vIII",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "malignant glioma",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": 1,
+   "units": [
+    "S59"
+   ],
+   "quote": "The patient with PR has an EGFR vIII mutation and continues on osimertinib after 294 days in conjunction with temozolomide and Optune.",
+   "cited_text": "The patient with PR has an EGFR vIII mutation and continues on osimertinib after 294 days in conjunction with temozolomide and Optune.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'malignant glioma' not mapped to OncoTree"
+   ],
+   "id": "35601813-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with an EGFR vIII mutation who achieved a partial response (PR) while on osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'malignant glioma' not mapped to OncoTree",
+    "models disagree on evidence level: B vs C"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "vIII",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'vIII' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "35601813-2",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'vIII' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant vIII could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

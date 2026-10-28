@@ -1,0 +1,117 @@
+{
+ "pmid": "37197637",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 39,
+ "units_total": 88,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "exon 19 p.L755P",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "stage IV NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A11",
+    "S1"
+   ],
+   "quote": "achieved a partial response (PR) according to RESIST criteria both intra- and extracranially",
+   "cited_text": "Based on findings from pre-clinical studies, the patient was commenced on osimertinib 80 mg OD and achieved a partial response (PR) according to RESIST criteria both intra- and extracranially. • We present a case of a 68-year-old female with stage IV NSCLC harboring a ERBB2 exon 19 c.2262_2264delinsTCC, p.(L755P) mutation treated with osimertinib, resulting in intra- and extracranial response.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units",
+    "variant exon 19 p.L755P could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "37197637-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with the specified ERBB2 mutation who achieved a partial response to osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "variant exon 19 p.L755P could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ERBB2",
+     "kind": "unparsed",
+     "name": "exon 19 p.L755P",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "S2"
+   ],
+   "quote": "Osimertinib ... has been found in pre-clinical studies ... to have activity against various HER2 exon 19 aberrations, including HER2 exon 19, p.L755P mutations",
+   "cited_text": "• Osimertinib, a 3rd generation EGFR-TKI has been found in pre-clinical studies, both in vitro and in vivo, to have activity against various HER2 exon 19 aberrations, including HER2 exon 19, p.L755P mutations.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant exon 19 p.L755P could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "37197637-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit cites pre-clinical in vitro and in vivo studies demonstrating osimertinib activity against the specific ERBB2 mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant exon 19 p.L755P could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}
