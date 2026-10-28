@@ -14,6 +14,10 @@
 "drug:amivantamab plus chemotherapy": null,
 "drug:amivantamab-lazertinib": null,
 "drug:anilinoquinazoline egfr inhibitors": null,
+"drug:aumolertinib": {
+"chembl_id": "CHEMBL4761468",
+"name": "AUMOLERTINIB"
+},
 "drug:az5104": null,
 "drug:azd9291": {
 "chembl_id": "CHEMBL3353410",
@@ -40,6 +44,10 @@
 "drug:dacomitinib": {
 "chembl_id": "CHEMBL2105719",
 "name": "DACOMITINIB"
+},
+"drug:dalmelitinib": {
+"chembl_id": "CHEMBL3818247",
+"name": "DALMELITINIB"
 },
 "drug:egfr tki": null,
 "drug:egfr tkis": null,
@@ -101,6 +109,10 @@
 "chembl_id": "CHEMBL1743062",
 "name": "RAMUCIRUMAB"
 },
+"drug:savolitinib": {
+"chembl_id": "CHEMBL3334567",
+"name": "SAVOLITINIB"
+},
 "drug:second-generation egfr tki": null,
 "drug:second-generation egfr tkis": null,
 "drug:sunvozertinib": {
@@ -122,6 +134,11 @@
 "hgnc_id": "HGNC:391",
 "mane_nm": "NM_001382430.1",
 "symbol": "AKT1"
+},
+"gene:ALK": {
+"hgnc_id": "HGNC:427",
+"mane_nm": "NM_004304.5",
+"symbol": "ALK"
 },
 "gene:BRAF": {
 "hgnc_id": "HGNC:1097",

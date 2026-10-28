@@ -1,0 +1,114 @@
+{
+ "pmid": "42926325",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 43,
+ "units_total": 300,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A11"
+   ],
+   "quote": "In living H3255 cells, the TP-score of osimertinib (OSI) was higher than that of gefitinib (GEF).",
+   "cited_text": "In living H3255 cells, the TP-score of osimertinib (OSI) was higher than that of gefitinib (GEF).",
+   "code_problems": [
+    "variant 'L858R' is not named in the cited units"
+   ],
+   "id": "42926325-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit states that osimertinib has a higher TP-score (indicating greater sensitivity) than gefitinib in H3255 cells, which harbor the EGFR L858R mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L858R' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "in H3255 cell-derived xenograft (CDX) mouse models, OSI showed superior in vivo antitumour efficacy compared with GEF.",
+   "cited_text": "Notably, in H3255 cell-derived xenograft (CDX) mouse models, OSI showed superior in vivo antitumour efficacy compared with GEF.",
+   "code_problems": [
+    "variant 'L858R' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units"
+   ],
+   "id": "42926325-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "animal model",
+    "reason": "The unit reports superior in vivo antitumor efficacy of osimertinib compared to gefitinib in H3255 cell-derived xenograft mice, supporting sensitivity to osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L858R' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

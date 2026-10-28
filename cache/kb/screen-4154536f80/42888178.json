@@ -1,0 +1,11 @@
+{
+ "pmid": "42888178",
+ "answers": {
+  "population": "yes",
+  "drug": "no",
+  "evidence": "yes",
+  "confidence": 90
+ },
+ "include": false,
+ "confidence": 90.0
+}

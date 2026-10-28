@@ -1,0 +1,262 @@
+{
+ "pmid": "41325571",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 75,
+ "units_total": 563,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "G719",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    },
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 59,
+   "units": [
+    "T1.r20",
+    "S105"
+   ],
+   "quote": "amivantamab-lazertinib is effective against all atypical mutations, including single and compound atypical mutations, irrespective of the structural implication of the mutation locus in the EGFR gene",
+   "cited_text": "(TABLE 1.: Demographic and Clinical Characteristics of Participants at Baseline) [T1.r20.c1] Characteristic: Exon 18 G719X; [T1.r20.c2] Overall Population (N = 105): 59 (56); [T1.r20.c3] Treatment-Naïve Subgroup (n = 49): 27 (55); [T1.r20.c4] Previous Treatment Subgroup (n = 56): 32 (57) Nonetheless, data from CHRYSALIS-2 Cohort C showed that amivantamab-lazertinib is effective against all atypical mutations, including single and compound atypical mutations, irrespective of the structural implication of the mutation locus in the EGFR gene.",
+   "code_problems": [],
+   "id": "41325571-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The text cites CHRYSALIS-2 Cohort C data showing amivantamab-lazertinib is effective against atypical mutations including G719X."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "L861",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    },
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 27,
+   "units": [
+    "T1.r21",
+    "S105"
+   ],
+   "quote": "amivantamab-lazertinib is effective against all atypical mutations, including single and compound atypical mutations, irrespective of the structural implication of the mutation locus in the EGFR gene",
+   "cited_text": "(TABLE 1.: Demographic and Clinical Characteristics of Participants at Baseline) [T1.r21.c1] Characteristic: Exon 21 L861X; [T1.r21.c2] Overall Population (N = 105): 27 (26); [T1.r21.c3] Treatment-Naïve Subgroup (n = 49): 12 (24); [T1.r21.c4] Previous Treatment Subgroup (n = 56): 15 (27) Nonetheless, data from CHRYSALIS-2 Cohort C showed that amivantamab-lazertinib is effective against all atypical mutations, including single and compound atypical mutations, irrespective of the structural implication of the mutation locus in the EGFR gene.",
+   "code_problems": [],
+   "id": "41325571-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The text cites CHRYSALIS-2 Cohort C data showing amivantamab-lazertinib is effective against atypical mutations including L861X."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "codon",
+     "name": "S768",
+     "hgvs": null,
+     "validated": null,
+     "note": "codon-level description (any change at this residue)"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    },
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": 24,
+   "units": [
+    "T1.r22",
+    "S105"
+   ],
+   "quote": "amivantamab-lazertinib is effective against all atypical mutations, including single and compound atypical mutations, irrespective of the structural implication of the mutation locus in the EGFR gene",
+   "cited_text": "(TABLE 1.: Demographic and Clinical Characteristics of Participants at Baseline) [T1.r22.c1] Characteristic: Exon 20 S768X; [T1.r22.c2] Overall Population (N = 105): 24 (23); [T1.r22.c3] Treatment-Naïve Subgroup (n = 49): 13 (27); [T1.r22.c4] Previous Treatment Subgroup (n = 56): 11 (20) Nonetheless, data from CHRYSALIS-2 Cohort C showed that amivantamab-lazertinib is effective against all atypical mutations, including single and compound atypical mutations, irrespective of the structural implication of the mutation locus in the EGFR gene.",
+   "code_problems": [],
+   "id": "41325571-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "single-arm trial",
+    "reason": "The text cites CHRYSALIS-2 Cohort C data showing amivantamab-lazertinib is effective against atypical mutations including S768X."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    },
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S109"
+   ],
+   "quote": "expand coverage against additional EGFR (eg, C797S) and MET (eg, amplification) TKI resistance mutations",
+   "cited_text": "The complementary mechanisms of action of amivantamab and lazertinib, expand coverage against additional EGFR (eg, C797S) and MET (eg, amplification) TKI resistance mutations, potentially delaying disease resistance and prolonging disease control beyond that observed with other EGFR-TKIs alone.",
+   "code_problems": [],
+   "id": "41325571-4",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states the combination expands coverage against C797S resistance mutations, implying efficacy, but does not cite specific trial data for this profile in the provided unit."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = partly (The text states the combination expands coverage against C797S resistance mutations, implying efficacy, but does not cite specific trial data for this profile in the provided unit.)",
+    "models disagree on evidence level: B vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297774",
+     "name": "AMIVANTAMAB"
+    },
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S109"
+   ],
+   "quote": "expand coverage against additional EGFR (eg, C797S) and MET (eg, amplification) TKI resistance mutations",
+   "cited_text": "The complementary mechanisms of action of amivantamab and lazertinib, expand coverage against additional EGFR (eg, C797S) and MET (eg, amplification) TKI resistance mutations, potentially delaying disease resistance and prolonging disease control beyond that observed with other EGFR-TKIs alone.",
+   "code_problems": [],
+   "id": "41325571-5",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The text states the combination expands coverage against MET amplification resistance, implying efficacy, but does not cite specific trial data for this profile in the provided unit."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = partly (The text states the combination expands coverage against MET amplification resistance, implying efficacy, but does not cite specific trial data for this profile in the provided unit.)",
+    "models disagree on evidence level: B vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

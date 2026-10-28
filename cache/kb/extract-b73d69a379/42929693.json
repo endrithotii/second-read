@@ -1,0 +1,126 @@
+{
+ "pmid": "42929693",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 10,
+ "units_total": 10,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL3334567",
+     "name": "SAVOLITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated, locally advanced or metastatic NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 171,
+   "units": [
+    "A3",
+    "A10"
+   ],
+   "quote": "Combination therapy with savolitinib and osimertinib ... has shown activity in patients ... with MET overexpression, MET amplification, or both",
+   "cited_text": "Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR -mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy. Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P EGFR -mutated, locally advanced or metastatic NSCLC with MET overexpression, MET amplification, or both that had progressed during osimertinib therapy (Funded by AstraZeneca; SAFFRON ClinicalTrials.gov number, NCT05261399.).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "patient count 171 is not a number in the cited units"
+   ],
+   "id": "42929693-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The SAFFRON trial (randomised) demonstrates that MET overexpression/amplification predicts improved PFS with osimertinib plus savolitinib compared to chemotherapy in EGFR-mutated NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "patient count 171 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL3334567",
+     "name": "SAVOLITINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated, locally advanced or metastatic NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 171,
+   "units": [
+    "A3",
+    "A10"
+   ],
+   "quote": "Combination therapy with savolitinib and osimertinib ... has shown activity in patients ... with MET overexpression, MET amplification, or both",
+   "cited_text": "Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR -mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy. Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P EGFR -mutated, locally advanced or metastatic NSCLC with MET overexpression, MET amplification, or both that had progressed during osimertinib therapy (Funded by AstraZeneca; SAFFRON ClinicalTrials.gov number, NCT05261399.).",
+   "code_problems": [
+    "quote is not in the cited units",
+    "patient count 171 is not a number in the cited units"
+   ],
+   "id": "42929693-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The SAFFRON trial (randomised) demonstrates that MET amplification predicts improved PFS with osimertinib plus savolitinib compared to chemotherapy in EGFR-mutated NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "patient count 171 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

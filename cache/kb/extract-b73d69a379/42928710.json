@@ -1,0 +1,77 @@
+{
+ "pmid": "42928710",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 15,
+ "units_total": 15,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3818247",
+     "name": "DALMELITINIB"
+    },
+    {
+     "chembl_id": "CHEMBL4761468",
+     "name": "AUMOLERTINIB"
+    }
+   ],
+   "disease_written": "advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 314,
+   "units": [
+    "A14"
+   ],
+   "quote": "Median PFS was 6.2 months with dalmelitinib-aumolertinib and 4.4 months with chemotherapy (HR, 0.60; 95% CI, 0.45 to 0.81; P EGFR -mutated, MET -amplified NSCLC after progression on EGFR-TKI.",
+   "cited_text": "Median PFS was 6.2 months with dalmelitinib-aumolertinib and 4.4 months with chemotherapy (HR, 0.60; 95% CI, 0.45 to 0.81; P EGFR -mutated, MET -amplified NSCLC after progression on EGFR-TKI.",
+   "code_problems": [
+    "patient count 314 is not a number in the cited units"
+   ],
+   "id": "42928710-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The cited unit reports a statistically significant improvement in PFS for the combination therapy compared to chemotherapy in patients with EGFR-mutated and MET-amplified NSCLC, indicating a predictive benefit of the drugs for this molecular profile."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 314 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

@@ -1,0 +1,71 @@
+{
+ "pmid": "42927948",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "protein indel",
+     "name": "E746_A750del",
+     "hgvs": "NP_005219.2:p.(Glu746_Ala750del)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A9"
+   ],
+   "quote": "osimertinib exhibited potent antitumor activity (IC 50 =1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response",
+   "cited_text": "In one organoid model with increased epidermal growth factor receptor (EGFR) gene copy number gain and the EGFR p.E746_A750del mutation, sensitivity testing of commonly used antitumor drugs/regimens, including osimertinib, paclitaxel, cisplatin, the GP regimen (gemcitabine plus cisplatin), and the PP regimen (pemetrexed plus cisplatin), showed that osimertinib exhibited potent antitumor activity (IC 50 =1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response.",
+   "code_problems": [],
+   "id": "42927948-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The organoid model demonstrates potent sensitivity to osimertinib in the presence of EGFR amplification and the E746_A750del mutation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: C vs D"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

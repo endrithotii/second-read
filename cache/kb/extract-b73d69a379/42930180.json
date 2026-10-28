@@ -1,0 +1,217 @@
+{
+ "pmid": "42930180",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 56,
+ "units_total": 171,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A4"
+   ],
+   "quote": "The patient experienced disease progression with rare gynecological metastasis after 16 months of first-line furmonertinib therapy.",
+   "cited_text": "The patient experienced disease progression with rare gynecological metastasis after 16 months of first-line furmonertinib therapy.",
+   "code_problems": [
+    "variant 'L858R' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42930180-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a specific patient with EGFR L858R who experienced disease progression after 16 months of furmonertinib, indicating acquired resistance."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'L858R' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "EGFR TKIS"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S6"
+   ],
+   "quote": "Classical EGFR alterations, including exon 19 deletions and exon 21 L858R point mutations, are highly sensitive to EGFR tyrosine kinase inhibitors (TKIs).",
+   "cited_text": "Classical EGFR alterations, including exon 19 deletions and exon 21 L858R point mutations, are highly sensitive to EGFR tyrosine kinase inhibitors (TKIs).",
+   "code_problems": [
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ],
+   "id": "42930180-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that EGFR L858R mutations are highly sensitive to EGFR TKIs, establishing a predictive relationship for drug response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'EGFR TKIs' not found in ChEMBL"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ALK",
+     "kind": "unparsed",
+     "name": "EML4-ALK",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A8"
+   ],
+   "quote": "Secondary ALK fusion may represent a rare but clinically meaningful resistance mechanism in EGFR-mutant NSCLC.",
+   "cited_text": "Secondary ALK fusion may represent a rare but clinically meaningful resistance mechanism in EGFR-mutant NSCLC.",
+   "code_problems": [
+    "drug 'furmonertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant EML4-ALK could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "42930180-3",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit discusses ALK fusions as a resistance mechanism in EGFR-mutant NSCLC, which does not support the stated profile of ALK EML4-ALK or the drug furmonertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'furmonertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "variant EML4-ALK could not be validated: not recognised as a protein change, HGVS or known category",
+    "second model: supported = no (The unit discusses ALK fusions as a resistance mechanism in EGFR-mutant NSCLC, which does not support the stated profile of ALK EML4-ALK or the drug furmonertinib.)",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "ALK",
+     "kind": "unparsed",
+     "name": "EML4-ALK",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [],
+   "disease_written": null,
+   "oncotree": null,
+   "evidence_type": null,
+   "direction": null,
+   "significance": null,
+   "design": null,
+   "level": null,
+   "n_patients": null,
+   "units": [],
+   "quote": null,
+   "cited_text": "",
+   "code_problems": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'EML4-ALK' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant EML4-ALK could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree"
+   ],
+   "id": "42930180-4",
+   "checker": null,
+   "route": "to a person",
+   "reasons": [
+    "cites no unit that exists in the paper",
+    "quote missing or too short",
+    "variant 'EML4-ALK' is not named in the cited units",
+    "evidence_type 'None' is not an allowed value",
+    "direction 'None' is not an allowed value",
+    "significance 'None' is not an allowed value",
+    "design 'None' is not an allowed value",
+    "variant EML4-ALK could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'None' not mapped to OncoTree",
+    "no second reading"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-28"
+}

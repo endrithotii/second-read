@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28 06:04 UTC",
+ "generated": "2026-10-28 15:34 UTC",
  "ground_truth": {
   "items": 385,
   "papers": 155,
@@ -2382,7 +2382,7 @@
     "paper_indexed": "2025-12-01",
     "civic_submitted": "2026-04-12",
     "paper_before_cutoff": false,
-    "processed": false,
+    "processed": true,
     "flagged": false,
     "route": null,
     "label_vs_kb_at_cutoff": null,
