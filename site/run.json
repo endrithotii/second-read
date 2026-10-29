@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-10-28-112305",
+  "run_id": "egfr-osimertinib-resistance-2026-10-29-113337",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,8 +93,8 @@
     }
   },
   "window": {
-    "start": "2026-10-22",
-    "end": "2026-10-28"
+    "start": "2026-10-23",
+    "end": "2026-10-29"
   },
   "searches": {
     "main": {
@@ -105,8 +105,7 @@
         "42919317",
         "42918663",
         "42913244",
-        "42911709",
-        "42906730"
+        "42911709"
       ]
     },
     "second": {
@@ -1307,251 +1306,6 @@
     },
     {
       "paper": {
-        "pmid": "42906730",
-        "title": "Antibody-drug conjugates after EGFR-TKI resistance in EGFR-mutant NSCLC: Evidence boundaries, post-progression reassessment, and therapeutic sequencing.",
-        "abstract": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs). However, the founding EGFR alteration alone does not guide ADC selection. At progression, actionable resistance mechanisms, altered antigen expression, central nervous system (CNS) involvement, spatial heterogeneity, and histological transformation may shift treatment priorities. This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority. The framework first identifies clinical scenarios requiring immediate local, CNS-directed, or lineage-specific treatment. It then evaluates resistance-directed therapy and other systemic options in the context of prior treatment. Finally, each ADC is assessed according to its evidence base, biomarkers, construct fit, disease distribution, availability, and patient-specific safety. Currently, selected TROP2-directed ADCs have the most mature evidence. HER3-directed therapy remains under investigation, whereas c-Met- and human epidermal growth factor receptor 2-directed ADCs may be relevant in biomarker-defined settings. Tissue biopsy, plasma circulating tumor DNA analysis, and selected cerebrospinal fluid testing should be considered when the findings could alter clinical management. Accordingly, ADCs should be positioned relative to competing local and systemic strategies rather than considered a uniform post-osimertinib class. Prospective validation is required to determine whether this framework improves treatment outcomes.",
-        "sentences": [
-          "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs).",
-          "However, the founding EGFR alteration alone does not guide ADC selection.",
-          "At progression, actionable resistance mechanisms, altered antigen expression, central nervous system (CNS) involvement, spatial heterogeneity, and histological transformation may shift treatment priorities.",
-          "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority.",
-          "The framework first identifies clinical scenarios requiring immediate local, CNS-directed, or lineage-specific treatment.",
-          "It then evaluates resistance-directed therapy and other systemic options in the context of prior treatment.",
-          "Finally, each ADC is assessed according to its evidence base, biomarkers, construct fit, disease distribution, availability, and patient-specific safety.",
-          "Currently, selected TROP2-directed ADCs have the most mature evidence.",
-          "HER3-directed therapy remains under investigation, whereas c-Met- and human epidermal growth factor receptor 2-directed ADCs may be relevant in biomarker-defined settings.",
-          "Tissue biopsy, plasma circulating tumor DNA analysis, and selected cerebrospinal fluid testing should be considered when the findings could alter clinical management.",
-          "Accordingly, ADCs should be positioned relative to competing local and systemic strategies rather than considered a uniform post-osimertinib class.",
-          "Prospective validation is required to determine whether this framework improves treatment outcomes."
-        ],
-        "journal": "Crit Rev Oncol Hematol",
-        "year": "2026",
-        "authors": [
-          "Wang L",
-          "Feng Y",
-          "Jia R",
-          "Liu Q"
-        ],
-        "doi": "10.1016/j.critrevonc.2026.105661",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "abstract_sha256": "9c3944a954c4a5751b5274e09572a09b294568ab2cd1c0fc6ba5d4158e8281ae",
-        "found_by": [
-          "main"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42906730/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs).",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "yes",
-            "sentence": 11,
-            "evidence": "Accordingly, ADCs should be positioned relative to competing local and systemic strategies rather than considered a uniform post-osimertinib class.",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs).",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "no",
-            "sentence": 4,
-            "evidence": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "actionable resistance mechanisms, altered antigen expression, central nervous system (CNS) involvement, spatial heterogeneity, and histological transformation",
-            "sentence": 3,
-            "quote": "actionable resistance mechanisms, altered antigen expression, central nervous system (CNS) involvement, spatial heterogeneity, and histological transformation"
-          },
-          "variant": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "context": {
-            "value": "after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)",
-            "sentence": 1,
-            "quote": "after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)"
-          },
-          "drug": {
-            "value": "Antibody-drug conjugates (ADCs)",
-            "sentence": 1,
-            "quote": "Antibody-drug conjugates (ADCs)"
-          },
-          "setting": {
-            "value": "after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)",
-            "sentence": 1,
-            "quote": "after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)"
-          },
-          "study_type": {
-            "value": "narrative review",
-            "sentence": 4,
-            "quote": "This narrative review"
-          },
-          "n_patients": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "finding_type": {
-            "value": "other",
-            "sentence": 4,
-            "quote": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority."
-          },
-          "key_finding": {
-            "value": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority.",
-            "sentence": 4,
-            "quote": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority."
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "This narrative review examines the use of antibody-drug conjugates (ADCs) in the context of resistance to EGFR tyrosine kinase inhibitors, addressing mechanisms such as altered antigen expression, CNS involvement, and histological transformation. It proposes an eight-domain assessment of the post-progression disease state to distinguish ADC eligibility from therapeutic priority.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "context": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: actionable resistance mechanisms, altered antigen expression, central nervous system (CNS) involvement, spatial heterogeneity, and histological transformation",
-            "verdict": "supported",
-            "evidence": "At progression, actionable resistance mechanisms, altered antigen expression, central nervous system (CNS) involvement, spatial heterogeneity, and histological transformation may shift treatment priorities."
-          },
-          {
-            "kind": "field",
-            "id": "context",
-            "text": "context: after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)",
-            "verdict": "supported",
-            "evidence": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: Antibody-drug conjugates (ADCs)",
-            "verdict": "supported",
-            "evidence": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)",
-            "verdict": "supported",
-            "evidence": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: narrative review (classification)",
-            "verdict": "supported",
-            "evidence": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: other (classification)",
-            "verdict": "beyond",
-            "evidence": null
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority.",
-            "verdict": "supported",
-            "evidence": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "This narrative review examines the use of antibody-drug conjugates (ADCs) in the context of resistance to EGFR tyrosine kinase inhibitors, addressing mechanisms such as altered antigen expression, CNS involvement, and histological transformation.",
-            "verdict": "supported",
-            "evidence": "Antibody-drug conjugates (ADCs) are emerging therapeutic options for epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) after the development of resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "It proposes an eight-domain assessment of the post-progression disease state to distinguish ADC eligibility from therapeutic priority.",
-            "verdict": "supported",
-            "evidence": "This narrative review links agent-specific evidence boundaries to an eight-domain assessment of the post-progression disease state and distinguishes ADC eligibility from therapeutic priority."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "review",
-        "reasons": [
-          "Finding type: the second model could not find this in the abstract."
-        ],
-        "problems": 1
-      }
-    },
-    {
-      "paper": {
         "pmid": "42933461",
         "title": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
         "abstract": "Background: Izalontamab brengitecan (iza-bren) is a first-in-class bispecific antibody-drug conjugate targeting epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 3 (HER3) and has shown antitumour activity in EGFR-mutated non-small-cell lung cancer (NSCLC). We compared iza-bren with platinum-based chemotherapy in participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR tyrosine kinase inhibitors (TKIs). Methods: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced disease. Participants were randomly assigned (1:1) to receive iza-bren (2·5 mg/kg intravenously on days 1 and 8 of each 3-week cycle) or pemetrexed plus carboplatin or cisplatin for four to six cycles, with pemetrexed maintenance permitted in participants without progression. The primary endpoint was progression-free survival assessed by blinded independent central review (BICR). The primary analysis included all randomly assigned participants who received at least one dose of study treatment (modified intention-to-treat population). We report the prespecified final progression-free survival and interim overall survival analyses. This trial is registered with ClinicalTrials.gov, NCT06382116. Findings: Between May 22, 2024, and Sept 1, 2025, we screened 654 participants. After 222 (34%) were excluded, 432 (66%) participants were randomly assigned to iza-bren (n=217 [50%]) or chemotherapy (n=215 [50%]); 422 (98%) received study treatment (216 [51%] in the iza-bren group and 206 [49%] in the chemotherapy group) and comprised the modified intention-to-treat population. At the data cutoff (July 15, 2026; median follow-up for progression-free survival 14·6 months [95% CI 12·9-16·7] in the iza-bren group vs 15·2 months [11·2-18·2] in the chemotherapy group), median BICR-assessed progression-free survival was 11·1 months (9·2-12·7) with iza-bren versus 5·7 months (5·5-5·9) with chemotherapy (hazard ratio [HR] 0·40 [95% CI 0·31-0·51]; one-sided p<0·0001). Treatment-related adverse events of grade 3 or worse occurred in 170 (79%) of 216 participants in the iza-bren group and 128 (62%) of 206 in the chemotherapy group (predominantly haematological); treatment-related adverse events led to permanent discontinuation of at least one study-treatment component in four (2%) participants in each group and treatment-related deaths occurred in one participant in each group. Treatment-related interstitial lung disease occurred in two (1%) participants in the iza-bren group and none in the chemotherapy group. Interpretation: In participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR TKIs, iza-bren significantly prolonged progression-free survival, although treatment-related adverse events of grade 3 or worse were more frequent than with chemotherapy. To our knowledge, these findings provide the first phase 3 evidence for a bispecific antibody-drug conjugate and support iza-bren as a potential treatment option in this population. Funding: Baili-Bio (Chengdu) Pharmaceutical.",
@@ -2450,23 +2204,22 @@
   ],
   "misses": {
     "capture_recapture": {
-      "primary": 5,
+      "primary": 4,
       "secondary": 4,
       "both": 2,
-      "found": 7,
+      "found": 6,
       "only_secondary": [
         "42929693",
         "42933231"
       ],
       "only_primary": [
-        "42906730",
         "42913244",
         "42937553"
       ],
-      "estimate": 9.0,
-      "low": 7,
-      "high": 13,
-      "missed": 2,
+      "estimate": 7.3,
+      "low": 6,
+      "high": 11,
+      "missed": 1,
       "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
     "audit_sample": [
@@ -2477,8 +2230,8 @@
     ]
   },
   "audit": {
-    "started": "2026-10-28T11:23:05+00:00",
-    "finished": "2026-10-28T11:23:12+00:00",
+    "started": "2026-10-29T11:33:37+00:00",
+    "finished": "2026-10-29T11:33:38+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.15",
     "writer_model": "groq/qwen/qwen3.8-27b",
