@@ -1,0 +1,168 @@
+{
+ "pmid": "42882792",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 39,
+ "units_total": 158,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "MET amplification represents the most common bypass resistance mechanism to EGFR tyrosine kinase inhibitor (TKI) treatment in EGFR-mutated non-small cell lung cancer (NSCLC).",
+   "cited_text": "Background/Objectives: MET amplification represents the most common bypass resistance mechanism to EGFR tyrosine kinase inhibitor (TKI) treatment in EGFR-mutated non-small cell lung cancer (NSCLC).",
+   "code_problems": [
+    "drug 'osimertinib' is not named in the cited units"
+   ],
+   "id": "42882792-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that MET amplification is the most common bypass resistance mechanism to EGFR TKI treatment, which includes osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'osimertinib' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    },
+    {
+     "chembl_id": "CHEMBL601719",
+     "name": "CRIZOTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 2,
+   "units": [
+    "A2",
+    "A6"
+   ],
+   "quote": "MET enrichment increased further following the initiation of crizotinib/osimertinib combination therapy, during which the patient experienced a partial response.",
+   "cited_text": "Combination therapy with the EGFR-TKI, osimertinib, and the MET-TKI, crizotinib, has demonstrated clinical efficacy in overcoming this resistance. Results: In PT1, H3K36me3 m EGFR and MET cfChIP enrichment increased during disease progression, with MET enrichment increasing further following the initiation of crizotinib/osimertinib combination therapy, during which the patient experienced a partial response.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'amplification' is not named in the cited units",
+    "patient count 2 is not a number in the cited units"
+   ],
+   "id": "42882792-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a patient with MET amplification who experienced a partial response to the combination of osimertinib and crizotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'amplification' is not named in the cited units",
+    "patient count 2 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL601719",
+     "name": "CRIZOTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A7"
+   ],
+   "quote": "the patient did not respond to crizotinib.",
+   "cited_text": "In PT2, MET amplification was detected in a liquid biopsy, but MET cfChIP enrichment remained low throughout the treatment course, and the patient did not respond to crizotinib.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42882792-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a patient with MET amplification who did not respond to crizotinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

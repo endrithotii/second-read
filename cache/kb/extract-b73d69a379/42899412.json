@@ -1,0 +1,63 @@
+{
+ "pmid": "42899412",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 19,
+ "units_total": 19,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated NSCLC with brain metastases",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A19"
+   ],
+   "quote": "L858R BM displayed tumor-intrinsic, microenvironment-independent biology, suggesting preferential sensitivity to high-dose firmonertinib",
+   "cited_text": "L858R BM displayed tumor-intrinsic, microenvironment-independent biology, suggesting preferential sensitivity to high-dose firmonertinib.",
+   "code_problems": [],
+   "id": "42899412-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that L858R brain metastases display preferential sensitivity to high-dose firmonertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "models disagree on evidence level: B vs E"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

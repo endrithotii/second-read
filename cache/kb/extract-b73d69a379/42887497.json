@@ -1,0 +1,69 @@
+{
+ "pmid": "42887497",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 6,
+ "units_total": 6,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "P-loop and αC-helix compressing",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "metastatic EGFR PACC-mutant NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "randomised trial",
+   "level": "B",
+   "n_patients": 47,
+   "units": [
+    "A4"
+   ],
+   "quote": "patients with metastatic EGFR PACC-mutant NSCLC randomized to receive first-line firmonertinib 160 mg (n = 25) or 240 mg (n = 22) had confirmed objective response rates (ORRs) of 43% and 68%",
+   "cited_text": "In the phase 1b FURTHER study (NCT05364073), patients with metastatic EGFR PACC-mutant NSCLC randomized to receive first-line firmonertinib 160 mg (n = 25) or 240 mg (n = 22) had confirmed objective response rates (ORRs) of 43% and 68%, median duration of response not reached and 14.6 months, and median progression-free survival of 11.1 and 16.0 months, respectively; treatment-related adverse events led to dose reductions (19% and 24%) and discontinuation (3% and 0%).",
+   "code_problems": [
+    "variant 'P-loop and αC-helix compressing' is not named in the cited units",
+    "patient count 47 is not a number in the cited units",
+    "variant P-loop and αC-helix compressing could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "42887497-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "randomised trial",
+    "reason": "The phase 1b FURTHER study demonstrates objective response rates and progression-free survival for firmonertinib in patients with metastatic EGFR PACC-mutant NSCLC, indicating therapeutic sensitivity."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'P-loop and αC-helix compressing' is not named in the cited units",
+    "patient count 47 is not a number in the cited units",
+    "variant P-loop and αC-helix compressing could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

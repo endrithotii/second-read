@@ -1,0 +1,65 @@
+{
+ "pmid": "42887496",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 2,
+ "units_total": 2,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "PACC",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4297258",
+     "name": "FIRMONERTINIB"
+    }
+   ],
+   "disease_written": "non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "animal model",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A2"
+   ],
+   "quote": "promising systemic and intracranial efficacy of the broad-spectrum CNS-penetrant tyrosine kinase inhibitor firmonertinib in PACC-mutant NSCLC",
+   "cited_text": "In this issue of Cancer Cell, Le et al. report preclinical profiles and promising systemic and intracranial efficacy of the broad-spectrum CNS-penetrant tyrosine kinase inhibitor firmonertinib in PACC-mutant NSCLC, supporting its further clinical development in this challenging mutation class.",
+   "code_problems": [
+    "variant PACC could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "42887496-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The cited unit describes preclinical efficacy of firmonertinib in PACC-mutant NSCLC models, supporting its use for this alteration."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant PACC could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

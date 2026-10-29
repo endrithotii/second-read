@@ -1,0 +1,125 @@
+{
+ "pmid": "42888981",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 13,
+ "units_total": 13,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 20 T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4761468",
+     "name": "AUMOLERTINIB"
+    }
+   ],
+   "disease_written": "recurrent NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A9",
+    "A10"
+   ],
+   "quote": "After 1 month of aumolertinib treatment, the target lesion decreased in size from 24 to 23 mm and was assessed as stable disease ... indicating early disease control with a biochemical response.",
+   "cited_text": "Repeat molecular testing revealed concurrent EGFR exon 19 deletion and EGFR exon 20 T790M mutation. After 1 month of aumolertinib treatment, the target lesion decreased in size from 24 to 23 mm and was assessed as stable disease according to RECIST version 1.1, whereas the serum CEA level decreased from 24.19 to 4.35 ng/mL, indicating early disease control with a biochemical response.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant exon 20 T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "42888981-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with the specified profile showing disease control and biochemical response to aumolertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant exon 20 T790M could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 20 T790M",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4761468",
+     "name": "AUMOLERTINIB"
+    }
+   ],
+   "disease_written": "tumors",
+   "oncotree": null,
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A4"
+   ],
+   "quote": "Aumolertinib, a third-generation EGFR-TKI, has demonstrated efficacy in tumors harboring the EGFR exon 20 T790M resistance mutation.",
+   "cited_text": "Aumolertinib, a third-generation EGFR-TKI, has demonstrated efficacy in tumors harboring the EGFR exon 20 T790M resistance mutation.",
+   "code_problems": [
+    "variant exon 20 T790M could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'tumors' not mapped to OncoTree"
+   ],
+   "id": "42888981-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that aumolertinib has demonstrated efficacy in tumors with the T790M mutation, implying a predictive relationship."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant exon 20 T790M could not be validated: not recognised as a protein change, HGVS or known category",
+    "disease 'tumors' not mapped to OncoTree"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

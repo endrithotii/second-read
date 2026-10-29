@@ -41,6 +41,10 @@
 "name": "ROCILETINIB"
 },
 "drug:co1686": null,
+"drug:crizotinib": {
+"chembl_id": "CHEMBL601719",
+"name": "CRIZOTINIB"
+},
 "drug:dacomitinib": {
 "chembl_id": "CHEMBL2105719",
 "name": "DACOMITINIB"
@@ -58,6 +62,10 @@
 "drug:erlotinib": {
 "chembl_id": "CHEMBL553",
 "name": "ERLOTINIB"
+},
+"drug:firmonertinib": {
+"chembl_id": "CHEMBL4297258",
+"name": "FIRMONERTINIB"
 },
 "drug:first-generation egfr inhibitors": null,
 "drug:first-generation egfr tkis": null,
@@ -84,6 +92,11 @@
 "drug:neratinib": {
 "chembl_id": "CHEMBL180022",
 "name": "NERATINIB"
+},
+"drug:nsc405020": null,
+"drug:olaparib": {
+"chembl_id": "CHEMBL521686",
+"name": "OLAPARIB"
 },
 "drug:osimertinib": {
 "chembl_id": "CHEMBL3353410",
@@ -128,6 +141,8 @@
 "name": "TEPOTINIB"
 },
 "drug:third-generation egfr tyrosine kinase inhibitors": null,
+"drug:third-generation egfr-tki plus pemetrexed-platinum chemotherapy": null,
+"drug:third-generation tkis": null,
 "drug:tki": null,
 "drug:tkis": null,
 "gene:AKT": {
@@ -144,6 +159,16 @@
 "hgnc_id": "HGNC:1097",
 "mane_nm": "NM_004333.6",
 "symbol": "BRAF"
+},
+"gene:BRCA1": {
+"hgnc_id": "HGNC:1100",
+"mane_nm": "NM_007294.4",
+"symbol": "BRCA1"
+},
+"gene:BRCA2": {
+"hgnc_id": "HGNC:1101",
+"mane_nm": "NM_000059.4",
+"symbol": "BRCA2"
 },
 "gene:EGFR": {
 "hgnc_id": "HGNC:3236",
@@ -175,15 +200,35 @@
 "mane_nm": "NM_004985.5",
 "symbol": "KRAS"
 },
+"gene:LAMC2": {
+"hgnc_id": "HGNC:6493",
+"mane_nm": "NM_005562.3",
+"symbol": "LAMC2"
+},
 "gene:MET": {
 "hgnc_id": "HGNC:7029",
 "mane_nm": "NM_000245.4",
 "symbol": "MET"
 },
+"gene:MMP14": {
+"hgnc_id": "HGNC:7160",
+"mane_nm": "NM_004995.4",
+"symbol": "MMP14"
+},
 "gene:PIK3CA": {
 "hgnc_id": "HGNC:8975",
 "mane_nm": "NM_006218.4",
 "symbol": "PIK3CA"
+},
+"gene:RBM10": {
+"hgnc_id": "HGNC:9896",
+"mane_nm": "NM_005676.5",
+"symbol": "RBM10"
+},
+"gene:SAA1": {
+"hgnc_id": "HGNC:10513",
+"mane_nm": "NM_199161.5",
+"symbol": "SAA1"
 },
 "gene:TP53": {
 "hgnc_id": "HGNC:11998",

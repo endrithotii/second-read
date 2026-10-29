@@ -1,0 +1,206 @@
+{
+ "pmid": "42924088",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 25,
+ "units_total": 89,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A4"
+   ],
+   "quote": "We report the rapid regression of a choroidal metastasis following first-line osimertinib therapy in a patient with epidermal growth factor receptor (EGFR)-mutated NSCLC.",
+   "cited_text": "We report the rapid regression of a choroidal metastasis following first-line osimertinib therapy in a patient with epidermal growth factor receptor (EGFR)-mutated NSCLC.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42924088-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with EGFR-mutated NSCLC who experienced rapid regression of a metastasis after first-line osimertinib therapy."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL1173655",
+     "name": "AFATINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S50"
+   ],
+   "quote": "In one reported case with 5 years of follow-up, continuous systemic therapy including the second-generation EGFR-TKI afatinib followed by osimertinib as second-line treatment and pemetrexed plus adjunctive intravitreal bevacizumab as third-line therapy resulted in complete regression of the choroidal lesion, full restoration of visual function, and sustained stability throughout the observation period []",
+   "cited_text": "In one reported case with 5 years of follow-up, continuous systemic therapy including the second-generation EGFR-TKI afatinib followed by osimertinib as second-line treatment and pemetrexed plus adjunctive intravitreal bevacizumab as third-line therapy resulted in complete regression of the choroidal lesion, full restoration of visual function, and sustained stability throughout the observation period [].",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "42924088-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit reports a single case where afatinib was part of a regimen leading to complete regression of a choroidal lesion in EGFR-mutated NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S50"
+   ],
+   "quote": "In one reported case with 5 years of follow-up, continuous systemic therapy including the second-generation EGFR-TKI afatinib followed by osimertinib as second-line treatment and pemetrexed plus adjunctive intravitreal bevacizumab as third-line therapy resulted in complete regression of the choroidal lesion, full restoration of visual function, and sustained stability throughout the observation period []",
+   "cited_text": "In one reported case with 5 years of follow-up, continuous systemic therapy including the second-generation EGFR-TKI afatinib followed by osimertinib as second-line treatment and pemetrexed plus adjunctive intravitreal bevacizumab as third-line therapy resulted in complete regression of the choroidal lesion, full restoration of visual function, and sustained stability throughout the observation period [].",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units"
+   ],
+   "id": "42924088-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit reports a single case where osimertinib was used as second-line treatment contributing to the sustained stability and regression of the lesion."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "T790M",
+     "hgvs": "NP_005219.2:p.(Thr790Met)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S53"
+   ],
+   "quote": "Although rapid responses have also been reported with second-line osimertinib after acquisition of the EGFR T790M resistance mutation [, ], evidence regarding such an early response in the first-line setting remains limited.",
+   "cited_text": "Although rapid responses have also been reported with second-line osimertinib after acquisition of the EGFR T790M resistance mutation [, ], evidence regarding such an early response in the first-line setting remains limited.",
+   "code_problems": [],
+   "id": "42924088-4",
+   "checker": {
+    "supported": "partly",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "review or inference",
+    "reason": "The unit states that rapid responses have been reported with second-line osimertinib after T790M acquisition, supporting sensitivity, while noting limited evidence for first-line use."
+   },
+   "route": "to a person",
+   "reasons": [
+    "second model: supported = partly (The unit states that rapid responses have been reported with second-line osimertinib after T790M acquisition, supporting sensitivity, while noting limited evidence for first-line use.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

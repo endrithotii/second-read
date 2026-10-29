@@ -1,0 +1,263 @@
+{
+ "pmid": "42897224",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 9,
+ "units_total": 9,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "MMP14",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A5"
+   ],
+   "quote": "MMP14 cleaved LAMC2 to release a bioactive Domain III (DIII) fragment ... which reactivated EGFR/AKT/ERK signaling despite continued osimertinib exposure.",
+   "cited_text": "Mechanistically, MMP14 cleaved LAMC2 to release a bioactive Domain III (DIII) fragment harboring EGF-like repeats, which reactivated EGFR/AKT/ERK signaling despite continued osimertinib exposure.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'high expression' is not named in the cited units"
+   ],
+   "id": "42897224-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit describes the mechanistic basis by which MMP14 expression leads to osimertinib resistance via EGFR reactivation."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'high expression' is not named in the cited units"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "LAMC2",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "non-responders exhibited higher LAMC2/MMP14 co-expression",
+   "cited_text": "In residual tumor tissues from neoadjuvant osimertinib-treated patients, non-responders exhibited higher LAMC2/MMP14 co-expression and more prominent spatial exclusion of CD8+ T-cells from the tumor core compared with major pathological responders.",
+   "code_problems": [],
+   "id": "42897224-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit links higher LAMC2 expression in non-responders to osimertinib resistance in a patient cohort."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "MMP14",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    },
+    {
+     "gene": "LAMC2",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A8"
+   ],
+   "quote": "non-responders exhibited higher LAMC2/MMP14 co-expression",
+   "cited_text": "In residual tumor tissues from neoadjuvant osimertinib-treated patients, non-responders exhibited higher LAMC2/MMP14 co-expression and more prominent spatial exclusion of CD8+ T-cells from the tumor core compared with major pathological responders.",
+   "code_problems": [],
+   "id": "42897224-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit links the co-expression of LAMC2 and MMP14 to osimertinib resistance in a patient cohort."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "LAMC2",
+     "kind": "unparsed",
+     "name": "Domain III fragment",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A6"
+   ],
+   "quote": "Exogenous DIII conferred resistance in sensitive cells",
+   "cited_text": "Exogenous DIII conferred resistance in sensitive cells, whereas an anti-DIII blocking antibody reversed MMP14-driven resistance in cell lines and patient-derived organoids.",
+   "code_problems": [
+    "drug 'osimertinib' is not named in the cited units",
+    "variant Domain III fragment could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "42897224-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cell line or biochemical",
+    "reason": "The unit demonstrates that the LAMC2 DIII fragment confers resistance to osimertinib in preclinical models."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'osimertinib' is not named in the cited units",
+    "variant Domain III fragment could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MMP14",
+     "kind": "unparsed",
+     "name": "inhibition",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "NSC405020"
+    },
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cell line or biochemical",
+   "level": "D",
+   "n_patients": null,
+   "units": [
+    "A7"
+   ],
+   "quote": "The selective MMP14 inhibitor NSC405020 restored osimertinib sensitivity in vitro",
+   "cited_text": "The selective MMP14 inhibitor NSC405020 restored osimertinib sensitivity in vitro and suppressed xenograft growth.",
+   "code_problems": [
+    "variant inhibition could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'NSC405020' not found in ChEMBL"
+   ],
+   "id": "42897224-5",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cell line or biochemical",
+    "reason": "The unit shows that inhibiting MMP14 restores sensitivity to osimertinib in vitro and in xenografts."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant inhibition could not be validated: not recognised as a protein change, HGVS or known category",
+    "drug 'NSC405020' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

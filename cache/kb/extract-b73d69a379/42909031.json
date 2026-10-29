@@ -1,0 +1,69 @@
+{
+ "pmid": "42909031",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 52,
+ "units_total": 861,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "THIRD-GENERATION EGFR-TKI PLUS PEMETREXED-PLATINUM CHEMOTHERAPY"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung adenocarcinoma with brain parenchymal metastases",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "S107"
+   ],
+   "quote": "More pronounced statistical trends favoring combination therapy were observed in subgroups ... exon 19 deletion carriers ...",
+   "cited_text": "More pronounced statistical trends favoring combination therapy were observed in subgroups aged ≤65 years, female patients, patients with ECOG PS 0-1, exon 19 deletion carriers, patients with 1-3 brain metastases, asymptomatic brain metastases, 0-1 extracranial metastatic sites, and patients receiving osimertinib.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "drug 'third-generation EGFR-TKI plus pemetrexed-platinum chemotherapy' is not named in the cited units",
+    "drug 'third-generation EGFR-TKI plus pemetrexed-platinum chemotherapy' not found in ChEMBL"
+   ],
+   "id": "42909031-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "cohort or case series",
+    "reason": "The cited unit states that exon 19 deletion carriers showed more pronounced statistical trends favoring the combination therapy, indicating a predictive association with response."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "drug 'third-generation EGFR-TKI plus pemetrexed-platinum chemotherapy' is not named in the cited units",
+    "drug 'third-generation EGFR-TKI plus pemetrexed-platinum chemotherapy' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

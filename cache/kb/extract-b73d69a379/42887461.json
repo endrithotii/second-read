@@ -1,0 +1,66 @@
+{
+ "pmid": "42887461",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 17,
+ "units_total": 17,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL4558324",
+     "name": "LAZERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant advanced non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PROGNOSTIC",
+   "direction": "SUPPORTS",
+   "significance": "NA",
+   "design": "single-arm trial",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A12"
+   ],
+   "quote": "Baseline ctDNA-detected EGFR amplification was associated with inferior survival.",
+   "cited_text": "Baseline ctDNA-detected EGFR amplification was associated with inferior survival.",
+   "code_problems": [
+    "drug 'lazertinib' is not named in the cited units"
+   ],
+   "id": "42887461-1",
+   "checker": {
+    "supported": "no",
+    "evidence_type": "PROGNOSTIC",
+    "direction": "SUPPORTS",
+    "significance": "NA",
+    "design": "cohort or case series",
+    "reason": "The cited unit states that EGFR amplification is associated with inferior survival, which is a prognostic finding, but does not mention response or resistance to lazertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'lazertinib' is not named in the cited units",
+    "second model: supported = no (The cited unit states that EGFR amplification is associated with inferior survival, which is a prognostic finding, but does not mention response or resistance to lazertinib.)"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

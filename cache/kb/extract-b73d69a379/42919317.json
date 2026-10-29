@@ -1,0 +1,67 @@
+{
+ "pmid": "42919317",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 18,
+ "units_total": 18,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "SAA1",
+     "kind": "category",
+     "name": "Expression",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutant lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "cohort or case series",
+   "level": "B",
+   "n_patients": null,
+   "units": [
+    "A11"
+   ],
+   "quote": "SAA1 ... negatively correlates with clinical outcomes in patients receiving osimertinib",
+   "cited_text": "We identified SAA1 as a critical therapy-induced secreted factor that progressively increases during the transition from drug tolerance to established resistance, which negatively correlates with clinical outcomes in patients receiving osimertinib.",
+   "code_problems": [
+    "quote is not in the cited units",
+    "variant 'overexpression' is not named in the cited units"
+   ],
+   "id": "42919317-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "cohort or case series",
+    "reason": "The unit states that SAA1 expression increases during the transition to resistance and negatively correlates with clinical outcomes in patients receiving osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "quote is not in the cited units",
+    "variant 'overexpression' is not named in the cited units"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

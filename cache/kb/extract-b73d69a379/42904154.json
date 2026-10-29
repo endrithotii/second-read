@@ -1,0 +1,67 @@
+{
+ "pmid": "42904154",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 14,
+ "units_total": 96,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "unparsed",
+     "name": "exon 21 L858R",
+     "hgvs": null,
+     "validated": false,
+     "note": "not recognised as a protein change, HGVS or known category"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "lung adenocarcinoma",
+   "oncotree": "LUAD",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "SENSITIVITYRESPONSE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S10"
+   ],
+   "quote": "exceptionally durable complete response to first-line osimertinib monotherapy in high-burden L858R disease",
+   "cited_text": "Beyond reinforcing the recognized association between EGFR mutations and a miliary imaging pattern, this case highlights an important diagnostic mimic of disseminated tuberculosis and illustrates an exceptionally durable complete response to first-line osimertinib monotherapy in high-burden L858R disease.",
+   "code_problems": [
+    "patient count 1 is not a number in the cited units",
+    "variant exon 21 L858R could not be validated: not recognised as a protein change, HGVS or known category"
+   ],
+   "id": "42904154-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "SENSITIVITYRESPONSE",
+    "design": "case report",
+    "reason": "The unit describes a case of lung adenocarcinoma with EGFR L858R mutation that demonstrated an exceptionally durable complete response to osimertinib."
+   },
+   "route": "to a person",
+   "reasons": [
+    "patient count 1 is not a number in the cited units",
+    "variant exon 21 L858R could not be validated: not recognised as a protein change, HGVS or known category"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

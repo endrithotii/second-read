@@ -1,0 +1,65 @@
+{
+ "pmid": "42911709",
+ "text_source": "abstract only",
+ "why_abstract_only": "no PubMed Central copy",
+ "units_shown": 7,
+ "units_total": 7,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": null,
+     "name": "THIRD-GENERATION TKIS"
+    }
+   ],
+   "disease_written": "EGFR mutant-driven non-small cell lung cancer (NSCLC)",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "A1"
+   ],
+   "quote": "acquired resistance to third-generation tyrosine kinase inhibitors (TKIs), particularly through the EGFR C797S mutation",
+   "cited_text": "Epidermal growth factor receptor (EGFR) mutant-driven non-small cell lung cancer (NSCLC) frequently develops acquired resistance to third-generation tyrosine kinase inhibitors (TKIs), particularly through the EGFR C797S mutation.",
+   "code_problems": [
+    "drug 'third-generation TKIs' not found in ChEMBL"
+   ],
+   "id": "42911709-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit states that the EGFR C797S mutation is a frequent mechanism of acquired resistance to third-generation TKIs in NSCLC."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'third-generation TKIs' not found in ChEMBL"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

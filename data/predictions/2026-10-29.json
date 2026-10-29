@@ -1,0 +1,879 @@
+{
+ "made": "2026-10-29",
+ "civic_snapshot": "2026-10-26",
+ "writer": "groq:openai/gpt-oss-120b",
+ "checker": "groq:qwen/qwen3.8-27b",
+ "predictions": [
+  {
+   "pmid": "42930180",
+   "entry": "42930180-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR L858R",
+   "hgvs": [
+    "NP_005219.2:p.(Leu858Arg)"
+   ],
+   "drugs": [
+    "FIRMONERTINIB"
+   ],
+   "disease": "LUAD",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "The patient experienced disease progression with rare gynecological metastasis after 16 months of first-line furmonertinib therapy.",
+   "units": [
+    "A4"
+   ]
+  },
+  {
+   "pmid": "42930180",
+   "entry": "42930180-2",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR L858R",
+   "hgvs": [
+    "NP_005219.2:p.(Leu858Arg)"
+   ],
+   "drugs": [
+    "EGFR TKIS"
+   ],
+   "disease": "LUAD",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "Classical EGFR alterations, including exon 19 deletions and exon 21 L858R point mutations, are highly sensitive to EGFR tyrosine kinase inhibitors (TKIs).",
+   "units": [
+    "S6"
+   ]
+  },
+  {
+   "pmid": "42930180",
+   "entry": "42930180-3",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "ALK EML4-ALK",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "FIRMONERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "Secondary ALK fusion may represent a rare but clinically meaningful resistance mechanism in EGFR-mutant NSCLC.",
+   "units": [
+    "A8"
+   ]
+  },
+  {
+   "pmid": "42930180",
+   "entry": "42930180-4",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "ALK EML4-ALK",
+   "hgvs": [
+    null
+   ],
+   "drugs": [],
+   "disease": null,
+   "significance": null,
+   "direction": null,
+   "level": null,
+   "quote": null,
+   "units": []
+  },
+  {
+   "pmid": "42929693",
+   "entry": "42929693-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MET Expression",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB",
+    "SAVOLITINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "Combination therapy with savolitinib and osimertinib ... has shown activity in patients ... with MET overexpression, MET amplification, or both",
+   "units": [
+    "A3",
+    "A10"
+   ]
+  },
+  {
+   "pmid": "42929693",
+   "entry": "42929693-2",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MET Amplification",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB",
+    "SAVOLITINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "Combination therapy with savolitinib and osimertinib ... has shown activity in patients ... with MET overexpression, MET amplification, or both",
+   "units": [
+    "A3",
+    "A10"
+   ]
+  },
+  {
+   "pmid": "42928710",
+   "entry": "42928710-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Mutation AND MET Amplification",
+   "hgvs": [
+    null,
+    null
+   ],
+   "drugs": [
+    "DALMELITINIB",
+    "AUMOLERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "Median PFS was 6.2 months with dalmelitinib-aumolertinib and 4.4 months with chemotherapy (HR, 0.60; 95% CI, 0.45 to 0.81; P EGFR -mutated, MET -amplified NSCLC after progression on EGFR-TKI.",
+   "units": [
+    "A14"
+   ]
+  },
+  {
+   "pmid": "42927948",
+   "entry": "42927948-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Amplification AND EGFR E746_A750del",
+   "hgvs": [
+    null,
+    "NP_005219.2:p.(Glu746_Ala750del)"
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "LUAD",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "osimertinib exhibited potent antitumor activity (IC 50 =1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response",
+   "units": [
+    "A9"
+   ]
+  },
+  {
+   "pmid": "42926199",
+   "entry": "42926199-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "TP53 Mutation",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "REDUCED_SENSITIVITY",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "TP53 mutation was associated with shorter PFS/rwPFS (HR 1.65, 95% confidence interval [CI] 1.15-2.37) and worse OS/rwOS (HR 1.55, 95% CI 1.14-2.12).",
+   "units": [
+    "A11"
+   ]
+  },
+  {
+   "pmid": "42926199",
+   "entry": "42926199-2",
+   "label": "contradicts",
+   "civic_items": [
+    4294,
+    8053,
+    11219,
+    12015,
+    12144
+   ],
+   "route": "to a person",
+   "profile": "EGFR L858R",
+   "hgvs": [
+    "NP_005219.2:p.(Leu858Arg)"
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "REDUCED_SENSITIVITY",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "EGFR L858R, versus exon 19 deletion, was associated with shorter PFS/rwPFS (HR 1.62, 95% CI 1.39-1.90) and worse OS/rwOS (HR 1.63, 95% CI 1.40-1.88).",
+   "units": [
+    "A12"
+   ]
+  },
+  {
+   "pmid": "42926199",
+   "entry": "42926199-3",
+   "label": "new",
+   "civic_items": [],
+   "route": "accepted",
+   "profile": "MET Amplification",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "Acquired resistance to first-line osimertinib is molecularly diverse, with MET amplification, EGFR C797S, and other alterations observed rather than one dominant resistance mechanism.",
+   "units": [
+    "S19"
+   ]
+  },
+  {
+   "pmid": "42926199",
+   "entry": "42926199-4",
+   "label": "refines",
+   "civic_items": [
+    964,
+    8057
+   ],
+   "route": "accepted",
+   "profile": "EGFR C797S",
+   "hgvs": [
+    "NP_005219.2:p.(Cys797Ser)"
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "Acquired resistance to first-line osimertinib is molecularly diverse, with MET amplification, EGFR C797S, and other alterations observed rather than one dominant resistance mechanism.",
+   "units": [
+    "S19"
+   ]
+  },
+  {
+   "pmid": "42924088",
+   "entry": "42924088-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Mutation",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "We report the rapid regression of a choroidal metastasis following first-line osimertinib therapy in a patient with epidermal growth factor receptor (EGFR)-mutated NSCLC.",
+   "units": [
+    "A4"
+   ]
+  },
+  {
+   "pmid": "42924088",
+   "entry": "42924088-2",
+   "label": "refines",
+   "civic_items": [
+    1728,
+    2153,
+    12780
+   ],
+   "route": "to a person",
+   "profile": "EGFR Mutation",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "AFATINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "In one reported case with 5 years of follow-up, continuous systemic therapy including the second-generation EGFR-TKI afatinib followed by osimertinib as second-line treatment and pemetrexed plus adjunctive intravitreal bevacizumab as third-line therapy resulted in complete regression of the choroidal lesion, full restoration of visual function, and sustained stability throughout the observation period []",
+   "units": [
+    "S50"
+   ]
+  },
+  {
+   "pmid": "42924088",
+   "entry": "42924088-3",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Mutation",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "In one reported case with 5 years of follow-up, continuous systemic therapy including the second-generation EGFR-TKI afatinib followed by osimertinib as second-line treatment and pemetrexed plus adjunctive intravitreal bevacizumab as third-line therapy resulted in complete regression of the choroidal lesion, full restoration of visual function, and sustained stability throughout the observation period []",
+   "units": [
+    "S50"
+   ]
+  },
+  {
+   "pmid": "42924088",
+   "entry": "42924088-4",
+   "label": "refines",
+   "civic_items": [
+    963,
+    965,
+    966,
+    967,
+    1592,
+    1867,
+    2157,
+    12066
+   ],
+   "route": "to a person",
+   "profile": "EGFR T790M",
+   "hgvs": [
+    "NP_005219.2:p.(Thr790Met)"
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "Although rapid responses have also been reported with second-line osimertinib after acquisition of the EGFR T790M resistance mutation [, ], evidence regarding such an early response in the first-line setting remains limited.",
+   "units": [
+    "S53"
+   ]
+  },
+  {
+   "pmid": "42923081",
+   "entry": "42923081-1",
+   "label": "contradicts",
+   "civic_items": [
+    11219,
+    12015,
+    12144
+   ],
+   "route": "to a person",
+   "profile": "EGFR Exon 19 Deletion",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "Our patient did not respond to EGFR-targeted therapy with osimertinib.",
+   "units": [
+    "S59"
+   ]
+  },
+  {
+   "pmid": "42923081",
+   "entry": "42923081-2",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "RBM10 Loss",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "REDUCED_SENSITIVITY",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "reduced efficacy of EGFR -directed therapy in the presence of RBM10 loss-of-function (LOF) alterations.",
+   "units": [
+    "A16"
+   ]
+  },
+  {
+   "pmid": "42923081",
+   "entry": "42923081-3",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "BRCA1 Loss",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OLAPARIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "he did not respond to these agents.",
+   "units": [
+    "A10"
+   ]
+  },
+  {
+   "pmid": "42923081",
+   "entry": "42923081-4",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "BRCA2 Mutation",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OLAPARIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "he did not respond to these agents.",
+   "units": [
+    "A10"
+   ]
+  },
+  {
+   "pmid": "42919317",
+   "entry": "42919317-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "SAA1 Expression",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "LUAD",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "SAA1 ... negatively correlates with clinical outcomes in patients receiving osimertinib",
+   "units": [
+    "A11"
+   ]
+  },
+  {
+   "pmid": "42911709",
+   "entry": "42911709-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR C797S",
+   "hgvs": [
+    "NP_005219.2:p.(Cys797Ser)"
+   ],
+   "drugs": [
+    "THIRD-GENERATION TKIS"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "acquired resistance to third-generation tyrosine kinase inhibitors (TKIs), particularly through the EGFR C797S mutation",
+   "units": [
+    "A1"
+   ]
+  },
+  {
+   "pmid": "42909031",
+   "entry": "42909031-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Exon 19 Deletion",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "THIRD-GENERATION EGFR-TKI PLUS PEMETREXED-PLATINUM CHEMOTHERAPY"
+   ],
+   "disease": "LUAD",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "More pronounced statistical trends favoring combination therapy were observed in subgroups ... exon 19 deletion carriers ...",
+   "units": [
+    "S107"
+   ]
+  },
+  {
+   "pmid": "42904154",
+   "entry": "42904154-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR exon 21 L858R",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "LUAD",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "exceptionally durable complete response to first-line osimertinib monotherapy in high-burden L858R disease",
+   "units": [
+    "S10"
+   ]
+  },
+  {
+   "pmid": "42899412",
+   "entry": "42899412-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR L858R",
+   "hgvs": [
+    "NP_005219.2:p.(Leu858Arg)"
+   ],
+   "drugs": [
+    "FIRMONERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "L858R BM displayed tumor-intrinsic, microenvironment-independent biology, suggesting preferential sensitivity to high-dose firmonertinib",
+   "units": [
+    "A19"
+   ]
+  },
+  {
+   "pmid": "42897224",
+   "entry": "42897224-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MMP14 Expression",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "D",
+   "quote": "MMP14 cleaved LAMC2 to release a bioactive Domain III (DIII) fragment ... which reactivated EGFR/AKT/ERK signaling despite continued osimertinib exposure.",
+   "units": [
+    "A5"
+   ]
+  },
+  {
+   "pmid": "42897224",
+   "entry": "42897224-2",
+   "label": "new",
+   "civic_items": [],
+   "route": "accepted",
+   "profile": "LAMC2 Expression",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "non-responders exhibited higher LAMC2/MMP14 co-expression",
+   "units": [
+    "A8"
+   ]
+  },
+  {
+   "pmid": "42897224",
+   "entry": "42897224-3",
+   "label": "new",
+   "civic_items": [],
+   "route": "accepted",
+   "profile": "MMP14 Expression AND LAMC2 Expression",
+   "hgvs": [
+    null,
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "non-responders exhibited higher LAMC2/MMP14 co-expression",
+   "units": [
+    "A8"
+   ]
+  },
+  {
+   "pmid": "42897224",
+   "entry": "42897224-4",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "LAMC2 Domain III fragment",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "D",
+   "quote": "Exogenous DIII conferred resistance in sensitive cells",
+   "units": [
+    "A6"
+   ]
+  },
+  {
+   "pmid": "42897224",
+   "entry": "42897224-5",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MMP14 inhibition",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "NSC405020",
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "D",
+   "quote": "The selective MMP14 inhibitor NSC405020 restored osimertinib sensitivity in vitro",
+   "units": [
+    "A7"
+   ]
+  },
+  {
+   "pmid": "42888981",
+   "entry": "42888981-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Exon 19 Deletion AND EGFR exon 20 T790M",
+   "hgvs": [
+    null,
+    null
+   ],
+   "drugs": [
+    "AUMOLERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "After 1 month of aumolertinib treatment, the target lesion decreased in size from 24 to 23 mm and was assessed as stable disease ... indicating early disease control with a biochemical response.",
+   "units": [
+    "A9",
+    "A10"
+   ]
+  },
+  {
+   "pmid": "42888981",
+   "entry": "42888981-2",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR exon 20 T790M",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "AUMOLERTINIB"
+   ],
+   "disease": null,
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "Aumolertinib, a third-generation EGFR-TKI, has demonstrated efficacy in tumors harboring the EGFR exon 20 T790M resistance mutation.",
+   "units": [
+    "A4"
+   ]
+  },
+  {
+   "pmid": "42887497",
+   "entry": "42887497-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR P-loop and αC-helix compressing",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "FIRMONERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "patients with metastatic EGFR PACC-mutant NSCLC randomized to receive first-line firmonertinib 160 mg (n = 25) or 240 mg (n = 22) had confirmed objective response rates (ORRs) of 43% and 68%",
+   "units": [
+    "A4"
+   ]
+  },
+  {
+   "pmid": "42887496",
+   "entry": "42887496-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR PACC",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "FIRMONERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "D",
+   "quote": "promising systemic and intracranial efficacy of the broad-spectrum CNS-penetrant tyrosine kinase inhibitor firmonertinib in PACC-mutant NSCLC",
+   "units": [
+    "A2"
+   ]
+  },
+  {
+   "pmid": "42887461",
+   "entry": "42887461-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "EGFR Amplification",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "LAZERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "NA",
+   "direction": "SUPPORTS",
+   "level": "B",
+   "quote": "Baseline ctDNA-detected EGFR amplification was associated with inferior survival.",
+   "units": [
+    "A12"
+   ]
+  },
+  {
+   "pmid": "42882792",
+   "entry": "42882792-1",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MET Amplification",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "E",
+   "quote": "MET amplification represents the most common bypass resistance mechanism to EGFR tyrosine kinase inhibitor (TKI) treatment in EGFR-mutated non-small cell lung cancer (NSCLC).",
+   "units": [
+    "A1"
+   ]
+  },
+  {
+   "pmid": "42882792",
+   "entry": "42882792-2",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MET Amplification",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "OSIMERTINIB",
+    "CRIZOTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "SENSITIVITYRESPONSE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "MET enrichment increased further following the initiation of crizotinib/osimertinib combination therapy, during which the patient experienced a partial response.",
+   "units": [
+    "A2",
+    "A6"
+   ]
+  },
+  {
+   "pmid": "42882792",
+   "entry": "42882792-3",
+   "label": "new",
+   "civic_items": [],
+   "route": "to a person",
+   "profile": "MET Amplification",
+   "hgvs": [
+    null
+   ],
+   "drugs": [
+    "CRIZOTINIB"
+   ],
+   "disease": "NSCLC",
+   "significance": "RESISTANCE",
+   "direction": "SUPPORTS",
+   "level": "C",
+   "quote": "the patient did not respond to crizotinib.",
+   "units": [
+    "A7"
+   ]
+  }
+ ]
+}

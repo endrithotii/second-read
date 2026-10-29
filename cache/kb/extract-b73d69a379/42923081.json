@@ -1,0 +1,222 @@
+{
+ "pmid": "42923081",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 29,
+ "units_total": 156,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "category",
+     "name": "Exon 19 Deletion",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "S59"
+   ],
+   "quote": "Our patient did not respond to EGFR-targeted therapy with osimertinib.",
+   "cited_text": "Our patient did not respond to EGFR-targeted therapy with osimertinib.",
+   "code_problems": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42923081-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with EGFR Exon 19 Deletion who did not respond to osimertinib, indicating resistance in this specific case."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'exon 19 deletion' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "RBM10",
+     "kind": "category",
+     "name": "Loss",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A16"
+   ],
+   "quote": "reduced efficacy of EGFR -directed therapy in the presence of RBM10 loss-of-function (LOF) alterations.",
+   "cited_text": "The lack of response in our patient is consistent with studies showing reduced efficacy of EGFR -directed therapy in the presence of RBM10 loss-of-function (LOF) alterations.",
+   "code_problems": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42923081-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "review or inference",
+    "reason": "The unit states that the lack of response is consistent with studies showing reduced efficacy of EGFR-directed therapy in the presence of RBM10 loss."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "models disagree on evidence level: C vs E"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "BRCA1",
+     "kind": "category",
+     "name": "Loss",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL521686",
+     "name": "OLAPARIB"
+    }
+   ],
+   "disease_written": "metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A10"
+   ],
+   "quote": "he did not respond to these agents.",
+   "cited_text": "Despite high response rates reported in the literature, he did not respond to these agents.",
+   "code_problems": [
+    "variant 'loss-of-function' is not named in the cited units",
+    "drug 'olaparib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42923081-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with BRCA1 Loss who did not respond to olaparib, indicating resistance in this specific case."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'loss-of-function' is not named in the cited units",
+    "drug 'olaparib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "BRCA2",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL521686",
+     "name": "OLAPARIB"
+    }
+   ],
+   "disease_written": "metastatic non-small cell lung cancer",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "case report",
+   "level": "C",
+   "n_patients": 1,
+   "units": [
+    "A10"
+   ],
+   "quote": "he did not respond to these agents.",
+   "cited_text": "Despite high response rates reported in the literature, he did not respond to these agents.",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'olaparib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units"
+   ],
+   "id": "42923081-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "DOES_NOT_SUPPORT",
+    "significance": "RESISTANCE",
+    "design": "case report",
+    "reason": "The unit describes a single patient with a BRCA2 Mutation who did not respond to olaparib, indicating resistance in this specific case."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'olaparib' is not named in the cited units",
+    "patient count 1 is not a number in the cited units",
+    "models disagree on direction: SUPPORTS vs DOES_NOT_SUPPORT"
+   ]
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}

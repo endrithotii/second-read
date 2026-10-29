@@ -1,0 +1,206 @@
+{
+ "pmid": "42926199",
+ "text_source": "full text (PMC JATS)",
+ "why_abstract_only": "",
+ "units_shown": 75,
+ "units_total": 1726,
+ "entries": [
+  {
+   "variants": [
+    {
+     "gene": "TP53",
+     "kind": "category",
+     "name": "Mutation",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": 4070,
+   "units": [
+    "A11"
+   ],
+   "quote": "TP53 mutation was associated with shorter PFS/rwPFS (HR 1.65, 95% confidence interval [CI] 1.15-2.37) and worse OS/rwOS (HR 1.55, 95% CI 1.14-2.12).",
+   "cited_text": "TP53 mutation was associated with shorter PFS/rwPFS (HR 1.65, 95% confidence interval [CI] 1.15-2.37) and worse OS/rwOS (HR 1.55, 95% CI 1.14-2.12).",
+   "code_problems": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 4070 is not a number in the cited units"
+   ],
+   "id": "42926199-1",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cohort or case series",
+    "reason": "The unit states that TP53 mutation is associated with shorter PFS and worse OS in patients treated with osimertinib, indicating reduced benefit compared to the reference."
+   },
+   "route": "to a person",
+   "reasons": [
+    "variant 'mutation' is not named in the cited units",
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 4070 is not a number in the cited units",
+    "models disagree on evidence level: E vs B"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "L858R",
+     "hgvs": "NP_005219.2:p.(Leu858Arg)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "REDUCED_SENSITIVITY",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": 4070,
+   "units": [
+    "A12"
+   ],
+   "quote": "EGFR L858R, versus exon 19 deletion, was associated with shorter PFS/rwPFS (HR 1.62, 95% CI 1.39-1.90) and worse OS/rwOS (HR 1.63, 95% CI 1.40-1.88).",
+   "cited_text": "EGFR L858R, versus exon 19 deletion, was associated with shorter PFS/rwPFS (HR 1.62, 95% CI 1.39-1.90) and worse OS/rwOS (HR 1.63, 95% CI 1.40-1.88), with consistent estimates across sensitivity analyses.",
+   "code_problems": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 4070 is not a number in the cited units"
+   ],
+   "id": "42926199-2",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "REDUCED_SENSITIVITY",
+    "design": "cohort or case series",
+    "reason": "The unit states that EGFR L858R is associated with shorter PFS and worse OS compared to exon 19 deletion in patients treated with osimertinib, indicating reduced benefit."
+   },
+   "route": "to a person",
+   "reasons": [
+    "drug 'osimertinib' is not named in the cited units",
+    "patient count 4070 is not a number in the cited units",
+    "models disagree on evidence level: E vs B"
+   ]
+  },
+  {
+   "variants": [
+    {
+     "gene": "MET",
+     "kind": "category",
+     "name": "Amplification",
+     "hgvs": null,
+     "validated": null,
+     "note": "no single HGVS form for this kind of alteration"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S19"
+   ],
+   "quote": "Acquired resistance to first-line osimertinib is molecularly diverse, with MET amplification, EGFR C797S, and other alterations observed rather than one dominant resistance mechanism.",
+   "cited_text": "Acquired resistance to first-line osimertinib is molecularly diverse, with MET amplification, EGFR C797S, and other alterations observed rather than one dominant resistance mechanism [].",
+   "code_problems": [],
+   "id": "42926199-3",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit identifies MET amplification as one of the mechanisms of acquired resistance to first-line osimertinib."
+   },
+   "route": "accepted",
+   "reasons": []
+  },
+  {
+   "variants": [
+    {
+     "gene": "EGFR",
+     "kind": "protein change",
+     "name": "C797S",
+     "hgvs": "NP_005219.2:p.(Cys797Ser)",
+     "validated": true,
+     "note": "reference amino acid confirmed"
+    }
+   ],
+   "drugs": [
+    {
+     "chembl_id": "CHEMBL3353410",
+     "name": "OSIMERTINIB"
+    }
+   ],
+   "disease_written": "EGFR-mutated advanced NSCLC",
+   "oncotree": "NSCLC",
+   "evidence_type": "PREDICTIVE",
+   "direction": "SUPPORTS",
+   "significance": "RESISTANCE",
+   "design": "review or inference",
+   "level": "E",
+   "n_patients": null,
+   "units": [
+    "S19"
+   ],
+   "quote": "Acquired resistance to first-line osimertinib is molecularly diverse, with MET amplification, EGFR C797S, and other alterations observed rather than one dominant resistance mechanism.",
+   "cited_text": "Acquired resistance to first-line osimertinib is molecularly diverse, with MET amplification, EGFR C797S, and other alterations observed rather than one dominant resistance mechanism [].",
+   "code_problems": [],
+   "id": "42926199-4",
+   "checker": {
+    "supported": "yes",
+    "evidence_type": "PREDICTIVE",
+    "direction": "SUPPORTS",
+    "significance": "RESISTANCE",
+    "design": "review or inference",
+    "reason": "The unit identifies EGFR C797S as one of the mechanisms of acquired resistance to first-line osimertinib."
+   },
+   "route": "accepted",
+   "reasons": []
+  }
+ ],
+ "retracted": false,
+ "corrections": [],
+ "writer": "groq/openai/gpt-oss-120b",
+ "checker": "groq/qwen/qwen3.8-27b",
+ "prompts": {
+  "kb_writer": "0e136a58e2e8",
+  "kb_checker": "f758988491a2"
+ },
+ "processed": "2026-10-29"
+}
