@@ -1,0 +1,2035 @@
+{
+  "run_id": "egfr-osimertinib-resistance-2026-10-31-105701",
+  "topic": {
+    "id": "egfr-osimertinib-resistance",
+    "name": "EGFR-mutant lung cancer: resistance to osimertinib",
+    "question": "New evidence on how EGFR-mutant non-small cell lung cancer becomes resistant to osimertinib, how often each mechanism occurs, and what works after resistance.",
+    "primary_query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
+    "secondary_query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
+    "criteria": [
+      {
+        "id": "population",
+        "required": true,
+        "text": "Concerns EGFR-mutant non-small cell lung cancer: patients, tumour samples, cell lines or animal models."
+      },
+      {
+        "id": "drug",
+        "required": true,
+        "text": "Involves osimertinib (also called AZD9291 or Tagrisso), alone or in combination."
+      },
+      {
+        "id": "resistance",
+        "required": true,
+        "text": "Reports on resistance to osimertinib: a mechanism, how often a mechanism occurs, or treatment after resistance."
+      },
+      {
+        "id": "primary_data",
+        "required": false,
+        "text": "Reports original data (trial, cohort, case report, laboratory study) rather than being only a review, editorial or guideline."
+      }
+    ],
+    "fields": [
+      {
+        "id": "mechanism",
+        "text": "The resistance mechanism the paper describes, genetic or not, in the paper's words, e.g. MET amplification, ERK/GATAD2A/SAA1 axis, histological transformation."
+      },
+      {
+        "id": "variant",
+        "text": "Specific genetic alteration(s) reported, as written in the paper, e.g. EGFR C797S, MET amplification. Null if the mechanism is not a genetic alteration."
+      },
+      {
+        "id": "context",
+        "text": "Context of the alteration, e.g. in cis or in trans with T790M, co-occurring alterations."
+      },
+      {
+        "id": "drug",
+        "text": "Drug or combination studied."
+      },
+      {
+        "id": "setting",
+        "text": "Treatment line or setting, e.g. first-line osimertinib, after progression."
+      },
+      {
+        "id": "study_type",
+        "kind": "judgement",
+        "text": "Study design, e.g. retrospective cohort, phase 2 trial, case report, cell-line study."
+      },
+      {
+        "id": "n_patients",
+        "text": "Number of patients, if stated. Digits only."
+      },
+      {
+        "id": "finding_type",
+        "kind": "category",
+        "values": [
+          "resistance mechanism",
+          "mechanism frequency",
+          "treatment after resistance",
+          "other"
+        ],
+        "text": "What kind of finding the paper reports. Exactly one of the allowed values."
+      },
+      {
+        "id": "key_finding",
+        "text": "The main result in one sentence, staying as close to the paper's wording as possible."
+      }
+    ],
+    "high_impact": {
+      "field": "finding_type",
+      "values": [
+        "treatment after resistance"
+      ],
+      "why": "A result on what to give after resistance can change treatment, so a person always reads it. Mechanism papers are checked like any other and reach a person when a check fails."
+    },
+    "synonyms": {
+      "osimertinib": [
+        "AZD9291",
+        "Tagrisso"
+      ],
+      "non-small cell lung cancer": [
+        "NSCLC",
+        "lung adenocarcinoma"
+      ]
+    }
+  },
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "searches": {
+    "main": {
+      "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
+      "pmids": [
+        "42957218",
+        "42937553",
+        "42927948"
+      ]
+    },
+    "second": {
+      "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
+      "pmids": [
+        "42959092",
+        "42957912",
+        "42933461",
+        "42933457",
+        "42933231",
+        "42929693",
+        "42928710"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "paper": {
+        "pmid": "42957218",
+        "title": "Long-term Disease Control After Probable Endobronchial Small-cell Transformation During Osimertinib Therapy for EGFR-mutant Lung Adenocarcinoma.",
+        "abstract": "Background/aim: Osimertinib provides durable progression-free survival in EGFR-mutant non-small-cell lung cancer (NSCLC), but acquired resistance is inevitable. Histologic transformation to small-cell lung cancer (SCLC) is a recognized resistance mechanism, typically presenting with widespread metastatic disease and a poor prognosis. Optimal post-transformation treatment strategies have not been established. Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus. Rigid bronchoscopic resection and temporary airway stenting relieved the critical obstruction. Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation. The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years. Conclusion: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy. Further case accumulation is warranted to establish optimal treatment strategies.",
+        "sentences": [
+          "Background/aim: Osimertinib provides durable progression-free survival in EGFR-mutant non-small-cell lung cancer (NSCLC), but acquired resistance is inevitable.",
+          "Histologic transformation to small-cell lung cancer (SCLC) is a recognized resistance mechanism, typically presenting with widespread metastatic disease and a poor prognosis.",
+          "Optimal post-transformation treatment strategies have not been established.",
+          "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
+          "Rigid bronchoscopic resection and temporary airway stenting relieved the critical obstruction.",
+          "Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation.",
+          "The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years.",
+          "Conclusion: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy.",
+          "Further case accumulation is warranted to establish optimal treatment strategies."
+        ],
+        "journal": "In Vivo",
+        "year": "2026",
+        "authors": [
+          "Murayama N",
+          "Inomata M",
+          "Matsumoto M",
+          "Furukawa D",
+          "Ichikawa T",
+          "Maeda Y",
+          "Shinno H",
+          "Nakanishi Y",
+          "Ishizawa S"
+        ],
+        "doi": "10.21873/invivo.14531",
+        "publication_types": [
+          "Journal Article",
+          "Case Reports"
+        ],
+        "abstract_sha256": "d88d141f16eda886eb153de26d2c279b80a4c675049ca04028c42ce1a5cedf04",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42957218/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "histologic transformation",
+            "sentence": 6,
+            "quote": "probable histologic transformation"
+          },
+          "variant": {
+            "value": "EGFR exon 19 deletion",
+            "sentence": 4,
+            "quote": "EGFR exon 19 deletion"
+          },
+          "context": {
+            "value": "concordant p53 over-expression and loss of Rb expression",
+            "sentence": 6,
+            "quote": "concordant p53 over-expression and loss of Rb expression"
+          },
+          "drug": {
+            "value": "osimertinib",
+            "sentence": 4,
+            "quote": "osimertinib"
+          },
+          "setting": {
+            "value": "during osimertinib therapy",
+            "sentence": 0,
+            "quote": "During Osimertinib Therapy"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 4,
+            "quote": "Case report"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 4,
+            "quote": "a patient"
+          },
+          "finding_type": {
+            "value": "treatment after resistance",
+            "sentence": 8,
+            "quote": "An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy."
+          },
+          "key_finding": {
+            "value": "An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy.",
+            "sentence": 8,
+            "quote": "An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "A case report describes a patient with EGFR exon 19 deletion who developed small cell lung cancer (SCLC) during osimertinib therapy, characterized by histologic transformation, concordant p53 over-expression, and loss of Rb expression. An individualized multidisciplinary approach involving rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption achieved prolonged disease control in this locoregionally confined case.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": false,
+            "problems": [
+              "Number not in the abstract: 1."
+            ]
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: histologic transformation",
+            "verdict": "supported",
+            "evidence": "Histologic transformation to small-cell lung cancer (SCLC) is a recognized resistance mechanism, typically presenting with widespread metastatic disease and a poor prognosis."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR exon 19 deletion",
+            "verdict": "supported",
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: concordant p53 over-expression and loss of Rb expression",
+            "verdict": "supported",
+            "evidence": "Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib",
+            "verdict": "supported",
+            "evidence": "Background/aim: Osimertinib provides durable progression-free survival in EGFR-mutant non-small-cell lung cancer (NSCLC), but acquired resistance is inevitable."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: during osimertinib therapy",
+            "verdict": "supported",
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "supported",
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: treatment after resistance (classification)",
+            "verdict": "supported",
+            "evidence": "The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy.",
+            "verdict": "supported",
+            "evidence": "Conclusion: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "A case report describes a patient with EGFR exon 19 deletion who developed small cell lung cancer (SCLC) during osimertinib therapy, characterized by histologic transformation, concordant p53 over-expression, and loss of Rb expression.",
+            "verdict": "supported",
+            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "An individualized multidisciplinary approach involving rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption achieved prolonged disease control in this locoregionally confined case.",
+            "verdict": "supported",
+            "evidence": "The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "N patients: Number not in the abstract: 1.",
+          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
+        ],
+        "problems": 1,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42937553",
+        "title": "Efficacy Augmentation of Ferroptosis-Inducing Nanomedicine for Tyrosine Kinase Inhibitor-Resistant Lung Cancer Brain Metastasis.",
+        "abstract": "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) poses a major clinical challenge for EGFR-mutant non-small-cell lung cancer patients with brain metastasis. A key unresolved question is whether the adaptive mechanisms driving TKI resistance also confer new therapeutic vulnerabilities. Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction. To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release. MIL-S@M potently induces ferroptosis through the synergistic effects of iron overload, glutathione depletion, and glutathione peroxidase 4 inactivation. In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects. This work unveils a targetable adaptation in TKI-resistant brain metastasis and presents a translatable nanotherapeutic strategy.",
+        "sentences": [
+          "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) poses a major clinical challenge for EGFR-mutant non-small-cell lung cancer patients with brain metastasis.",
+          "A key unresolved question is whether the adaptive mechanisms driving TKI resistance also confer new therapeutic vulnerabilities.",
+          "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
+          "To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release.",
+          "MIL-S@M potently induces ferroptosis through the synergistic effects of iron overload, glutathione depletion, and glutathione peroxidase 4 inactivation.",
+          "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects.",
+          "This work unveils a targetable adaptation in TKI-resistant brain metastasis and presents a translatable nanotherapeutic strategy."
+        ],
+        "journal": "ACS Nano",
+        "year": "2026",
+        "authors": [
+          "Zeng Y",
+          "Lin C",
+          "Yang J",
+          "Fu M",
+          "Ma J",
+          "Mo L",
+          "Huang Y",
+          "Li X",
+          "Li C",
+          "Zeng R",
+          "Li Y",
+          "Yang W",
+          "Peng B",
+          "Peng H",
+          "Chi Y"
+        ],
+        "doi": "10.1021/acsnano.6c09281",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "9d002cec6187dbf763dc7718be4a827ddb6472135a8d650e53767d69cd8611d4",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42937553/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) poses a major clinical challenge for EGFR-mutant non-small-cell lung cancer patients with brain metastasis.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction",
+            "sentence": 3,
+            "quote": "TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": "TKI-resistant lung cancer brain metastasis",
+            "sentence": 3,
+            "quote": "TKI-resistant lung cancer brain metastatic cells"
+          },
+          "drug": {
+            "value": "MIL-S@M",
+            "sentence": 4,
+            "quote": "we developed MIL-S@M"
+          },
+          "setting": {
+            "value": "osimertinib-resistant brain metastasis",
+            "sentence": 6,
+            "quote": "In mouse models of osimertinib-resistant brain metastasis"
+          },
+          "study_type": {
+            "value": "mouse models",
+            "sentence": 6,
+            "quote": "In mouse models"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 3,
+            "quote": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
+          },
+          "key_finding": {
+            "value": "TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
+            "sentence": 3,
+            "quote": "TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In mouse models of osimertinib-resistant lung cancer brain metastasis, TKI-resistant cells develop a redox perturbation state marked by elevated oxidative stress and diminished antioxidant capacity. This state confers a latent sensitivity to ferroptosis induction, which can be targeted by the drug MIL-S@M.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction",
+            "verdict": "supported",
+            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: TKI-resistant lung cancer brain metastasis",
+            "verdict": "supported",
+            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: MIL-S@M",
+            "verdict": "supported",
+            "evidence": "To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: osimertinib-resistant brain metastasis",
+            "verdict": "supported",
+            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: mouse models (classification)",
+            "verdict": "supported",
+            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
+            "verdict": "supported",
+            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In mouse models of osimertinib-resistant lung cancer brain metastasis, TKI-resistant cells develop a redox perturbation state marked by elevated oxidative stress and diminished antioxidant capacity.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This state confers a latent sensitivity to ferroptosis induction, which can be targeted by the drug MIL-S@M.",
+            "verdict": "supported",
+            "evidence": "To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Summary sentence 1: the second model could not find this in the abstract."
+        ],
+        "problems": 1,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42927948",
+        "title": "[Drug sensitivity analysis of monotherapy and combination therapy with Chinese and Western drugs in lung cancer organoid models].",
+        "abstract": "Objective: To construct patient-derived lung cancer organoid models and evaluate the sensitivity of the organoids to antitumor monotherapies, active components of traditional Chinese medicine (TCM) and combined regimens of Chinese and Western drugs. Methods: A total of 10 pathologically confirmed lung adenocarcinoma specimens were collected from Tianjin Fifth Central Hospital between June 2024 and June 2025, including six surgical tumor tissue specimens and four pleural effusion samples. These samples were cultured in vitro to establish lung cancer organoid models. Morphological examination, hematoxylin and eosin (HE) staining, and immunohistochemical staining were used to verify the consistence between the organoids and their parental tissues. One organoid model with available genomic profiling data (n=1) was subjected to drug sensitivity testing against commonly used antitumor drugs/regimens, and the results were compared with the clinical response. In successfully established organoid models, antitumor monotherapies (5-fluorouracil [5-FU], cisplatin and osimertinib), active components of Chinese drugs (elemene and ginsenoside Rg3) and combined regimens of Chinese and Western drugs (cisplatin plus ginsenoside Rg3 and 5-FU plus ginsenoside Rg3) were applied. Cell viability was assessed, and the half-maximal inhibitory concentration (IC50) and normalized area under the curve (AUC) values were calculated for each treatment to evaluate drug sensitivity. Results: Among the 10 samples, organoids were successfully cultured from 7 samples, and the organoids closely resembled their parental tissues in morphology and molecular marker expression. In one organoid model with increased epidermal growth factor receptor (EGFR) gene copy number gain and the EGFR p.E746_A750del mutation, sensitivity testing of commonly used antitumor drugs/regimens, including osimertinib, paclitaxel, cisplatin, the GP regimen (gemcitabine plus cisplatin), and the PP regimen (pemetrexed plus cisplatin), showed that osimertinib exhibited potent antitumor activity (IC50=1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response. After cryopreservation and rivival, the 7 organoid lines were continued cultured and passaged; 3 were successfully recovered. Drug sensitivity analysis of the 3 successfully established lung cancer organoid models revealed that organoids from different sources responded differently to the same drug. Osimertinib and 5-FU showed higher activity in sample 1 and sample 2, respectively, whereas sample 3 was highly resistant to cisplatin. Active components of Chinese drugs used alone showed no significant inhibitory effect, with normalized AUC values all >0.925. Combination treatment showed stronger inhibition effect in all organoid models, and IC50 values decreased to varying degrees compared with monotherapy. In samples 1 and 3, the IC50 values of cisplatin monotherapy were 152.70 and 475.00 μmol/L, respectively, and decreased to 127.30 and 121.50 μmol/L after combination treatment. Among all models, 5-FU had the lowest monotherapy IC50 among the antitumor drugs (28.08 μmol/L), which was further reduced to 11.26 μmol/L after combination treatment. Conclusion: Patient-derived lung cancer organoid models capture interindividual differences in drug sensitivity and provide a feasible approach for rapid in vitro screening of sensitive regimens and for personalized therapeutic strategies, such as combined therapy with Chinese and Western drugs.",
+        "sentences": [
+          "Objective: To construct patient-derived lung cancer organoid models and evaluate the sensitivity of the organoids to antitumor monotherapies, active components of traditional Chinese medicine (TCM) and combined regimens of Chinese and Western drugs.",
+          "Methods: A total of 10 pathologically confirmed lung adenocarcinoma specimens were collected from Tianjin Fifth Central Hospital between June 2024 and June 2025, including six surgical tumor tissue specimens and four pleural effusion samples.",
+          "These samples were cultured in vitro to establish lung cancer organoid models.",
+          "Morphological examination, hematoxylin and eosin (HE) staining, and immunohistochemical staining were used to verify the consistence between the organoids and their parental tissues.",
+          "One organoid model with available genomic profiling data (n=1) was subjected to drug sensitivity testing against commonly used antitumor drugs/regimens, and the results were compared with the clinical response.",
+          "In successfully established organoid models, antitumor monotherapies (5-fluorouracil [5-FU], cisplatin and osimertinib), active components of Chinese drugs (elemene and ginsenoside Rg3) and combined regimens of Chinese and Western drugs (cisplatin plus ginsenoside Rg3 and 5-FU plus ginsenoside Rg3) were applied.",
+          "Cell viability was assessed, and the half-maximal inhibitory concentration (IC50) and normalized area under the curve (AUC) values were calculated for each treatment to evaluate drug sensitivity.",
+          "Results: Among the 10 samples, organoids were successfully cultured from 7 samples, and the organoids closely resembled their parental tissues in morphology and molecular marker expression.",
+          "In one organoid model with increased epidermal growth factor receptor (EGFR) gene copy number gain and the EGFR p.E746_A750del mutation, sensitivity testing of commonly used antitumor drugs/regimens, including osimertinib, paclitaxel, cisplatin, the GP regimen (gemcitabine plus cisplatin), and the PP regimen (pemetrexed plus cisplatin), showed that osimertinib exhibited potent antitumor activity (IC50=1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response.",
+          "After cryopreservation and rivival, the 7 organoid lines were continued cultured and passaged; 3 were successfully recovered.",
+          "Drug sensitivity analysis of the 3 successfully established lung cancer organoid models revealed that organoids from different sources responded differently to the same drug.",
+          "Osimertinib and 5-FU showed higher activity in sample 1 and sample 2, respectively, whereas sample 3 was highly resistant to cisplatin.",
+          "Active components of Chinese drugs used alone showed no significant inhibitory effect, with normalized AUC values all >0.925.",
+          "Combination treatment showed stronger inhibition effect in all organoid models, and IC50 values decreased to varying degrees compared with monotherapy.",
+          "In samples 1 and 3, the IC50 values of cisplatin monotherapy were 152.70 and 475.00 μmol/L, respectively, and decreased to 127.30 and 121.50 μmol/L after combination treatment.",
+          "Among all models, 5-FU had the lowest monotherapy IC50 among the antitumor drugs (28.08 μmol/L), which was further reduced to 11.26 μmol/L after combination treatment.",
+          "Conclusion: Patient-derived lung cancer organoid models capture interindividual differences in drug sensitivity and provide a feasible approach for rapid in vitro screening of sensitive regimens and for personalized therapeutic strategies, such as combined therapy with Chinese and Western drugs."
+        ],
+        "journal": "Zhonghua Zhong Liu Za Zhi",
+        "year": "2026",
+        "authors": [
+          "Liu M",
+          "Zheng J",
+          "Li YX",
+          "Han B",
+          "Jiang ZM",
+          "Liu XZ",
+          "Dou L",
+          "Zhang CY"
+        ],
+        "doi": "10.3760/cma.j.cn112152-20251219-00624",
+        "publication_types": [
+          "English Abstract",
+          "Journal Article"
+        ],
+        "abstract_sha256": "d4a52ed57fb764c494989910f051e349708d15bc72e370e5618b4697a717666a",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42927948/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: resistance.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 9,
+            "evidence": "In one organoid model with increased epidermal growth factor receptor (EGFR) gene copy number gain and the EGFR p.E746_A750del mutation, sensitivity testing of commonly used antitumor drugs/regimens, including osimertinib, paclitaxel, cisplatin, the GP regimen (gemcitabine plus cisplatin), and the PP regimen (pemetrexed plus cisplatin), showed that osimertinib exhibited potent antitumor activity (IC50=1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "In successfully established organoid models, antitumor monotherapies (5-fluorouracil [5-FU], cisplatin and osimertinib), active components of Chinese drugs (elemene and ginsenoside Rg3) and combined regimens of Chinese and Western drugs (cisplatin plus ginsenoside Rg3 and 5-FU plus ginsenoside Rg3) were applied.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "no",
+            "sentence": 9,
+            "evidence": "In one organoid model with increased epidermal growth factor receptor (EGFR) gene copy number gain and the EGFR p.E746_A750del mutation, sensitivity testing of commonly used antitumor drugs/regimens, including osimertinib, paclitaxel, cisplatin, the GP regimen (gemcitabine plus cisplatin), and the PP regimen (pemetrexed plus cisplatin), showed that osimertinib exhibited potent antitumor activity (IC50=1.91 μmol/L), markedly superior to the other tested drugs, and the results were consistent with the clinical response.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "Methods: A total of 10 pathologically confirmed lung adenocarcinoma specimens were collected from Tianjin Fifth Central Hospital between June 2024 and June 2025, including six surgical tumor tissue specimens and four pleural effusion samples.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: resistance."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42959092",
+        "title": "Simultaneous occurrence of HER2 mutation and PD-L1 high expression in EGFR-mutant NSCLC: a case report.",
+        "abstract": "In non-small cell lung cancer (NSCLC), EGFR and HER2 mutations are generally considered mutually exclusive events, with a co-occurrence probability estimated to be less than 1%. Patients with either EGFR or HER2 mutations tend to exhibit low PD-L1 expression levels. The simultaneous presence of both EGFR and HER2 mutations accompanied by high PD-L1 expression is exceedingly rare. This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion). As the patient refused repeat biopsy, treatment with an ADC drug (Trastuzumab rezetecan) was initiated. Disease control was achieved after only one cycle of treatment, and the regimen was continued thereafter. The progression-free survival has exceeded 5.3 months, and at the time of writing this report, the disease remained well-controlled. This paper presents the first report of this rare and therapeutically challenging combination of molecular pathological features-concurrent EGFR and HER2 mutations with high PD-L1 expression in an NSCLC patient. When standard first-line third-generation EGFR-TKIs proved ineffective, the successful use of an anti-HER2 ADC drug to control the tumor demonstrates its potential clinical value. However, whether all patients initially presenting with this pathological molecular subtype will achieve consistent efficacy remains to be further investigated.",
+        "sentences": [
+          "In non-small cell lung cancer (NSCLC), EGFR and HER2 mutations are generally considered mutually exclusive events, with a co-occurrence probability estimated to be less than 1%.",
+          "Patients with either EGFR or HER2 mutations tend to exhibit low PD-L1 expression levels.",
+          "The simultaneous presence of both EGFR and HER2 mutations accompanied by high PD-L1 expression is exceedingly rare.",
+          "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
+          "As the patient refused repeat biopsy, treatment with an ADC drug (Trastuzumab rezetecan) was initiated.",
+          "Disease control was achieved after only one cycle of treatment, and the regimen was continued thereafter.",
+          "The progression-free survival has exceeded 5.3 months, and at the time of writing this report, the disease remained well-controlled.",
+          "This paper presents the first report of this rare and therapeutically challenging combination of molecular pathological features-concurrent EGFR and HER2 mutations with high PD-L1 expression in an NSCLC patient.",
+          "When standard first-line third-generation EGFR-TKIs proved ineffective, the successful use of an anti-HER2 ADC drug to control the tumor demonstrates its potential clinical value.",
+          "However, whether all patients initially presenting with this pathological molecular subtype will achieve consistent efficacy remains to be further investigated."
+        ],
+        "journal": "Front Oncol",
+        "year": "2026",
+        "authors": [
+          "Su Y",
+          "Su H",
+          "Lin J"
+        ],
+        "doi": "10.3389/fonc.2026.1953767",
+        "publication_types": [
+          "Case Reports",
+          "Journal Article"
+        ],
+        "abstract_sha256": "0f70d7b4af921e6e5a820c5c4db9f0e02f6c4e9e01e3bdb91a933a550031d968",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42959092/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug, resistance.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 4,
+            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "no",
+            "sentence": 4,
+            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug, resistance."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42957912",
+        "title": "Genomic landscape of EGFR-TKI resistance: from known mechanisms to unknown resistance.",
+        "abstract": "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC). However, resistance inevitably restricts their efficacy. Although well-documented acquired resistance mechanisms have been extensively characterized, approximately 30% of patients with EGFR-TKI resistance still present with unknown resistance (UR) mechanisms, and the driving factors behind primary resistance remain inadequately understood. Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients. Results: The molecular landscape of EGFR-TKI resistance was systematically characterized. In the resistance cohort, 68.72% (512/745) harbored known resistance (KR) mechanisms, while 31.28% (233/745) were classified as UR. The landscape of KR was significantly influenced by EGFR-TKI generation. First-line third-generation TKI resistance demonstrated fewer EGFR-dependent events compared to first-generation TKIs (p < 0.01) and more RTK and PI3K-AKT-mTOR (PAM) pathway alterations (p < 0.05). In the UR cohort, pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways. Differential gene analysis identified significant enrichment of MYC, BRCA1, EPHB, and PTPRD in the UR subgroup. To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004). Conclusions: This study provides a comprehensive real-world landscape of EGFR-TKI resistance, demonstrating distinct mechanisms influenced by TKI generation. ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance. These findings suggest that epigenetic dysregulation may be a critical driver of both unknown and primary resistance to EGFR-TKIs.",
+        "sentences": [
+          "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC).",
+          "However, resistance inevitably restricts their efficacy.",
+          "Although well-documented acquired resistance mechanisms have been extensively characterized, approximately 30% of patients with EGFR-TKI resistance still present with unknown resistance (UR) mechanisms, and the driving factors behind primary resistance remain inadequately understood.",
+          "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients.",
+          "Results: The molecular landscape of EGFR-TKI resistance was systematically characterized.",
+          "In the resistance cohort, 68.72% (512/745) harbored known resistance (KR) mechanisms, while 31.28% (233/745) were classified as UR.",
+          "The landscape of KR was significantly influenced by EGFR-TKI generation.",
+          "First-line third-generation TKI resistance demonstrated fewer EGFR-dependent events compared to first-generation TKIs (p < 0.01) and more RTK and PI3K-AKT-mTOR (PAM) pathway alterations (p < 0.05).",
+          "In the UR cohort, pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways.",
+          "Differential gene analysis identified significant enrichment of MYC, BRCA1, EPHB, and PTPRD in the UR subgroup.",
+          "To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004).",
+          "Conclusions: This study provides a comprehensive real-world landscape of EGFR-TKI resistance, demonstrating distinct mechanisms influenced by TKI generation.",
+          "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance.",
+          "These findings suggest that epigenetic dysregulation may be a critical driver of both unknown and primary resistance to EGFR-TKIs."
+        ],
+        "journal": "Cell Oncol (Dordr)",
+        "year": "2026",
+        "authors": [
+          "Zhao S",
+          "Zhou F",
+          "Chen W",
+          "Wang S",
+          "Zhou C"
+        ],
+        "doi": "10.1007/s13402-026-01253-y",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "8f6a0f52d501ad329575050d9df0dce21195da269a7396c05c4d7fa8f10e5e8e",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42957912/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Included because unclear on: drug. Unclear counts as include, so nothing relevant is dropped.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "In the resistance cohort, 68.72% (512/745) harbored known resistance (KR) mechanisms, while 31.28% (233/745) were classified as UR.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "ATP-dependent chromatin remodeling pathways",
+            "sentence": 9,
+            "quote": "pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways"
+          },
+          "variant": {
+            "value": "IKZF1 amplification",
+            "sentence": 11,
+            "quote": "baseline IKZF1 amplification"
+          },
+          "context": {
+            "value": "baseline",
+            "sentence": 11,
+            "quote": "baseline IKZF1 amplification"
+          },
+          "drug": {
+            "value": "EGFR-TKIs",
+            "sentence": 1,
+            "quote": "Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs)"
+          },
+          "setting": {
+            "value": "first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)",
+            "sentence": 1,
+            "quote": "standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)"
+          },
+          "study_type": {
+            "value": "retrospective cohort study",
+            "sentence": 4,
+            "quote": "retrospective cohort study"
+          },
+          "n_patients": {
+            "value": "928",
+            "sentence": 4,
+            "quote": "928 samples"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 13,
+            "quote": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
+          },
+          "key_finding": {
+            "value": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance.",
+            "sentence": 13,
+            "quote": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In a retrospective cohort of 928 patients with advanced EGFR-mutant NSCLC receiving first-line EGFR-TKIs, ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance. Additionally, baseline IKZF1 amplification emerged as a candidate biomarker for primary resistance to these therapies.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: ATP-dependent chromatin remodeling pathways",
+            "verdict": "supported",
+            "evidence": "In the UR cohort, pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: IKZF1 amplification",
+            "verdict": "supported",
+            "evidence": "To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004)."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: baseline",
+            "verdict": "supported",
+            "evidence": "To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004)."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: EGFR-TKIs",
+            "verdict": "supported",
+            "evidence": "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)",
+            "verdict": "supported",
+            "evidence": "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: retrospective cohort study (classification)",
+            "verdict": "supported",
+            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 928",
+            "verdict": "supported",
+            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Results: The molecular landscape of EGFR-TKI resistance was systematically characterized."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance.",
+            "verdict": "supported",
+            "evidence": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In a retrospective cohort of 928 patients with advanced EGFR-mutant NSCLC receiving first-line EGFR-TKIs, ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "Additionally, baseline IKZF1 amplification emerged as a candidate biomarker for primary resistance to these therapies.",
+            "verdict": "supported",
+            "evidence": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Screening could not tell from the abstract whether it meets “Drug”.",
+          "Summary sentence 1: the second model could not find this in the abstract."
+        ],
+        "problems": 1,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42933461",
+        "title": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
+        "abstract": "Background: Izalontamab brengitecan (iza-bren) is a first-in-class bispecific antibody-drug conjugate targeting epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 3 (HER3) and has shown antitumour activity in EGFR-mutated non-small-cell lung cancer (NSCLC). We compared iza-bren with platinum-based chemotherapy in participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR tyrosine kinase inhibitors (TKIs). Methods: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced disease. Participants were randomly assigned (1:1) to receive iza-bren (2·5 mg/kg intravenously on days 1 and 8 of each 3-week cycle) or pemetrexed plus carboplatin or cisplatin for four to six cycles, with pemetrexed maintenance permitted in participants without progression. The primary endpoint was progression-free survival assessed by blinded independent central review (BICR). The primary analysis included all randomly assigned participants who received at least one dose of study treatment (modified intention-to-treat population). We report the prespecified final progression-free survival and interim overall survival analyses. This trial is registered with ClinicalTrials.gov, NCT06382116. Findings: Between May 22, 2024, and Sept 1, 2025, we screened 654 participants. After 222 (34%) were excluded, 432 (66%) participants were randomly assigned to iza-bren (n=217 [50%]) or chemotherapy (n=215 [50%]); 422 (98%) received study treatment (216 [51%] in the iza-bren group and 206 [49%] in the chemotherapy group) and comprised the modified intention-to-treat population. At the data cutoff (July 15, 2026; median follow-up for progression-free survival 14·6 months [95% CI 12·9-16·7] in the iza-bren group vs 15·2 months [11·2-18·2] in the chemotherapy group), median BICR-assessed progression-free survival was 11·1 months (9·2-12·7) with iza-bren versus 5·7 months (5·5-5·9) with chemotherapy (hazard ratio [HR] 0·40 [95% CI 0·31-0·51]; one-sided p<0·0001). Treatment-related adverse events of grade 3 or worse occurred in 170 (79%) of 216 participants in the iza-bren group and 128 (62%) of 206 in the chemotherapy group (predominantly haematological); treatment-related adverse events led to permanent discontinuation of at least one study-treatment component in four (2%) participants in each group and treatment-related deaths occurred in one participant in each group. Treatment-related interstitial lung disease occurred in two (1%) participants in the iza-bren group and none in the chemotherapy group. Interpretation: In participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR TKIs, iza-bren significantly prolonged progression-free survival, although treatment-related adverse events of grade 3 or worse were more frequent than with chemotherapy. To our knowledge, these findings provide the first phase 3 evidence for a bispecific antibody-drug conjugate and support iza-bren as a potential treatment option in this population. Funding: Baili-Bio (Chengdu) Pharmaceutical.",
+        "sentences": [
+          "Background: Izalontamab brengitecan (iza-bren) is a first-in-class bispecific antibody-drug conjugate targeting epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 3 (HER3) and has shown antitumour activity in EGFR-mutated non-small-cell lung cancer (NSCLC).",
+          "We compared iza-bren with platinum-based chemotherapy in participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR tyrosine kinase inhibitors (TKIs).",
+          "Methods: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced disease.",
+          "Participants were randomly assigned (1:1) to receive iza-bren (2·5 mg/kg intravenously on days 1 and 8 of each 3-week cycle) or pemetrexed plus carboplatin or cisplatin for four to six cycles, with pemetrexed maintenance permitted in participants without progression.",
+          "The primary endpoint was progression-free survival assessed by blinded independent central review (BICR).",
+          "The primary analysis included all randomly assigned participants who received at least one dose of study treatment (modified intention-to-treat population).",
+          "We report the prespecified final progression-free survival and interim overall survival analyses.",
+          "This trial is registered with ClinicalTrials.gov, NCT06382116.",
+          "Findings: Between May 22, 2024, and Sept 1, 2025, we screened 654 participants.",
+          "After 222 (34%) were excluded, 432 (66%) participants were randomly assigned to iza-bren (n=217 [50%]) or chemotherapy (n=215 [50%]); 422 (98%) received study treatment (216 [51%] in the iza-bren group and 206 [49%] in the chemotherapy group) and comprised the modified intention-to-treat population.",
+          "At the data cutoff (July 15, 2026; median follow-up for progression-free survival 14·6 months [95% CI 12·9-16·7] in the iza-bren group vs 15·2 months [11·2-18·2] in the chemotherapy group), median BICR-assessed progression-free survival was 11·1 months (9·2-12·7) with iza-bren versus 5·7 months (5·5-5·9) with chemotherapy (hazard ratio [HR] 0·40 [95% CI 0·31-0·51]; one-sided p<0·0001).",
+          "Treatment-related adverse events of grade 3 or worse occurred in 170 (79%) of 216 participants in the iza-bren group and 128 (62%) of 206 in the chemotherapy group (predominantly haematological); treatment-related adverse events led to permanent discontinuation of at least one study-treatment component in four (2%) participants in each group and treatment-related deaths occurred in one participant in each group.",
+          "Treatment-related interstitial lung disease occurred in two (1%) participants in the iza-bren group and none in the chemotherapy group.",
+          "Interpretation: In participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR TKIs, iza-bren significantly prolonged progression-free survival, although treatment-related adverse events of grade 3 or worse were more frequent than with chemotherapy.",
+          "To our knowledge, these findings provide the first phase 3 evidence for a bispecific antibody-drug conjugate and support iza-bren as a potential treatment option in this population.",
+          "Funding: Baili-Bio (Chengdu) Pharmaceutical."
+        ],
+        "journal": "Lancet",
+        "year": "2026",
+        "authors": [
+          "Hong S",
+          "Zhou T",
+          "Hou X",
+          "Meng X",
+          "Hu Z",
+          "Zheng W",
+          "Cui J",
+          "Luo Y",
+          "Wu L",
+          "Huang M",
+          "Xu H",
+          "Hu J",
+          "Zhao Y",
+          "Yao W",
+          "Hong Y",
+          "Cai J",
+          "Zhang Y",
+          "Su C",
+          "Xie C",
+          "Wang R",
+          "Li X",
+          "He Q",
+          "Zhang L",
+          "Ning R",
+          "Lin D",
+          "Zhang T",
+          "Yi T",
+          "Zhong L",
+          "Huang S",
+          "Zhao H",
+          "Fang J",
+          "Bu Q",
+          "Li B",
+          "Zhang Z",
+          "Shi M",
+          "Shi J",
+          "Deng Z",
+          "Zhu Y",
+          "Zhu H",
+          "Xiao S",
+          "Yang L",
+          "Song N",
+          "Fang W",
+          "Zhang L",
+          "Yang Y",
+          "PANKU-Lung01 Investigators"
+        ],
+        "doi": "10.1016/S0140-6736(26)02026-X",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "441dfcac4f3ec5c041c91a3af3110d8b8199c5e9a9e6f5352c0659b30fcf8b0b",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933461/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced disease.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 2,
+            "evidence": "We compared iza-bren with platinum-based chemotherapy in participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR tyrosine kinase inhibitors (TKIs).",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced disease.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42933457",
+        "title": "Ruzaltatug rezetecan versus chemotherapy for EGFR-mutated advanced non-small-cell lung cancer progressing after EGFR tyrosine kinase inhibitor therapy (HERON-Lung01): interim analysis of a randomised, open-label, phase 3 trial in China.",
+        "abstract": "Background: Ruzaltatug rezetecan is a novel HER3-directed antibody-drug conjugate that has shown promising antitumour activity and manageable safety in pretreated EGFR-.mutated non-small-cell lung cancer (NSCLC) in a phase 1 trial. We aimed to compare the efficacy and safety of ruzaltatug rezetecan with chemotherapy in patients with EGFR-mutated advanced NSCLC that had progressed after EGFR tyrosine kinase inhibitor (TKI) therapy. Methods: HERON-Lung01 is a randomised, open-label, phase 3 trial conducted at 62 sites in China. Eligible patients were aged 18-75 years, with locally advanced or metastatic non-squamous NSCLC harbouring an EGFR activating mutation (exon 19 deletion or L858R mutation), and had progressed during or after EGFR-TKI therapy. Patients were randomly assigned (1:1) to receive ruzaltatug rezetecan 8·0 mg/kg or chemotherapy comprising pemetrexed 500 mg/m2 plus carboplatin (area under the curve 5) or cisplatin 75 mg/m2 for four cycles, followed by maintenance pemetrexed. All treatments were administered intravenously on day 1 of each 3-week cycle. Block randomisation was stratified by presence of brain metastases, EGFR mutation subtype, and use of a first-line third-generation EGFR-TKI. The primary endpoint was progression-free survival (PFS), as assessed by blinded independent central review (BICR), in the intention-to-treat population. This trial is registered with ClinicalTrials.gov (NCT06671379). Recruitment is complete, with the trial ongoing. Findings: Between Nov 29, 2024, and Jan 29, 2026, 498 patients were randomly assigned to receive ruzaltatug rezetecan (n=250) or chemotherapy (n=248). The median age was 60·0 years (IQR 54·0-68·0); 276 (55%) patients were female and 222 (45%) male. At the prespecified interim PFS analysis, median follow-up was 7·7 months (95% CI 7·1-8·3). BICR-assessed PFS was significantly longer with ruzaltatug rezetecan than with chemotherapy (median 8·3 months vs 5·4 months; hazard ratio 0·47 [95% CI 0·36-0·60]; one-sided p<0·0001). Grade 3 or worse treatment-related adverse events (TRAEs) occurred in 101 (41%) of 248 patients receiving ruzaltatug rezetecan and 93 (39%) of 239 patients receiving chemotherapy, most commonly decreased neutrophil count (64 [26%] of 248 patients vs 46 [19%] of 239 patients), decreased white blood cell count (29 [12%] vs 29 [12%]), and anaemia (15 [6%] vs 26 [11%]). TRAEs led to treatment discontinuation in three (1%) patients in the ruzaltatug rezetecan group and three (1%) in the chemotherapy group. One death (unknown cause) in the ruzaltatug rezetecan group was considered by the investigator to be possibly treatment related. Interpretation: Ruzaltatug rezetecan significantly prolonged PFS compared with chemotherapy, with a manageable safety profile, in EGFR-TKI-resistant, EGFR-mutated advanced NSCLC. These data support ruzaltatug rezetecan as a potential treatment option in this setting. Funding: Jiangsu Hengrui Pharmaceuticals.",
+        "sentences": [
+          "Background: Ruzaltatug rezetecan is a novel HER3-directed antibody-drug conjugate that has shown promising antitumour activity and manageable safety in pretreated EGFR-.mutated non-small-cell lung cancer (NSCLC) in a phase 1 trial.",
+          "We aimed to compare the efficacy and safety of ruzaltatug rezetecan with chemotherapy in patients with EGFR-mutated advanced NSCLC that had progressed after EGFR tyrosine kinase inhibitor (TKI) therapy.",
+          "Methods: HERON-Lung01 is a randomised, open-label, phase 3 trial conducted at 62 sites in China.",
+          "Eligible patients were aged 18-75 years, with locally advanced or metastatic non-squamous NSCLC harbouring an EGFR activating mutation (exon 19 deletion or L858R mutation), and had progressed during or after EGFR-TKI therapy.",
+          "Patients were randomly assigned (1:1) to receive ruzaltatug rezetecan 8·0 mg/kg or chemotherapy comprising pemetrexed 500 mg/m2 plus carboplatin (area under the curve 5) or cisplatin 75 mg/m2 for four cycles, followed by maintenance pemetrexed.",
+          "All treatments were administered intravenously on day 1 of each 3-week cycle.",
+          "Block randomisation was stratified by presence of brain metastases, EGFR mutation subtype, and use of a first-line third-generation EGFR-TKI.",
+          "The primary endpoint was progression-free survival (PFS), as assessed by blinded independent central review (BICR), in the intention-to-treat population.",
+          "This trial is registered with ClinicalTrials.gov (NCT06671379).",
+          "Recruitment is complete, with the trial ongoing.",
+          "Findings: Between Nov 29, 2024, and Jan 29, 2026, 498 patients were randomly assigned to receive ruzaltatug rezetecan (n=250) or chemotherapy (n=248).",
+          "The median age was 60·0 years (IQR 54·0-68·0); 276 (55%) patients were female and 222 (45%) male.",
+          "At the prespecified interim PFS analysis, median follow-up was 7·7 months (95% CI 7·1-8·3).",
+          "BICR-assessed PFS was significantly longer with ruzaltatug rezetecan than with chemotherapy (median 8·3 months vs 5·4 months; hazard ratio 0·47 [95% CI 0·36-0·60]; one-sided p<0·0001).",
+          "Grade 3 or worse treatment-related adverse events (TRAEs) occurred in 101 (41%) of 248 patients receiving ruzaltatug rezetecan and 93 (39%) of 239 patients receiving chemotherapy, most commonly decreased neutrophil count (64 [26%] of 248 patients vs 46 [19%] of 239 patients), decreased white blood cell count (29 [12%] vs 29 [12%]), and anaemia (15 [6%] vs 26 [11%]).",
+          "TRAEs led to treatment discontinuation in three (1%) patients in the ruzaltatug rezetecan group and three (1%) in the chemotherapy group.",
+          "One death (unknown cause) in the ruzaltatug rezetecan group was considered by the investigator to be possibly treatment related.",
+          "Interpretation: Ruzaltatug rezetecan significantly prolonged PFS compared with chemotherapy, with a manageable safety profile, in EGFR-TKI-resistant, EGFR-mutated advanced NSCLC.",
+          "These data support ruzaltatug rezetecan as a potential treatment option in this setting.",
+          "Funding: Jiangsu Hengrui Pharmaceuticals."
+        ],
+        "journal": "Lancet",
+        "year": "2026",
+        "authors": [
+          "Xu CR",
+          "Zhang Y",
+          "Lin G",
+          "Wang H",
+          "Wang Q",
+          "Huang D",
+          "Yu Y",
+          "Zhou J",
+          "Zhong H",
+          "Wu L",
+          "Liu L",
+          "Duan J",
+          "He Z",
+          "Luo Y",
+          "Liu H",
+          "Chen B",
+          "Yu X",
+          "Xue F",
+          "Chu Q",
+          "Guo S",
+          "Yang R",
+          "Zhong J",
+          "Liu H",
+          "Sun L",
+          "Dong X",
+          "Su H",
+          "Zhang P",
+          "Yang B",
+          "He S",
+          "Ji Y",
+          "Wan L",
+          "Han X",
+          "Zhang J",
+          "Qiu F",
+          "Yang L",
+          "Shi W",
+          "Wu YL",
+          "HERON-Lung01 Investigators"
+        ],
+        "doi": "10.1016/S0140-6736(26)01899-4",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "7302095990666a4553c2da6e7b8e479c0faa0ae3fb9ea2f6d654b9ce4fce63e6",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933457/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Eligible patients were aged 18-75 years, with locally advanced or metastatic non-squamous NSCLC harbouring an EGFR activating mutation (exon 19 deletion or L858R mutation), and had progressed during or after EGFR-TKI therapy.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 5,
+            "evidence": "Patients were randomly assigned (1:1) to receive ruzaltatug rezetecan 8·0 mg/kg or chemotherapy comprising pemetrexed 500 mg/m2 plus carboplatin (area under the curve 5) or cisplatin 75 mg/m2 for four cycles, followed by maintenance pemetrexed.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: HERON-Lung01 is a randomised, open-label, phase 3 trial conducted at 62 sites in China.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42933231",
+        "title": "From single to dual targeting: Recent advances in EGFR-based dual inhibitors for cancer therapy.",
+        "abstract": "The epidermal growth factor receptor (EGFR) is a receptor tyrosine kinase whose overexpression and activating mutations drive the pathogenesis of solid tumors, particularly non-small cell lung cancer (NSCLC). ATP-competitive EGFR inhibitors have progressed through four generations with considerable clinical success, yet their durability is limited by acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways. Dual-targeting inhibitors are single chemical entities designed to engage two distinct molecular targets simultaneously, generally constructed by conjugating, fusing or merging the pharmacophores of two established ligands. Conjugation offers synthetic flexibility but increases molecular size; fusion reduces molecular size at the cost of potential affinity loss; merging yields the most drug-like molecules but requires substantial pharmacophore overlap. EGFR-based dual inhibitors retain EGFR as the primary target and add a second oncogenic node such as HER2, VEGFR-2 or microtubules. The structural plasticity of the EGFR kinase domain, together with its well-characterized hinge, back-pocket and solvent-exposed regions, tolerates side-chain and linker modification and has made EGFR a favored scaffold for this approach. Clinically approved multi-targeting agents including vandetanib and neratinib provide proof of principle. Such molecules can simplify pharmacokinetics relative to drug combinations, although a single emergent mutation may abolish both activities and broader target coverage can reduce selectivity, so clinical superiority over combination regimens has to be demonstrated for each target pair. This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy.",
+        "sentences": [
+          "The epidermal growth factor receptor (EGFR) is a receptor tyrosine kinase whose overexpression and activating mutations drive the pathogenesis of solid tumors, particularly non-small cell lung cancer (NSCLC).",
+          "ATP-competitive EGFR inhibitors have progressed through four generations with considerable clinical success, yet their durability is limited by acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways.",
+          "Dual-targeting inhibitors are single chemical entities designed to engage two distinct molecular targets simultaneously, generally constructed by conjugating, fusing or merging the pharmacophores of two established ligands.",
+          "Conjugation offers synthetic flexibility but increases molecular size; fusion reduces molecular size at the cost of potential affinity loss; merging yields the most drug-like molecules but requires substantial pharmacophore overlap.",
+          "EGFR-based dual inhibitors retain EGFR as the primary target and add a second oncogenic node such as HER2, VEGFR-2 or microtubules.",
+          "The structural plasticity of the EGFR kinase domain, together with its well-characterized hinge, back-pocket and solvent-exposed regions, tolerates side-chain and linker modification and has made EGFR a favored scaffold for this approach.",
+          "Clinically approved multi-targeting agents including vandetanib and neratinib provide proof of principle.",
+          "Such molecules can simplify pharmacokinetics relative to drug combinations, although a single emergent mutation may abolish both activities and broader target coverage can reduce selectivity, so clinical superiority over combination regimens has to be demonstrated for each target pair.",
+          "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy."
+        ],
+        "journal": "Eur J Med Chem",
+        "year": "2026",
+        "authors": [
+          "Yalcin ZS",
+          "Alagoz MA",
+          "Algul O"
+        ],
+        "doi": "10.1016/j.ejmech.2026.119400",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract_sha256": "f452b63a4ab7d2af5fe7ce1a4c5429060cef760e14decbd7537e12411c15fd03",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42933231/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Included because unclear on: drug, resistance. Unclear counts as include, so nothing relevant is dropped.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "The epidermal growth factor receptor (EGFR) is a receptor tyrosine kinase whose overexpression and activating mutations drive the pathogenesis of solid tumors, particularly non-small cell lung cancer (NSCLC).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 9,
+            "evidence": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways",
+            "sentence": 2,
+            "quote": "acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways"
+          },
+          "variant": {
+            "value": "T790 M and C797S",
+            "sentence": 2,
+            "quote": "T790 M and C797S"
+          },
+          "context": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "drug": {
+            "value": "EGFR-based dual inhibitors",
+            "sentence": 9,
+            "quote": "EGFR-based dual inhibitors"
+          },
+          "setting": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "study_type": {
+            "value": "review",
+            "sentence": 9,
+            "quote": "This review examines studies"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "other",
+            "sentence": 9,
+            "quote": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy."
+          },
+          "key_finding": {
+            "value": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy.",
+            "sentence": 9,
+            "quote": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "This review examines studies from 2020 to 2026 on EGFR-based dual inhibitors targeting 26 secondary pathways to address resistance mechanisms such as T790M and C797S mutations and compensatory signaling. It analyzes rational design, structure-activity relationships, and efficacy to identify strategies that resolve the limitations of current EGFR-centered multi-target therapy.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways",
+            "verdict": "supported",
+            "evidence": "ATP-competitive EGFR inhibitors have progressed through four generations with considerable clinical success, yet their durability is limited by acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: T790 M and C797S",
+            "verdict": "supported",
+            "evidence": "ATP-competitive EGFR inhibitors have progressed through four generations with considerable clinical success, yet their durability is limited by acquired mutations such as T790 M and C797S and by activation of compensatory signaling pathways."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: EGFR-based dual inhibitors",
+            "verdict": "supported",
+            "evidence": "EGFR-based dual inhibitors retain EGFR as the primary target and add a second oncogenic node such as HER2, VEGFR-2 or microtubules."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: review (classification)",
+            "verdict": "supported",
+            "evidence": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: other (classification)",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy.",
+            "verdict": "supported",
+            "evidence": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "This review examines studies from 2020 to 2026 on EGFR-based dual inhibitors targeting 26 secondary pathways to address resistance mechanisms such as T790M and C797S mutations and compensatory signaling.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "It analyzes rational design, structure-activity relationships, and efficacy to identify strategies that resolve the limitations of current EGFR-centered multi-target therapy.",
+            "verdict": "supported",
+            "evidence": "This review examines studies published between 2020 and 2026 on EGFR-based dual inhibitors spanning 26 secondary targets, addressing rational design, structure-activity relationships, receptor-ligand interaction profiles, and preclinical and clinical efficacy, and identifies the strategies most likely to resolve the current limitations of EGFR-centered multi-target therapy."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Screening could not tell from the abstract whether it meets “Drug”.",
+          "Screening could not tell from the abstract whether it meets “Resistance”.",
+          "Summary sentence 1: the second model could not find this in the abstract."
+        ],
+        "problems": 1,
+        "notes": [
+          "Finding type: a judgement the second model could not confirm from the abstract."
+        ]
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42929693",
+        "title": "Osimertinib-Savolitinib in Advanced NSCLC after Progression during EGFR-TKI Therapy.",
+        "abstract": "Background: Savolitinib is an oral, potent, highly selective MET-tyrosine kinase inhibitor (TKI). Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR-mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy. Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed. The primary end point was progression-free survival, as assessed by blinded independent central review. Secondary end points included overall survival and safety. Results: Of the 1746 patients screened, 338 were randomly assigned to receive osimertinib-savolitinib (171 patients) or platinum-pemetrexed (167 patients). Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis). The Kaplan-Meier estimate of 12-month progression-free survival was 36% in the osimertinib-savolitinib group and 10% in the platinum-pemetrexed group, and the estimate of 12-month overall survival was 70% and 53%, respectively. The most frequently reported adverse events that occurred during treatment in the osimertinib-savolitinib group were peripheral edema (in 49% of the patients), anemia (in 26%), and diarrhea (in 26%). Grade 3 or higher adverse events during treatment were reported in 64% of the patients in the osimertinib-savolitinib group and in 63% of those in the platinum-pemetrexed group. Conclusions: Osimertinib-savolitinib led to significantly longer progression-free and overall survival than platinum-pemetrexed among patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression, MET amplification, or both that had progressed during osimertinib therapy (Funded by AstraZeneca; SAFFRON ClinicalTrials.gov number, NCT05261399.).",
+        "sentences": [
+          "Background: Savolitinib is an oral, potent, highly selective MET-tyrosine kinase inhibitor (TKI).",
+          "Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR-mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy.",
+          "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed.",
+          "The primary end point was progression-free survival, as assessed by blinded independent central review.",
+          "Secondary end points included overall survival and safety.",
+          "Results: Of the 1746 patients screened, 338 were randomly assigned to receive osimertinib-savolitinib (171 patients) or platinum-pemetrexed (167 patients).",
+          "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis).",
+          "The Kaplan-Meier estimate of 12-month progression-free survival was 36% in the osimertinib-savolitinib group and 10% in the platinum-pemetrexed group, and the estimate of 12-month overall survival was 70% and 53%, respectively.",
+          "The most frequently reported adverse events that occurred during treatment in the osimertinib-savolitinib group were peripheral edema (in 49% of the patients), anemia (in 26%), and diarrhea (in 26%).",
+          "Grade 3 or higher adverse events during treatment were reported in 64% of the patients in the osimertinib-savolitinib group and in 63% of those in the platinum-pemetrexed group.",
+          "Conclusions: Osimertinib-savolitinib led to significantly longer progression-free and overall survival than platinum-pemetrexed among patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression, MET amplification, or both that had progressed during osimertinib therapy (Funded by AstraZeneca; SAFFRON ClinicalTrials.gov number, NCT05261399.)."
+        ],
+        "journal": "N Engl J Med",
+        "year": "2026",
+        "authors": [
+          "Lu S",
+          "Girard N",
+          "Yang JC",
+          "Shepherd FA",
+          "Dong X",
+          "Arulananda S",
+          "Metro G",
+          "Hayashi H",
+          "Bonanno L",
+          "Kim YJ",
+          "Liu Z",
+          "Ahn MJ",
+          "Sun Y",
+          "Le TV",
+          "Novello S",
+          "Kim SW",
+          "Zhao Y",
+          "Nguyen P",
+          "Brandão M",
+          "Wang Y",
+          "Haigentz M",
+          "Misch D",
+          "Provencio Pulla M",
+          "Huang WT",
+          "Baldotto C",
+          "Tatangelo M",
+          "Lindsay CR",
+          "Hartmaier RJ",
+          "Lolo R",
+          "Swaminathan B",
+          "Gont A",
+          "Esposito FM",
+          "Okuma Y",
+          "SAFFRON Investigators"
+        ],
+        "doi": "10.1056/NEJMoa2611335",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "4f16a68f4db6de6f494c807487fd2e30d9e5c3a250a724514f50186f847e6570",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42929693/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "MET overexpression, MET amplification, or both",
+            "sentence": 2,
+            "quote": "MET overexpression, MET amplification, or both"
+          },
+          "variant": {
+            "value": "MET overexpression, MET amplification, or both",
+            "sentence": 2,
+            "quote": "MET overexpression, MET amplification, or both"
+          },
+          "context": {
+            "value": "EGFR-mutated, advanced non-small-cell lung cancer (NSCLC)",
+            "sentence": 2,
+            "quote": "EGFR-mutated, advanced non-small-cell lung cancer (NSCLC)"
+          },
+          "drug": {
+            "value": "osimertinib-savolitinib",
+            "sentence": 2,
+            "quote": "osimertinib-savolitinib"
+          },
+          "setting": {
+            "value": "after progression during EGFR-TKI therapy",
+            "sentence": 2,
+            "quote": "after progression during EGFR-TKI therapy"
+          },
+          "study_type": {
+            "value": "international, phase 3, open-label trial",
+            "sentence": 3,
+            "quote": "international, phase 3, open-label trial"
+          },
+          "n_patients": {
+            "value": "338",
+            "sentence": 6,
+            "quote": "338"
+          },
+          "finding_type": {
+            "value": "treatment after resistance",
+            "sentence": 7,
+            "quote": "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed"
+          },
+          "key_finding": {
+            "value": "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis).",
+            "sentence": 7,
+            "quote": "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis)."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In an international phase 3 trial of 338 patients with EGFR-mutated advanced NSCLC who progressed on EGFR-TKI therapy, the combination of osimertinib and savolitinib demonstrated significantly longer progression-free and overall survival compared to platinum-pemetrexed. This benefit was observed in patients with MET overexpression, MET amplification, or both, with hazard ratios of 0.55 for disease progression or death and 0.68 for death.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: MET overexpression, MET amplification, or both",
+            "verdict": "supported",
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: MET overexpression, MET amplification, or both",
+            "verdict": "supported",
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: EGFR-mutated, advanced non-small-cell lung cancer (NSCLC)",
+            "verdict": "supported",
+            "evidence": "Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR-mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib-savolitinib",
+            "verdict": "supported",
+            "evidence": "Osimertinib-Savolitinib in Advanced NSCLC after Progression during EGFR-TKI Therapy."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: after progression during EGFR-TKI therapy",
+            "verdict": "supported",
+            "evidence": "Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR-mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: international, phase 3, open-label trial (classification)",
+            "verdict": "supported",
+            "evidence": "Methods: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib therapy to receive osimertinib (at a dose of 80 mg once daily) plus savolitinib (300 mg twice daily) or intravenous platinum-pemetrexed."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 338",
+            "verdict": "supported",
+            "evidence": "Results: Of the 1746 patients screened, 338 were randomly assigned to receive osimertinib-savolitinib (171 patients) or platinum-pemetrexed (167 patients)."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: treatment after resistance (classification)",
+            "verdict": "supported",
+            "evidence": "Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR-mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis).",
+            "verdict": "supported",
+            "evidence": "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis)."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In an international phase 3 trial of 338 patients with EGFR-mutated advanced NSCLC who progressed on EGFR-TKI therapy, the combination of osimertinib and savolitinib demonstrated significantly longer progression-free and overall survival compared to platinum-pemetrexed.",
+            "verdict": "supported",
+            "evidence": "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis)."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This benefit was observed in patients with MET overexpression, MET amplification, or both, with hazard ratios of 0.55 for disease progression or death and 0.68 for death.",
+            "verdict": "supported",
+            "evidence": "Osimertinib-savolitinib led to significantly longer progression-free survival than platinum-pemetrexed (hazard ratio for disease progression or death, 0.55; 95% confidence interval [CI], 0.42 to 0.72; P<0.001), as well as significantly longer overall survival (hazard ratio for death, 0.68; 95% CI, 0.50 to 0.91; P = 0.01; final analysis)."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
+        ],
+        "problems": 0,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42928710",
+        "title": "Dalmelitinib Plus Aumolertinib in Advanced NSCLC Patients With EGFR-TKI Resistance and MET Amplification: A Randomized Phase 3 Trial.",
+        "abstract": "Purpose: MET amplification accounts for up to 30% of acquired resistance to EGFR-TKI, especially following third-generation EGFR-TKI treatment, yet precision-targeted therapeutic options remain limited. Early-phase studies demonstrated promising antitumor activity with the MET-TKI dalmelitinib combined with the third-generation EGFR-TKI aumolertinib. This phase 3 trial compared dalmelitinib-aumolertinib with platinum-based chemotherapy in EGFR-mutated, MET-amplified advanced NSCLC after EGFR-TKIs progression. Patients and methods: This randomized, open-label, phase 3 trial (NCT06110663) enrolled patients with locally advanced or metastatic EGFR-mutated, MET-amplified NSCLC after EGFR-TKI progression. MET amplification was defined by fluorescence in situ hybridization as a mean MET copy number ≥5 or MET/CEP7 ratio ≥2. Patients were randomly assigned (1:1) to dalmelitinib-aumolertinib or platinum-based chemotherapy groups. The primary endpoint was progression-free survival (PFS) assessed by blinded independent central review per RECIST 1.1. Secondary endpoints included overall survival, objective response rate (ORR), duration of response (DoR), and safety. Results: A total of 314 enrolled patients were assigned to dalmelitinib-aumolertinib (n=156) or platinum-based chemotherapy (n=158). Median follow-up was 11.2 months at the data cutoff date (December 10, 2025). Median PFS was 6.2 months with dalmelitinib-aumolertinib and 4.4 months with chemotherapy (HR, 0.60; 95% CI, 0.45 to 0.81; P <0.001). Corresponding ORRs were 59.6% and 38.6%, and median DoRs were 9.7 months and 4.4 months, respectively. Overall survival data were immature. Grade ≥3 treatment-emergent adverse events occurred in 50.0% and 51.0% of patients, respectively. Toxicity profiles differed, with more hepatic laboratory abnormalities with dalmelitinib-aumolertinib and more hematologic toxicities with chemotherapy. Conclusion: The dalmelitinib-aumolertinib combination significantly improved PFS versus chemotherapy, with a manageable safety profile in advanced EGFR-mutated, MET-amplified NSCLC after progression on EGFR-TKI. These findings support dual EGFR/ MET inhibition as a new treatment option in this biomarker selected population.",
+        "sentences": [
+          "Purpose: MET amplification accounts for up to 30% of acquired resistance to EGFR-TKI, especially following third-generation EGFR-TKI treatment, yet precision-targeted therapeutic options remain limited.",
+          "Early-phase studies demonstrated promising antitumor activity with the MET-TKI dalmelitinib combined with the third-generation EGFR-TKI aumolertinib.",
+          "This phase 3 trial compared dalmelitinib-aumolertinib with platinum-based chemotherapy in EGFR-mutated, MET-amplified advanced NSCLC after EGFR-TKIs progression.",
+          "Patients and methods: This randomized, open-label, phase 3 trial (NCT06110663) enrolled patients with locally advanced or metastatic EGFR-mutated, MET-amplified NSCLC after EGFR-TKI progression.",
+          "MET amplification was defined by fluorescence in situ hybridization as a mean MET copy number ≥5 or MET/CEP7 ratio ≥2.",
+          "Patients were randomly assigned (1:1) to dalmelitinib-aumolertinib or platinum-based chemotherapy groups.",
+          "The primary endpoint was progression-free survival (PFS) assessed by blinded independent central review per RECIST 1.1.",
+          "Secondary endpoints included overall survival, objective response rate (ORR), duration of response (DoR), and safety.",
+          "Results: A total of 314 enrolled patients were assigned to dalmelitinib-aumolertinib (n=156) or platinum-based chemotherapy (n=158).",
+          "Median follow-up was 11.2 months at the data cutoff date (December 10, 2025).",
+          "Median PFS was 6.2 months with dalmelitinib-aumolertinib and 4.4 months with chemotherapy (HR, 0.60; 95% CI, 0.45 to 0.81; P <0.001).",
+          "Corresponding ORRs were 59.6% and 38.6%, and median DoRs were 9.7 months and 4.4 months, respectively.",
+          "Overall survival data were immature.",
+          "Grade ≥3 treatment-emergent adverse events occurred in 50.0% and 51.0% of patients, respectively.",
+          "Toxicity profiles differed, with more hepatic laboratory abnormalities with dalmelitinib-aumolertinib and more hematologic toxicities with chemotherapy.",
+          "Conclusion: The dalmelitinib-aumolertinib combination significantly improved PFS versus chemotherapy, with a manageable safety profile in advanced EGFR-mutated, MET-amplified NSCLC after progression on EGFR-TKI.",
+          "These findings support dual EGFR/ MET inhibition as a new treatment option in this biomarker selected population."
+        ],
+        "journal": "J Clin Oncol",
+        "year": "2026",
+        "authors": [
+          "Li Z",
+          "Dong X",
+          "Yu Y",
+          "Yao W",
+          "Luo Y",
+          "Meng X",
+          "Yu X",
+          "Hu J",
+          "Wu L",
+          "Sun L",
+          "Huang Z",
+          "Lv D",
+          "Liu C",
+          "Zhang Z",
+          "Li X",
+          "Zhang Y",
+          "Ma L",
+          "Shi J",
+          "Wei T",
+          "Li S",
+          "Ma L",
+          "Qin W",
+          "Wang C",
+          "Zhang X",
+          "Lu S"
+        ],
+        "doi": "10.1200/JCO-26-02432",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "40017ffff8eab4893d92167cdf37e11ecf35bd1c150813540fc550ac1762ae2f",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42928710/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Patients and methods: This randomized, open-label, phase 3 trial (NCT06110663) enrolled patients with locally advanced or metastatic EGFR-mutated, MET-amplified NSCLC after EGFR-TKI progression.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 3,
+            "evidence": "This phase 3 trial compared dalmelitinib-aumolertinib with platinum-based chemotherapy in EGFR-mutated, MET-amplified advanced NSCLC after EGFR-TKIs progression.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Purpose: MET amplification accounts for up to 30% of acquired resistance to EGFR-TKI, especially following third-generation EGFR-TKI treatment, yet precision-targeted therapeutic options remain limited.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Patients and methods: This randomized, open-label, phase 3 trial (NCT06110663) enrolled patients with locally advanced or metastatic EGFR-mutated, MET-amplified NSCLC after EGFR-TKI progression.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug."
+        ],
+        "problems": 0
+      }
+    }
+  ],
+  "misses": {
+    "capture_recapture": {
+      "primary": 2,
+      "secondary": 3,
+      "both": 0,
+      "found": 5,
+      "only_secondary": [
+        "42929693",
+        "42933231",
+        "42957912"
+      ],
+      "only_primary": [
+        "42937553",
+        "42957218"
+      ],
+      "estimate": 11.0,
+      "low": 5,
+      "high": 23,
+      "missed": 6,
+      "note": "The two searches share no relevant papers, so the estimate is very uncertain."
+    },
+    "audit_sample": [
+      "42927948",
+      "42928710",
+      "42933457",
+      "42933461",
+      "42959092"
+    ]
+  },
+  "audit": {
+    "started": "2026-10-31T10:57:01+00:00",
+    "finished": "2026-10-31T10:57:03+00:00",
+    "litwatch_version": "0.1.0",
+    "python": "3.12.15",
+    "writer_model": "groq/qwen/qwen3.8-27b",
+    "checker_model": "groq/openai/gpt-oss-120b",
+    "prompt_versions": {
+      "screen": "eaa3d4601ee4",
+      "extract": "06d9f4c5c64a",
+      "summary": "9aeff6edc1a3",
+      "check": "dc5c5257c358"
+    },
+    "topic_sha256": "c779c10082e50292a41ce601072b71a9ec0f96781b9f21cc1433fb3a6e5869c1"
+  }
+}
