@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-02-133359",
+  "run_id": "egfr-osimertinib-resistance-2026-11-03-124946",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,27 +93,269 @@
     }
   },
   "window": {
-    "start": "2026-10-27",
-    "end": "2026-11-02"
+    "start": "2026-10-28",
+    "end": "2026-11-03"
   },
   "searches": {
     "main": {
       "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
       "pmids": [
+        "42971367",
         "42964983",
-        "42957218",
-        "42937553"
+        "42957218"
       ]
     },
     "second": {
       "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
       "pmids": [
+        "42971367",
         "42959092",
         "42957912"
       ]
     }
   },
   "entries": [
+    {
+      "paper": {
+        "pmid": "42971367",
+        "title": "Reversal of acquired osimertinib resistance by YAP inhibition in lung cancer is associated with lipid metabolic reprogramming.",
+        "abstract": "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC). However, recent studies have found that its acquired resistance severely limits its therapeutic effect. This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge. In H1975/OR cells, YAP phosphorylation was decreased and nuclear translocation was increased, indicating YAP activation. Inhibition or knockdown of YAP significantly re-stored Osi sensitivity. YAP upregulated the expression of sterol regulatory element-binding protein 1 (SREBP1), fatty acid synthase (FASN), and stearoyl-CoA desaturase (SCD1), and promoted the synthesis of triglycerides, cholesterol, and phospholipids. Lipidomics revealed that YAP inhibition reduced multiple phospholipids. Furthermore, inhibition of YAP downregulated the anti-apoptotic protein B-cell lymphoma 2 (BCL2) and enhanced Osi-induced apoptosis. This study firstly links YAP activation to lipid metabolic reprogramming and reveals its crucial role in Osi-acquired resistance. These findings not only deepen the understanding of the EGFR-TKI resistance mechanism but also provide a new therapeutic strategy for clinically overcoming Osi-acquired resistance. Targeting the phospholipid synthesis pathway mediated by YAP may effectively reverse the acquired resistance of NSCLC to Osi.",
+        "sentences": [
+          "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC).",
+          "However, recent studies have found that its acquired resistance severely limits its therapeutic effect.",
+          "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge.",
+          "In H1975/OR cells, YAP phosphorylation was decreased and nuclear translocation was increased, indicating YAP activation.",
+          "Inhibition or knockdown of YAP significantly re-stored Osi sensitivity.",
+          "YAP upregulated the expression of sterol regulatory element-binding protein 1 (SREBP1), fatty acid synthase (FASN), and stearoyl-CoA desaturase (SCD1), and promoted the synthesis of triglycerides, cholesterol, and phospholipids.",
+          "Lipidomics revealed that YAP inhibition reduced multiple phospholipids.",
+          "Furthermore, inhibition of YAP downregulated the anti-apoptotic protein B-cell lymphoma 2 (BCL2) and enhanced Osi-induced apoptosis.",
+          "This study firstly links YAP activation to lipid metabolic reprogramming and reveals its crucial role in Osi-acquired resistance.",
+          "These findings not only deepen the understanding of the EGFR-TKI resistance mechanism but also provide a new therapeutic strategy for clinically overcoming Osi-acquired resistance.",
+          "Targeting the phospholipid synthesis pathway mediated by YAP may effectively reverse the acquired resistance of NSCLC to Osi."
+        ],
+        "journal": "Toxicol Appl Pharmacol",
+        "year": "2026",
+        "authors": [
+          "Huang J",
+          "Gao Y",
+          "Jiang S",
+          "Chen M",
+          "Qin Z",
+          "Yu T",
+          "Nong T",
+          "Yang L",
+          "Huang M",
+          "Luo Y",
+          "Jin J"
+        ],
+        "doi": "10.1016/j.taap.2026.118098",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "9f09b406223667681772a36b8d889d92995b3b6aa93035982591f488dbf9824b",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42971367/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC).",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "In H1975/OR cells, YAP phosphorylation was decreased and nuclear translocation was increased, indicating YAP activation.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "YAP activation is associated with lipid metabolic reprogramming",
+            "sentence": 3,
+            "quote": "YAP activation is associated with lipid metabolic reprogramming"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "drug": {
+            "value": "YAP inhibition",
+            "sentence": 5,
+            "quote": "Inhibition or knockdown of YAP"
+          },
+          "setting": {
+            "value": "Osi-acquired resistance",
+            "sentence": 3,
+            "quote": "Osi-acquired resistance"
+          },
+          "study_type": {
+            "value": "cell-line study",
+            "sentence": 4,
+            "quote": "In H1975/OR cells"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 9,
+            "quote": "This study firstly links YAP activation to lipid metabolic reprogramming and reveals its crucial role in Osi-acquired resistance."
+          },
+          "key_finding": {
+            "value": "YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, and inhibition of YAP re-stored Osi sensitivity.",
+            "sentence": 3,
+            "quote": "YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance"
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In a cell-line study of Osi-acquired resistance, YAP activation was found to be associated with lipid metabolic reprogramming. Inhibition of YAP re-established sensitivity to Osi.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: YAP activation is associated with lipid metabolic reprogramming",
+            "verdict": "supported",
+            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: YAP inhibition",
+            "verdict": "supported",
+            "evidence": "Inhibition or knockdown of YAP significantly re-stored Osi sensitivity."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: Osi-acquired resistance",
+            "verdict": "supported",
+            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: cell-line study (classification)",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, and inhibition of YAP re-stored Osi sensitivity.",
+            "verdict": "supported",
+            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In a cell-line study of Osi-acquired resistance, YAP activation was found to be associated with lipid metabolic reprogramming.",
+            "verdict": "supported",
+            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "Inhibition of YAP re-established sensitivity to Osi.",
+            "verdict": "supported",
+            "evidence": "Inhibition or knockdown of YAP significantly re-stored Osi sensitivity."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "accepted",
+        "reasons": [],
+        "problems": 0,
+        "notes": [
+          "Study type: a judgement the second model could not confirm from the abstract."
+        ]
+      }
+    },
     {
       "paper": {
         "pmid": "42964983",
@@ -647,257 +889,6 @@
     },
     {
       "paper": {
-        "pmid": "42937553",
-        "title": "Efficacy Augmentation of Ferroptosis-Inducing Nanomedicine for Tyrosine Kinase Inhibitor-Resistant Lung Cancer Brain Metastasis.",
-        "abstract": "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) poses a major clinical challenge for EGFR-mutant non-small-cell lung cancer patients with brain metastasis. A key unresolved question is whether the adaptive mechanisms driving TKI resistance also confer new therapeutic vulnerabilities. Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction. To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release. MIL-S@M potently induces ferroptosis through the synergistic effects of iron overload, glutathione depletion, and glutathione peroxidase 4 inactivation. In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects. This work unveils a targetable adaptation in TKI-resistant brain metastasis and presents a translatable nanotherapeutic strategy.",
-        "sentences": [
-          "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) poses a major clinical challenge for EGFR-mutant non-small-cell lung cancer patients with brain metastasis.",
-          "A key unresolved question is whether the adaptive mechanisms driving TKI resistance also confer new therapeutic vulnerabilities.",
-          "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
-          "To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release.",
-          "MIL-S@M potently induces ferroptosis through the synergistic effects of iron overload, glutathione depletion, and glutathione peroxidase 4 inactivation.",
-          "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects.",
-          "This work unveils a targetable adaptation in TKI-resistant brain metastasis and presents a translatable nanotherapeutic strategy."
-        ],
-        "journal": "ACS Nano",
-        "year": "2026",
-        "authors": [
-          "Zeng Y",
-          "Lin C",
-          "Yang J",
-          "Fu M",
-          "Ma J",
-          "Mo L",
-          "Huang Y",
-          "Li X",
-          "Li C",
-          "Zeng R",
-          "Li Y",
-          "Yang W",
-          "Peng B",
-          "Peng H",
-          "Chi Y"
-        ],
-        "doi": "10.1021/acsnano.6c09281",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "abstract_sha256": "9d002cec6187dbf763dc7718be4a827ddb6472135a8d650e53767d69cd8611d4",
-        "found_by": [
-          "main"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42937553/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) poses a major clinical challenge for EGFR-mutant non-small-cell lung cancer patients with brain metastasis.",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "yes",
-            "sentence": 6,
-            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects.",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 3,
-            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 6,
-            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction",
-            "sentence": 3,
-            "quote": "TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction"
-          },
-          "variant": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "context": {
-            "value": "TKI-resistant lung cancer brain metastasis",
-            "sentence": 3,
-            "quote": "TKI-resistant lung cancer brain metastatic cells"
-          },
-          "drug": {
-            "value": "MIL-S@M",
-            "sentence": 4,
-            "quote": "we developed MIL-S@M"
-          },
-          "setting": {
-            "value": "osimertinib-resistant brain metastasis",
-            "sentence": 6,
-            "quote": "In mouse models of osimertinib-resistant brain metastasis"
-          },
-          "study_type": {
-            "value": "mouse models",
-            "sentence": 6,
-            "quote": "In mouse models"
-          },
-          "n_patients": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "finding_type": {
-            "value": "resistance mechanism",
-            "sentence": 3,
-            "quote": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
-          },
-          "key_finding": {
-            "value": "TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
-            "sentence": 3,
-            "quote": "TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "In mouse models of osimertinib-resistant lung cancer brain metastasis, TKI-resistant cells develop a redox perturbation state marked by elevated oxidative stress and diminished antioxidant capacity. This state confers a latent sensitivity to ferroptosis induction, which can be targeted by the drug MIL-S@M.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "context": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction",
-            "verdict": "supported",
-            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
-          },
-          {
-            "kind": "field",
-            "id": "context",
-            "text": "context: TKI-resistant lung cancer brain metastasis",
-            "verdict": "supported",
-            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: MIL-S@M",
-            "verdict": "supported",
-            "evidence": "To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: osimertinib-resistant brain metastasis",
-            "verdict": "supported",
-            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: mouse models (classification)",
-            "verdict": "supported",
-            "evidence": "In mouse models of osimertinib-resistant brain metastasis, MIL-S@M significantly suppressed tumor growth and extended survival, both as a monotherapy and in combination with osimertinib, without inducing systemic or neurotoxic effects."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: resistance mechanism (classification)",
-            "verdict": "supported",
-            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction.",
-            "verdict": "supported",
-            "evidence": "Here, we reveal that TKI-resistant lung cancer brain metastatic cells develop a redox perturbation state, characterized by elevated oxidative stress and diminished antioxidant capacity, which confers a latent sensitivity to ferroptosis induction."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "In mouse models of osimertinib-resistant lung cancer brain metastasis, TKI-resistant cells develop a redox perturbation state marked by elevated oxidative stress and diminished antioxidant capacity.",
-            "verdict": "beyond",
-            "evidence": null
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "This state confers a latent sensitivity to ferroptosis induction, which can be targeted by the drug MIL-S@M.",
-            "verdict": "supported",
-            "evidence": "To exploit this vulnerability, we developed MIL-S@M, a brain-targeted nanoplatform capable of efficient blood-brain barrier penetration and glutathione-responsive drug release."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "review",
-        "reasons": [
-          "Summary sentence 1: the second model could not find this in the abstract."
-        ],
-        "problems": 1,
-        "notes": []
-      }
-    },
-    {
-      "paper": {
         "pmid": "42959092",
         "title": "Simultaneous occurrence of HER2 mutation and PD-L1 high expression in EGFR-mutant NSCLC: a case report.",
         "abstract": "In non-small cell lung cancer (NSCLC), EGFR and HER2 mutations are generally considered mutually exclusive events, with a co-occurrence probability estimated to be less than 1%. Patients with either EGFR or HER2 mutations tend to exhibit low PD-L1 expression levels. The simultaneous presence of both EGFR and HER2 mutations accompanied by high PD-L1 expression is exceedingly rare. This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion). As the patient refused repeat biopsy, treatment with an ADC drug (Trastuzumab rezetecan) was initiated. Disease control was achieved after only one cycle of treatment, and the regimen was continued thereafter. The progression-free survival has exceeded 5.3 months, and at the time of writing this report, the disease remained well-controlled. This paper presents the first report of this rare and therapeutically challenging combination of molecular pathological features-concurrent EGFR and HER2 mutations with high PD-L1 expression in an NSCLC patient. When standard first-line third-generation EGFR-TKIs proved ineffective, the successful use of an anti-HER2 ADC drug to control the tumor demonstrates its potential clinical value. However, whether all patients initially presenting with this pathological molecular subtype will achieve consistent efficacy remains to be further investigated.",
@@ -1253,30 +1244,29 @@
   "misses": {
     "capture_recapture": {
       "primary": 3,
-      "secondary": 1,
-      "both": 0,
+      "secondary": 2,
+      "both": 1,
       "found": 4,
       "only_secondary": [
         "42957912"
       ],
       "only_primary": [
-        "42937553",
         "42957218",
         "42964983"
       ],
-      "estimate": 7.0,
+      "estimate": 5.0,
       "low": 4,
-      "high": 14,
-      "missed": 3,
-      "note": "The two searches share no relevant papers, so the estimate is very uncertain."
+      "high": 8,
+      "missed": 1,
+      "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
     "audit_sample": [
       "42959092"
     ]
   },
   "audit": {
-    "started": "2026-11-02T13:33:59+00:00",
-    "finished": "2026-11-02T13:34:00+00:00",
+    "started": "2026-11-03T12:49:46+00:00",
+    "finished": "2026-11-03T12:49:55+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.15",
     "writer_model": "groq/qwen/qwen3.8-27b",
