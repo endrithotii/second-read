@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-03-124946",
+  "run_id": "egfr-osimertinib-resistance-2026-11-04-130201",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,13 +93,17 @@
     }
   },
   "window": {
-    "start": "2026-10-28",
-    "end": "2026-11-03"
+    "start": "2026-10-29",
+    "end": "2026-11-04"
   },
   "searches": {
     "main": {
       "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
       "pmids": [
+        "42977475",
+        "42977173",
+        "42975994",
+        "42973948",
         "42971367",
         "42964983",
         "42957218"
@@ -115,6 +119,521 @@
     }
   },
   "entries": [
+    {
+      "paper": {
+        "pmid": "42977475",
+        "title": "Transformation to Small-Cell Lung Carcinoma and Then to Sarcomatoid Carcinoma in an EGFR-Mutant Lung Adenocarcinoma Patient During Systemic Therapy: A Case Report.",
+        "abstract": "This case exemplifies stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure. Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation. Subsequent progression after chemotherapy featured a rare sarcomatoid transformation, with the tumor retaining the original EGFR Exon 19 deletion, supporting clonal evolution. This phenotypic shift, indicative of epithelial-to-mesenchymal transition (EMT), may have been associated with PTEN loss and potential activation of the PI3K/AKT/mTOR pathway. The serial emergence of neuroendocrine and sarcomatoid phenotypes underscores the critical need for rebiopsy to guide therapy and highlights the profound adaptability of EGFR-mutant tumors, which remain a major therapeutic challenge.",
+        "sentences": [
+          "This case exemplifies stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure.",
+          "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation.",
+          "Subsequent progression after chemotherapy featured a rare sarcomatoid transformation, with the tumor retaining the original EGFR Exon 19 deletion, supporting clonal evolution.",
+          "This phenotypic shift, indicative of epithelial-to-mesenchymal transition (EMT), may have been associated with PTEN loss and potential activation of the PI3K/AKT/mTOR pathway.",
+          "The serial emergence of neuroendocrine and sarcomatoid phenotypes underscores the critical need for rebiopsy to guide therapy and highlights the profound adaptability of EGFR-mutant tumors, which remain a major therapeutic challenge."
+        ],
+        "journal": "Thorac Cancer",
+        "year": "2026",
+        "authors": [
+          "Huang B",
+          "Lu T",
+          "Hong R",
+          "Liu X",
+          "Gao X",
+          "Xu Y",
+          "Chen M",
+          "Zhong W",
+          "Wang M",
+          "Zhao J"
+        ],
+        "doi": "10.1111/1759-7714.70397",
+        "publication_types": [
+          "Case Reports",
+          "Journal Article"
+        ],
+        "abstract_sha256": "2eb1c7433eb2591bc899aa7e1dd72507cfa55ddad2601420dbe6a3262c8e6ff5",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42977475/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 0,
+            "evidence": "Transformation to Small-Cell Lung Carcinoma and Then to Sarcomatoid Carcinoma in an EGFR-Mutant Lung Adenocarcinoma Patient During Systemic Therapy: A Case Report.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 0,
+            "evidence": "Transformation to Small-Cell Lung Carcinoma and Then to Sarcomatoid Carcinoma in an EGFR-Mutant Lung Adenocarcinoma Patient During Systemic Therapy: A Case Report.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure",
+            "sentence": 1,
+            "quote": "stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure"
+          },
+          "variant": {
+            "value": "TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation",
+            "sentence": 2,
+            "quote": "TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation"
+          },
+          "context": {
+            "value": "concurrent TP53/RB1 co-inactivation",
+            "sentence": 2,
+            "quote": "associated with concurrent TP53/RB1 co-inactivation"
+          },
+          "drug": {
+            "value": "osimertinib",
+            "sentence": 2,
+            "quote": "Initial resistance to osimertinib"
+          },
+          "setting": {
+            "value": "during systemic therapy",
+            "sentence": 0,
+            "quote": "During Systemic Therapy"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 0,
+            "quote": "A Case Report"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 0,
+            "quote": "in an EGFR-Mutant Lung Adenocarcinoma Patient"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 2,
+            "quote": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          "key_finding": {
+            "value": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation.",
+            "sentence": 2,
+            "quote": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "This case report describes a patient with EGFR-mutant lung adenocarcinoma who developed resistance to osimertinib through transformation to combined small-cell lung carcinoma. This histological shift was driven by tumor lineage plasticity and was associated with concurrent TP53/RB1 co-inactivation and the acquisition of an EGFR C797S mutation.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": false,
+            "problems": [
+              "Number not in the abstract: 1."
+            ]
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure",
+            "verdict": "supported",
+            "evidence": "This case exemplifies stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation",
+            "verdict": "supported",
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: concurrent TP53/RB1 co-inactivation",
+            "verdict": "supported",
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib",
+            "verdict": "supported",
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: during systemic therapy",
+            "verdict": "supported",
+            "evidence": "Transformation to Small-Cell Lung Carcinoma and Then to Sarcomatoid Carcinoma in an EGFR-Mutant Lung Adenocarcinoma Patient During Systemic Therapy: A Case Report."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "Transformation to Small-Cell Lung Carcinoma and Then to Sarcomatoid Carcinoma in an EGFR-Mutant Lung Adenocarcinoma Patient During Systemic Therapy: A Case Report."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation.",
+            "verdict": "supported",
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "This case report describes a patient with EGFR-mutant lung adenocarcinoma who developed resistance to osimertinib through transformation to combined small-cell lung carcinoma.",
+            "verdict": "supported",
+            "evidence": "Initial resistance to osimertinib manifested as transformation to combined small-cell lung carcinoma, associated with concurrent TP53/RB1 co-inactivation and the acquisition of an epidermal growth factor receptor (EGFR) C797S mutation."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This histological shift was driven by tumor lineage plasticity and was associated with concurrent TP53/RB1 co-inactivation and the acquisition of an EGFR C797S mutation.",
+            "verdict": "supported",
+            "evidence": "This case exemplifies stepwise histological transformations of an initially EGFR-mutant lung adenocarcinoma driven by tumor lineage plasticity under therapeutic pressure."
+          }
+        ],
+        "omitted": [
+          "EGFR Exon 19 deletion retained",
+          "epithelial-to-mesenchymal transition (EMT)"
+        ],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "N patients: Number not in the abstract: 1.",
+          "N patients: the second model could not find this in the abstract.",
+          "The second model found 2 relevant findings the record leaves out."
+        ],
+        "problems": 3,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42977173",
+        "title": "Pharmacological targeting of ANO1/TMEM16A in cancer: from channel inhibition to protein downregulation.",
+        "abstract": "Anoctamin 1 (ANO1/TMEM16A) is a calcium-activated chloride channel increasingly recognized as a compelling pharmacological target in oncology. Beyond its role in chloride flux, ANO1 has also been proposed to exert signaling-associated or scaffold-like functions in selected malignancies, including head and neck, breast, and lung cancers. Although pharmacological studies have progressed from broad inhibitors to selective probes and natural products, a critical need has emerged for a rigorous standard to evaluate these agents. A central challenge is distinguishing acute conductance blockade from protein-level downregulation, as these mechanisms may produce distinct biological outcomes. Channel inhibition suppresses ion flux while potentially leaving ANO1-associated protein complexes intact, whereas protein reduction may affect both conductance-dependent and signaling-associated functions; however, the extent to which these functions are mechanistically independent remains incompletely established. Consequently, regulation of ANO1 stability is emerging as a promising therapeutic strategy in tumors with high ANO1 expression and epidermal growth factor receptor (EGFR) activation. However, in clinically relevant EGFR-mutant non-small cell lung cancer models, the role of ANO1 should be interpreted cautiously. Current evidence supports ANO1 as a context-dependent preclinical vulnerability rather than an established mechanism for overcoming osimertinib resistance. To address methodological inconsistencies in the field, this review summarizes ANO1 cancer pharmacology and proposes a conservative operational evidence framework. By establishing strict validation criteria, we classify ANO1 modulators into functional inhibitors, dual modulators, protein-level downregulators, and protein-stability modulators while defining evidence requirements for bona fide targeted degrader designation.",
+        "sentences": [
+          "Anoctamin 1 (ANO1/TMEM16A) is a calcium-activated chloride channel increasingly recognized as a compelling pharmacological target in oncology.",
+          "Beyond its role in chloride flux, ANO1 has also been proposed to exert signaling-associated or scaffold-like functions in selected malignancies, including head and neck, breast, and lung cancers.",
+          "Although pharmacological studies have progressed from broad inhibitors to selective probes and natural products, a critical need has emerged for a rigorous standard to evaluate these agents.",
+          "A central challenge is distinguishing acute conductance blockade from protein-level downregulation, as these mechanisms may produce distinct biological outcomes.",
+          "Channel inhibition suppresses ion flux while potentially leaving ANO1-associated protein complexes intact, whereas protein reduction may affect both conductance-dependent and signaling-associated functions; however, the extent to which these functions are mechanistically independent remains incompletely established.",
+          "Consequently, regulation of ANO1 stability is emerging as a promising therapeutic strategy in tumors with high ANO1 expression and epidermal growth factor receptor (EGFR) activation.",
+          "However, in clinically relevant EGFR-mutant non-small cell lung cancer models, the role of ANO1 should be interpreted cautiously.",
+          "Current evidence supports ANO1 as a context-dependent preclinical vulnerability rather than an established mechanism for overcoming osimertinib resistance.",
+          "To address methodological inconsistencies in the field, this review summarizes ANO1 cancer pharmacology and proposes a conservative operational evidence framework.",
+          "By establishing strict validation criteria, we classify ANO1 modulators into functional inhibitors, dual modulators, protein-level downregulators, and protein-stability modulators while defining evidence requirements for bona fide targeted degrader designation."
+        ],
+        "journal": "Pharmacol Ther",
+        "year": "2026",
+        "authors": [
+          "Seo Y",
+          "Lee J",
+          "Song H",
+          "Hwang Y"
+        ],
+        "doi": "10.1016/j.pharmthera.2026.109136",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract_sha256": "cbdda025bd02e2e13efeea98f7993b6b54b26591455fc3e7748672964c9f16b7",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42977173/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: resistance.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 7,
+            "evidence": "However, in clinically relevant EGFR-mutant non-small cell lung cancer models, the role of ANO1 should be interpreted cautiously.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 8,
+            "evidence": "Current evidence supports ANO1 as a context-dependent preclinical vulnerability rather than an established mechanism for overcoming osimertinib resistance.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "no",
+            "sentence": 8,
+            "evidence": "Current evidence supports ANO1 as a context-dependent preclinical vulnerability rather than an established mechanism for overcoming osimertinib resistance.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 9,
+            "evidence": "To address methodological inconsistencies in the field, this review summarizes ANO1 cancer pharmacology and proposes a conservative operational evidence framework.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: resistance."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42975994",
+        "title": "FLAURA2 - a step forward in first-line treatment of advanced EGFR-mutated non-small cell lung cancer.",
+        "abstract": "Background: Activating mutations in epidermal growth factor receptor (EGFR) represent one of the most important therapeutically targetable alterations in advanced non-small cell lung cancer (NSCLC). Osimertinib has become a first-line standard of care due to its efficacy, favorable safety profile, and activity in the central nervous system. Nevertheless, most patients eventually experience disease progression during treatment, and searching for strategies that further prolong disease control and delay the emergence of resistance remains an important clinical need. The FLAURA2 study evaluated the combination of osimertinib with platinum-based chemotherapy and pemetrexed in previously untreated patients with locally advanced or metastatic EGFR-mutated non-squamous NSCLC. Compared with osimertinib monotherapy, combination treatment demonstrated a significant prolongation of progression-free survival, and in the final analysis, also a statistically significant improvement in overall survival, with a median of 47.5 months vs. 37.6 months (HR for death 0.77; 95% CI 0.61-0.96; P = 0.02). Aim: The aim of this review article is to summarize the FLAURA2 study and its main clinically relevant results in patients with advanced EGFR-mutated NSCLC treated in the first-line setting. The text describes the study design, characteristics of the study population, and treatment arms, focusing on the efficacy outcomes of osimertinib combined with platinum-pemetrexed chemotherapy compared with osimertinib monotherapy, particularly in terms of progression--free survival, overall survival, and intracranial efficacy. The review also includes a summary of the safety profile of the combination treatment and the main conclusions of the published analyses of the study.",
+        "sentences": [
+          "Background: Activating mutations in epidermal growth factor receptor (EGFR) represent one of the most important therapeutically targetable alterations in advanced non-small cell lung cancer (NSCLC).",
+          "Osimertinib has become a first-line standard of care due to its efficacy, favorable safety profile, and activity in the central nervous system.",
+          "Nevertheless, most patients eventually experience disease progression during treatment, and searching for strategies that further prolong disease control and delay the emergence of resistance remains an important clinical need.",
+          "The FLAURA2 study evaluated the combination of osimertinib with platinum-based chemotherapy and pemetrexed in previously untreated patients with locally advanced or metastatic EGFR-mutated non-squamous NSCLC.",
+          "Compared with osimertinib monotherapy, combination treatment demonstrated a significant prolongation of progression-free survival, and in the final analysis, also a statistically significant improvement in overall survival, with a median of 47.5 months vs. 37.6 months (HR for death 0.77; 95% CI 0.61-0.96; P = 0.02).",
+          "Aim: The aim of this review article is to summarize the FLAURA2 study and its main clinically relevant results in patients with advanced EGFR-mutated NSCLC treated in the first-line setting.",
+          "The text describes the study design, characteristics of the study population, and treatment arms, focusing on the efficacy outcomes of osimertinib combined with platinum-pemetrexed chemotherapy compared with osimertinib monotherapy, particularly in terms of progression--free survival, overall survival, and intracranial efficacy.",
+          "The review also includes a summary of the safety profile of the combination treatment and the main conclusions of the published analyses of the study."
+        ],
+        "journal": "Klin Onkol",
+        "year": "2026",
+        "authors": [
+          "Podhorec J",
+          "Poprach A"
+        ],
+        "doi": "10.48095/ccko2026325",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract_sha256": "74095b2d7e64a0cee863e8fbcd5a9cef4eca5c6407c47d9fe6d530f5193c3239",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42975994/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: resistance.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "The FLAURA2 study evaluated the combination of osimertinib with platinum-based chemotherapy and pemetrexed in previously untreated patients with locally advanced or metastatic EGFR-mutated non-squamous NSCLC.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "The FLAURA2 study evaluated the combination of osimertinib with platinum-based chemotherapy and pemetrexed in previously untreated patients with locally advanced or metastatic EGFR-mutated non-squamous NSCLC.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "no",
+            "sentence": 6,
+            "evidence": "Aim: The aim of this review article is to summarize the FLAURA2 study and its main clinically relevant results in patients with advanced EGFR-mutated NSCLC treated in the first-line setting.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 6,
+            "evidence": "Aim: The aim of this review article is to summarize the FLAURA2 study and its main clinically relevant results in patients with advanced EGFR-mutated NSCLC treated in the first-line setting.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: resistance."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42973948",
+        "title": "Epigenetic regulation of cancer stem cell plasticity and relapse competence in EGFR-mutant lung cancer.",
+        "abstract": "Cancer stem cell (CSC) plasticity is increasingly linked to therapy resistance, yet CSC identity is still often inferred from persistence, stemness markers, or short-term regenerative assays. EGFR-mutant non-small-cell lung cancer is a useful setting in which to examine this problem because residual states can be sampled before stable resistance is established. Here, we focus on how chromatin remodeling, DNA methylation, histone regulation, RNA epigenetics, adaptive signaling, metabolism, and the immune microenvironment influence stem-like behavior during EGFR-targeted therapy. We assess the literature using four evidence levels: state association, functional enrichment, post-treatment durability, and lineage-resolved acquisition of durable CSC function. The available data strongly support epigenetic regulation of therapy-persistent and resistant states, and several models show functional overlap with CSC-associated phenotypes. What remains largely missing is direct evidence that a prospectively identified persister lineage later acquires serially propagating CSC function. Minimal residual disease may therefore represent a period in which relapse-competent states are present but not yet irreversibly established.",
+        "sentences": [
+          "Cancer stem cell (CSC) plasticity is increasingly linked to therapy resistance, yet CSC identity is still often inferred from persistence, stemness markers, or short-term regenerative assays.",
+          "EGFR-mutant non-small-cell lung cancer is a useful setting in which to examine this problem because residual states can be sampled before stable resistance is established.",
+          "Here, we focus on how chromatin remodeling, DNA methylation, histone regulation, RNA epigenetics, adaptive signaling, metabolism, and the immune microenvironment influence stem-like behavior during EGFR-targeted therapy.",
+          "We assess the literature using four evidence levels: state association, functional enrichment, post-treatment durability, and lineage-resolved acquisition of durable CSC function.",
+          "The available data strongly support epigenetic regulation of therapy-persistent and resistant states, and several models show functional overlap with CSC-associated phenotypes.",
+          "What remains largely missing is direct evidence that a prospectively identified persister lineage later acquires serially propagating CSC function.",
+          "Minimal residual disease may therefore represent a period in which relapse-competent states are present but not yet irreversibly established."
+        ],
+        "journal": "Front Oncol",
+        "year": "2026",
+        "authors": [
+          "Sun X",
+          "Xu S",
+          "Guo Q"
+        ],
+        "doi": "10.3389/fonc.2026.1981354",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract_sha256": "c98c8d32f775c6c09f59982d62ca3680ce46c7c8dd0d8d86ccf438ffb2365146",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42973948/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "EGFR-mutant non-small-cell lung cancer is a useful setting in which to examine this problem because residual states can be sampled before stable resistance is established.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 3,
+            "evidence": "Here, we focus on how chromatin remodeling, DNA methylation, histone regulation, RNA epigenetics, adaptive signaling, metabolism, and the immune microenvironment influence stem-like behavior during EGFR-targeted therapy.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 5,
+            "evidence": "The available data strongly support epigenetic regulation of therapy-persistent and resistant states, and several models show functional overlap with CSC-associated phenotypes.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 4,
+            "evidence": "We assess the literature using four evidence levels: state association, functional enrichment, post-treatment durability, and lineage-resolved acquisition of durable CSC function.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug."
+        ],
+        "problems": 0
+      }
+    },
     {
       "paper": {
         "pmid": "42971367",
@@ -1243,32 +1762,36 @@
   ],
   "misses": {
     "capture_recapture": {
-      "primary": 3,
+      "primary": 4,
       "secondary": 2,
       "both": 1,
-      "found": 4,
+      "found": 5,
       "only_secondary": [
         "42957912"
       ],
       "only_primary": [
         "42957218",
-        "42964983"
+        "42964983",
+        "42977475"
       ],
-      "estimate": 5.0,
-      "low": 4,
-      "high": 8,
-      "missed": 1,
+      "estimate": 6.5,
+      "low": 5,
+      "high": 10,
+      "missed": 2,
       "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
     "audit_sample": [
-      "42959092"
+      "42959092",
+      "42973948",
+      "42975994",
+      "42977173"
     ]
   },
   "audit": {
-    "started": "2026-11-03T12:49:46+00:00",
-    "finished": "2026-11-03T12:49:55+00:00",
+    "started": "2026-11-04T13:02:01+00:00",
+    "finished": "2026-11-04T13:02:35+00:00",
     "litwatch_version": "0.1.0",
-    "python": "3.12.15",
+    "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
     "checker_model": "groq/openai/gpt-oss-120b",
     "prompt_versions": {
