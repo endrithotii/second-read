@@ -1,16 +1,16 @@
 {
   "topic": "EGFR-mutant lung cancer: resistance to osimertinib",
   "window": {
-    "start": "2026-10-29",
-    "end": "2026-11-04"
+    "start": "2026-10-31",
+    "end": "2026-11-06"
   },
-  "papers": 9,
+  "papers": 8,
   "accepted": 1,
   "review": 4,
   "check_failed": 4,
-  "excluded": 4,
-  "likely_missed": 2,
+  "excluded": 3,
+  "likely_missed": 0,
   "writer_model": "groq/qwen/qwen3.8-27b",
   "checker_model": "groq/openai/gpt-oss-120b",
-  "finished": "2026-11-04T13:02:35+00:00"
+  "finished": "2026-11-06T13:00:09+00:00"
 }

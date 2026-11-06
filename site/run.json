@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-04-130201",
+  "run_id": "egfr-osimertinib-resistance-2026-11-06-125909",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,32 +93,537 @@
     }
   },
   "window": {
-    "start": "2026-10-29",
-    "end": "2026-11-04"
+    "start": "2026-10-31",
+    "end": "2026-11-06"
   },
   "searches": {
     "main": {
       "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
       "pmids": [
+        "42988853",
+        "42985469",
         "42977475",
         "42977173",
         "42975994",
         "42973948",
         "42971367",
-        "42964983",
-        "42957218"
+        "42964983"
       ]
     },
     "second": {
       "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
       "pmids": [
-        "42971367",
-        "42959092",
-        "42957912"
+        "42988853",
+        "42971367"
       ]
     }
   },
   "entries": [
+    {
+      "paper": {
+        "pmid": "42988853",
+        "title": "ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion in EGFR-TKI-resistant non-small cell lung cancer.",
+        "abstract": "Third-generation EGFR tyrosine kinase inhibitors (TKIs), such as osimertinib, have demonstrated promising clinical efficacy in the treatment of EGFR-mutant non-small cell lung cancer (NSCLC). Despite substantial progress with EGFR-TKIs, the development of acquired resistance remains a major clinical challenge. Notably, the addition of immune checkpoint blockade after TKI resistance has not resulted in significant survival benefits compared to chemotherapy. In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors. Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression. Genetic depletion or pharmacological inhibition of ENPP1 enhanced immune cell-mediated cytotoxicity against TKI-resistant tumor cells. Furthermore, the use of ENPP1 inhibitors both in vitro and in vivo enhanced immune cell activity and antitumor efficacy in TKI-resistant lung cancers with high ENPP1 expression. Importantly, these observations were further validated by paired clinical tumor samples, which demonstrated increased ENPP1 expression following the development of acquired EGFR-TKI resistance. Collectively, our study highlights a critical role for ENPP1 in mediating immune evasion through suppression of the cGAMP-STING pathway in the tumor immune microenvironment, supporting ENPP1 as a promising therapeutic target to enhance immunotherapy efficacy in EGFR-TKI-resistant NSCLC.",
+        "sentences": [
+          "Third-generation EGFR tyrosine kinase inhibitors (TKIs), such as osimertinib, have demonstrated promising clinical efficacy in the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).",
+          "Despite substantial progress with EGFR-TKIs, the development of acquired resistance remains a major clinical challenge.",
+          "Notably, the addition of immune checkpoint blockade after TKI resistance has not resulted in significant survival benefits compared to chemotherapy.",
+          "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.",
+          "Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression.",
+          "Genetic depletion or pharmacological inhibition of ENPP1 enhanced immune cell-mediated cytotoxicity against TKI-resistant tumor cells.",
+          "Furthermore, the use of ENPP1 inhibitors both in vitro and in vivo enhanced immune cell activity and antitumor efficacy in TKI-resistant lung cancers with high ENPP1 expression.",
+          "Importantly, these observations were further validated by paired clinical tumor samples, which demonstrated increased ENPP1 expression following the development of acquired EGFR-TKI resistance.",
+          "Collectively, our study highlights a critical role for ENPP1 in mediating immune evasion through suppression of the cGAMP-STING pathway in the tumor immune microenvironment, supporting ENPP1 as a promising therapeutic target to enhance immunotherapy efficacy in EGFR-TKI-resistant NSCLC."
+        ],
+        "journal": "Cell Death Differ",
+        "year": "2026",
+        "authors": [
+          "Zhou C",
+          "Liu Y",
+          "Liu H",
+          "Wang S",
+          "Lei H",
+          "Tang Y",
+          "Lou Y",
+          "Lu J",
+          "Zhu L",
+          "Han B"
+        ],
+        "doi": "10.1038/s41418-026-01876-6",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "907c26a7c56cbf30cad64b0c86063baf759888a25bcc7bfa35097e8ab7c431b4",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42988853/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion",
+            "sentence": 0,
+            "quote": "ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": "EGFR-TKI-resistant non-small cell lung cancer",
+            "sentence": 0,
+            "quote": "EGFR-TKI-resistant non-small cell lung cancer"
+          },
+          "drug": {
+            "value": "ENPP1 inhibitors",
+            "sentence": 7,
+            "quote": "ENPP1 inhibitors"
+          },
+          "setting": {
+            "value": "EGFR-TKI-resistant",
+            "sentence": 0,
+            "quote": "EGFR-TKI-resistant"
+          },
+          "study_type": {
+            "value": "comprehensive transcriptomic analysis of established osimertinib-resistant tumor models",
+            "sentence": 4,
+            "quote": "comprehensive transcriptomic analysis of established osimertinib-resistant tumor models"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 5,
+            "quote": "Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression."
+          },
+          "key_finding": {
+            "value": "ENPP1 expression was significantly upregulated in resistant tumors and mediates immune evasion through suppression of the cGAMP-STING pathway.",
+            "sentence": 4,
+            "quote": "the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors"
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In EGFR-TKI-resistant non-small cell lung cancer, ENPP1 expression is significantly upregulated to mediate immune evasion by suppressing the cGAS-STING pathway. This resistance mechanism was identified through a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: STING.",
+              "The quote does not say this: mediates, immune, evasion, through, suppression, cGAMP-STING, pathway."
+            ]
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion",
+            "verdict": "supported",
+            "evidence": "Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: EGFR-TKI-resistant non-small cell lung cancer",
+            "verdict": "supported",
+            "evidence": "ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion in EGFR-TKI-resistant non-small cell lung cancer."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: ENPP1 inhibitors",
+            "verdict": "supported",
+            "evidence": "Genetic depletion or pharmacological inhibition of ENPP1 enhanced immune cell-mediated cytotoxicity against TKI-resistant tumor cells."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: EGFR-TKI-resistant",
+            "verdict": "supported",
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: comprehensive transcriptomic analysis of established osimertinib-resistant tumor models (classification)",
+            "verdict": "supported",
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: ENPP1 expression was significantly upregulated in resistant tumors and mediates immune evasion through suppression of the cGAMP-STING pathway.",
+            "verdict": "supported",
+            "evidence": "Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In EGFR-TKI-resistant non-small cell lung cancer, ENPP1 expression is significantly upregulated to mediate immune evasion by suppressing the cGAS-STING pathway.",
+            "verdict": "supported",
+            "evidence": "Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This resistance mechanism was identified through a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models.",
+            "verdict": "supported",
+            "evidence": "In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors."
+          }
+        ],
+        "omitted": [
+          "setting: after progression on osimertinib"
+        ],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Key finding: Not in the quote: STING.",
+          "Key finding: The quote does not say this: mediates, immune, evasion, through, suppression, cGAMP-STING, pathway.",
+          "The second model found 1 relevant finding the record leaves out."
+        ],
+        "problems": 3,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "42985469",
+        "title": "Epigenetic Silencing of ZNF471 Contributes to Osimertinib Resistance in Lung Adenocarcinoma: β-Hydroxybutyrate Associates with ZNF471 Re-Expression and Reduced Resistance-Associated Phenotypes.",
+        "abstract": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process. This study aimed to determine whether promoter hypermethylation-associated silencing of zinc finger protein 471 (ZNF471) contributes to resistance and whether β-hydroxybutyrate (BHB) can restore ZNF471 expression. Methods: ZNF471 expression and promoter methylation were analyzed in public datasets, clinical samples, and osimertinib-sensitive and resistant cell lines. Functional assays and signaling analyses were performed in vitro, and BHB treatment and ZNF471 overexpression were evaluated in xenografts. Results: ZNF471 was downregulated and hypermethylated in LUAD, and low expression was associated with advanced stage and poor survival. ZNF471 restoration reduced the osimertinib half-maximal inhibitory concentration, inhibited migration, invasion, and tumorsphere formation, and was associated with suppression of PI3K/AKT/mTOR signaling, whereas ZNF471 knockdown had the opposite effect. BHB increased ZNF471 expression, reduced methylation-specific PCR signals, and synergized with osimertinib in resistant cells in vitro. In xenografts, BHB treatment and ZNF471 overexpression each inhibited tumor growth. Conclusions: ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD. BHB may enhance osimertinib response by reactivating ZNF471. ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD. BHB may enhance osimertinib response by reactivating ZNF471. Taken together, these findings suggest that BHB is associated with ZNF471 re-expression and reduced osimertinib resistance-associated phenotypes in LUAD cells, although whether ZNF471 is required for this effect remains to be determined.",
+        "sentences": [
+          "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.",
+          "This study aimed to determine whether promoter hypermethylation-associated silencing of zinc finger protein 471 (ZNF471) contributes to resistance and whether β-hydroxybutyrate (BHB) can restore ZNF471 expression.",
+          "Methods: ZNF471 expression and promoter methylation were analyzed in public datasets, clinical samples, and osimertinib-sensitive and resistant cell lines.",
+          "Functional assays and signaling analyses were performed in vitro, and BHB treatment and ZNF471 overexpression were evaluated in xenografts.",
+          "Results: ZNF471 was downregulated and hypermethylated in LUAD, and low expression was associated with advanced stage and poor survival.",
+          "ZNF471 restoration reduced the osimertinib half-maximal inhibitory concentration, inhibited migration, invasion, and tumorsphere formation, and was associated with suppression of PI3K/AKT/mTOR signaling, whereas ZNF471 knockdown had the opposite effect.",
+          "BHB increased ZNF471 expression, reduced methylation-specific PCR signals, and synergized with osimertinib in resistant cells in vitro.",
+          "In xenografts, BHB treatment and ZNF471 overexpression each inhibited tumor growth.",
+          "Conclusions: ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.",
+          "BHB may enhance osimertinib response by reactivating ZNF471.",
+          "ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.",
+          "BHB may enhance osimertinib response by reactivating ZNF471.",
+          "Taken together, these findings suggest that BHB is associated with ZNF471 re-expression and reduced osimertinib resistance-associated phenotypes in LUAD cells, although whether ZNF471 is required for this effect remains to be determined."
+        ],
+        "journal": "Oncol Res",
+        "year": "2026",
+        "authors": [
+          "Feng D",
+          "Yan H",
+          "Ni Q",
+          "Peng Z",
+          "Xu X",
+          "Liang Y",
+          "Liu C"
+        ],
+        "doi": "10.32604/or.2026.087712",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "ba1567dbc84d5568229a6342b6b53afe90e3cc22f70725ea6209ba4abaf9af2e",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42985469/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Methods: ZNF471 expression and promoter methylation were analyzed in public datasets, clinical samples, and osimertinib-sensitive and resistant cell lines.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "epigenetic silencing of zinc finger protein 471 (ZNF471)",
+            "sentence": 2,
+            "quote": "promoter hypermethylation-associated silencing of zinc finger protein 471 (ZNF471) contributes to resistance"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": "EGFR-mutant lung adenocarcinoma (LUAD)",
+            "sentence": 1,
+            "quote": "epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD)"
+          },
+          "drug": {
+            "value": "osimertinib",
+            "sentence": 1,
+            "quote": "osimertinib"
+          },
+          "setting": {
+            "value": "Acquired resistance",
+            "sentence": 1,
+            "quote": "Acquired resistance limits the benefit of osimertinib"
+          },
+          "study_type": {
+            "value": "cell-line study",
+            "sentence": 3,
+            "quote": "osimertinib-sensitive and resistant cell lines"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 9,
+            "quote": "ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD."
+          },
+          "key_finding": {
+            "value": "ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.",
+            "sentence": 9,
+            "quote": "ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In a cell-line study of EGFR-mutant lung adenocarcinoma, epigenetic silencing of the zinc finger protein 471 (ZNF471) was identified as a mechanism of acquired resistance to osimertinib. ZNF471 functions as a modulator of osimertinib sensitivity in this context.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: epigenetic silencing of zinc finger protein 471 (ZNF471)",
+            "verdict": "supported",
+            "evidence": "Results: ZNF471 was downregulated and hypermethylated in LUAD, and low expression was associated with advanced stage and poor survival."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: EGFR-mutant lung adenocarcinoma (LUAD)",
+            "verdict": "supported",
+            "evidence": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib",
+            "verdict": "supported",
+            "evidence": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: Acquired resistance",
+            "verdict": "supported",
+            "evidence": "Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: cell-line study (classification)",
+            "verdict": "contradicted",
+            "evidence": "Functional assays and signaling analyses were performed in vitro, and BHB treatment and ZNF471 overexpression were evaluated in xenografts."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Results: ZNF471 was downregulated and hypermethylated in LUAD, and low expression was associated with advanced stage and poor survival."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.",
+            "verdict": "supported",
+            "evidence": "Conclusions: ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In a cell-line study of EGFR-mutant lung adenocarcinoma, epigenetic silencing of the zinc finger protein 471 (ZNF471) was identified as a mechanism of acquired resistance to osimertinib.",
+            "verdict": "supported",
+            "evidence": "Results: ZNF471 was downregulated and hypermethylated in LUAD, and low expression was associated with advanced stage and poor survival."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "ZNF471 functions as a modulator of osimertinib sensitivity in this context.",
+            "verdict": "supported",
+            "evidence": "ZNF471 restoration reduced the osimertinib half-maximal inhibitory concentration, inhibited migration, invasion, and tumorsphere formation, and was associated with suppression of PI3K/AKT/mTOR signaling, whereas ZNF471 knockdown had the opposite effect."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Study type: the second model says the abstract states something different."
+        ],
+        "problems": 1,
+        "notes": []
+      }
+    },
     {
       "paper": {
         "pmid": "42977475",
@@ -1132,664 +1637,35 @@
         "problems": 2,
         "notes": []
       }
-    },
-    {
-      "paper": {
-        "pmid": "42957218",
-        "title": "Long-term Disease Control After Probable Endobronchial Small-cell Transformation During Osimertinib Therapy for EGFR-mutant Lung Adenocarcinoma.",
-        "abstract": "Background/aim: Osimertinib provides durable progression-free survival in EGFR-mutant non-small-cell lung cancer (NSCLC), but acquired resistance is inevitable. Histologic transformation to small-cell lung cancer (SCLC) is a recognized resistance mechanism, typically presenting with widespread metastatic disease and a poor prognosis. Optimal post-transformation treatment strategies have not been established. Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus. Rigid bronchoscopic resection and temporary airway stenting relieved the critical obstruction. Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation. The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years. Conclusion: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy. Further case accumulation is warranted to establish optimal treatment strategies.",
-        "sentences": [
-          "Background/aim: Osimertinib provides durable progression-free survival in EGFR-mutant non-small-cell lung cancer (NSCLC), but acquired resistance is inevitable.",
-          "Histologic transformation to small-cell lung cancer (SCLC) is a recognized resistance mechanism, typically presenting with widespread metastatic disease and a poor prognosis.",
-          "Optimal post-transformation treatment strategies have not been established.",
-          "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
-          "Rigid bronchoscopic resection and temporary airway stenting relieved the critical obstruction.",
-          "Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation.",
-          "The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years.",
-          "Conclusion: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy.",
-          "Further case accumulation is warranted to establish optimal treatment strategies."
-        ],
-        "journal": "In Vivo",
-        "year": "2026",
-        "authors": [
-          "Murayama N",
-          "Inomata M",
-          "Matsumoto M",
-          "Furukawa D",
-          "Ichikawa T",
-          "Maeda Y",
-          "Shinno H",
-          "Nakanishi Y",
-          "Ishizawa S"
-        ],
-        "doi": "10.21873/invivo.14531",
-        "publication_types": [
-          "Journal Article",
-          "Case Reports"
-        ],
-        "abstract_sha256": "d88d141f16eda886eb153de26d2c279b80a4c675049ca04028c42ce1a5cedf04",
-        "found_by": [
-          "main"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42957218/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 6,
-            "evidence": "Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation.",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "histologic transformation",
-            "sentence": 6,
-            "quote": "probable histologic transformation"
-          },
-          "variant": {
-            "value": "EGFR exon 19 deletion",
-            "sentence": 4,
-            "quote": "EGFR exon 19 deletion"
-          },
-          "context": {
-            "value": "concordant p53 over-expression and loss of Rb expression",
-            "sentence": 6,
-            "quote": "concordant p53 over-expression and loss of Rb expression"
-          },
-          "drug": {
-            "value": "osimertinib",
-            "sentence": 4,
-            "quote": "osimertinib"
-          },
-          "setting": {
-            "value": "during osimertinib therapy",
-            "sentence": 0,
-            "quote": "During Osimertinib Therapy"
-          },
-          "study_type": {
-            "value": "case report",
-            "sentence": 4,
-            "quote": "Case report"
-          },
-          "n_patients": {
-            "value": "1",
-            "sentence": 4,
-            "quote": "a patient"
-          },
-          "finding_type": {
-            "value": "treatment after resistance",
-            "sentence": 8,
-            "quote": "An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy."
-          },
-          "key_finding": {
-            "value": "An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy.",
-            "sentence": 8,
-            "quote": "An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy."
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "A case report describes a patient with EGFR exon 19 deletion who developed small cell lung cancer (SCLC) during osimertinib therapy, characterized by histologic transformation, concordant p53 over-expression, and loss of Rb expression. An individualized multidisciplinary approach involving rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption achieved prolonged disease control in this locoregionally confined case.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "variant": {
-            "passed": true,
-            "problems": []
-          },
-          "context": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "n_patients": {
-            "passed": false,
-            "problems": [
-              "Number not in the abstract: 1."
-            ]
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: histologic transformation",
-            "verdict": "supported",
-            "evidence": "Histologic transformation to small-cell lung cancer (SCLC) is a recognized resistance mechanism, typically presenting with widespread metastatic disease and a poor prognosis."
-          },
-          {
-            "kind": "field",
-            "id": "variant",
-            "text": "variant: EGFR exon 19 deletion",
-            "verdict": "supported",
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
-          },
-          {
-            "kind": "field",
-            "id": "context",
-            "text": "context: concordant p53 over-expression and loss of Rb expression",
-            "verdict": "supported",
-            "evidence": "Pathologic examination confirmed SCLC, and immunohistochemistry of both the initial adenocarcinoma and the endobronchial lesion demonstrated concordant p53 over-expression and loss of Rb expression, supporting a clinical diagnosis of probable histologic transformation."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: osimertinib",
-            "verdict": "supported",
-            "evidence": "Background/aim: Osimertinib provides durable progression-free survival in EGFR-mutant non-small-cell lung cancer (NSCLC), but acquired resistance is inevitable."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: during osimertinib therapy",
-            "verdict": "supported",
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: case report (classification)",
-            "verdict": "supported",
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
-          },
-          {
-            "kind": "field",
-            "id": "n_patients",
-            "text": "n_patients: 1",
-            "verdict": "supported",
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: treatment after resistance (classification)",
-            "verdict": "supported",
-            "evidence": "The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy.",
-            "verdict": "supported",
-            "evidence": "Conclusion: An individualized, multidisciplinary approach comprising rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption may achieve prolonged disease control in locoregionally confined SCLC arising during osimertinib therapy."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "A case report describes a patient with EGFR exon 19 deletion who developed small cell lung cancer (SCLC) during osimertinib therapy, characterized by histologic transformation, concordant p53 over-expression, and loss of Rb expression.",
-            "verdict": "supported",
-            "evidence": "Case report: We report a patient with EGFR exon 19 deletion-positive lung adenocarcinoma who achieved prolonged disease control on osimertinib for mediastinal lymph node recurrence before developing a new endobronchial lesion in the left main bronchus."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "An individualized multidisciplinary approach involving rigid bronchoscopic resection, temporary airway stenting, chemoradiotherapy, and osimertinib resumption achieved prolonged disease control in this locoregionally confined case.",
-            "verdict": "supported",
-            "evidence": "The patient was bridged to sequential chemoradiotherapy, followed by successful stent removal and the resumption of osimertinib, resulting in long-term disease control exceeding four years."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "review",
-        "reasons": [
-          "N patients: Number not in the abstract: 1.",
-          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
-        ],
-        "problems": 1,
-        "notes": []
-      }
-    },
-    {
-      "paper": {
-        "pmid": "42959092",
-        "title": "Simultaneous occurrence of HER2 mutation and PD-L1 high expression in EGFR-mutant NSCLC: a case report.",
-        "abstract": "In non-small cell lung cancer (NSCLC), EGFR and HER2 mutations are generally considered mutually exclusive events, with a co-occurrence probability estimated to be less than 1%. Patients with either EGFR or HER2 mutations tend to exhibit low PD-L1 expression levels. The simultaneous presence of both EGFR and HER2 mutations accompanied by high PD-L1 expression is exceedingly rare. This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion). As the patient refused repeat biopsy, treatment with an ADC drug (Trastuzumab rezetecan) was initiated. Disease control was achieved after only one cycle of treatment, and the regimen was continued thereafter. The progression-free survival has exceeded 5.3 months, and at the time of writing this report, the disease remained well-controlled. This paper presents the first report of this rare and therapeutically challenging combination of molecular pathological features-concurrent EGFR and HER2 mutations with high PD-L1 expression in an NSCLC patient. When standard first-line third-generation EGFR-TKIs proved ineffective, the successful use of an anti-HER2 ADC drug to control the tumor demonstrates its potential clinical value. However, whether all patients initially presenting with this pathological molecular subtype will achieve consistent efficacy remains to be further investigated.",
-        "sentences": [
-          "In non-small cell lung cancer (NSCLC), EGFR and HER2 mutations are generally considered mutually exclusive events, with a co-occurrence probability estimated to be less than 1%.",
-          "Patients with either EGFR or HER2 mutations tend to exhibit low PD-L1 expression levels.",
-          "The simultaneous presence of both EGFR and HER2 mutations accompanied by high PD-L1 expression is exceedingly rare.",
-          "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
-          "As the patient refused repeat biopsy, treatment with an ADC drug (Trastuzumab rezetecan) was initiated.",
-          "Disease control was achieved after only one cycle of treatment, and the regimen was continued thereafter.",
-          "The progression-free survival has exceeded 5.3 months, and at the time of writing this report, the disease remained well-controlled.",
-          "This paper presents the first report of this rare and therapeutically challenging combination of molecular pathological features-concurrent EGFR and HER2 mutations with high PD-L1 expression in an NSCLC patient.",
-          "When standard first-line third-generation EGFR-TKIs proved ineffective, the successful use of an anti-HER2 ADC drug to control the tumor demonstrates its potential clinical value.",
-          "However, whether all patients initially presenting with this pathological molecular subtype will achieve consistent efficacy remains to be further investigated."
-        ],
-        "journal": "Front Oncol",
-        "year": "2026",
-        "authors": [
-          "Su Y",
-          "Su H",
-          "Lin J"
-        ],
-        "doi": "10.3389/fonc.2026.1953767",
-        "publication_types": [
-          "Case Reports",
-          "Journal Article"
-        ],
-        "abstract_sha256": "0f70d7b4af921e6e5a820c5c4db9f0e02f6c4e9e01e3bdb91a933a550031d968",
-        "found_by": [
-          "second"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42959092/"
-      },
-      "screening": {
-        "decision": "exclude",
-        "reason": "Does not meet: drug, resistance.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "no",
-            "sentence": 4,
-            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "no",
-            "sentence": 4,
-            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "This study reports a female patient who was admitted to the hospital after a routine physical examination revealed a right lung nodule and was diagnosed with \"right lung adenocarcinoma (cT2aN2aM1c1, IVA; EGFR 21 L858R mutation; HER2 exon 8 mutation; PD-L1 TPS 60%).\" The patient was immediately started on first-line third-generation EGFR-targeted therapy (Furmonertinib), but disease progression occurred after just 4.4 months (malignant pleural effusion and pericardial effusion).",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "route": {
-        "outcome": "excluded",
-        "reasons": [
-          "Does not meet: drug, resistance."
-        ],
-        "problems": 0
-      }
-    },
-    {
-      "paper": {
-        "pmid": "42957912",
-        "title": "Genomic landscape of EGFR-TKI resistance: from known mechanisms to unknown resistance.",
-        "abstract": "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC). However, resistance inevitably restricts their efficacy. Although well-documented acquired resistance mechanisms have been extensively characterized, approximately 30% of patients with EGFR-TKI resistance still present with unknown resistance (UR) mechanisms, and the driving factors behind primary resistance remain inadequately understood. Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients. Results: The molecular landscape of EGFR-TKI resistance was systematically characterized. In the resistance cohort, 68.72% (512/745) harbored known resistance (KR) mechanisms, while 31.28% (233/745) were classified as UR. The landscape of KR was significantly influenced by EGFR-TKI generation. First-line third-generation TKI resistance demonstrated fewer EGFR-dependent events compared to first-generation TKIs (p < 0.01) and more RTK and PI3K-AKT-mTOR (PAM) pathway alterations (p < 0.05). In the UR cohort, pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways. Differential gene analysis identified significant enrichment of MYC, BRCA1, EPHB, and PTPRD in the UR subgroup. To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004). Conclusions: This study provides a comprehensive real-world landscape of EGFR-TKI resistance, demonstrating distinct mechanisms influenced by TKI generation. ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance. These findings suggest that epigenetic dysregulation may be a critical driver of both unknown and primary resistance to EGFR-TKIs.",
-        "sentences": [
-          "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC).",
-          "However, resistance inevitably restricts their efficacy.",
-          "Although well-documented acquired resistance mechanisms have been extensively characterized, approximately 30% of patients with EGFR-TKI resistance still present with unknown resistance (UR) mechanisms, and the driving factors behind primary resistance remain inadequately understood.",
-          "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients.",
-          "Results: The molecular landscape of EGFR-TKI resistance was systematically characterized.",
-          "In the resistance cohort, 68.72% (512/745) harbored known resistance (KR) mechanisms, while 31.28% (233/745) were classified as UR.",
-          "The landscape of KR was significantly influenced by EGFR-TKI generation.",
-          "First-line third-generation TKI resistance demonstrated fewer EGFR-dependent events compared to first-generation TKIs (p < 0.01) and more RTK and PI3K-AKT-mTOR (PAM) pathway alterations (p < 0.05).",
-          "In the UR cohort, pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways.",
-          "Differential gene analysis identified significant enrichment of MYC, BRCA1, EPHB, and PTPRD in the UR subgroup.",
-          "To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004).",
-          "Conclusions: This study provides a comprehensive real-world landscape of EGFR-TKI resistance, demonstrating distinct mechanisms influenced by TKI generation.",
-          "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance.",
-          "These findings suggest that epigenetic dysregulation may be a critical driver of both unknown and primary resistance to EGFR-TKIs."
-        ],
-        "journal": "Cell Oncol (Dordr)",
-        "year": "2026",
-        "authors": [
-          "Zhao S",
-          "Zhou F",
-          "Chen W",
-          "Wang S",
-          "Zhou C"
-        ],
-        "doi": "10.1007/s13402-026-01253-y",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "abstract_sha256": "8f6a0f52d501ad329575050d9df0dce21195da269a7396c05c4d7fa8f10e5e8e",
-        "found_by": [
-          "second"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42957912/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Included because unclear on: drug. Unclear counts as include, so nothing relevant is dropped.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients.",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "unclear",
-            "sentence": null,
-            "evidence": null,
-            "grounded": false
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 6,
-            "evidence": "In the resistance cohort, 68.72% (512/745) harbored known resistance (KR) mechanisms, while 31.28% (233/745) were classified as UR.",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "ATP-dependent chromatin remodeling pathways",
-            "sentence": 9,
-            "quote": "pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways"
-          },
-          "variant": {
-            "value": "IKZF1 amplification",
-            "sentence": 11,
-            "quote": "baseline IKZF1 amplification"
-          },
-          "context": {
-            "value": "baseline",
-            "sentence": 11,
-            "quote": "baseline IKZF1 amplification"
-          },
-          "drug": {
-            "value": "EGFR-TKIs",
-            "sentence": 1,
-            "quote": "Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs)"
-          },
-          "setting": {
-            "value": "first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)",
-            "sentence": 1,
-            "quote": "standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)"
-          },
-          "study_type": {
-            "value": "retrospective cohort study",
-            "sentence": 4,
-            "quote": "retrospective cohort study"
-          },
-          "n_patients": {
-            "value": "928",
-            "sentence": 4,
-            "quote": "928 samples"
-          },
-          "finding_type": {
-            "value": "resistance mechanism",
-            "sentence": 13,
-            "quote": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
-          },
-          "key_finding": {
-            "value": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance.",
-            "sentence": 13,
-            "quote": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "In a retrospective cohort of 928 patients with advanced EGFR-mutant NSCLC receiving first-line EGFR-TKIs, ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance. Additionally, baseline IKZF1 amplification emerged as a candidate biomarker for primary resistance to these therapies.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "variant": {
-            "passed": true,
-            "problems": []
-          },
-          "context": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "n_patients": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: ATP-dependent chromatin remodeling pathways",
-            "verdict": "supported",
-            "evidence": "In the UR cohort, pathway analysis revealed unique enrichment of atypical pathways, most notably ATP-dependent chromatin remodeling pathways."
-          },
-          {
-            "kind": "field",
-            "id": "variant",
-            "text": "variant: IKZF1 amplification",
-            "verdict": "supported",
-            "evidence": "To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004)."
-          },
-          {
-            "kind": "field",
-            "id": "context",
-            "text": "context: baseline",
-            "verdict": "supported",
-            "evidence": "To investigate primary resistance, we found that baseline IKZF1 amplification was significantly enriched in patients with short time-to-treatment-failure (TTF) and correlated with significantly poorer outcomes (HR = 3.02, 95% CI 1.32-6.90; log-rank p = 0.004)."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: EGFR-TKIs",
-            "verdict": "supported",
-            "evidence": "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)",
-            "verdict": "supported",
-            "evidence": "Purpose: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) serve as the standard first-line therapy for advanced EGFR-mutant non-small-cell lung cancer (NSCLC)."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: retrospective cohort study (classification)",
-            "verdict": "supported",
-            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients."
-          },
-          {
-            "kind": "field",
-            "id": "n_patients",
-            "text": "n_patients: 928",
-            "verdict": "supported",
-            "evidence": "Methods: In this study, we conducted a large-scale, retrospective cohort study, performing target-capture deep sequencing (>400 genes) on 928 samples from 745 EGFR-TKI-resistant and 183 TKI-naïve EGFR-mutant NSCLC patients."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: resistance mechanism (classification)",
-            "verdict": "supported",
-            "evidence": "Results: The molecular landscape of EGFR-TKI resistance was systematically characterized."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance.",
-            "verdict": "supported",
-            "evidence": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "In a retrospective cohort of 928 patients with advanced EGFR-mutant NSCLC receiving first-line EGFR-TKIs, ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance.",
-            "verdict": "beyond",
-            "evidence": null
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "Additionally, baseline IKZF1 amplification emerged as a candidate biomarker for primary resistance to these therapies.",
-            "verdict": "supported",
-            "evidence": "ATP-dependent chromatin remodeling was identified as a distinctive pathway feature of unknown resistance, and baseline IKZF1 amplification emerged as a candidate biomarker of EGFR-TKI primary resistance."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "review",
-        "reasons": [
-          "Screening could not tell from the abstract whether it meets “Drug”.",
-          "Summary sentence 1: the second model could not find this in the abstract."
-        ],
-        "problems": 1,
-        "notes": []
-      }
     }
   ],
   "misses": {
     "capture_recapture": {
-      "primary": 4,
+      "primary": 5,
       "secondary": 2,
-      "both": 1,
+      "both": 2,
       "found": 5,
-      "only_secondary": [
-        "42957912"
-      ],
+      "only_secondary": [],
       "only_primary": [
-        "42957218",
         "42964983",
-        "42977475"
+        "42977475",
+        "42985469"
       ],
-      "estimate": 6.5,
+      "estimate": 5.0,
       "low": 5,
-      "high": 10,
-      "missed": 2,
+      "high": 5,
+      "missed": 0,
       "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
     "audit_sample": [
-      "42959092",
       "42973948",
       "42975994",
       "42977173"
     ]
   },
   "audit": {
-    "started": "2026-11-04T13:02:01+00:00",
-    "finished": "2026-11-04T13:02:35+00:00",
+    "started": "2026-11-06T12:59:09+00:00",
+    "finished": "2026-11-06T13:00:09+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
