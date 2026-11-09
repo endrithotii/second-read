@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-08-115805",
+  "run_id": "egfr-osimertinib-resistance-2026-11-09-135703",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,8 +93,8 @@
     }
   },
   "window": {
-    "start": "2026-11-02",
-    "end": "2026-11-08"
+    "start": "2026-11-03",
+    "end": "2026-11-09"
   },
   "searches": {
     "main": {
@@ -107,16 +107,14 @@
         "42977475",
         "42977173",
         "42975994",
-        "42973948",
-        "42971367"
+        "42973948"
       ]
     },
     "second": {
       "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
       "pmids": [
         "42994820",
-        "42988853",
-        "42971367"
+        "42988853"
       ]
     }
   },
@@ -1489,247 +1487,6 @@
     },
     {
       "paper": {
-        "pmid": "42971367",
-        "title": "Reversal of acquired osimertinib resistance by YAP inhibition in lung cancer is associated with lipid metabolic reprogramming.",
-        "abstract": "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC). However, recent studies have found that its acquired resistance severely limits its therapeutic effect. This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge. In H1975/OR cells, YAP phosphorylation was decreased and nuclear translocation was increased, indicating YAP activation. Inhibition or knockdown of YAP significantly re-stored Osi sensitivity. YAP upregulated the expression of sterol regulatory element-binding protein 1 (SREBP1), fatty acid synthase (FASN), and stearoyl-CoA desaturase (SCD1), and promoted the synthesis of triglycerides, cholesterol, and phospholipids. Lipidomics revealed that YAP inhibition reduced multiple phospholipids. Furthermore, inhibition of YAP downregulated the anti-apoptotic protein B-cell lymphoma 2 (BCL2) and enhanced Osi-induced apoptosis. This study firstly links YAP activation to lipid metabolic reprogramming and reveals its crucial role in Osi-acquired resistance. These findings not only deepen the understanding of the EGFR-TKI resistance mechanism but also provide a new therapeutic strategy for clinically overcoming Osi-acquired resistance. Targeting the phospholipid synthesis pathway mediated by YAP may effectively reverse the acquired resistance of NSCLC to Osi.",
-        "sentences": [
-          "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC).",
-          "However, recent studies have found that its acquired resistance severely limits its therapeutic effect.",
-          "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge.",
-          "In H1975/OR cells, YAP phosphorylation was decreased and nuclear translocation was increased, indicating YAP activation.",
-          "Inhibition or knockdown of YAP significantly re-stored Osi sensitivity.",
-          "YAP upregulated the expression of sterol regulatory element-binding protein 1 (SREBP1), fatty acid synthase (FASN), and stearoyl-CoA desaturase (SCD1), and promoted the synthesis of triglycerides, cholesterol, and phospholipids.",
-          "Lipidomics revealed that YAP inhibition reduced multiple phospholipids.",
-          "Furthermore, inhibition of YAP downregulated the anti-apoptotic protein B-cell lymphoma 2 (BCL2) and enhanced Osi-induced apoptosis.",
-          "This study firstly links YAP activation to lipid metabolic reprogramming and reveals its crucial role in Osi-acquired resistance.",
-          "These findings not only deepen the understanding of the EGFR-TKI resistance mechanism but also provide a new therapeutic strategy for clinically overcoming Osi-acquired resistance.",
-          "Targeting the phospholipid synthesis pathway mediated by YAP may effectively reverse the acquired resistance of NSCLC to Osi."
-        ],
-        "journal": "Toxicol Appl Pharmacol",
-        "year": "2026",
-        "authors": [
-          "Huang J",
-          "Gao Y",
-          "Jiang S",
-          "Chen M",
-          "Qin Z",
-          "Yu T",
-          "Nong T",
-          "Yang L",
-          "Huang M",
-          "Luo Y",
-          "Jin J"
-        ],
-        "doi": "10.1016/j.taap.2026.118098",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "abstract_sha256": "9f09b406223667681772a36b8d889d92995b3b6aa93035982591f488dbf9824b",
-        "found_by": [
-          "main",
-          "second"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42971367/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC).",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Osimertinib (Osi), as the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI), has demonstrated remarkable efficacy in the treatment of non-small cell lung cancer (NSCLC).",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 3,
-            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge.",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "In H1975/OR cells, YAP phosphorylation was decreased and nuclear translocation was increased, indicating YAP activation.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "YAP activation is associated with lipid metabolic reprogramming",
-            "sentence": 3,
-            "quote": "YAP activation is associated with lipid metabolic reprogramming"
-          },
-          "variant": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "context": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "drug": {
-            "value": "YAP inhibition",
-            "sentence": 5,
-            "quote": "Inhibition or knockdown of YAP"
-          },
-          "setting": {
-            "value": "Osi-acquired resistance",
-            "sentence": 3,
-            "quote": "Osi-acquired resistance"
-          },
-          "study_type": {
-            "value": "cell-line study",
-            "sentence": 4,
-            "quote": "In H1975/OR cells"
-          },
-          "n_patients": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "finding_type": {
-            "value": "resistance mechanism",
-            "sentence": 9,
-            "quote": "This study firstly links YAP activation to lipid metabolic reprogramming and reveals its crucial role in Osi-acquired resistance."
-          },
-          "key_finding": {
-            "value": "YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, and inhibition of YAP re-stored Osi sensitivity.",
-            "sentence": 3,
-            "quote": "YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance"
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "In a cell-line study of Osi-acquired resistance, YAP activation was found to be associated with lipid metabolic reprogramming. Inhibition of YAP re-established sensitivity to Osi.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: YAP activation is associated with lipid metabolic reprogramming",
-            "verdict": "supported",
-            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: YAP inhibition",
-            "verdict": "supported",
-            "evidence": "Inhibition or knockdown of YAP significantly re-stored Osi sensitivity."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: Osi-acquired resistance",
-            "verdict": "supported",
-            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: cell-line study (classification)",
-            "verdict": "beyond",
-            "evidence": null
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: resistance mechanism (classification)",
-            "verdict": "supported",
-            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, and inhibition of YAP re-stored Osi sensitivity.",
-            "verdict": "supported",
-            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "In a cell-line study of Osi-acquired resistance, YAP activation was found to be associated with lipid metabolic reprogramming.",
-            "verdict": "supported",
-            "evidence": "This study shows that YAP activation is associated with lipid metabolic reprogramming in Osi-acquired resistance, providing new insights into overcoming this clinical challenge."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "Inhibition of YAP re-established sensitivity to Osi.",
-            "verdict": "supported",
-            "evidence": "Inhibition or knockdown of YAP significantly re-stored Osi sensitivity."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "accepted",
-        "reasons": [],
-        "problems": 0,
-        "notes": [
-          "Study type: a judgement the second model could not confirm from the abstract."
-        ]
-      }
-    },
-    {
-      "paper": {
         "pmid": "42994820",
         "title": "Successful rechallenge with almonertinib and corticosteroids after gefitinib-induced interstitial lung disease: A case report and literature review.",
         "abstract": "Rationale: First-generation epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) are highly effective in EGFR-mutant non-small cell lung cancer (NSCLC); however, drug-induced interstitial lung disease (ILD) remains a rare but potentially fatal adverse event. The safety and efficacy of EGFR-TKI rechallenge - either with the same agent or an alternative one - following ILD resolution are not established and represent a significant clinical knowledge gap. Patient concerns: A 53-year-old never-smoking woman with stage IV lung adenocarcinoma - detected to harbor an L858R mutation in exon 21 of the EGFR gene - developed progressive dyspnea and hypoxemia after 2 months of first-line gefitinib therapy, despite confirmed initial radiographic and clinical response. Diagnoses: The patient was diagnosed with grade 3 gefitinib-associated ILD. Interventions: With the discontinuation of gefitinib, the patient was given methylprednisolone to resolve ILD. To control advanced lung adenocarcinoma progression, the patient was subjected to 6 cycles of treatment using pemetrexed, carboplatin, and bevacizumab, with measurable tumor shrinkage, followed by maintenance therapy with bevacizumab. Furthermore, given the tumor progression 14 months later, the patient was prescribed docetaxel plus bevacizumab to restore control. Ten months later, the patient experienced disease progression and strongly requested to use EGFR-TKIs again given prior response to EGFR-TKI. The patient was rechallenged with almonertinib, a third-generation EGFR-TKI, and methylprednisolone. Outcomes: The patient had measurable tumor shrinkage, with sustained tumor control and no recurrence of pulmonary toxicity. As of last follow-up, she maintained progression-free survival for approximately 8 months on almonertinib. Lessons: This case provides a hypothesis-generating observation, illustrating feasibility only in highly-selected patients with EGFR-mutant NSCLC and prior severe TKI-related ILD. With prophylactic corticosteroids and rigorous surveillance, third-generation EGFR-TKI may represent a tentative clinical option for such patients, but general safety cannot be inferred from this single case.",
@@ -1820,19 +1577,19 @@
   ],
   "misses": {
     "capture_recapture": {
-      "primary": 5,
-      "secondary": 2,
-      "both": 2,
-      "found": 5,
+      "primary": 4,
+      "secondary": 1,
+      "both": 1,
+      "found": 4,
       "only_secondary": [],
       "only_primary": [
         "42977475",
         "42985469",
         "42991359"
       ],
-      "estimate": 5.0,
-      "low": 5,
-      "high": 5,
+      "estimate": 4.0,
+      "low": 4,
+      "high": 4,
       "missed": 0,
       "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
@@ -1845,8 +1602,8 @@
     ]
   },
   "audit": {
-    "started": "2026-11-08T11:58:05+00:00",
-    "finished": "2026-11-08T11:58:07+00:00",
+    "started": "2026-11-09T13:57:03+00:00",
+    "finished": "2026-11-09T13:57:04+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
