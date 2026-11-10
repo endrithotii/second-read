@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Second Read: EGFR-mutant lung cancer: resistance to osimertinib</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,400;1,400&display=swap">
+<style>
+:root {
+  --paper: #EEF2F0;
+  --sheet: #F8FAF9;
+  --ink: #1B262B;
+  --muted: #55646A;
+  --rule: #C9D3D0;
+  --petrol: #24657A;
+  --ochre: #8A5F00;
+  --ochre-bar: #C9922B;
+  --carmine: #A3263F;
+  --excluded: #B4C0BD;
+  --text: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --source: "Spectral", Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); }
+body { margin: 0; font: 17px/1.55 var(--text); font-variant-numeric: tabular-nums; }
+a { color: var(--petrol); text-underline-offset: 0.15em; }
+a:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--petrol); outline-offset: 2px; }
+.wrap { max-width: 72rem; margin: 0 auto; padding: 0 1.5rem; }
+
+.banner { margin: 0; padding: 0.7rem 1.5rem; background: var(--ochre); color: #FFF8EC; font-weight: 700; text-align: center; }
+
+.top { border-bottom: 1px solid var(--rule); padding: 3rem 0 2rem; }
+.product { margin: 0 0 0.75rem; color: var(--muted); }
+h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; letter-spacing: -0.01em; margin: 0; max-width: 22ch; }
+.question { max-width: 62ch; margin: 1rem 0 0; color: var(--muted); }
+.status { margin: 1.75rem 0 0; font-size: 1.3rem; font-weight: 700; max-width: 50ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem 2rem; margin: 2rem 0 0; }
+.facts dt { color: var(--muted); font-size: 0.85rem; }
+.facts dd { margin: 0.1rem 0 0; overflow-wrap: anywhere; }
+
+section { padding: 2.75rem 0; border-bottom: 1px solid var(--rule); }
+section:last-of-type { border-bottom: 0; }
+h2 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 0.5rem; }
+h3 { font-size: 1.15rem; line-height: 1.3; margin: 0; }
+h3 a { color: var(--ink); text-decoration-color: var(--rule); }
+h3 a:hover { text-decoration-color: var(--ink); }
+h4 { font-size: 1rem; margin: 0 0 0.4rem; }
+.section-note, .note { color: var(--muted); max-width: 64ch; margin: 0 0 1.5rem; }
+.lede { font-size: 1.15rem; max-width: 64ch; }
+.none { color: var(--muted); font-style: italic; }
+
+/* pileup: the one memorable thing */
+.pileup { margin: 0; }
+.stage-heads { display: grid; grid-template-columns: repeat(6, 1fr); margin-right: 19rem; color: var(--muted); font-size: 0.85rem; }
+.stage-heads span { padding: 0 0 0.5rem 0.35rem; border-left: 1px solid var(--rule); }
+.pileup-body { position: relative; display: grid; grid-template-columns: 1fr 18rem; gap: 1rem; }
+.pileup-svg { width: 100%; height: var(--height); display: block; }
+.tick { stroke: var(--rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.bar { transition: opacity 0.15s; }
+.bar.accepted { fill: var(--petrol); }
+.bar.review { fill: var(--ochre-bar); }
+.bar.problem { fill: var(--carmine); }
+.bar.excluded { fill: var(--excluded); }
+.pileup a:hover .bar, .pileup a:focus .bar { opacity: 0.6; }
+.pileup-legend { list-style: none; margin: 0; padding: 0; position: relative; height: var(--height); }
+.pileup-legend li { position: absolute; top: var(--top); min-height: var(--h); padding-left: 0.9rem; border-left: 3px solid; font-size: 0.95rem; line-height: 1.3; display: flex; align-items: center; }
+.pileup-legend li.accepted { border-color: var(--petrol); }
+.pileup-legend li.review { border-color: var(--ochre-bar); }
+.pileup-legend li.problem { border-color: var(--carmine); }
+.pileup-legend li.excluded { border-color: var(--excluded); }
+.pileup-legend .count { font-weight: 700; font-size: 1.4rem; margin-right: 0.5rem; }
+figcaption { color: var(--muted); font-size: 0.9rem; margin-top: 1rem; max-width: 64ch; }
+@media (prefers-reduced-motion: no-preference) {
+  .bar { transform-box: fill-box; transform-origin: left; animation: grow 0.9s cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes grow { from { transform: scaleX(0.02); } to { transform: scaleX(1); } }
+}
+
+/* papers */
+.paper { background: var(--sheet); border: 1px solid var(--rule); border-left: 4px solid var(--rule); padding: 1.5rem 1.75rem; margin: 0 0 1.25rem; }
+.paper.problem { border-left-color: var(--carmine); }
+.paper.review { border-left-color: var(--ochre-bar); }
+.paper.accepted { border-left-color: var(--petrol); }
+.cite { color: var(--muted); margin: 0.3rem 0 0; font-size: 0.92rem; }
+.reasons { margin: 1rem 0 0; padding-left: 1.2rem; }
+.paper.problem .reasons li::marker { color: var(--carmine); }
+.reasons li { margin: 0.2rem 0; }
+.notes { margin: 0.5rem 0 0; padding-left: 1.2rem; color: var(--muted); font-size: 0.92rem; }
+.summary { margin: 1.25rem 0 0; }
+.summary-text { margin: 0; font-size: 1.05rem; max-width: 68ch; }
+.s-contradicted { background: linear-gradient(transparent 62%, #F2C9D1 62%); }
+.s-beyond { background: linear-gradient(transparent 62%, #F1DDB0 62%); }
+.by { color: var(--muted); font-size: 0.88rem; margin: 0.35rem 0 0; }
+.summary-checks { list-style: none; padding: 0; margin: 0.5rem 0 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; font-size: 0.9rem; }
+
+q, .src q { font-family: var(--source); font-size: 1.04em; quotes: "\201C" "\201D"; }
+.table-wrap { overflow-x: auto; margin: 1.25rem 0 0; }
+table { border-collapse: collapse; width: 100%; font-size: 0.93rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.55rem 0.75rem 0.55rem 0; border-bottom: 1px solid var(--rule); }
+thead th { color: var(--muted); font-weight: 400; font-size: 0.85rem; border-bottom-color: var(--ink); }
+tbody th { font-weight: 700; white-space: nowrap; }
+.fields td.src { min-width: 16rem; }
+.why { display: block; color: var(--carmine); font-size: 0.85rem; margin-top: 0.15rem; }
+.audit .why { color: var(--muted); }
+
+.v { display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 700; white-space: nowrap; }
+.v::before { content: ""; width: 0.55rem; height: 0.55rem; background: currentColor; }
+.v-supported, .v-pass { color: var(--petrol); }
+.v-contradicted, .v-fail { color: var(--carmine); }
+.v-beyond { color: var(--ochre); }
+.v-beyond::before { background: none; border: 2px solid currentColor; width: 0.55rem; height: 0.55rem; }
+
+.omitted { margin: 1.25rem 0 0; padding: 0.9rem 1.1rem; border: 1px dashed var(--ochre); }
+.omitted ul { margin: 0; padding-left: 1.2rem; }
+
+details { margin: 1rem 0 0; }
+summary { cursor: pointer; color: var(--petrol); }
+.screening ul { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+.screening li { margin: 0.35rem 0; }
+.crit-id { display: inline-block; min-width: 8rem; font-weight: 700; }
+.ans { font-weight: 700; }
+.ans-yes { color: var(--petrol); } .ans-no { color: var(--carmine); } .ans-unclear { color: var(--ochre); }
+
+.paper-fold { background: var(--sheet); border: 1px solid var(--rule); border-left: 4px solid var(--petrol); margin: 0 0 0.6rem; padding: 0.8rem 1.1rem; }
+.paper-fold > summary { color: var(--ink); font-weight: 700; }
+.paper-fold > summary .cite { font-weight: 400; }
+.paper-fold .paper { border: 0; padding: 0.5rem 0 0; margin: 0; }
+
+ul.plain { padding-left: 1.2rem; }
+.audit { list-style: none; padding: 0; }
+.audit li { padding: 0.6rem 0; border-bottom: 1px solid var(--rule); }
+.audit input { accent-color: var(--petrol); width: 1.05rem; height: 1.05rem; margin-right: 0.5rem; vertical-align: -0.15rem; }
+
+.audit-list { display: grid; grid-template-columns: 12rem 1fr; gap: 0.5rem 1.5rem; margin: 0; }
+.audit-list dt { color: var(--muted); }
+.audit-list dd { margin: 0; overflow-wrap: anywhere; }
+.hash { font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+code { font-size: 0.85rem; overflow-wrap: anywhere; }
+
+.foot { border-top: 1px solid var(--rule); padding: 1.5rem 0 3rem; color: var(--muted); font-size: 0.9rem; }
+.foot p { max-width: 64ch; margin: 0; }
+
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .pileup-body { grid-template-columns: 1fr; }
+  .stage-heads { margin-right: 0; font-size: 0.7rem; }
+  .pileup-legend { height: auto; }
+  .pileup-legend li { position: static; min-height: 0; margin: 0.3rem 0; }
+  .paper { padding: 1.1rem; }
+  .audit-list { grid-template-columns: 1fr; }
+  .audit-list dd { margin-bottom: 0.6rem; }
+}
+@media print {
+  html { background: #fff; }
+  .paper, .paper-fold { break-inside: avoid; background: #fff; }
+  details { display: block; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <p class="product"><b>Second Read</b>, daily literature surveillance with an independent check</p>
+    <h1>EGFR-mutant lung cancer: resistance to osimertinib</h1>
+    <p class="question">New evidence on how EGFR-mutant non-small cell lung cancer becomes resistant to osimertinib, how often each mechanism occurs, and what works after resistance.</p>
+    <p class="status">5 papers need a reviewer. 0 accepted with every check passed. 3 excluded at screening.</p>
+    <p class="status"><a href="kb/" style="color:inherit">Evidence entries measured against CIViC's expert curators</a></p>
+    <dl class="facts">
+      <div><dt>Papers added to PubMed</dt><dd>2026-11-04 to 2026-11-10</dd></div>
+      <div><dt>Writer model</dt><dd>groq/qwen/qwen3.8-27b</dd></div>
+      <div><dt>Checker model</dt><dd>groq/openai/gpt-oss-120b</dd></div>
+      <div><dt>Run</dt><dd>egfr-osimertinib-resistance-2026-11-10-133101</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main class="wrap">
+<section>
+  <figure class="pileup"><div class="stage-heads" aria-hidden="true"><span>Found</span><span>Screened</span><span>Extracted</span><span>Summarised</span><span>Verified</span><span>Routed</span></div><div class="pileup-body" style="--height:96px"><svg class="pileup-svg" viewBox="0 0 1000 96" preserveAspectRatio="none" role="img" aria-label="Each paper as one bar through the stages it reached"><line class="tick" x1="166.7" x2="166.7" y1="0" y2="96"/><line class="tick" x1="333.3" x2="333.3" y1="0" y2="96"/><line class="tick" x1="500.0" x2="500.0" y1="0" y2="96"/><line class="tick" x1="666.7" x2="666.7" y1="0" y2="96"/><line class="tick" x1="833.3" x2="833.3" y1="0" y2="96"/><a href="#p43002894"><rect class="bar problem" x="3" y="0" width="994.0" height="7" rx="1.5"><title>PMID 43002894: Pterostilbene enhances Osimertinib sensitivity in non-small cell lung cancer through FGFR4-dependent ferroptosis.</title></rect></a><a href="#p42991359"><rect class="bar problem" x="3" y="10" width="994.0" height="7" rx="1.5"><title>PMID 42991359: SUMOylation counteracts ubiquitination to stabilize ANKRD1 and promote osimertinib resistance in lung adenocarcinoma.</title></rect></a><a href="#p42988853"><rect class="bar problem" x="3" y="20" width="994.0" height="7" rx="1.5"><title>PMID 42988853: ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion in EGFR-TKI-resistant non-small cell lung cancer.</title></rect></a><a href="#p42985469"><rect class="bar problem" x="3" y="30" width="994.0" height="7" rx="1.5"><title>PMID 42985469: Epigenetic Silencing of ZNF471 Contributes to Osimertinib Resistance in Lung Adenocarcinoma: β-Hydroxybutyrate Associates with ZNF471 Re-Expression and Reduced Resistance-Associated Phenotypes.</title></rect></a><a href="#p43002340"><rect class="bar problem" x="3" y="40" width="994.0" height="7" rx="1.5"><title>PMID 43002340: EGFR-targeted drugs and resistance mechanisms in non-small cell lung cancer: Molecular insights and emerging therapeutic strategies.</title></rect></a><a href="#p42991293"><rect class="bar excluded" x="3" y="66" width="327.3" height="7" rx="1.5"><title>PMID 42991293: Case Report: Lenvatinib plus osimertinib treated a metastatic hilar cholangiocarcinoma patient harboring EGFR mutation.</title></rect></a><a href="#p43003310"><rect class="bar excluded" x="3" y="76" width="327.3" height="7" rx="1.5"><title>PMID 43003310: Patterns of Treatment and Clinical Outcomes in Patients With Stage 1/2 EGFR-mutated Non-Small Cell Lung Cancer Treated With Stereotactic Body Radiation Therapy: A Global, Multicenter, Retrospective Study.</title></rect></a><a href="#p42994820"><rect class="bar excluded" x="3" y="86" width="327.3" height="7" rx="1.5"><title>PMID 42994820: Successful rechallenge with almonertinib and corticosteroids after gefitinib-induced interstitial lung disease: A case report and literature review.</title></rect></a></svg><ul class="pileup-legend"><li class="problem" style="--top:0px;--h:47px"><span class="count">5</span> Needs a reviewer: a check failed</li><li class="excluded" style="--top:66px;--h:27px"><span class="count">3</span> Excluded at screening</li></ul></div><figcaption>Every paper from both searches is one bar, stacked like reads at a locus. A bar runs as far as the paper got. Select a bar to jump to that paper.</figcaption></figure>
+</section>
+
+<section id="review">
+  <h2>Needs a reviewer</h2>
+  <p class="section-note">Papers where a check failed come first. Each flag names the field and what went wrong, so the reviewer goes straight to it.</p>
+  <article class="paper problem" id="p43002894"><h3><a href="https://pubmed.ncbi.nlm.nih.gov/43002894/">Pterostilbene enhances Osimertinib sensitivity in non-small cell lung cancer through FGFR4-dependent ferroptosis.</a></h3><p class="cite">Transl Oncol, 2026. PMID 43002894. Found by the main and second search.</p><ul class="reasons"><li>Finding type: the second model says the abstract states something different.</li></ul><ul class="notes"><li>Study type: a judgement the second model could not confirm from the abstract.</li></ul><div class="summary"><p class="summary-text"><span class="s s-supported">In a cell-line study of EGFR-mutant and osimertinib-resistant NSCLC, pterostilbene was found to enhance the antitumor efficacy of osimertinib.</span> <span class="s s-supported">This combination induces FGFR4-dependent ferroptosis, addressing the resistance mechanism in this setting.</span> </p><p class="by">Written by groq/qwen/qwen3.8-27b from the extracted fields only. It never saw the abstract.</p><ul class="summary-checks"><li>Summary 1: <span class="v v-supported">Supported</span></li><li>Summary 2: <span class="v v-supported">Supported</span></li></ul></div><div class="table-wrap"><table class="fields"><thead><tr><th scope="col">Field</th><th scope="col">Extracted value</th><th scope="col">Quote from the paper</th><th scope="col">Code check</th><th scope="col">Second model</th></tr></thead><tbody><tr><th scope="row">mechanism</th><td>FGFR4-dependent ferroptosis</td><td class="src"><q>FGFR4-dependent ferroptosis</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">context</th><td>EGFR-mutant and osimertinib-resistant NSCLC</td><td class="src"><q>EGFR-mutant and osimertinib-resistant NSCLC</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">drug</th><td>pterostilbene in combination with Osimertinib</td><td class="src"><q>pterostilbene in combination with Osimertinib</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">setting</th><td>osimertinib-resistant</td><td class="src"><q>osimertinib-resistant</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">study type</th><td>cell-line study</td><td class="src"><q>evaluated in EGFR-mutant and osimertinib-resistant NSCLC cell lines</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-beyond">Not in the abstract</span></td></tr><tr><th scope="row">finding type</th><td>resistance mechanism</td><td class="src"><q>This study demonstrates that pterostilbene enhances the antitumor efficacy of Osimertinib through the induction of FGFR4-dependent ferroptosis</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-contradicted">Contradicted</span></td></tr><tr><th scope="row">key finding</th><td>Pterostilbene enhances the antitumor efficacy of Osimertinib through the induction of FGFR4-dependent ferroptosis</td><td class="src"><q>pterostilbene enhances the antitumor efficacy of Osimertinib through the induction of FGFR4-dependent ferroptosis</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr></tbody></table></div><details class="screening"><summary>How it was screened</summary><ul><li><span class="crit-id">population</span> <span class="ans ans-yes">yes</span> <q>Methods: The antitumor effects of pterostilbene in combination with Osimertinib were evaluated in EGFR-mutant and osimertinib-resistant NSCLC cell lines using CCK-8, colony formation, EdU incorporation, wound healing, and Transwell invasion assays.</q></li><li><span class="crit-id">drug</span> <span class="ans ans-yes">yes</span> <q>Methods: The antitumor effects of pterostilbene in combination with Osimertinib were evaluated in EGFR-mutant and osimertinib-resistant NSCLC cell lines using CCK-8, colony formation, EdU incorporation, wound healing, and Transwell invasion assays.</q></li><li><span class="crit-id">resistance</span> <span class="ans ans-yes">yes</span> <q>Results: Pterostilbene markedly potentiated the antitumor efficacy of Osimertinib in vitro and in vivo and restored drug responsiveness in Osimertinib-resistant NSCLC cells.</q></li><li><span class="crit-id">primary data</span> <span class="ans ans-yes">yes</span> <q>Methods: The antitumor effects of pterostilbene in combination with Osimertinib were evaluated in EGFR-mutant and osimertinib-resistant NSCLC cell lines using CCK-8, colony formation, EdU incorporation, wound healing, and Transwell invasion assays.</q></li></ul></details></article><article class="paper problem" id="p42991359"><h3><a href="https://pubmed.ncbi.nlm.nih.gov/42991359/">SUMOylation counteracts ubiquitination to stabilize ANKRD1 and promote osimertinib resistance in lung adenocarcinoma.</a></h3><p class="cite">Front Oncol, 2026. PMID 42991359. Found by the main search.</p><ul class="reasons"><li>Key finding: Not in the quote: MERTK, AKT.</li><li>Key finding: The quote does not say this: thereby, promoting, MERTK, expression, sustained, downstream, signaling, support, tumor, cell, survival, under, osimertinib, pressure.</li><li>Study type: the second model says the abstract states something different.</li></ul><div class="summary"><p class="summary-text"><span class="s s-supported">In EGFR-mutant lung adenocarcinoma cell lines with acquired resistance to osimertinib, ZNF593 facilitates SUMO1-dependent modification of ANKRD1 to counteract ubiquitination and enhance its protein stability.</span> <span class="s s-supported">This stabilization promotes MERTK expression and sustained downstream AKT signaling, thereby supporting tumor cell survival under osimertinib pressure.</span> </p><p class="by">Written by groq/qwen/qwen3.8-27b from the extracted fields only. It never saw the abstract.</p><ul class="summary-checks"><li>Summary 1: <span class="v v-supported">Supported</span></li><li>Summary 2: <span class="v v-supported">Supported</span></li></ul></div><div class="table-wrap"><table class="fields"><thead><tr><th scope="col">Field</th><th scope="col">Extracted value</th><th scope="col">Quote from the paper</th><th scope="col">Code check</th><th scope="col">Second model</th></tr></thead><tbody><tr><th scope="row">mechanism</th><td>SUMOylation counteracts ubiquitination to stabilize ANKRD1</td><td class="src"><q>SUMOylation counteracts ubiquitination to stabilize ANKRD1</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">context</th><td>EGFR-mutant lung adenocarcinoma</td><td class="src"><q>EGFR-mutant lung adenocarcinoma</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">drug</th><td>osimertinib</td><td class="src"><q>osimertinib</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">setting</th><td>acquired resistance</td><td class="src"><q>Acquired resistance to osimertinib</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">study type</th><td>cell-line study</td><td class="src"><q>osimertinib-resistant LUAD cell models</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-contradicted">Contradicted</span></td></tr><tr><th scope="row">finding type</th><td>resistance mechanism</td><td class="src"><q>Our study identifies a proteostasis-related mechanism contributing to acquired osimertinib resistance</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">key finding</th><td>ZNF593 interacted with ANKRD1 and facilitated its SUMO1-dependent modification, which was associated with reduced ubiquitin-mediated degradation and enhanced ANKRD1 protein stability, thereby promoting MERTK expression and sustained downstream AKT signaling to support tumor cell survival under osimertinib pressure.</td><td class="src"><q>zinc finger protein 593 (ZNF593) interacted with ANKRD1 and facilitated its SUMO1-dependent modification, which was associated with reduced ubiquitin-mediated degradation and enhanced ANKRD1 protein stability.</q></td><td><span class="v v-fail">Failed</span><span class="why">Not in the quote: MERTK, AKT.</span><span class="why">The quote does not say this: thereby, promoting, MERTK, expression, sustained, downstream, signaling, support, tumor, cell, survival, under, osimertinib, pressure.</span></td><td><span class="v v-supported">Supported</span></td></tr></tbody></table></div><details class="screening"><summary>How it was screened</summary><ul><li><span class="crit-id">population</span> <span class="ans ans-yes">yes</span> <q>Introduction: Acquired resistance to osimertinib remains a major challenge in the treatment of EGFR-mutant lung adenocarcinoma (LUAD), yet the contribution of stress-responsive protein homeostasis to resistance remains incompletely understood.</q></li><li><span class="crit-id">drug</span> <span class="ans ans-yes">yes</span> <q>Introduction: Acquired resistance to osimertinib remains a major challenge in the treatment of EGFR-mutant lung adenocarcinoma (LUAD), yet the contribution of stress-responsive protein homeostasis to resistance remains incompletely understood.</q></li><li><span class="crit-id">resistance</span> <span class="ans ans-yes">yes</span> <q>Introduction: Acquired resistance to osimertinib remains a major challenge in the treatment of EGFR-mutant lung adenocarcinoma (LUAD), yet the contribution of stress-responsive protein homeostasis to resistance remains incompletely understood.</q></li><li><span class="crit-id">primary data</span> <span class="ans ans-yes">yes</span> <q>Methods: Public transcriptomic datasets and machine learning-based feature selection were integrated with osimertinib-resistant LUAD cell models, paired clinical specimens, RNA sequencing, biochemical and molecular assays, functional rescue experiments, and in vivo tumor models to investigate the role of ANKRD1 and its upstream and downstream regulatory mechanisms in osimertinib resistance.</q></li></ul></details></article><article class="paper problem" id="p42988853"><h3><a href="https://pubmed.ncbi.nlm.nih.gov/42988853/">ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion in EGFR-TKI-resistant non-small cell lung cancer.</a></h3><p class="cite">Cell Death Differ, 2026. PMID 42988853. Found by the main and second search.</p><ul class="reasons"><li>Key finding: Not in the quote: STING.</li><li>Key finding: The quote does not say this: mediates, immune, evasion, through, suppression, cGAMP-STING, pathway.</li><li>The second model found 1 relevant finding the record leaves out.</li></ul><div class="summary"><p class="summary-text"><span class="s s-supported">In EGFR-TKI-resistant non-small cell lung cancer, ENPP1 expression is significantly upregulated to mediate immune evasion by suppressing the cGAS-STING pathway.</span> <span class="s s-supported">This resistance mechanism was identified through a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models.</span> </p><p class="by">Written by groq/qwen/qwen3.8-27b from the extracted fields only. It never saw the abstract.</p><ul class="summary-checks"><li>Summary 1: <span class="v v-supported">Supported</span></li><li>Summary 2: <span class="v v-supported">Supported</span></li></ul></div><div class="table-wrap"><table class="fields"><thead><tr><th scope="col">Field</th><th scope="col">Extracted value</th><th scope="col">Quote from the paper</th><th scope="col">Code check</th><th scope="col">Second model</th></tr></thead><tbody><tr><th scope="row">mechanism</th><td>ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion</td><td class="src"><q>ENPP1 inhibits the cGAS-STING pathway to mediate immune evasion</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">context</th><td>EGFR-TKI-resistant non-small cell lung cancer</td><td class="src"><q>EGFR-TKI-resistant non-small cell lung cancer</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">drug</th><td>ENPP1 inhibitors</td><td class="src"><q>ENPP1 inhibitors</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">setting</th><td>EGFR-TKI-resistant</td><td class="src"><q>EGFR-TKI-resistant</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">study type</th><td>comprehensive transcriptomic analysis of established osimertinib-resistant tumor models</td><td class="src"><q>comprehensive transcriptomic analysis of established osimertinib-resistant tumor models</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">finding type</th><td>resistance mechanism</td><td class="src"><q>Mechanistically, upregulated ENPP1 in resistant cells promoted the hydrolysis of extracellular cGAMP, suppressing the cGAS-STING pathway in immune cells and subsequently impairing immune cell activation and function, thereby promoting immune suppression and tumor progression.</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">key finding</th><td>ENPP1 expression was significantly upregulated in resistant tumors and mediates immune evasion through suppression of the cGAMP-STING pathway.</td><td class="src"><q>the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors</q></td><td><span class="v v-fail">Failed</span><span class="why">Not in the quote: STING.</span><span class="why">The quote does not say this: mediates, immune, evasion, through, suppression, cGAMP-STING, pathway.</span></td><td><span class="v v-supported">Supported</span></td></tr></tbody></table></div><div class="omitted"><h4>Findings the second model says the record leaves out</h4><ul><li>setting: after progression on osimertinib</li></ul></div><details class="screening"><summary>How it was screened</summary><ul><li><span class="crit-id">population</span> <span class="ans ans-yes">yes</span> <q>In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.</q></li><li><span class="crit-id">drug</span> <span class="ans ans-yes">yes</span> <q>In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.</q></li><li><span class="crit-id">resistance</span> <span class="ans ans-yes">yes</span> <q>In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.</q></li><li><span class="crit-id">primary data</span> <span class="ans ans-yes">yes</span> <q>In this study, we performed a comprehensive transcriptomic analysis of established osimertinib-resistant tumor models and found that the expression of the ectonucleotide phosphodiesterase ENPP1, a key regulator of extracellular cGAMP signaling, was significantly upregulated in resistant tumors compared to the parental TKI-sensitive NSCLC tumors.</q></li></ul></details></article><article class="paper problem" id="p42985469"><h3><a href="https://pubmed.ncbi.nlm.nih.gov/42985469/">Epigenetic Silencing of ZNF471 Contributes to Osimertinib Resistance in Lung Adenocarcinoma: β-Hydroxybutyrate Associates with ZNF471 Re-Expression and Reduced Resistance-Associated Phenotypes.</a></h3><p class="cite">Oncol Res, 2026. PMID 42985469. Found by the main search.</p><ul class="reasons"><li>Study type: the second model says the abstract states something different.</li></ul><div class="summary"><p class="summary-text"><span class="s s-supported">In a cell-line study of EGFR-mutant lung adenocarcinoma, epigenetic silencing of the zinc finger protein 471 (ZNF471) was identified as a mechanism of acquired resistance to osimertinib.</span> <span class="s s-supported">ZNF471 functions as a modulator of osimertinib sensitivity in this context.</span> </p><p class="by">Written by groq/qwen/qwen3.8-27b from the extracted fields only. It never saw the abstract.</p><ul class="summary-checks"><li>Summary 1: <span class="v v-supported">Supported</span></li><li>Summary 2: <span class="v v-supported">Supported</span></li></ul></div><div class="table-wrap"><table class="fields"><thead><tr><th scope="col">Field</th><th scope="col">Extracted value</th><th scope="col">Quote from the paper</th><th scope="col">Code check</th><th scope="col">Second model</th></tr></thead><tbody><tr><th scope="row">mechanism</th><td>epigenetic silencing of zinc finger protein 471 (ZNF471)</td><td class="src"><q>promoter hypermethylation-associated silencing of zinc finger protein 471 (ZNF471) contributes to resistance</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">context</th><td>EGFR-mutant lung adenocarcinoma (LUAD)</td><td class="src"><q>epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD)</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">drug</th><td>osimertinib</td><td class="src"><q>osimertinib</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">setting</th><td>Acquired resistance</td><td class="src"><q>Acquired resistance limits the benefit of osimertinib</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">study type</th><td>cell-line study</td><td class="src"><q>osimertinib-sensitive and resistant cell lines</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-contradicted">Contradicted</span></td></tr><tr><th scope="row">finding type</th><td>resistance mechanism</td><td class="src"><q>ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">key finding</th><td>ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.</td><td class="src"><q>ZNF471 is an epigenetically silenced modulator of osimertinib sensitivity in LUAD.</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr></tbody></table></div><details class="screening"><summary>How it was screened</summary><ul><li><span class="crit-id">population</span> <span class="ans ans-yes">yes</span> <q>Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.</q></li><li><span class="crit-id">drug</span> <span class="ans ans-yes">yes</span> <q>Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.</q></li><li><span class="crit-id">resistance</span> <span class="ans ans-yes">yes</span> <q>Background: Acquired resistance limits the benefit of osimertinib in epidermal growth factor receptor (EGFR)-mutant lung adenocarcinoma (LUAD), and epigenetic silencing may contribute to this process.</q></li><li><span class="crit-id">primary data</span> <span class="ans ans-yes">yes</span> <q>Methods: ZNF471 expression and promoter methylation were analyzed in public datasets, clinical samples, and osimertinib-sensitive and resistant cell lines.</q></li></ul></details></article><article class="paper problem" id="p43002340"><h3><a href="https://pubmed.ncbi.nlm.nih.gov/43002340/">EGFR-targeted drugs and resistance mechanisms in non-small cell lung cancer: Molecular insights and emerging therapeutic strategies.</a></h3><p class="cite">Daru, 2026. PMID 43002340. Found by the second search.</p><ul class="reasons"><li>Screening could not tell from the abstract whether it meets “Drug”.</li><li>Setting: The quote does not say this: progression.</li><li>Setting: the second model could not find this in the abstract.</li><li>Summary sentence 1: the second model could not find this in the abstract.</li></ul><div class="summary"><p class="summary-text"><span class="s s-beyond">This review describes how resistance to EGFR TKIs inevitably develops after progression through on-target mutations such as T790M and C797S, bypass signaling pathway activation, co-occurring genetic alterations, and histologic or phenotypic transformation.</span> <span class="s s-supported">These mechanisms collectively challenge long-term disease control in patients treated with EGFR TKIs.</span> </p><p class="by">Written by groq/qwen/qwen3.8-27b from the extracted fields only. It never saw the abstract.</p><ul class="summary-checks"><li>Summary 1: <span class="v v-beyond">Not in the abstract</span></li><li>Summary 2: <span class="v v-supported">Supported</span></li></ul></div><div class="table-wrap"><table class="fields"><thead><tr><th scope="col">Field</th><th scope="col">Extracted value</th><th scope="col">Quote from the paper</th><th scope="col">Code check</th><th scope="col">Second model</th></tr></thead><tbody><tr><th scope="row">mechanism</th><td>on-target mutations (e.g., T790M, C797S), activation of bypass signaling pathways, co-occurring genetic alterations, and histologic or phenotypic transformation</td><td class="src"><q>resistance inevitably develops via on-target mutations (e.g., T790M, C797S), activation of bypass signaling pathways, co-occurring genetic alterations, and histologic or phenotypic transformation</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">variant</th><td>T790M, C797S</td><td class="src"><q>T790M, C797S</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">drug</th><td>EGFR TKIs</td><td class="src"><q>EGFR TKIs</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">setting</th><td>after progression</td><td class="src"><q>resistance inevitably develops</q></td><td><span class="v v-fail">Failed</span><span class="why">The quote does not say this: progression.</span></td><td><span class="v v-beyond">Not in the abstract</span></td></tr><tr><th scope="row">study type</th><td>review</td><td class="src"><q>This review synthesizes current knowledge</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">finding type</th><td>resistance mechanism</td><td class="src"><q>resistance inevitably develops via on-target mutations (e.g., T790M, C797S), activation of bypass signaling pathways, co-occurring genetic alterations, and histologic or phenotypic transformation</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr><tr><th scope="row">key finding</th><td>resistance inevitably develops via on-target mutations (e.g., T790M, C797S), activation of bypass signaling pathways, co-occurring genetic alterations, and histologic or phenotypic transformation, challenging long-term disease control.</td><td class="src"><q>resistance inevitably develops via on-target mutations (e.g., T790M, C797S), activation of bypass signaling pathways, co-occurring genetic alterations, and histologic or phenotypic transformation, challenging long-term disease control.</q></td><td><span class="v v-pass">Passed</span></td><td><span class="v v-supported">Supported</span></td></tr></tbody></table></div><details class="screening"><summary>How it was screened</summary><ul><li><span class="crit-id">population</span> <span class="ans ans-yes">yes</span> <q>Epidermal growth factor receptor (EGFR) plays a pivotal role in the pathogenesis and progression of non-small cell lung cancer (NSCLC), with activating mutations serving as key determinants of sensitivity to targeted therapies.</q></li><li><span class="crit-id">drug</span> <span class="ans ans-unclear">unclear</span></li><li><span class="crit-id">resistance</span> <span class="ans ans-yes">yes</span> <q>Although EGFR TKIs initially produce robust responses, resistance inevitably develops via on-target mutations (e.g., T790M, C797S), activation of bypass signaling pathways, co-occurring genetic alterations, and histologic or phenotypic transformation, challenging long-term disease control.</q></li><li><span class="crit-id">primary data</span> <span class="ans ans-no">no</span> <q>This review synthesizes current knowledge on EGFR mutations, resistance mechanisms, and emerging therapeutic approaches in NSCLC, highlighting the integration of molecular, immunologic, and technological modalities to improve patient outcomes and advance precision oncology.</q></li></ul></details></article>
+</section>
+
+<section id="accepted">
+  <h2>Accepted</h2>
+  <p class="section-note">Every quote was found in the abstract, every number matched, and the second model supported every claim.</p>
+  <p class="none">No paper passed every check in this run.</p>
+</section>
+
+<section id="missed">
+  <h2>What we may have missed</h2>
+  <p class="lede">The main search found <b>4</b> relevant papers and the second, independently built search found <b>3</b>. <b>2</b> were found by both. That overlap puts the total number of relevant papers at about <b>6</b> (range 5 to 8). Together the searches found 5, so about <b>1</b> relevant paper was likely missed by both.</p><p class="note">Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound.</p><h3>Relevant papers only the second search found</h3><p>These are confirmed misses of the main search, and candidates for improving its query.</p><ul class="plain"><li><a href="#p43002340">EGFR-targeted drugs and resistance mechanisms in non-small cell lung cancer: Molecular insights and emerging therapeutic strategies.</a></li></ul><h3>Check these excluded papers by hand</h3><p>A random sample of what screening threw out. Every wrong exclusion found here is a measured miss, and becomes a test case.</p><ul class="audit"><li><label><input type="checkbox"> <a href="https://pubmed.ncbi.nlm.nih.gov/42991293/">Case Report: Lenvatinib plus osimertinib treated a metastatic hilar cholangiocarcinoma patient harboring EGFR mutation.</a></label><span class="why">Excluded because: Does not meet: population, resistance.</span></li><li><label><input type="checkbox"> <a href="https://pubmed.ncbi.nlm.nih.gov/42994820/">Successful rechallenge with almonertinib and corticosteroids after gefitinib-induced interstitial lung disease: A case report and literature review.</a></label><span class="why">Excluded because: Does not meet: drug, resistance.</span></li><li><label><input type="checkbox"> <a href="https://pubmed.ncbi.nlm.nih.gov/43003310/">Patterns of Treatment and Clinical Outcomes in Patients With Stage 1/2 EGFR-mutated Non-Small Cell Lung Cancer Treated With Stereotactic Body Radiation Therapy: A Global, Multicenter, Retrospective Study.</a></label><span class="why">Excluded because: Does not meet: drug.</span></li></ul>
+</section>
+
+<section id="excluded">
+  <h2>Excluded at screening</h2>
+  <details><summary>Show all 3 with the reason</summary>
+  <div class="table-wrap"><table class="excluded"><thead><tr><th scope="col">Paper</th><th scope="col">Reason</th></tr></thead>
+  <tbody><tr><td><a href="https://pubmed.ncbi.nlm.nih.gov/42991293/">Case Report: Lenvatinib plus osimertinib treated a metastatic hilar cholangiocarcinoma patient harboring EGFR mutation.</a></td><td>Does not meet: population, resistance.</td></tr><tr><td><a href="https://pubmed.ncbi.nlm.nih.gov/43003310/">Patterns of Treatment and Clinical Outcomes in Patients With Stage 1/2 EGFR-mutated Non-Small Cell Lung Cancer Treated With Stereotactic Body Radiation Therapy: A Global, Multicenter, Retrospective Study.</a></td><td>Does not meet: drug.</td></tr><tr><td><a href="https://pubmed.ncbi.nlm.nih.gov/42994820/">Successful rechallenge with almonertinib and corticosteroids after gefitinib-induced interstitial lung disease: A case report and literature review.</a></td><td>Does not meet: drug, resistance.</td></tr></tbody></table></div></details>
+</section>
+
+<section id="audit">
+  <h2>Audit trail</h2>
+  <dl class="audit-list">
+    <dt>Started</dt><dd>2026-11-10T13:31:01+00:00</dd>
+    <dt>Finished</dt><dd>2026-11-10T13:32:11+00:00</dd>
+    <dt>Software</dt><dd>litwatch 0.1.0, Python 3.12.16</dd>
+    <dt>Topic definition</dt><dd class="hash">c779c10082e50292</dd>
+    <dt>screen prompt</dt><dd class='hash'>eaa3d4601ee4</dd><dt>extract prompt</dt><dd class='hash'>06d9f4c5c64a</dd><dt>summary prompt</dt><dd class='hash'>9aeff6edc1a3</dd><dt>check prompt</dt><dd class='hash'>dc5c5257c358</dd>
+    <dt>Main search</dt><dd><code>(EGFR[tiab] OR &quot;ErbB Receptors&quot;[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]</code></dd>
+    <dt>Second search</dt><dd><code>(&quot;Drug Resistance, Neoplasm&quot;[mh] OR &quot;acquired resistance&quot;[tiab] OR &quot;disease progression&quot;[tiab] OR progressed[tiab]) AND (&quot;third-generation&quot;[tiab] OR &quot;third generation&quot;[tiab] OR T790M[tiab] OR C797S[tiab] OR &quot;EGFR-TKI&quot;[tiab] OR &quot;EGFR TKI&quot;[tiab]) AND (NSCLC[tiab] OR &quot;lung cancer&quot;[tiab] OR &quot;lung adenocarcinoma&quot;[tiab])</code></dd>
+  </dl>
+  <details><summary>Fingerprint of every abstract this run read</summary>
+  <div class="table-wrap"><table class="hashes"><thead><tr><th scope="col">PMID</th><th scope="col">SHA-256 of the abstract</th></tr></thead>
+  <tbody><tr><td>43002894</td><td class="hash">7bbf220b17b9766f</td></tr><tr><td>42991359</td><td class="hash">e8d2e4b85cfc884a</td></tr><tr><td>42991293</td><td class="hash">3fe4154dd8fa7fe4</td></tr><tr><td>42988853</td><td class="hash">907c26a7c56cbf30</td></tr><tr><td>42985469</td><td class="hash">ba1567dbc84d5568</td></tr><tr><td>43003310</td><td class="hash">f8f94d1db4a99508</td></tr><tr><td>43002340</td><td class="hash">5a03b78b47228056</td></tr><tr><td>42994820</td><td class="hash">f905bf49be86d564</td></tr></tbody></table></div></details>
+  <p class="section-note">The full record, including every model answer, is in run.json next to this page.</p>
+</section>
+</main>
+<footer class="foot"><div class="wrap">
+  <p>A research demonstration by Endrit Hoti. It reads public PubMed titles and abstracts automatically.
+  It is not medical advice, and every result is meant for review by a qualified expert.</p>
+</div></footer>
+<script>
+document.querySelectorAll('.pileup a').forEach(function (a) {
+  a.addEventListener('click', function () {
+    var t = document.querySelector(a.getAttribute('href'));
+    if (t && t.tagName === 'DETAILS') t.open = true;
+  });
+});
+</script>
+</body>
+</html>
