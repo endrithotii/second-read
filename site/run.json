@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-14-121416",
+  "run_id": "egfr-osimertinib-resistance-2026-11-15-124707",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,8 +93,8 @@
     }
   },
   "window": {
-    "start": "2026-11-08",
-    "end": "2026-11-14"
+    "start": "2026-11-09",
+    "end": "2026-11-15"
   },
   "searches": {
     "main": {
@@ -2496,8 +2496,8 @@
     ]
   },
   "audit": {
-    "started": "2026-11-14T12:14:16+00:00",
-    "finished": "2026-11-14T12:14:39+00:00",
+    "started": "2026-11-15T12:47:07+00:00",
+    "finished": "2026-11-15T12:47:08+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
