@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-22-132425",
+  "run_id": "egfr-osimertinib-resistance-2026-11-23-160224",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,21 +93,21 @@
     }
   },
   "window": {
-    "start": "2026-11-16",
-    "end": "2026-11-22"
+    "start": "2026-11-17",
+    "end": "2026-11-23"
   },
   "searches": {
     "main": {
       "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
       "pmids": [
+        "43068729",
         "43064722",
         "43060583",
         "43060461",
         "43054042",
         "43051939",
         "43051933",
-        "43046664",
-        "43036259"
+        "43046664"
       ]
     },
     "second": {
@@ -119,12 +119,270 @@
         "43057129",
         "43051939",
         "43051933",
-        "43046664",
-        "43036259"
+        "43046664"
       ]
     }
   },
   "entries": [
+    {
+      "paper": {
+        "pmid": "43068729",
+        "title": "Disrupting ceramide glycosylation prevents adaptive resistance to osimertinib in in vitro and in vivo models of EGFR-mutated non-small cell lung cancer.",
+        "abstract": "Acquired resistance to osimertinib remains a major limitation in the treatment of EGFR-mutated non-small cell lung cancer (NSCLC). Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC. Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells. The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures. Combined treatment decreases drug-tolerant persister cell (DTP) survival and prevents regrowth after drug withdrawal. Genetic silencing of UDP-glucose:ceramide glucosyltransferase (UGCG) confirmed the role of GCS in osimertinib tolerance, reducing DTP survival and resistant colony formation. In a xenograft mouse model, the osimertinib-venglustat combination significantly reduces long-term tumour regrowth compared with osimertinib, without signs of toxicity. Untargeted MS lipidomics identified glycosylated ceramides (GlyCer) as major lipid species associated with resistance development. The concentration-dependent reduction in GlyCer upon GCS inhibition parallels decreased resistant colony formation. Further targeted MS analysis identified Gb3/Cer glycosylation ratio (GR) as a key feature associated with osimertinib resistance. A mechanistic relationship between glycosphingolipids and osimertinib resistance is supported by preliminary data showing increased Gb3 C16:0 GR in plasma from osimertinib-treated EGFR-mutated NSCLC patients at tumour progression compared with pre-treatment levels. These findings support the need for further investigation aimed at evaluating the combination of a GCS inhibitor with osimertinib to prevent the insurgence of resistance to first-line treatment of EGFR-mutated NSCLC patients.",
+        "sentences": [
+          "Acquired resistance to osimertinib remains a major limitation in the treatment of EGFR-mutated non-small cell lung cancer (NSCLC).",
+          "Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC.",
+          "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells.",
+          "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+          "Combined treatment decreases drug-tolerant persister cell (DTP) survival and prevents regrowth after drug withdrawal.",
+          "Genetic silencing of UDP-glucose:ceramide glucosyltransferase (UGCG) confirmed the role of GCS in osimertinib tolerance, reducing DTP survival and resistant colony formation.",
+          "In a xenograft mouse model, the osimertinib-venglustat combination significantly reduces long-term tumour regrowth compared with osimertinib, without signs of toxicity.",
+          "Untargeted MS lipidomics identified glycosylated ceramides (GlyCer) as major lipid species associated with resistance development.",
+          "The concentration-dependent reduction in GlyCer upon GCS inhibition parallels decreased resistant colony formation.",
+          "Further targeted MS analysis identified Gb3/Cer glycosylation ratio (GR) as a key feature associated with osimertinib resistance.",
+          "A mechanistic relationship between glycosphingolipids and osimertinib resistance is supported by preliminary data showing increased Gb3 C16:0 GR in plasma from osimertinib-treated EGFR-mutated NSCLC patients at tumour progression compared with pre-treatment levels.",
+          "These findings support the need for further investigation aimed at evaluating the combination of a GCS inhibitor with osimertinib to prevent the insurgence of resistance to first-line treatment of EGFR-mutated NSCLC patients."
+        ],
+        "journal": "Biochem Pharmacol",
+        "year": "2026",
+        "authors": [
+          "Croci N",
+          "Monica S",
+          "Bonelli M",
+          "Cavazzoni A",
+          "Digiacomo G",
+          "Galetti M",
+          "Minari R",
+          "Verzè M",
+          "Leonetti A",
+          "Tagliazucchi L",
+          "Galvani F",
+          "Vacondio F",
+          "Rivara S",
+          "Alfieri R",
+          "Petronini PG",
+          "Mor M",
+          "Tiseo M"
+        ],
+        "doi": "10.1016/j.bcp.2026.118687",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "9fb24420ae10c7683c49b025dc44feca8497fcfe3e8dc6e86752262f8be957b0",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43068729/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "sphingolipid metabolism remodelling",
+            "sentence": 2,
+            "quote": "sphingolipid metabolism remodelling"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": "EGFR-mutated non-small cell lung cancer",
+            "sentence": 1,
+            "quote": "EGFR-mutated non-small cell lung cancer"
+          },
+          "drug": {
+            "value": "combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib",
+            "sentence": 3,
+            "quote": "combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib"
+          },
+          "setting": {
+            "value": "first-line treatment",
+            "sentence": 12,
+            "quote": "first-line treatment"
+          },
+          "study_type": {
+            "value": "in vitro and in vivo models",
+            "sentence": 0,
+            "quote": "in vitro and in vivo models"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 11,
+            "quote": "A mechanistic relationship between glycosphingolipids and osimertinib resistance is supported by preliminary data showing increased Gb3 C16:0 GR in plasma from osimertinib-treated EGFR-mutated NSCLC patients at tumour progression compared with pre-treatment levels."
+          },
+          "key_finding": {
+            "value": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "sentence": 4,
+            "quote": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In EGFR-mutated non-small cell lung cancer, sphingolipid metabolism remodelling contributes to resistance mechanisms against osimertinib. In vitro and in vivo models demonstrate that combining the GCS inhibitor venglustat with osimertinib significantly reduces the emergence of resistant colonies during first-line treatment.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: sphingolipid metabolism remodelling",
+            "verdict": "supported",
+            "evidence": "Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: EGFR-mutated non-small cell lung cancer",
+            "verdict": "supported",
+            "evidence": "Acquired resistance to osimertinib remains a major limitation in the treatment of EGFR-mutated non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib",
+            "verdict": "supported",
+            "evidence": "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: first-line treatment",
+            "verdict": "supported",
+            "evidence": "These findings support the need for further investigation aimed at evaluating the combination of a GCS inhibitor with osimertinib to prevent the insurgence of resistance to first-line treatment of EGFR-mutated NSCLC patients."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: in vitro and in vivo models (classification)",
+            "verdict": "supported",
+            "evidence": "Disrupting ceramide glycosylation prevents adaptive resistance to osimertinib in in vitro and in vivo models of EGFR-mutated non-small cell lung cancer."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "verdict": "supported",
+            "evidence": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In EGFR-mutated non-small cell lung cancer, sphingolipid metabolism remodelling contributes to resistance mechanisms against osimertinib.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "In vitro and in vivo models demonstrate that combining the GCS inhibitor venglustat with osimertinib significantly reduces the emergence of resistant colonies during first-line treatment.",
+            "verdict": "beyond",
+            "evidence": null
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Summary sentence 1: the second model could not find this in the abstract.",
+          "Summary sentence 2: the second model could not find this in the abstract."
+        ],
+        "problems": 2,
+        "notes": []
+      }
+    },
     {
       "paper": {
         "pmid": "43064722",
@@ -1776,247 +2034,6 @@
     },
     {
       "paper": {
-        "pmid": "43036259",
-        "title": "Osimertinib resistance in non-small cell lung cancer is mediated by sustained AKT activation through lipid raft-dependent insulin signaling.",
-        "abstract": "Acquired resistance to osimertinib remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC). Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling. Notably, INSR-AKT activation is observed exclusively in AR cells, whereas parental H1975 cells fail to activate AKT even following INSR overexpression or exogenous insulin stimulation. Cholesterol depletion abolishes the INSR-AKT response in AR cells, indicating a lipid raft-dependent mechanism. Consistently, INSR localizes within lipid rafts in AR but not in parental H1975 cells. Proteomic profiling reveals the enrichment of lipid raft-associated proteins in AR cells. Among them, flotillin-1 (FLOT1) is identified as a key raft scaffold mediating INSR-AKT signaling and osimertinib resistance through functional shRNA screening. Co-immunoprecipitation and proximity ligation assay confirm a cholesterol-dependent interaction between FLOT1 and INSR. Functionally, FLOT1 knockdown disrupts raft-associated INSR localization, attenuates AKT activation, and reduces the IC50 of osimertinib in AR cells. Collectively, these findings demonstrate that lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC.",
-        "sentences": [
-          "Acquired resistance to osimertinib remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC).",
-          "Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling.",
-          "Notably, INSR-AKT activation is observed exclusively in AR cells, whereas parental H1975 cells fail to activate AKT even following INSR overexpression or exogenous insulin stimulation.",
-          "Cholesterol depletion abolishes the INSR-AKT response in AR cells, indicating a lipid raft-dependent mechanism.",
-          "Consistently, INSR localizes within lipid rafts in AR but not in parental H1975 cells.",
-          "Proteomic profiling reveals the enrichment of lipid raft-associated proteins in AR cells.",
-          "Among them, flotillin-1 (FLOT1) is identified as a key raft scaffold mediating INSR-AKT signaling and osimertinib resistance through functional shRNA screening.",
-          "Co-immunoprecipitation and proximity ligation assay confirm a cholesterol-dependent interaction between FLOT1 and INSR.",
-          "Functionally, FLOT1 knockdown disrupts raft-associated INSR localization, attenuates AKT activation, and reduces the IC50 of osimertinib in AR cells.",
-          "Collectively, these findings demonstrate that lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC."
-        ],
-        "journal": "Mol Oncol",
-        "year": "2026",
-        "authors": [
-          "Lai YL",
-          "Shih JY",
-          "Chen CC"
-        ],
-        "doi": "10.1002/1878-0261.70360",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "abstract_sha256": "4a71302cca2681fe861163697003598ad6b1fefa14ece8565b17da8e05b8d727",
-        "found_by": [
-          "main",
-          "second"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/43036259/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Acquired resistance to osimertinib remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC).",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Acquired resistance to osimertinib remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC).",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 2,
-            "evidence": "Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling.",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 2,
-            "evidence": "Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "lipid raft-dependent insulin signaling",
-            "sentence": 0,
-            "quote": "lipid raft-dependent insulin signaling"
-          },
-          "variant": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "context": {
-            "value": "lacking the on-target EGFR C797S mutation",
-            "sentence": 2,
-            "quote": "lacking the on-target EGFR C797S mutation"
-          },
-          "drug": {
-            "value": "osimertinib",
-            "sentence": 1,
-            "quote": "osimertinib"
-          },
-          "setting": {
-            "value": "Acquired resistance",
-            "sentence": 1,
-            "quote": "Acquired resistance"
-          },
-          "study_type": {
-            "value": "cell-line study",
-            "sentence": 2,
-            "quote": "Using an osimertinib-resistant (AR) cell model"
-          },
-          "n_patients": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "finding_type": {
-            "value": "resistance mechanism",
-            "sentence": 10,
-            "quote": "these findings demonstrate that lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC"
-          },
-          "key_finding": {
-            "value": "lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC",
-            "sentence": 10,
-            "quote": "lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC"
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "In a cell-line study of acquired resistance, lipid raft-dependent INSR-AKT signaling was identified as a mechanism contributing to osimertinib resistance in NSCLC. This pathway operates in the absence of the on-target EGFR C797S mutation.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "context": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: lipid raft-dependent insulin signaling",
-            "verdict": "supported",
-            "evidence": "Osimertinib resistance in non-small cell lung cancer is mediated by sustained AKT activation through lipid raft-dependent insulin signaling."
-          },
-          {
-            "kind": "field",
-            "id": "context",
-            "text": "context: lacking the on-target EGFR C797S mutation",
-            "verdict": "supported",
-            "evidence": "Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: osimertinib",
-            "verdict": "supported",
-            "evidence": "Acquired resistance to osimertinib remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC)."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: Acquired resistance",
-            "verdict": "supported",
-            "evidence": "Acquired resistance to osimertinib remains a major challenge in EGFR-mutant non-small cell lung cancer (NSCLC)."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: cell-line study (classification)",
-            "verdict": "supported",
-            "evidence": "Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: resistance mechanism (classification)",
-            "verdict": "supported",
-            "evidence": "Collectively, these findings demonstrate that lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC",
-            "verdict": "supported",
-            "evidence": "Collectively, these findings demonstrate that lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "In a cell-line study of acquired resistance, lipid raft-dependent INSR-AKT signaling was identified as a mechanism contributing to osimertinib resistance in NSCLC.",
-            "verdict": "supported",
-            "evidence": "Collectively, these findings demonstrate that lipid raft-dependent INSR-AKT signaling contributes to osimertinib resistance in NSCLC."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "This pathway operates in the absence of the on-target EGFR C797S mutation.",
-            "verdict": "supported",
-            "evidence": "Using an osimertinib-resistant (AR) cell model lacking the on-target EGFR C797S mutation, we uncover sustained AKT phosphorylation under osimertinib treatment driven by insulin receptor (INSR) signaling."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "accepted",
-        "reasons": [],
-        "problems": 0,
-        "notes": []
-      }
-    },
-    {
-      "paper": {
         "pmid": "43057129",
         "title": "Management of Advanced EGFR-Mutant Non-Small-Cell Lung Cancer Across the Disease Course.",
         "abstract": "Advances in targeted therapy have improved outcomes for patients with advanced epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC). Third-generation EGFR tyrosine kinase inhibitors and first-line combination regimens have expanded treatment options, making the balance between survival benefit, toxicity, treatment burden, and individual patient fitness increasingly important in initial treatment selection. As acquired resistance continues to limit the duration of benefit, this decision must also be considered in the context of subsequent care. At progression, tissue and plasma profiling provide complementary information that can help characterize the diverse mechanisms of resistance and guide further treatment. As resistance-directed therapies and antibody-drug conjugates expand the available treatment options, their selection requires consideration of prior therapy and the pattern of progression, together with molecular findings where relevant. This review examines these interconnected decisions across the course of advanced EGFR-mutant NSCLC, from first-line treatment selection to the assessment and management of acquired resistance. We also address central nervous system involvement, uncommon EGFR mutations, and exon 20 insertions as distinct clinical settings in which disease distribution and the underlying molecular alteration shape treatment choices. By integrating clinical and translational evidence, we discuss how these factors may inform treatment sequencing and individualized care, with attention to survival, quality of life, and the cumulative burden of therapy across the disease course.",
@@ -2099,12 +2116,13 @@
   "misses": {
     "capture_recapture": {
       "primary": 7,
-      "secondary": 6,
-      "both": 6,
+      "secondary": 5,
+      "both": 5,
       "found": 7,
       "only_secondary": [],
       "only_primary": [
-        "43054042"
+        "43054042",
+        "43068729"
       ],
       "estimate": 7.0,
       "low": 7,
@@ -2118,8 +2136,8 @@
     ]
   },
   "audit": {
-    "started": "2026-11-22T13:24:25+00:00",
-    "finished": "2026-11-22T13:24:26+00:00",
+    "started": "2026-11-23T16:02:24+00:00",
+    "finished": "2026-11-23T16:02:32+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
