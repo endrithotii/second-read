@@ -1,0 +1,2948 @@
+{
+  "run_id": "egfr-osimertinib-resistance-2026-11-25-154002",
+  "topic": {
+    "id": "egfr-osimertinib-resistance",
+    "name": "EGFR-mutant lung cancer: resistance to osimertinib",
+    "question": "New evidence on how EGFR-mutant non-small cell lung cancer becomes resistant to osimertinib, how often each mechanism occurs, and what works after resistance.",
+    "primary_query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
+    "secondary_query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
+    "criteria": [
+      {
+        "id": "population",
+        "required": true,
+        "text": "Concerns EGFR-mutant non-small cell lung cancer: patients, tumour samples, cell lines or animal models."
+      },
+      {
+        "id": "drug",
+        "required": true,
+        "text": "Involves osimertinib (also called AZD9291 or Tagrisso), alone or in combination."
+      },
+      {
+        "id": "resistance",
+        "required": true,
+        "text": "Reports on resistance to osimertinib: a mechanism, how often a mechanism occurs, or treatment after resistance."
+      },
+      {
+        "id": "primary_data",
+        "required": false,
+        "text": "Reports original data (trial, cohort, case report, laboratory study) rather than being only a review, editorial or guideline."
+      }
+    ],
+    "fields": [
+      {
+        "id": "mechanism",
+        "text": "The resistance mechanism the paper describes, genetic or not, in the paper's words, e.g. MET amplification, ERK/GATAD2A/SAA1 axis, histological transformation."
+      },
+      {
+        "id": "variant",
+        "text": "Specific genetic alteration(s) reported, as written in the paper, e.g. EGFR C797S, MET amplification. Null if the mechanism is not a genetic alteration."
+      },
+      {
+        "id": "context",
+        "text": "Context of the alteration, e.g. in cis or in trans with T790M, co-occurring alterations."
+      },
+      {
+        "id": "drug",
+        "text": "Drug or combination studied."
+      },
+      {
+        "id": "setting",
+        "text": "Treatment line or setting, e.g. first-line osimertinib, after progression."
+      },
+      {
+        "id": "study_type",
+        "kind": "judgement",
+        "text": "Study design, e.g. retrospective cohort, phase 2 trial, case report, cell-line study."
+      },
+      {
+        "id": "n_patients",
+        "text": "Number of patients, if stated. Digits only."
+      },
+      {
+        "id": "finding_type",
+        "kind": "category",
+        "values": [
+          "resistance mechanism",
+          "mechanism frequency",
+          "treatment after resistance",
+          "other"
+        ],
+        "text": "What kind of finding the paper reports. Exactly one of the allowed values."
+      },
+      {
+        "id": "key_finding",
+        "text": "The main result in one sentence, staying as close to the paper's wording as possible."
+      }
+    ],
+    "high_impact": {
+      "field": "finding_type",
+      "values": [
+        "treatment after resistance"
+      ],
+      "why": "A result on what to give after resistance can change treatment, so a person always reads it. Mechanism papers are checked like any other and reach a person when a check fails."
+    },
+    "synonyms": {
+      "osimertinib": [
+        "AZD9291",
+        "Tagrisso"
+      ],
+      "non-small cell lung cancer": [
+        "NSCLC",
+        "lung adenocarcinoma"
+      ]
+    }
+  },
+  "window": {
+    "start": "2026-11-19",
+    "end": "2026-11-25"
+  },
+  "searches": {
+    "main": {
+      "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
+      "pmids": [
+        "43077812",
+        "43075063",
+        "43074063",
+        "43073884",
+        "43068729",
+        "43064722",
+        "43060583",
+        "43060461",
+        "43054042"
+      ]
+    },
+    "second": {
+      "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
+      "pmids": [
+        "43077001",
+        "43075504",
+        "43075063",
+        "43074063",
+        "43064722",
+        "43060583",
+        "43060461",
+        "43057129"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "paper": {
+        "pmid": "43077812",
+        "title": "Discovery of HC9591, a selective macrocyclic EGFR C797S inhibitor with brain exposure in rats.",
+        "abstract": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC). Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7. HC9591 inhibited C797S-containing EGFR mutants with IC50 values of 0.27-3.53 nM, while showing substantially weaker inhibition of WT EGFR (IC50 = 632 nM) in biochemical assays. Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM). HC9591 also demonstrated favorable pharmacokinetic properties in rats with an oral bioavailability of 39.6% and a half-life of 8.1 h. Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+        "sentences": [
+          "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).",
+          "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7.",
+          "HC9591 inhibited C797S-containing EGFR mutants with IC50 values of 0.27-3.53 nM, while showing substantially weaker inhibition of WT EGFR (IC50 = 632 nM) in biochemical assays.",
+          "Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM).",
+          "HC9591 also demonstrated favorable pharmacokinetic properties in rats with an oral bioavailability of 39.6% and a half-life of 8.1 h.",
+          "Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC."
+        ],
+        "journal": "Eur J Med Chem",
+        "year": "2026",
+        "authors": [
+          "Chen H",
+          "Wu Q",
+          "Li S",
+          "Tong L",
+          "Feng W",
+          "Lai M",
+          "Fan B",
+          "Ren X",
+          "Zhu S",
+          "Xie H",
+          "Wang Z",
+          "Ding K"
+        ],
+        "doi": "10.1016/j.ejmech.2026.119538",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "40e596423d29132c4186f895606780eb984b18f097303f939a4ed1094182b711",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43077812/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM).",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "Acquired epidermal growth factor receptor (EGFR) C797S mutations",
+            "sentence": 1,
+            "quote": "Acquired epidermal growth factor receptor (EGFR) C797S mutations"
+          },
+          "variant": {
+            "value": "EGFR C797S",
+            "sentence": 1,
+            "quote": "EGFR C797S mutations"
+          },
+          "context": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "drug": {
+            "value": "HC9591",
+            "sentence": 2,
+            "quote": "we report HC9591"
+          },
+          "setting": {
+            "value": "osimertinib-resistant",
+            "sentence": 6,
+            "quote": "C797S-mediated osimertinib-resistant NSCLC"
+          },
+          "study_type": {
+            "value": "cell-line study",
+            "sentence": 4,
+            "quote": "Cellular activity was further demonstrated in Ba/F3 cells... and in the osimertinib-resistant PC-9-OR human lung cancer cell line"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "other",
+            "sentence": 2,
+            "quote": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization"
+          },
+          "key_finding": {
+            "value": "HC9591 is a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor that represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+            "sentence": 6,
+            "quote": "HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In a cell-line study, HC9591 was identified as a brain-penetrant and wild-type-sparing macrocyclic inhibitor targeting acquired EGFR C797S mutations. This compound represents a promising lead for treating C797S-mediated osimertinib-resistant non-small cell lung cancer.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": false,
+            "problems": [
+              "Quote is not in the abstract word for word."
+            ]
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: WT, EGFR."
+            ]
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: Acquired epidermal growth factor receptor (EGFR) C797S mutations",
+            "verdict": "supported",
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR C797S",
+            "verdict": "supported",
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: HC9591",
+            "verdict": "supported",
+            "evidence": "Discovery of HC9591, a selective macrocyclic EGFR C797S inhibitor with brain exposure in rats."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: osimertinib-resistant",
+            "verdict": "supported",
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: cell-line study (classification)",
+            "verdict": "supported",
+            "evidence": "Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM)."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: other (classification)",
+            "verdict": "supported",
+            "evidence": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: HC9591 is a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor that represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+            "verdict": "supported",
+            "evidence": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In a cell-line study, HC9591 was identified as a brain-penetrant and wild-type-sparing macrocyclic inhibitor targeting acquired EGFR C797S mutations.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This compound represents a promising lead for treating C797S-mediated osimertinib-resistant non-small cell lung cancer.",
+            "verdict": "supported",
+            "evidence": "Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Variant: Quote is not in the abstract word for word.",
+          "Key finding: Not in the quote: WT, EGFR.",
+          "Summary sentence 1: the second model could not find this in the abstract."
+        ],
+        "problems": 3,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43075063",
+        "title": "Integration of bulk and single-cell transcriptomics via the Scissor algorithm reveals APOE-dependent cholesterol metabolic reprogramming in macrophages associated with osimertinib resistance in non-small cell lung cancer.",
+        "abstract": "Background: The tumor microenvironment contributes to acquired resistance against osimertinib in non-small cell lung cancer (NSCLC), yet the key cell subpopulations and the underlying metabolic mechanisms remain incompletely elucidated. Methods: The Scissor algorithm was applied to integrate bulk osimertinib-resistance transcriptomic profiles with single-cell RNA-seq data to pinpoint cell subpopulations functionally associated with the osimertinib resistant phenotype. AddModuleScore was applied to calculate scores for cholesterol metabolism-related modules. Gene-set enrichment analysis was carried out to uncover pathway alterations in osimertinib resistance-related macrophages. Cross-validation was performed in an independent dataset comparing treatment-naive and EGFR-tyrosine kinase inhibitors (EGFR-TKIs)-treated progressive-disease lesions. EGFR-mutant lung adenocarcinoma cells were treated with corresponding conditioned medium combined with osimertinib, followed by a panel of cell function assays, including cell proliferation, colony formation, and apoptosis. The gain- and loss- of function studies of APOE were conducted in THP-1 derived macrophages. Results: Osimertinib-resistant associated Scissor+ cells were mainly enriched within macrophages, which exhibited prominent APOE-dependent cholesterol metabolic reprogramming. APOE was markedly up-regulated in Scissor+ macrophages and macrophages from EGFR-TKI-treated progressive-disease lesions. Macrophage-derived APOE shapes extracellular cholesterol availability in the microenvironment, which may promote intracellular free-cholesterol accumulation in tumor cells and counteract osimertinib-triggered apoptosis. Conclusion: APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure. Our results identify APOE as a hypothesis-generating candidate molecule that merits further pre-clinical investigation.",
+        "sentences": [
+          "Background: The tumor microenvironment contributes to acquired resistance against osimertinib in non-small cell lung cancer (NSCLC), yet the key cell subpopulations and the underlying metabolic mechanisms remain incompletely elucidated.",
+          "Methods: The Scissor algorithm was applied to integrate bulk osimertinib-resistance transcriptomic profiles with single-cell RNA-seq data to pinpoint cell subpopulations functionally associated with the osimertinib resistant phenotype.",
+          "AddModuleScore was applied to calculate scores for cholesterol metabolism-related modules.",
+          "Gene-set enrichment analysis was carried out to uncover pathway alterations in osimertinib resistance-related macrophages.",
+          "Cross-validation was performed in an independent dataset comparing treatment-naive and EGFR-tyrosine kinase inhibitors (EGFR-TKIs)-treated progressive-disease lesions.",
+          "EGFR-mutant lung adenocarcinoma cells were treated with corresponding conditioned medium combined with osimertinib, followed by a panel of cell function assays, including cell proliferation, colony formation, and apoptosis.",
+          "The gain- and loss- of function studies of APOE were conducted in THP-1 derived macrophages.",
+          "Results: Osimertinib-resistant associated Scissor+ cells were mainly enriched within macrophages, which exhibited prominent APOE-dependent cholesterol metabolic reprogramming.",
+          "APOE was markedly up-regulated in Scissor+ macrophages and macrophages from EGFR-TKI-treated progressive-disease lesions.",
+          "Macrophage-derived APOE shapes extracellular cholesterol availability in the microenvironment, which may promote intracellular free-cholesterol accumulation in tumor cells and counteract osimertinib-triggered apoptosis.",
+          "Conclusion: APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure.",
+          "Our results identify APOE as a hypothesis-generating candidate molecule that merits further pre-clinical investigation."
+        ],
+        "journal": "Front Immunol",
+        "year": "2026",
+        "authors": [
+          "Gong Z",
+          "Gao Z",
+          "Zhang J",
+          "Cao L",
+          "Zhang Q",
+          "Li L",
+          "Jia Y",
+          "Xu K"
+        ],
+        "doi": "10.3389/fimmu.2026.2001435",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "dfaef9de76d03404ca8bca8be6150147d653161d5d1d118dc85b3483a438fc01",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43075063/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "EGFR-mutant lung adenocarcinoma cells were treated with corresponding conditioned medium combined with osimertinib, followed by a panel of cell function assays, including cell proliferation, colony formation, and apoptosis.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "EGFR-mutant lung adenocarcinoma cells were treated with corresponding conditioned medium combined with osimertinib, followed by a panel of cell function assays, including cell proliferation, colony formation, and apoptosis.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 11,
+            "evidence": "Conclusion: APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "EGFR-mutant lung adenocarcinoma cells were treated with corresponding conditioned medium combined with osimertinib, followed by a panel of cell function assays, including cell proliferation, colony formation, and apoptosis.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "APOE-dependent cholesterol metabolic reprogramming in macrophages",
+            "sentence": 11,
+            "quote": "APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": "tumor microenvironment",
+            "sentence": 1,
+            "quote": "The tumor microenvironment contributes to acquired resistance against osimertinib"
+          },
+          "drug": {
+            "value": "osimertinib",
+            "sentence": 1,
+            "quote": "acquired resistance against osimertinib"
+          },
+          "setting": {
+            "value": "acquired resistance",
+            "sentence": 1,
+            "quote": "acquired resistance against osimertinib"
+          },
+          "study_type": {
+            "value": "transcriptomic analysis and cell-line study",
+            "sentence": 2,
+            "quote": "The Scissor algorithm was applied to integrate bulk osimertinib-resistance transcriptomic profiles with single-cell RNA-seq data"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 11,
+            "quote": "APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC"
+          },
+          "key_finding": {
+            "value": "APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure.",
+            "sentence": 11,
+            "quote": "APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "Transcriptomic and cell-line studies in the tumor microenvironment reveal that APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC. This mechanism may contribute to therapeutic failure in the setting of acquired resistance.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: APOE-dependent cholesterol metabolic reprogramming in macrophages",
+            "verdict": "supported",
+            "evidence": "Results: Osimertinib-resistant associated Scissor+ cells were mainly enriched within macrophages, which exhibited prominent APOE-dependent cholesterol metabolic reprogramming."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: tumor microenvironment",
+            "verdict": "supported",
+            "evidence": "Background: The tumor microenvironment contributes to acquired resistance against osimertinib in non-small cell lung cancer (NSCLC), yet the key cell subpopulations and the underlying metabolic mechanisms remain incompletely elucidated."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib",
+            "verdict": "supported",
+            "evidence": "Background: The tumor microenvironment contributes to acquired resistance against osimertinib in non-small cell lung cancer (NSCLC), yet the key cell subpopulations and the underlying metabolic mechanisms remain incompletely elucidated."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: acquired resistance",
+            "verdict": "supported",
+            "evidence": "Background: The tumor microenvironment contributes to acquired resistance against osimertinib in non-small cell lung cancer (NSCLC), yet the key cell subpopulations and the underlying metabolic mechanisms remain incompletely elucidated."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: transcriptomic analysis and cell-line study (classification)",
+            "verdict": "supported",
+            "evidence": "Methods: The Scissor algorithm was applied to integrate bulk osimertinib-resistance transcriptomic profiles with single-cell RNA-seq data to pinpoint cell subpopulations functionally associated with the osimertinib resistant phenotype."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Results: Osimertinib-resistant associated Scissor+ cells were mainly enriched within macrophages, which exhibited prominent APOE-dependent cholesterol metabolic reprogramming."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure.",
+            "verdict": "supported",
+            "evidence": "Conclusion: APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "Transcriptomic and cell-line studies in the tumor microenvironment reveal that APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC.",
+            "verdict": "supported",
+            "evidence": "Results: Osimertinib-resistant associated Scissor+ cells were mainly enriched within macrophages, which exhibited prominent APOE-dependent cholesterol metabolic reprogramming."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This mechanism may contribute to therapeutic failure in the setting of acquired resistance.",
+            "verdict": "supported",
+            "evidence": "Conclusion: APOE-dependent cholesterol metabolic reprogramming in macrophages is associated with osimertinib resistance in NSCLC and may contribute to therapeutic failure."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "accepted",
+        "reasons": [],
+        "problems": 0,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43074063",
+        "title": "Efficacy and safety of third-generation EGFR-TKIs combined with local consolidative therapy as first-line treatment for EGFR-mutated stage IIIB-IV NSCLC: a retrospective study.",
+        "abstract": "Objective: Although third-generation EGFR-tyrosine kinase inhibitors (EGFR-TKIs), such as osimertinib and aumolertinib, can improve prognosis as first-line treatment, most patients inevitably develop resistance and disease progression (PD). Local consolidative therapy (LCT) combined with TKIs can enhance therapeutic efficacy, but the existing evidence is mainly based on first- and second-generation TKIs. This retrospective case-control study aimed to evaluate whether the combination of LCT with third-generation EGFR-TKIs treatment can improve the efficacy and safety in the management of advanced NSCLC compared with TKIs monotherapy. Methods: This retrospective study enrolled patients diagnosed with EGFR-mutant NSCLC. The experimental group received EGFR-TKIs combined with LCT, and the control group received EGFR-TKIs monotherapy. The primary endpoints were progression-free survival (PFS) and duration of objective response (DOR), which were compared using the Kaplan-Meier method and log-rank test; hazard ratios (HR) were analyzed by the Cox proportional hazards model. Subgroup analyses were conducted to investigate the heterogeneity. The patterns of PD and adverse events were summarized. Results: A total of 49 patients were enrolled in this study (combination therapy group: n = 27; monotherapy group: n = 22). The median PFS was significantly longer in the combination therapy group than in the monotherapy group (32.0 vs. 21.0 months; HR = 0.39, P = 0.012). The DOR was also superior in the combination therapy group (29.0 vs. 17.0 months; HR = 0.36, 95% CI: 0.16-0.78, P = 0.006). Subgroup analyses showed that significant PFS benefit from combination therapy can be observed in patients with extrathoracic metastasis and those who achieved partial response after TKI treatment. Multivariate Cox regression analysis identified combination local therapy (HR = 0.29, 95% CI: 0.12-0.70) and ≤ 5 metastatic lesions (HR = 0.12, 95% CI: 0.02-0.56) as independent prognostic factors for PFS. Analysis of disease progression patterns revealed that 87.5% of progression events in the combination therapy group occurred at sites not treated with LCT, while 80% of progression events in the monotherapy group arose from baseline pre-existing lesions. No statistically significant difference was found in the incidence of grade 1-2 and grade 3 adverse events between the two groups (all P > 0.05). Conclusion: Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety.",
+        "sentences": [
+          "Objective: Although third-generation EGFR-tyrosine kinase inhibitors (EGFR-TKIs), such as osimertinib and aumolertinib, can improve prognosis as first-line treatment, most patients inevitably develop resistance and disease progression (PD).",
+          "Local consolidative therapy (LCT) combined with TKIs can enhance therapeutic efficacy, but the existing evidence is mainly based on first- and second-generation TKIs.",
+          "This retrospective case-control study aimed to evaluate whether the combination of LCT with third-generation EGFR-TKIs treatment can improve the efficacy and safety in the management of advanced NSCLC compared with TKIs monotherapy.",
+          "Methods: This retrospective study enrolled patients diagnosed with EGFR-mutant NSCLC.",
+          "The experimental group received EGFR-TKIs combined with LCT, and the control group received EGFR-TKIs monotherapy.",
+          "The primary endpoints were progression-free survival (PFS) and duration of objective response (DOR), which were compared using the Kaplan-Meier method and log-rank test; hazard ratios (HR) were analyzed by the Cox proportional hazards model.",
+          "Subgroup analyses were conducted to investigate the heterogeneity.",
+          "The patterns of PD and adverse events were summarized.",
+          "Results: A total of 49 patients were enrolled in this study (combination therapy group: n = 27; monotherapy group: n = 22).",
+          "The median PFS was significantly longer in the combination therapy group than in the monotherapy group (32.0 vs. 21.0 months; HR = 0.39, P = 0.012).",
+          "The DOR was also superior in the combination therapy group (29.0 vs. 17.0 months; HR = 0.36, 95% CI: 0.16-0.78, P = 0.006).",
+          "Subgroup analyses showed that significant PFS benefit from combination therapy can be observed in patients with extrathoracic metastasis and those who achieved partial response after TKI treatment.",
+          "Multivariate Cox regression analysis identified combination local therapy (HR = 0.29, 95% CI: 0.12-0.70) and ≤ 5 metastatic lesions (HR = 0.12, 95% CI: 0.02-0.56) as independent prognostic factors for PFS.",
+          "Analysis of disease progression patterns revealed that 87.5% of progression events in the combination therapy group occurred at sites not treated with LCT, while 80% of progression events in the monotherapy group arose from baseline pre-existing lesions.",
+          "No statistically significant difference was found in the incidence of grade 1-2 and grade 3 adverse events between the two groups (all P > 0.05).",
+          "Conclusion: Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety."
+        ],
+        "journal": "J Cardiothorac Surg",
+        "year": "2026",
+        "authors": [
+          "Zhang Z",
+          "Qiao D",
+          "Sun Z",
+          "Wang X",
+          "Chen J",
+          "Dong M"
+        ],
+        "doi": "10.1186/s13019-026-04566-z",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "4550b11634115e4e0d2890a26d0ffc241ad2d21b1a8685db15776801ab83ecf4",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43074063/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Included because unclear on: resistance. Unclear counts as include, so nothing relevant is dropped.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Methods: This retrospective study enrolled patients diagnosed with EGFR-mutant NSCLC.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Objective: Although third-generation EGFR-tyrosine kinase inhibitors (EGFR-TKIs), such as osimertinib and aumolertinib, can improve prognosis as first-line treatment, most patients inevitably develop resistance and disease progression (PD).",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "This retrospective case-control study aimed to evaluate whether the combination of LCT with third-generation EGFR-TKIs treatment can improve the efficacy and safety in the management of advanced NSCLC compared with TKIs monotherapy.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "variant": {
+            "value": "EGFR-mutated",
+            "sentence": 0,
+            "quote": "EGFR-mutated"
+          },
+          "context": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "drug": {
+            "value": "third-generation EGFR-TKIs combined with local consolidative therapy",
+            "sentence": 0,
+            "quote": "third-generation EGFR-TKIs combined with local consolidative therapy"
+          },
+          "setting": {
+            "value": "first-line treatment",
+            "sentence": 0,
+            "quote": "first-line treatment"
+          },
+          "study_type": {
+            "value": "retrospective case-control study",
+            "sentence": 3,
+            "quote": "retrospective case-control study"
+          },
+          "n_patients": {
+            "value": "49",
+            "sentence": 9,
+            "quote": "49"
+          },
+          "finding_type": {
+            "value": "treatment after resistance",
+            "sentence": 16,
+            "quote": "Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety."
+          },
+          "key_finding": {
+            "value": "Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety.",
+            "sentence": 16,
+            "quote": "Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "A retrospective case-control study of 49 patients with advanced EGFR-mutant NSCLC found that third-generation EGFR-TKIs combined with local consolidative therapy significantly prolonged progression-free survival and duration of response in the first-line setting. This combination was associated with manageable safety and improved outcomes after resistance.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR-mutated",
+            "verdict": "supported",
+            "evidence": "Methods: This retrospective study enrolled patients diagnosed with EGFR-mutant NSCLC."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: third-generation EGFR-TKIs combined with local consolidative therapy",
+            "verdict": "supported",
+            "evidence": "The experimental group received EGFR-TKIs combined with LCT, and the control group received EGFR-TKIs monotherapy."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: first-line treatment",
+            "verdict": "supported",
+            "evidence": "Efficacy and safety of third-generation EGFR-TKIs combined with local consolidative therapy as first-line treatment for EGFR-mutated stage IIIB-IV NSCLC: a retrospective study."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: retrospective case-control study (classification)",
+            "verdict": "supported",
+            "evidence": "This retrospective case-control study aimed to evaluate whether the combination of LCT with third-generation EGFR-TKIs treatment can improve the efficacy and safety in the management of advanced NSCLC compared with TKIs monotherapy."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 49",
+            "verdict": "supported",
+            "evidence": "Results: A total of 49 patients were enrolled in this study (combination therapy group: n = 27; monotherapy group: n = 22)."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: treatment after resistance (classification)",
+            "verdict": "contradicted",
+            "evidence": "Objective: Although third-generation EGFR-tyrosine kinase inhibitors (EGFR-TKIs), such as osimertinib and aumolertinib, can improve prognosis as first-line treatment, most patients inevitably develop resistance and disease progression (PD)."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety.",
+            "verdict": "supported",
+            "evidence": "Conclusion: Third-generation EGFR-TKIs combined with LCT can significantly prolong PFS and DOR in patients with advanced EGFR-mutant NSCLC, with manageable safety."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "A retrospective case-control study of 49 patients with advanced EGFR-mutant NSCLC found that third-generation EGFR-TKIs combined with local consolidative therapy significantly prolonged progression-free survival and duration of response in the first-line setting.",
+            "verdict": "supported",
+            "evidence": "The median PFS was significantly longer in the combination therapy group than in the monotherapy group (32.0 vs. 21.0 months; HR = 0.39, P = 0.012)."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This combination was associated with manageable safety and improved outcomes after resistance.",
+            "verdict": "contradicted",
+            "evidence": "No statistically significant difference was found in the incidence of grade 1-2 and grade 3 adverse events between the two groups (all P > 0.05)."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Screening could not tell from the abstract whether it meets “Resistance”.",
+          "Finding type: the second model says the abstract states something different.",
+          "Summary sentence 2: the second model says the abstract states something different.",
+          "Sent to a reviewer by policy: finding type is “treatment after resistance”."
+        ],
+        "problems": 2,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43073884",
+        "title": "Granulocyte colony-stimulating factor-producing lung squamous cell carcinoma positive for an uncommon EGFR Exon 20 S768I mutation: a case report.",
+        "abstract": "Background: Granulocyte colony-stimulating factor (G-CSF) lung carcinoma is a rare and highly aggressive clinical entity characterized by persistent neutrophilia, high fever, and poor prognosis. Although the lung is a common primary site, the co-occurrence of G-CSF production and epidermal growth factor receptor (EGFR) mutations is extremely rare, particularly in squamous cell carcinoma (SCC). Case presentation: A 79-year-old Asian man, a former smoker, presented with an 80 mm mass in the left upper lobe and was diagnosed with a G-CSF-producing lung SCC (cT4N2bM0, cStage IIIB). Genetic testing identified a minor mutation and high programmed death ligand 1 (PD-L1) expression (tumor proportion score: TPS 65%). Despite an initial partial response to concurrent chemoradiotherapy, the disease progressed rapidly during maintenance durvalumab therapy, with a marked secondary increase in serum G-CSF and interleukin 6 (IL-6) levels. Subsequent lines of therapy, including docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib, provided only transient or limited clinical benefits. The patient eventually succumbed to tumor progression 22 months after the initial diagnosis. Discussion: To the best of our knowledge, this is the first English-language report of a G-CSF-producing lung SCC harboring an EGFR S768I mutation. The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present. Conclusion: Although driver mutations are rare in G-CSF-producing lung carcinoma, their presence may not guarantee a good response to targeted therapies. This case underscores the need for careful treatment selection and highlights the importance of further research into the mechanisms of treatment resistance in this intractable phenotype.",
+        "sentences": [
+          "Background: Granulocyte colony-stimulating factor (G-CSF) lung carcinoma is a rare and highly aggressive clinical entity characterized by persistent neutrophilia, high fever, and poor prognosis.",
+          "Although the lung is a common primary site, the co-occurrence of G-CSF production and epidermal growth factor receptor (EGFR) mutations is extremely rare, particularly in squamous cell carcinoma (SCC).",
+          "Case presentation: A 79-year-old Asian man, a former smoker, presented with an 80 mm mass in the left upper lobe and was diagnosed with a G-CSF-producing lung SCC (cT4N2bM0, cStage IIIB).",
+          "Genetic testing identified a minor mutation and high programmed death ligand 1 (PD-L1) expression (tumor proportion score: TPS 65%).",
+          "Despite an initial partial response to concurrent chemoradiotherapy, the disease progressed rapidly during maintenance durvalumab therapy, with a marked secondary increase in serum G-CSF and interleukin 6 (IL-6) levels.",
+          "Subsequent lines of therapy, including docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib, provided only transient or limited clinical benefits.",
+          "The patient eventually succumbed to tumor progression 22 months after the initial diagnosis.",
+          "Discussion: To the best of our knowledge, this is the first English-language report of a G-CSF-producing lung SCC harboring an EGFR S768I mutation.",
+          "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present.",
+          "Conclusion: Although driver mutations are rare in G-CSF-producing lung carcinoma, their presence may not guarantee a good response to targeted therapies.",
+          "This case underscores the need for careful treatment selection and highlights the importance of further research into the mechanisms of treatment resistance in this intractable phenotype."
+        ],
+        "journal": "BMC Pulm Med",
+        "year": "2026",
+        "authors": [
+          "Inadomi Y",
+          "Sawai T",
+          "Gyotoku H",
+          "Kawasaki K",
+          "Fujiyama S",
+          "Yoshida M",
+          "Yoshioka S",
+          "Matsuo N",
+          "Irie J",
+          "Kadota J",
+          "Mukae H"
+        ],
+        "doi": "10.1186/s12890-026-04647-8",
+        "publication_types": [
+          "Journal Article",
+          "Case Reports"
+        ],
+        "abstract_sha256": "d84b8c8efd16765c6d0d79c74e9c1fb9fb1457747ab7508343c0f55e6ee574ea",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43073884/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Case presentation: A 79-year-old Asian man, a former smoker, presented with an 80 mm mass in the left upper lobe and was diagnosed with a G-CSF-producing lung SCC (cT4N2bM0, cStage IIIB).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "Subsequent lines of therapy, including docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib, provided only transient or limited clinical benefits.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 9,
+            "evidence": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Case presentation: A 79-year-old Asian man, a former smoker, presented with an 80 mm mass in the left upper lobe and was diagnosed with a G-CSF-producing lung SCC (cT4N2bM0, cStage IIIB).",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production",
+            "sentence": 9,
+            "quote": "inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production"
+          },
+          "variant": {
+            "value": "EGFR S768I mutation",
+            "sentence": 8,
+            "quote": "EGFR S768I mutation"
+          },
+          "context": {
+            "value": "G-CSF-producing lung SCC",
+            "sentence": 8,
+            "quote": "G-CSF-producing lung SCC"
+          },
+          "drug": {
+            "value": "docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib",
+            "sentence": 6,
+            "quote": "docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib"
+          },
+          "setting": {
+            "value": "Subsequent lines of therapy",
+            "sentence": 6,
+            "quote": "Subsequent lines of therapy"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 0,
+            "quote": "a case report"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 3,
+            "quote": "A 79-year-old Asian man"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 9,
+            "quote": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present."
+          },
+          "key_finding": {
+            "value": "The inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present.",
+            "sentence": 9,
+            "quote": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "A case report of G-CSF-producing lung squamous cell carcinoma with an EGFR S768I mutation demonstrated resistance to docetaxel and EGFR-TKIs afatinib and osimertinib in subsequent lines of therapy. The findings suggest that an inflammatory and immunosuppressive tumor microenvironment driven by G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production",
+            "verdict": "supported",
+            "evidence": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR S768I mutation",
+            "verdict": "supported",
+            "evidence": "Discussion: To the best of our knowledge, this is the first English-language report of a G-CSF-producing lung SCC harboring an EGFR S768I mutation."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: G-CSF-producing lung SCC",
+            "verdict": "supported",
+            "evidence": "Case presentation: A 79-year-old Asian man, a former smoker, presented with an 80 mm mass in the left upper lobe and was diagnosed with a G-CSF-producing lung SCC (cT4N2bM0, cStage IIIB)."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib",
+            "verdict": "supported",
+            "evidence": "Subsequent lines of therapy, including docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib, provided only transient or limited clinical benefits."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: Subsequent lines of therapy",
+            "verdict": "supported",
+            "evidence": "Subsequent lines of therapy, including docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib, provided only transient or limited clinical benefits."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "Granulocyte colony-stimulating factor-producing lung squamous cell carcinoma positive for an uncommon EGFR Exon 20 S768I mutation: a case report."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "supported",
+            "evidence": "Case presentation: A 79-year-old Asian man, a former smoker, presented with an 80 mm mass in the left upper lobe and was diagnosed with a G-CSF-producing lung SCC (cT4N2bM0, cStage IIIB)."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: The inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present.",
+            "verdict": "supported",
+            "evidence": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "A case report of G-CSF-producing lung squamous cell carcinoma with an EGFR S768I mutation demonstrated resistance to docetaxel and EGFR-TKIs afatinib and osimertinib in subsequent lines of therapy.",
+            "verdict": "supported",
+            "evidence": "Subsequent lines of therapy, including docetaxel and the EGFR-tyrosine kinase inhibitors (TKIs) afatinib and osimertinib, provided only transient or limited clinical benefits."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "The findings suggest that an inflammatory and immunosuppressive tumor microenvironment driven by G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present.",
+            "verdict": "supported",
+            "evidence": "The present findings suggest that the inflammatory and immunosuppressive tumor microenvironment associated with G-CSF and IL-6 production may contribute to resistance against both immune checkpoint inhibitors and EGFR-TKIs, even when targetable mutations are present."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "accepted",
+        "reasons": [],
+        "problems": 0,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43068729",
+        "title": "Disrupting ceramide glycosylation prevents adaptive resistance to osimertinib in in vitro and in vivo models of EGFR-mutated non-small cell lung cancer.",
+        "abstract": "Acquired resistance to osimertinib remains a major limitation in the treatment of EGFR-mutated non-small cell lung cancer (NSCLC). Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC. Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells. The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures. Combined treatment decreases drug-tolerant persister cell (DTP) survival and prevents regrowth after drug withdrawal. Genetic silencing of UDP-glucose:ceramide glucosyltransferase (UGCG) confirmed the role of GCS in osimertinib tolerance, reducing DTP survival and resistant colony formation. In a xenograft mouse model, the osimertinib-venglustat combination significantly reduces long-term tumour regrowth compared with osimertinib, without signs of toxicity. Untargeted MS lipidomics identified glycosylated ceramides (GlyCer) as major lipid species associated with resistance development. The concentration-dependent reduction in GlyCer upon GCS inhibition parallels decreased resistant colony formation. Further targeted MS analysis identified Gb3/Cer glycosylation ratio (GR) as a key feature associated with osimertinib resistance. A mechanistic relationship between glycosphingolipids and osimertinib resistance is supported by preliminary data showing increased Gb3 C16:0 GR in plasma from osimertinib-treated EGFR-mutated NSCLC patients at tumour progression compared with pre-treatment levels. These findings support the need for further investigation aimed at evaluating the combination of a GCS inhibitor with osimertinib to prevent the insurgence of resistance to first-line treatment of EGFR-mutated NSCLC patients.",
+        "sentences": [
+          "Acquired resistance to osimertinib remains a major limitation in the treatment of EGFR-mutated non-small cell lung cancer (NSCLC).",
+          "Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC.",
+          "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells.",
+          "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+          "Combined treatment decreases drug-tolerant persister cell (DTP) survival and prevents regrowth after drug withdrawal.",
+          "Genetic silencing of UDP-glucose:ceramide glucosyltransferase (UGCG) confirmed the role of GCS in osimertinib tolerance, reducing DTP survival and resistant colony formation.",
+          "In a xenograft mouse model, the osimertinib-venglustat combination significantly reduces long-term tumour regrowth compared with osimertinib, without signs of toxicity.",
+          "Untargeted MS lipidomics identified glycosylated ceramides (GlyCer) as major lipid species associated with resistance development.",
+          "The concentration-dependent reduction in GlyCer upon GCS inhibition parallels decreased resistant colony formation.",
+          "Further targeted MS analysis identified Gb3/Cer glycosylation ratio (GR) as a key feature associated with osimertinib resistance.",
+          "A mechanistic relationship between glycosphingolipids and osimertinib resistance is supported by preliminary data showing increased Gb3 C16:0 GR in plasma from osimertinib-treated EGFR-mutated NSCLC patients at tumour progression compared with pre-treatment levels.",
+          "These findings support the need for further investigation aimed at evaluating the combination of a GCS inhibitor with osimertinib to prevent the insurgence of resistance to first-line treatment of EGFR-mutated NSCLC patients."
+        ],
+        "journal": "Biochem Pharmacol",
+        "year": "2026",
+        "authors": [
+          "Croci N",
+          "Monica S",
+          "Bonelli M",
+          "Cavazzoni A",
+          "Digiacomo G",
+          "Galetti M",
+          "Minari R",
+          "Verzè M",
+          "Leonetti A",
+          "Tagliazucchi L",
+          "Galvani F",
+          "Vacondio F",
+          "Rivara S",
+          "Alfieri R",
+          "Petronini PG",
+          "Mor M",
+          "Tiseo M"
+        ],
+        "doi": "10.1016/j.bcp.2026.118687",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "9fb24420ae10c7683c49b025dc44feca8497fcfe3e8dc6e86752262f8be957b0",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43068729/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "sphingolipid metabolism remodelling",
+            "sentence": 2,
+            "quote": "sphingolipid metabolism remodelling"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": "EGFR-mutated non-small cell lung cancer",
+            "sentence": 1,
+            "quote": "EGFR-mutated non-small cell lung cancer"
+          },
+          "drug": {
+            "value": "combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib",
+            "sentence": 3,
+            "quote": "combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib"
+          },
+          "setting": {
+            "value": "first-line treatment",
+            "sentence": 12,
+            "quote": "first-line treatment"
+          },
+          "study_type": {
+            "value": "in vitro and in vivo models",
+            "sentence": 0,
+            "quote": "in vitro and in vivo models"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 11,
+            "quote": "A mechanistic relationship between glycosphingolipids and osimertinib resistance is supported by preliminary data showing increased Gb3 C16:0 GR in plasma from osimertinib-treated EGFR-mutated NSCLC patients at tumour progression compared with pre-treatment levels."
+          },
+          "key_finding": {
+            "value": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "sentence": 4,
+            "quote": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In EGFR-mutated non-small cell lung cancer, sphingolipid metabolism remodelling contributes to resistance mechanisms against osimertinib. In vitro and in vivo models demonstrate that combining the GCS inhibitor venglustat with osimertinib significantly reduces the emergence of resistant colonies during first-line treatment.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: sphingolipid metabolism remodelling",
+            "verdict": "supported",
+            "evidence": "Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: EGFR-mutated non-small cell lung cancer",
+            "verdict": "supported",
+            "evidence": "Acquired resistance to osimertinib remains a major limitation in the treatment of EGFR-mutated non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib",
+            "verdict": "supported",
+            "evidence": "Here, we investigated whether the combination of an inhibitor of glucosylceramide synthase (GCS) with the EGFR-tyrosine kinase inhibitor osimertinib affects the development of resistance in EGFR-mutated NSCLC cells."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: first-line treatment",
+            "verdict": "supported",
+            "evidence": "These findings support the need for further investigation aimed at evaluating the combination of a GCS inhibitor with osimertinib to prevent the insurgence of resistance to first-line treatment of EGFR-mutated NSCLC patients."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: in vitro and in vivo models (classification)",
+            "verdict": "supported",
+            "evidence": "Disrupting ceramide glycosylation prevents adaptive resistance to osimertinib in in vitro and in vivo models of EGFR-mutated non-small cell lung cancer."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Increasing evidence indicates that sphingolipid metabolism remodelling contributes to drug tolerance and resistance in different cancers, including NSCLC."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures.",
+            "verdict": "supported",
+            "evidence": "The GCS inhibitor venglustat significantly reduces the emergence of osimertinib-resistant colonies after long-term exposure to osimertinib in EGFR-mutated NSCLC cell cultures."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In EGFR-mutated non-small cell lung cancer, sphingolipid metabolism remodelling contributes to resistance mechanisms against osimertinib.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "In vitro and in vivo models demonstrate that combining the GCS inhibitor venglustat with osimertinib significantly reduces the emergence of resistant colonies during first-line treatment.",
+            "verdict": "beyond",
+            "evidence": null
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Summary sentence 1: the second model could not find this in the abstract.",
+          "Summary sentence 2: the second model could not find this in the abstract."
+        ],
+        "problems": 2,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43064722",
+        "title": "Epigenetically driven GAS2L3 enforces non-canonical cell cycle progression to promote osimertinib resistance in lung adenocarcinoma.",
+        "abstract": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable. Although metabolic reprogramming is increasingly recognized as a driver of therapeutic resistance, the epigenetic consequences of lactate accumulation and their functional relevance in osimertinib resistance are poorly understood. Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la). Integrative transcriptomic analysis revealed significant enrichment of cell-cycle-associated pathways in resistant tumors, despite downregulation of canonical Cyclin B1 and Cyclin D1. Among the upregulated genes, GAS2L3 emerged as a prominent candidate. Genome-wide CUT&Tag profiling demonstrated enrichment of H4K8la at the GAS2L3 promoter, which was confirmed by ChIP-qPCR. Functionally, GAS2L3 overexpression accelerated S/G2-M progression and promoted proliferation under drug pressure, whereas its silencing induced cell-cycle arrest and restored osimertinib sensitivity both in vitro and in xenograft models. Notably, resistant cells displayed elevated P53 expression without induction of its canonical effector P21, indicating checkpoint uncoupling and a noncanonical mode of cell-cycle regulation. Mechanistically, glycolysis inhibition reduced H4K8la and GAS2L3 expression and partially re-sensitized resistant cells, while exogenous lactate restored H4K8la levels and resistance phenotypes, establishing a metabolically driven epigenetic circuit. Clinically, high GAS2L3 expression was associated with shorter progression-free survival in osimertinib-treated patients. Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance. These results uncover a metabolism-epigenetics-cell cycle interface that may represent a therapeutic vulnerability in EGFR-mutant LUAD.",
+        "sentences": [
+          "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable.",
+          "Although metabolic reprogramming is increasingly recognized as a driver of therapeutic resistance, the epigenetic consequences of lactate accumulation and their functional relevance in osimertinib resistance are poorly understood.",
+          "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la).",
+          "Integrative transcriptomic analysis revealed significant enrichment of cell-cycle-associated pathways in resistant tumors, despite downregulation of canonical Cyclin B1 and Cyclin D1.",
+          "Among the upregulated genes, GAS2L3 emerged as a prominent candidate.",
+          "Genome-wide CUT&Tag profiling demonstrated enrichment of H4K8la at the GAS2L3 promoter, which was confirmed by ChIP-qPCR.",
+          "Functionally, GAS2L3 overexpression accelerated S/G2-M progression and promoted proliferation under drug pressure, whereas its silencing induced cell-cycle arrest and restored osimertinib sensitivity both in vitro and in xenograft models.",
+          "Notably, resistant cells displayed elevated P53 expression without induction of its canonical effector P21, indicating checkpoint uncoupling and a noncanonical mode of cell-cycle regulation.",
+          "Mechanistically, glycolysis inhibition reduced H4K8la and GAS2L3 expression and partially re-sensitized resistant cells, while exogenous lactate restored H4K8la levels and resistance phenotypes, establishing a metabolically driven epigenetic circuit.",
+          "Clinically, high GAS2L3 expression was associated with shorter progression-free survival in osimertinib-treated patients.",
+          "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance.",
+          "These results uncover a metabolism-epigenetics-cell cycle interface that may represent a therapeutic vulnerability in EGFR-mutant LUAD."
+        ],
+        "journal": "Cell Death Discov",
+        "year": "2026",
+        "authors": [
+          "Zhen S",
+          "Bai X",
+          "Liu S",
+          "Zhang H",
+          "Ren X",
+          "Li X",
+          "Dong H",
+          "Li X",
+          "Han C",
+          "Wang L"
+        ],
+        "doi": "10.1038/s41420-026-03314-5",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "93026492f1c8b2cfd89c04e9b8698a4e85af9c89231b2fa2d28d5a433da4b506",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43064722/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la).",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la).",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation",
+            "sentence": 11,
+            "quote": "glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation"
+          },
+          "variant": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "context": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "drug": {
+            "value": "osimertinib",
+            "sentence": 1,
+            "quote": "osimertinib"
+          },
+          "setting": {
+            "value": "acquired resistance",
+            "sentence": 1,
+            "quote": "acquired resistance"
+          },
+          "study_type": {
+            "value": "cell-line study",
+            "sentence": 7,
+            "quote": "both in vitro and in xenograft models"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 11,
+            "quote": "our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance"
+          },
+          "key_finding": {
+            "value": "our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance",
+            "sentence": 11,
+            "quote": "our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance"
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "A cell-line study identified a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation. This mechanism promotes acquired resistance to osimertinib.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation",
+            "verdict": "supported",
+            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib",
+            "verdict": "supported",
+            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: acquired resistance",
+            "verdict": "supported",
+            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: cell-line study (classification)",
+            "verdict": "supported",
+            "evidence": "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la)."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance",
+            "verdict": "supported",
+            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "A cell-line study identified a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation.",
+            "verdict": "supported",
+            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This mechanism promotes acquired resistance to osimertinib.",
+            "verdict": "supported",
+            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "accepted",
+        "reasons": [],
+        "problems": 0,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43060583",
+        "title": "Case Report: Longitudinal clonal evolution in EGFR-mutant lung adenocarcinoma with coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations.",
+        "abstract": "Acquired resistance to osimertinib in epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer occurs through on-target mutations or bypass activation of alternative pathways. The longitudinal molecular evolution of a tumor across successive lines of therapy is rarely captured by repeat biopsy. We report a 68-year-old never-smoking woman with EGFR exon 19 deletion lung adenocarcinoma. First-line therapy achieved a partial response, with progression after 10.7 months; after 61 months of osimertinib, re-biopsy revealed concurrent EGFR T790M (9.3%), EML4-ALK fusion (E6:A20; 6.0%), and MET exon 14 skipping (c.3028G>T; 4.0%); aumolertinib plus ensartinib achieved stable disease for approximately 13 months. On further progression, a third biopsy showed molecular changes consistent with clonal evolution: the EML4-ALK fusion, MET exon 14 alteration, and EGFR T790M were no longer detected; the EGFR exon 19 deletion expanded to 47.71%; and KRAS G12R (10.17%), KRAS L19F (7.85%), BRAF D594N (8.13%), and BRAF E501K (6.38%) had emerged. Treatment with ivonescimab, a programmed cell death protein 1 and vascular endothelial growth factor bispecific antibody, plus pemetrexed and carboplatin, followed by pemetrexed plus ivonescimab, achieved stable disease; because chemotherapy was given concurrently, the contribution of ivonescimab cannot be isolated. PD-L1 (tumor proportion score <1%) was assessed on an earlier biopsy and blood tumor mutational burden was measured in 2019. This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers.",
+        "sentences": [
+          "Acquired resistance to osimertinib in epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer occurs through on-target mutations or bypass activation of alternative pathways.",
+          "The longitudinal molecular evolution of a tumor across successive lines of therapy is rarely captured by repeat biopsy.",
+          "We report a 68-year-old never-smoking woman with EGFR exon 19 deletion lung adenocarcinoma.",
+          "First-line therapy achieved a partial response, with progression after 10.7 months; after 61 months of osimertinib, re-biopsy revealed concurrent EGFR T790M (9.3%), EML4-ALK fusion (E6:A20; 6.0%), and MET exon 14 skipping (c.3028G>T; 4.0%); aumolertinib plus ensartinib achieved stable disease for approximately 13 months.",
+          "On further progression, a third biopsy showed molecular changes consistent with clonal evolution: the EML4-ALK fusion, MET exon 14 alteration, and EGFR T790M were no longer detected; the EGFR exon 19 deletion expanded to 47.71%; and KRAS G12R (10.17%), KRAS L19F (7.85%), BRAF D594N (8.13%), and BRAF E501K (6.38%) had emerged.",
+          "Treatment with ivonescimab, a programmed cell death protein 1 and vascular endothelial growth factor bispecific antibody, plus pemetrexed and carboplatin, followed by pemetrexed plus ivonescimab, achieved stable disease; because chemotherapy was given concurrently, the contribution of ivonescimab cannot be isolated.",
+          "PD-L1 (tumor proportion score <1%) was assessed on an earlier biopsy and blood tumor mutational burden was measured in 2019.",
+          "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers."
+        ],
+        "journal": "Front Immunol",
+        "year": "2026",
+        "authors": [
+          "He Y",
+          "Huang W",
+          "Xu M",
+          "Wu W",
+          "Kang A",
+          "Li Y",
+          "Chen W",
+          "Huang L",
+          "Cai W"
+        ],
+        "doi": "10.3389/fimmu.2026.2014093",
+        "publication_types": [
+          "Case Reports",
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "abstract_sha256": "6a5d772b69e3a701586b427ff42f0d134aa227f88e27c45895fbb8850b440ac4",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43060583/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "We report a 68-year-old never-smoking woman with EGFR exon 19 deletion lung adenocarcinoma.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "First-line therapy achieved a partial response, with progression after 10.7 months; after 61 months of osimertinib, re-biopsy revealed concurrent EGFR T790M (9.3%), EML4-ALK fusion (E6:A20; 6.0%), and MET exon 14 skipping (c.3028G>T; 4.0%); aumolertinib plus ensartinib achieved stable disease for approximately 13 months.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "First-line therapy achieved a partial response, with progression after 10.7 months; after 61 months of osimertinib, re-biopsy revealed concurrent EGFR T790M (9.3%), EML4-ALK fusion (E6:A20; 6.0%), and MET exon 14 skipping (c.3028G>T; 4.0%); aumolertinib plus ensartinib achieved stable disease for approximately 13 months.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "We report a 68-year-old never-smoking woman with EGFR exon 19 deletion lung adenocarcinoma.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "longitudinal clonal evolution in EGFR-mutant lung adenocarcinoma with coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations",
+            "sentence": 0,
+            "quote": "Longitudinal clonal evolution in EGFR-mutant lung adenocarcinoma with coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations"
+          },
+          "variant": {
+            "value": "EGFR exon 19 deletion, EGFR T790M, EML4-ALK fusion, MET exon 14 skipping, KRAS G12R, KRAS L19F, BRAF D594N, BRAF E501K",
+            "sentence": 5,
+            "quote": "the EML4-ALK fusion, MET exon 14 alteration, and EGFR T790M were no longer detected; the EGFR exon 19 deletion expanded to 47.71%; and KRAS G12R (10.17%), KRAS L19F (7.85%), BRAF D594N (8.13%), and BRAF E501K (6.38%) had emerged"
+          },
+          "context": {
+            "value": "coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations",
+            "sentence": 0,
+            "quote": "coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations"
+          },
+          "drug": {
+            "value": "osimertinib, aumolertinib plus ensartinib, ivonescimab plus pemetrexed and carboplatin, pemetrexed plus ivonescimab",
+            "sentence": 4,
+            "quote": "after 61 months of osimertinib... aumolertinib plus ensartinib achieved stable disease"
+          },
+          "setting": {
+            "value": "acquired resistance to osimertinib",
+            "sentence": 1,
+            "quote": "Acquired resistance to osimertinib"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 0,
+            "quote": "Case Report"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 3,
+            "quote": "We report a 68-year-old never-smoking woman"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 8,
+            "quote": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations"
+          },
+          "key_finding": {
+            "value": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers.",
+            "sentence": 8,
+            "quote": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "This case report describes the longitudinal clonal evolution of an EGFR-mutant lung adenocarcinoma harboring coexisting MET exon 14 skipping and EML4-ALK fusions, which developed acquired resistance to osimertinib through the emergence of KRAS and BRAF bypass mutations. The findings illustrate the regression of drug-sensitive clones and the feasibility of using an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: longitudinal clonal evolution in EGFR-mutant lung adenocarcinoma with coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations",
+            "verdict": "supported",
+            "evidence": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR exon 19 deletion, EGFR T790M, EML4-ALK fusion, MET exon 14 skipping, KRAS G12R, KRAS L19F, BRAF D594N, BRAF E501K",
+            "verdict": "supported",
+            "evidence": "On further progression, a third biopsy showed molecular changes consistent with clonal evolution: the EML4-ALK fusion, MET exon 14 alteration, and EGFR T790M were no longer detected; the EGFR exon 19 deletion expanded to 47.71%; and KRAS G12R (10.17%), KRAS L19F (7.85%), BRAF D594N (8.13%), and BRAF E501K (6.38%) had emerged."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations",
+            "verdict": "supported",
+            "evidence": "On further progression, a third biopsy showed molecular changes consistent with clonal evolution: the EML4-ALK fusion, MET exon 14 alteration, and EGFR T790M were no longer detected; the EGFR exon 19 deletion expanded to 47.71%; and KRAS G12R (10.17%), KRAS L19F (7.85%), BRAF D594N (8.13%), and BRAF E501K (6.38%) had emerged."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib, aumolertinib plus ensartinib, ivonescimab plus pemetrexed and carboplatin, pemetrexed plus ivonescimab",
+            "verdict": "supported",
+            "evidence": "Treatment with ivonescimab, a programmed cell death protein 1 and vascular endothelial growth factor bispecific antibody, plus pemetrexed and carboplatin, followed by pemetrexed plus ivonescimab, achieved stable disease; because chemotherapy was given concurrently, the contribution of ivonescimab cannot be isolated."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: acquired resistance to osimertinib",
+            "verdict": "supported",
+            "evidence": "Acquired resistance to osimertinib in epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer occurs through on-target mutations or bypass activation of alternative pathways."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "Case Report: Longitudinal clonal evolution in EGFR-mutant lung adenocarcinoma with coexisting MET exon 14 skipping and EML4-ALK fusion and subsequent KRAS/BRAF bypass mutations."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "supported",
+            "evidence": "We report a 68-year-old never-smoking woman with EGFR exon 19 deletion lung adenocarcinoma."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Acquired resistance to osimertinib in epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer occurs through on-target mutations or bypass activation of alternative pathways."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers.",
+            "verdict": "supported",
+            "evidence": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "This case report describes the longitudinal clonal evolution of an EGFR-mutant lung adenocarcinoma harboring coexisting MET exon 14 skipping and EML4-ALK fusions, which developed acquired resistance to osimertinib through the emergence of KRAS and BRAF bypass mutations.",
+            "verdict": "supported",
+            "evidence": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "The findings illustrate the regression of drug-sensitive clones and the feasibility of using an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers.",
+            "verdict": "supported",
+            "evidence": "This case is consistent with longitudinal clonal dynamics under sequential targeted therapy, namely regression of drug-sensitive clones and emergence of mitogen-activated protein kinase pathway bypass alterations, and the feasibility of an immunotherapy-containing regimen in a multi-driver tumor with unfavorable immune biomarkers."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "accepted",
+        "reasons": [],
+        "problems": 0,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43060461",
+        "title": "Case Report: Long-term survival of a patient with lung adenocarcinoma harboring EGFR 19del/T790M/C797S and KIF26B-NTRK1 rearrangement.",
+        "abstract": "Epidermal growth factor receptor (EGFR) gene mutation stands as one of the most prevalent driver genetic alterations in non-small cell lung cancer (NSCLC). While targeted therapies against EGFR have substantially enhanced patient prognosis, acquired resistance remains a core challenge that limits therapeutic efficacy. Patients with stage IV NSCLC generally exhibit a dismal prognosis, with only about 7% of those with stage IVB disease surviving beyond five years. Herein, we report a case of a 47-year-old female patient diagnosed with advanced lung adenocarcinoma, whose clinical course has persisted for nearly a decade. Initial genetic testing identified an EGFR exon 19 deletion (19del). Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement. Subsequently, through a multimodal therapeutic strategy integrating local intervention, radiation therapy, and targeted therapy, the patient's disease has been sustainably controlled for several years, and she remains alive with stable clinical status to date. NTRK1 fusions are a well-defined mechanism of acquired resistance to EGFR-TKIs, but they are uncommon. This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed. The principal value of this report lies in the completeness of the longitudinal molecular and clinical record, which documents how an on-target mutation and a bypass rearrangement can coexist and persist.",
+        "sentences": [
+          "Epidermal growth factor receptor (EGFR) gene mutation stands as one of the most prevalent driver genetic alterations in non-small cell lung cancer (NSCLC).",
+          "While targeted therapies against EGFR have substantially enhanced patient prognosis, acquired resistance remains a core challenge that limits therapeutic efficacy.",
+          "Patients with stage IV NSCLC generally exhibit a dismal prognosis, with only about 7% of those with stage IVB disease surviving beyond five years.",
+          "Herein, we report a case of a 47-year-old female patient diagnosed with advanced lung adenocarcinoma, whose clinical course has persisted for nearly a decade.",
+          "Initial genetic testing identified an EGFR exon 19 deletion (19del).",
+          "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement.",
+          "Subsequently, through a multimodal therapeutic strategy integrating local intervention, radiation therapy, and targeted therapy, the patient's disease has been sustainably controlled for several years, and she remains alive with stable clinical status to date.",
+          "NTRK1 fusions are a well-defined mechanism of acquired resistance to EGFR-TKIs, but they are uncommon.",
+          "This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed.",
+          "The principal value of this report lies in the completeness of the longitudinal molecular and clinical record, which documents how an on-target mutation and a bypass rearrangement can coexist and persist."
+        ],
+        "journal": "Front Oncol",
+        "year": "2026",
+        "authors": [
+          "Li Z",
+          "Liu R",
+          "Wu J",
+          "Li H",
+          "Wang X",
+          "Li Q",
+          "Han T",
+          "Du Y",
+          "Liu X",
+          "Zhou Y"
+        ],
+        "doi": "10.3389/fonc.2026.1999109",
+        "publication_types": [
+          "Case Reports",
+          "Journal Article"
+        ],
+        "abstract_sha256": "d4d1a9a9f6344750f8e431e0215cecdea4ee99ddd85da92df608421a9774a14d",
+        "found_by": [
+          "main",
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43060461/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 5,
+            "evidence": "Initial genetic testing identified an EGFR exon 19 deletion (19del).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Herein, we report a case of a 47-year-old female patient diagnosed with advanced lung adenocarcinoma, whose clinical course has persisted for nearly a decade.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement",
+            "sentence": 6,
+            "quote": "concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement"
+          },
+          "variant": {
+            "value": "EGFR exon 19 deletion (19del), EGFR T790M/C797S double mutations, KIF26B-NTRK1 rearrangement",
+            "sentence": 6,
+            "quote": "EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement"
+          },
+          "context": {
+            "value": "cis-arranged",
+            "sentence": 6,
+            "quote": "cis-arranged"
+          },
+          "drug": {
+            "value": "osimertinib",
+            "sentence": 6,
+            "quote": "osimertinib"
+          },
+          "setting": {
+            "value": "after progression",
+            "sentence": 6,
+            "quote": "Following treatment with osimertinib, the patient developed"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 4,
+            "quote": "we report a case"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 4,
+            "quote": "a 47-year-old female patient"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 8,
+            "quote": "NTRK1 fusions are a well-defined mechanism of acquired resistance to EGFR-TKIs"
+          },
+          "key_finding": {
+            "value": "This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed.",
+            "sentence": 9,
+            "quote": "This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "This case report describes a patient with EGFR exon 19 deletion who developed resistance to osimertinib through the acquisition of cis-arranged EGFR T790M/C797S double mutations and a novel KIF26B-NTRK1 rearrangement. The functional significance of this previously undescribed NTRK1 fusion in lung cancer remains to be confirmed.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: 19, 19del, KIF26B."
+            ]
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": false,
+            "problems": [
+              "The quote does not say this: progression."
+            ]
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement",
+            "verdict": "supported",
+            "evidence": "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR exon 19 deletion (19del), EGFR T790M/C797S double mutations, KIF26B-NTRK1 rearrangement",
+            "verdict": "supported",
+            "evidence": "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: cis-arranged",
+            "verdict": "supported",
+            "evidence": "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: osimertinib",
+            "verdict": "supported",
+            "evidence": "Following treatment with osimertinib, the patient developed concurrent cis-arranged EGFR T790M/C797S double mutations and a neurotrophic receptor tyrosine kinase 1 (NTRK1) gene rearrangement."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: after progression",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "Case Report: Long-term survival of a patient with lung adenocarcinoma harboring EGFR 19del/T790M/C797S and KIF26B-NTRK1 rearrangement."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "supported",
+            "evidence": "Herein, we report a case of a 47-year-old female patient diagnosed with advanced lung adenocarcinoma, whose clinical course has persisted for nearly a decade."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "NTRK1 fusions are a well-defined mechanism of acquired resistance to EGFR-TKIs, but they are uncommon."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed.",
+            "verdict": "supported",
+            "evidence": "This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "This case report describes a patient with EGFR exon 19 deletion who developed resistance to osimertinib through the acquisition of cis-arranged EGFR T790M/C797S double mutations and a novel KIF26B-NTRK1 rearrangement.",
+            "verdict": "supported",
+            "evidence": "This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "The functional significance of this previously undescribed NTRK1 fusion in lung cancer remains to be confirmed.",
+            "verdict": "supported",
+            "evidence": "This case reports a KIF26B-NTRK1 rearrangement not previously described in lung cancer; however, its functional significance remains to be confirmed."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Variant: Not in the quote: 19, 19del, KIF26B.",
+          "Setting: The quote does not say this: progression.",
+          "Setting: the second model could not find this in the abstract."
+        ],
+        "problems": 3,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43054042",
+        "title": "EGFR-mutant lung adenocarcinoma with leptomeningeal metastasis after osimertinib treatment: intrathecal chemotherapy combined with targeted therapy supported by cerebrospinal fluid next generation sequencing - a case report.",
+        "abstract": "Background: Leptomeningeal metastasis (LM) is a severe complication of advanced non-small cell lung cancer (NSCLC). Conventional cerebrospinal fluid (CSF) cytology has limited sensitivity and often delays diagnosis. We report a case of LM molecularly supported by CSF next-generation sequencing (NGS) after three negative cytological examinations. NGS also revealed a potential bypass resistance alteration that informed subsequent treatment considerations. Case: A 57-year-old female never-smoker had EGFR exon 21 p.L858R-mutant lung adenocarcinoma. After 18 months of first-line osimertinib (80 mg once daily), she developed progressive nausea, vomiting, and dizziness. Contrast-enhanced cranial magnetic resonance imaging (MRI) showed linear leptomeningeal enhancement. Lumbar puncture showed markedly elevated intracranial pressure (>300 mmH2O) and increased CSF protein. However, three CSF cytological examinations (including cell block sections) found no malignant cells. CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification. Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance. After intrathecal methotrexate plus continued oral osimertinib, her neurological symptoms improved markedly, and intracranial pressure returned to normal. The first seizure occurred on March 19, 2026, and MRI on April 8, 2026 confirmed new brain parenchymal metastases. Whole-brain radiotherapy with a local boost to the metastases, antiepileptic treatment, and continued osimertinib led to obvious shrinkage of the intracranial lesions. Grade 3 thrombocytopenia and severe malnutrition occurred during multimodal therapy and improved with supportive care. At the last follow-up, the patient was clinically stable with an Eastern Cooperative Oncology Group performance status (ECOG PS) of 1. Conclusions: CSF NGS can overcome the diagnostic bottleneck of cytology-negative LM. It can also identify potential resistance alterations and actionable targets (such as CDK4/6 inhibitors) at the same time, providing direction for subsequent targeted strategies. As part of multimodal therapy, intrathecal chemotherapy combined with an EGFR tyrosine kinase inhibitor (TKI) can contribute to disease control in the CSF compartment, whereas parenchymal progression still requires salvage radiotherapy. Cumulative hematological and nutritional toxicity should be monitored during sequential multimodal therapy.",
+        "sentences": [
+          "Background: Leptomeningeal metastasis (LM) is a severe complication of advanced non-small cell lung cancer (NSCLC).",
+          "Conventional cerebrospinal fluid (CSF) cytology has limited sensitivity and often delays diagnosis.",
+          "We report a case of LM molecularly supported by CSF next-generation sequencing (NGS) after three negative cytological examinations.",
+          "NGS also revealed a potential bypass resistance alteration that informed subsequent treatment considerations.",
+          "Case: A 57-year-old female never-smoker had EGFR exon 21 p.L858R-mutant lung adenocarcinoma.",
+          "After 18 months of first-line osimertinib (80 mg once daily), she developed progressive nausea, vomiting, and dizziness.",
+          "Contrast-enhanced cranial magnetic resonance imaging (MRI) showed linear leptomeningeal enhancement.",
+          "Lumbar puncture showed markedly elevated intracranial pressure (>300 mmH2O) and increased CSF protein.",
+          "However, three CSF cytological examinations (including cell block sections) found no malignant cells.",
+          "CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification.",
+          "Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance.",
+          "After intrathecal methotrexate plus continued oral osimertinib, her neurological symptoms improved markedly, and intracranial pressure returned to normal.",
+          "The first seizure occurred on March 19, 2026, and MRI on April 8, 2026 confirmed new brain parenchymal metastases.",
+          "Whole-brain radiotherapy with a local boost to the metastases, antiepileptic treatment, and continued osimertinib led to obvious shrinkage of the intracranial lesions.",
+          "Grade 3 thrombocytopenia and severe malnutrition occurred during multimodal therapy and improved with supportive care.",
+          "At the last follow-up, the patient was clinically stable with an Eastern Cooperative Oncology Group performance status (ECOG PS) of 1.",
+          "Conclusions: CSF NGS can overcome the diagnostic bottleneck of cytology-negative LM.",
+          "It can also identify potential resistance alterations and actionable targets (such as CDK4/6 inhibitors) at the same time, providing direction for subsequent targeted strategies.",
+          "As part of multimodal therapy, intrathecal chemotherapy combined with an EGFR tyrosine kinase inhibitor (TKI) can contribute to disease control in the CSF compartment, whereas parenchymal progression still requires salvage radiotherapy.",
+          "Cumulative hematological and nutritional toxicity should be monitored during sequential multimodal therapy."
+        ],
+        "journal": "Front Oncol",
+        "year": "2026",
+        "authors": [
+          "Gan X",
+          "Jin X",
+          "Pan M",
+          "Guo Y",
+          "Yang C"
+        ],
+        "doi": "10.3389/fonc.2026.1983545",
+        "publication_types": [
+          "Case Reports",
+          "Journal Article"
+        ],
+        "abstract_sha256": "97d3023209dd4e61ba9564958184ce9bf370c59a53984f3d9919c8df23448fa6",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43054042/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 5,
+            "evidence": "Case: A 57-year-old female never-smoker had EGFR exon 21 p.L858R-mutant lung adenocarcinoma.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "After 18 months of first-line osimertinib (80 mg once daily), she developed progressive nausea, vomiting, and dizziness.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 11,
+            "evidence": "Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "We report a case of LM molecularly supported by CSF next-generation sequencing (NGS) after three negative cytological examinations.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "cell-cycle bypass activation",
+            "sentence": 11,
+            "quote": "cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance"
+          },
+          "variant": {
+            "value": "CDK4 amplification",
+            "sentence": 10,
+            "quote": "CDK4 amplification"
+          },
+          "context": {
+            "value": "together with EGFR p.L858R mutation",
+            "sentence": 10,
+            "quote": "together with CDK4 amplification"
+          },
+          "drug": {
+            "value": "intrathecal methotrexate plus continued oral osimertinib",
+            "sentence": 12,
+            "quote": "intrathecal methotrexate plus continued oral osimertinib"
+          },
+          "setting": {
+            "value": "after 18 months of first-line osimertinib",
+            "sentence": 6,
+            "quote": "After 18 months of first-line osimertinib"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 0,
+            "quote": "a case report"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 5,
+            "quote": "A 57-year-old female"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 11,
+            "quote": "suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance"
+          },
+          "key_finding": {
+            "value": "CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification, suggesting cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance.",
+            "sentence": 11,
+            "quote": "Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In a case report of a patient with EGFR p.L858R mutation who developed resistance after 18 months of first-line osimertinib, cerebrospinal fluid next-generation sequencing identified CDK4 amplification alongside the primary tumor mutation. This finding suggests that cell-cycle bypass activation is a potential mechanism associated with osimertinib resistance in this context.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: EGFR, L858R.",
+              "The quote does not say this: EGFR, mutation."
+            ]
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: CSF, EGFR, L858R, CDK4."
+            ]
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: cell-cycle bypass activation",
+            "verdict": "supported",
+            "evidence": "Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: CDK4 amplification",
+            "verdict": "supported",
+            "evidence": "CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: together with EGFR p.L858R mutation",
+            "verdict": "supported",
+            "evidence": "CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: intrathecal methotrexate plus continued oral osimertinib",
+            "verdict": "supported",
+            "evidence": "After intrathecal methotrexate plus continued oral osimertinib, her neurological symptoms improved markedly, and intracranial pressure returned to normal."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: after 18 months of first-line osimertinib",
+            "verdict": "supported",
+            "evidence": "After 18 months of first-line osimertinib (80 mg once daily), she developed progressive nausea, vomiting, and dizziness."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "EGFR-mutant lung adenocarcinoma with leptomeningeal metastasis after osimertinib treatment: intrathecal chemotherapy combined with targeted therapy supported by cerebrospinal fluid next generation sequencing - a case report."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "supported",
+            "evidence": "Case: A 57-year-old female never-smoker had EGFR exon 21 p.L858R-mutant lung adenocarcinoma."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification, suggesting cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance.",
+            "verdict": "supported",
+            "evidence": "CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In a case report of a patient with EGFR p.L858R mutation who developed resistance after 18 months of first-line osimertinib, cerebrospinal fluid next-generation sequencing identified CDK4 amplification alongside the primary tumor mutation.",
+            "verdict": "supported",
+            "evidence": "CSF NGS detected the EGFR p.L858R mutation identical to the primary tumor, together with CDK4 amplification."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This finding suggests that cell-cycle bypass activation is a potential mechanism associated with osimertinib resistance in this context.",
+            "verdict": "supported",
+            "evidence": "Integrated with the clinical and MRI presentation, these findings supported a diagnosis of probable LM and suggested cell-cycle bypass activation as a potential mechanism associated with osimertinib resistance."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Context: Not in the quote: EGFR, L858R.",
+          "Context: The quote does not say this: EGFR, mutation.",
+          "Key finding: Not in the quote: CSF, EGFR, L858R, CDK4."
+        ],
+        "problems": 3,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43077001",
+        "title": "Advances in targeting the FGF-FGFR Pathway to overcome acquired EGFR-TKI resistance in non-small cell lung cancer.",
+        "abstract": "Non-small cell lung cancer (NSCLC) remains a major cause of cancer-related mortality, and activating epidermal growth factor receptor (EGFR) mutations define a clinically important molecular subtype. EGFR tyrosine kinase inhibitors (TKIs) have substantially improved outcomes, but acquired resistance eventually limits long-term disease control. Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways. This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition. Genetic alterations, including receptor fusions, amplifications, and activating mutations, and non-genetic mechanisms such as receptor overexpression and ligand-driven autocrine signaling may sustain downstream pathway activation. These processes can reactivate mitogenic and survival signaling despite EGFR inhibition and may support tumor persistence in a subset of molecular settings. We discuss preclinical and clinical evidence for FGFR-associated resistance, with particular emphasis on the functionally characterized FGF2-FGFR1 axis. Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations. Finally, we highlight challenges related to biomarker identification, routine testing, toxicity management, and clinical trial design, and outline future directions for evaluating FGFR-targeted approaches in EGFR-mutant NSCLC.",
+        "sentences": [
+          "Non-small cell lung cancer (NSCLC) remains a major cause of cancer-related mortality, and activating epidermal growth factor receptor (EGFR) mutations define a clinically important molecular subtype.",
+          "EGFR tyrosine kinase inhibitors (TKIs) have substantially improved outcomes, but acquired resistance eventually limits long-term disease control.",
+          "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways.",
+          "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition.",
+          "Genetic alterations, including receptor fusions, amplifications, and activating mutations, and non-genetic mechanisms such as receptor overexpression and ligand-driven autocrine signaling may sustain downstream pathway activation.",
+          "These processes can reactivate mitogenic and survival signaling despite EGFR inhibition and may support tumor persistence in a subset of molecular settings.",
+          "We discuss preclinical and clinical evidence for FGFR-associated resistance, with particular emphasis on the functionally characterized FGF2-FGFR1 axis.",
+          "Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations.",
+          "Finally, we highlight challenges related to biomarker identification, routine testing, toxicity management, and clinical trial design, and outline future directions for evaluating FGFR-targeted approaches in EGFR-mutant NSCLC."
+        ],
+        "journal": "Med Oncol",
+        "year": "2026",
+        "authors": [
+          "Ding C",
+          "Luo Y",
+          "Lei Y",
+          "Wang X"
+        ],
+        "doi": "10.1007/s12032-026-03559-1",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract_sha256": "2873f0cced265bee6bba2ec2e84a914825d07fb6524343deea64790723edf35e",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43077001/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Included because unclear on: drug, resistance. Unclear counts as include, so nothing relevant is dropped.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Non-small cell lung cancer (NSCLC) remains a major cause of cancer-related mortality, and activating epidermal growth factor receptor (EGFR) mutations define a clinically important molecular subtype.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "unclear",
+            "sentence": null,
+            "evidence": null,
+            "grounded": false
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 4,
+            "evidence": "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "FGFR signaling",
+            "sentence": 3,
+            "quote": "fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways"
+          },
+          "variant": {
+            "value": "receptor fusions, amplifications, and activating mutations",
+            "sentence": 5,
+            "quote": "receptor fusions, amplifications, and activating mutations"
+          },
+          "context": {
+            "value": "resistance to EGFR inhibition",
+            "sentence": 4,
+            "quote": "resistance to EGFR inhibition"
+          },
+          "drug": {
+            "value": "selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy",
+            "sentence": 8,
+            "quote": "selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy"
+          },
+          "setting": {
+            "value": "acquired EGFR-TKI resistance",
+            "sentence": 0,
+            "quote": "acquired EGFR-TKI resistance"
+          },
+          "study_type": {
+            "value": "review",
+            "sentence": 4,
+            "quote": "This review summarizes evidence"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 3,
+            "quote": "fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways"
+          },
+          "key_finding": {
+            "value": "FGFR signaling has emerged as one of several potential bypass pathways for acquired resistance to EGFR inhibition, involving genetic and non-genetic mechanisms.",
+            "sentence": 3,
+            "quote": "fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways"
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "FGFR signaling, driven by receptor fusions, amplifications, and activating mutations, has emerged as a potential bypass pathway for acquired resistance to EGFR inhibition. This review highlights that these genetic and non-genetic mechanisms can be targeted by selective FGFR inhibitors, multi-kinase inhibitors, or investigational combination regimens with EGFR inhibitors or immunotherapy.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: EGFR.",
+              "The quote does not say this: acquired, resistance, EGFR, inhibition, involving, genetic, non-genetic, mechanisms."
+            ]
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: FGFR signaling",
+            "verdict": "supported",
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: receptor fusions, amplifications, and activating mutations",
+            "verdict": "supported",
+            "evidence": "Genetic alterations, including receptor fusions, amplifications, and activating mutations, and non-genetic mechanisms such as receptor overexpression and ligand-driven autocrine signaling may sustain downstream pathway activation."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: resistance to EGFR inhibition",
+            "verdict": "supported",
+            "evidence": "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy",
+            "verdict": "supported",
+            "evidence": "Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: acquired EGFR-TKI resistance",
+            "verdict": "supported",
+            "evidence": "EGFR tyrosine kinase inhibitors (TKIs) have substantially improved outcomes, but acquired resistance eventually limits long-term disease control."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: review (classification)",
+            "verdict": "supported",
+            "evidence": "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: FGFR signaling has emerged as one of several potential bypass pathways for acquired resistance to EGFR inhibition, involving genetic and non-genetic mechanisms.",
+            "verdict": "supported",
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "FGFR signaling, driven by receptor fusions, amplifications, and activating mutations, has emerged as a potential bypass pathway for acquired resistance to EGFR inhibition.",
+            "verdict": "supported",
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This review highlights that these genetic and non-genetic mechanisms can be targeted by selective FGFR inhibitors, multi-kinase inhibitors, or investigational combination regimens with EGFR inhibitors or immunotherapy.",
+            "verdict": "supported",
+            "evidence": "Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Screening could not tell from the abstract whether it meets “Drug”.",
+          "Screening could not tell from the abstract whether it meets “Resistance”.",
+          "Key finding: Not in the quote: EGFR.",
+          "Key finding: The quote does not say this: acquired, resistance, EGFR, inhibition, involving, genetic, non-genetic, mechanisms."
+        ],
+        "problems": 2,
+        "notes": []
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43075504",
+        "title": "The evolving immune ecosystem of TKI resistance in EGFR-mutant NSCLC: from treatment-induced remodeling to mechanism-guided therapy.",
+        "abstract": "Tyrosine kinase inhibitors (TKIs) have transformed the treatment of EGFR-mutant non-small cell lung cancer (NSCLC), yet acquired resistance remains a major clinical limitation. Resistance is increasingly understood as an evolving state shaped not only by tumor-cell genomic alterations but also by treatment-induced remodeling of the tumor immune microenvironment (TIME). This Review examines how EGFR-TKI exposure reshapes macrophage states, T-cell function and localization, fibroblast and myeloid niches, and vascular architecture, and how these changes are reinforced by immune-checkpoint adaptation, metabolic reprogramming, and phenotypic plasticity. We then connect the evolving TIME to post-TKI therapeutic strategies according to the maturity of the supporting evidence, including immune checkpoint inhibitor-containing regimens, anti-angiogenic combinations, mechanism-matched targeted therapy, antibody-drug conjugates, bispecific T-cell engagers, and selected preclinical microenvironment-directed approaches. Finally, we discuss circulating biomarkers, single-cell sequencing, and spatial profiling as tools for longitudinally defining resistant immune states. Viewing TKI resistance as a temporally evolving immune ecosystem provides a framework for linking resistance mechanism, immune phenotype, and treatment selection rather than treating progression as a purely genomic endpoint.",
+        "sentences": [
+          "Tyrosine kinase inhibitors (TKIs) have transformed the treatment of EGFR-mutant non-small cell lung cancer (NSCLC), yet acquired resistance remains a major clinical limitation.",
+          "Resistance is increasingly understood as an evolving state shaped not only by tumor-cell genomic alterations but also by treatment-induced remodeling of the tumor immune microenvironment (TIME).",
+          "This Review examines how EGFR-TKI exposure reshapes macrophage states, T-cell function and localization, fibroblast and myeloid niches, and vascular architecture, and how these changes are reinforced by immune-checkpoint adaptation, metabolic reprogramming, and phenotypic plasticity.",
+          "We then connect the evolving TIME to post-TKI therapeutic strategies according to the maturity of the supporting evidence, including immune checkpoint inhibitor-containing regimens, anti-angiogenic combinations, mechanism-matched targeted therapy, antibody-drug conjugates, bispecific T-cell engagers, and selected preclinical microenvironment-directed approaches.",
+          "Finally, we discuss circulating biomarkers, single-cell sequencing, and spatial profiling as tools for longitudinally defining resistant immune states.",
+          "Viewing TKI resistance as a temporally evolving immune ecosystem provides a framework for linking resistance mechanism, immune phenotype, and treatment selection rather than treating progression as a purely genomic endpoint."
+        ],
+        "journal": "Front Immunol",
+        "year": "2026",
+        "authors": [
+          "Luo B",
+          "Hairulajiang A",
+          "Liu J",
+          "Liu X"
+        ],
+        "doi": "10.3389/fimmu.2026.1990429",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract_sha256": "9d54a2d2042a1dd41df74a9d4ca0e190b7856a32f80eb79b8f3b058ebe0d738f",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43075504/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Tyrosine kinase inhibitors (TKIs) have transformed the treatment of EGFR-mutant non-small cell lung cancer (NSCLC), yet acquired resistance remains a major clinical limitation.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 3,
+            "evidence": "This Review examines how EGFR-TKI exposure reshapes macrophage states, T-cell function and localization, fibroblast and myeloid niches, and vascular architecture, and how these changes are reinforced by immune-checkpoint adaptation, metabolic reprogramming, and phenotypic plasticity.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "Resistance is increasingly understood as an evolving state shaped not only by tumor-cell genomic alterations but also by treatment-induced remodeling of the tumor immune microenvironment (TIME).",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 3,
+            "evidence": "This Review examines how EGFR-TKI exposure reshapes macrophage states, T-cell function and localization, fibroblast and myeloid niches, and vascular architecture, and how these changes are reinforced by immune-checkpoint adaptation, metabolic reprogramming, and phenotypic plasticity.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug."
+        ],
+        "problems": 0
+      }
+    },
+    {
+      "paper": {
+        "pmid": "43057129",
+        "title": "Management of Advanced EGFR-Mutant Non-Small-Cell Lung Cancer Across the Disease Course.",
+        "abstract": "Advances in targeted therapy have improved outcomes for patients with advanced epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC). Third-generation EGFR tyrosine kinase inhibitors and first-line combination regimens have expanded treatment options, making the balance between survival benefit, toxicity, treatment burden, and individual patient fitness increasingly important in initial treatment selection. As acquired resistance continues to limit the duration of benefit, this decision must also be considered in the context of subsequent care. At progression, tissue and plasma profiling provide complementary information that can help characterize the diverse mechanisms of resistance and guide further treatment. As resistance-directed therapies and antibody-drug conjugates expand the available treatment options, their selection requires consideration of prior therapy and the pattern of progression, together with molecular findings where relevant. This review examines these interconnected decisions across the course of advanced EGFR-mutant NSCLC, from first-line treatment selection to the assessment and management of acquired resistance. We also address central nervous system involvement, uncommon EGFR mutations, and exon 20 insertions as distinct clinical settings in which disease distribution and the underlying molecular alteration shape treatment choices. By integrating clinical and translational evidence, we discuss how these factors may inform treatment sequencing and individualized care, with attention to survival, quality of life, and the cumulative burden of therapy across the disease course.",
+        "sentences": [
+          "Advances in targeted therapy have improved outcomes for patients with advanced epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC).",
+          "Third-generation EGFR tyrosine kinase inhibitors and first-line combination regimens have expanded treatment options, making the balance between survival benefit, toxicity, treatment burden, and individual patient fitness increasingly important in initial treatment selection.",
+          "As acquired resistance continues to limit the duration of benefit, this decision must also be considered in the context of subsequent care.",
+          "At progression, tissue and plasma profiling provide complementary information that can help characterize the diverse mechanisms of resistance and guide further treatment.",
+          "As resistance-directed therapies and antibody-drug conjugates expand the available treatment options, their selection requires consideration of prior therapy and the pattern of progression, together with molecular findings where relevant.",
+          "This review examines these interconnected decisions across the course of advanced EGFR-mutant NSCLC, from first-line treatment selection to the assessment and management of acquired resistance.",
+          "We also address central nervous system involvement, uncommon EGFR mutations, and exon 20 insertions as distinct clinical settings in which disease distribution and the underlying molecular alteration shape treatment choices.",
+          "By integrating clinical and translational evidence, we discuss how these factors may inform treatment sequencing and individualized care, with attention to survival, quality of life, and the cumulative burden of therapy across the disease course."
+        ],
+        "journal": "Cancer Res Treat",
+        "year": "2026",
+        "authors": [
+          "Park GH",
+          "Kim H",
+          "Joe C",
+          "Lee SH"
+        ],
+        "doi": "10.4143/crt.2026.1100",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "ab79dea7f90da542d3a512c261d76f2547232dca9d8b376a3c860ce8b30501ba",
+        "found_by": [
+          "second"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43057129/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "reason": "Does not meet: drug, resistance.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Advances in targeted therapy have improved outcomes for patients with advanced epidermal growth factor receptor (EGFR)-mutant non-small-cell lung cancer (NSCLC).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "no",
+            "sentence": 2,
+            "evidence": "Third-generation EGFR tyrosine kinase inhibitors and first-line combination regimens have expanded treatment options, making the balance between survival benefit, toxicity, treatment burden, and individual patient fitness increasingly important in initial treatment selection.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "no",
+            "sentence": 6,
+            "evidence": "This review examines these interconnected decisions across the course of advanced EGFR-mutant NSCLC, from first-line treatment selection to the assessment and management of acquired resistance.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "no",
+            "sentence": 6,
+            "evidence": "This review examines these interconnected decisions across the course of advanced EGFR-mutant NSCLC, from first-line treatment selection to the assessment and management of acquired resistance.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "route": {
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug, resistance."
+        ],
+        "problems": 0
+      }
+    }
+  ],
+  "misses": {
+    "capture_recapture": {
+      "primary": 9,
+      "secondary": 6,
+      "both": 5,
+      "found": 10,
+      "only_secondary": [
+        "43077001"
+      ],
+      "only_primary": [
+        "43054042",
+        "43068729",
+        "43073884",
+        "43077812"
+      ],
+      "estimate": 10.7,
+      "low": 10,
+      "high": 13,
+      "missed": 1,
+      "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
+    },
+    "audit_sample": [
+      "43057129",
+      "43075504"
+    ]
+  },
+  "audit": {
+    "started": "2026-11-25T15:40:02+00:00",
+    "finished": "2026-11-25T15:41:05+00:00",
+    "litwatch_version": "0.1.0",
+    "python": "3.12.16",
+    "writer_model": "groq/qwen/qwen3.8-27b",
+    "checker_model": "groq/openai/gpt-oss-120b",
+    "prompt_versions": {
+      "screen": "eaa3d4601ee4",
+      "extract": "06d9f4c5c64a",
+      "summary": "9aeff6edc1a3",
+      "check": "dc5c5257c358"
+    },
+    "topic_sha256": "c779c10082e50292a41ce601072b71a9ec0f96781b9f21cc1433fb3a6e5869c1"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-24-155604",
+  "run_id": "egfr-osimertinib-resistance-2026-11-25-154002",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,13 +93,14 @@
     }
   },
   "window": {
-    "start": "2026-11-18",
-    "end": "2026-11-24"
+    "start": "2026-11-19",
+    "end": "2026-11-25"
   },
   "searches": {
     "main": {
       "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
       "pmids": [
+        "43077812",
         "43075063",
         "43074063",
         "43073884",
@@ -107,29 +108,277 @@
         "43064722",
         "43060583",
         "43060461",
-        "43054042",
-        "43051939",
-        "43051933",
-        "43046664"
+        "43054042"
       ]
     },
     "second": {
       "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
       "pmids": [
+        "43077001",
         "43075504",
         "43075063",
         "43074063",
         "43064722",
         "43060583",
         "43060461",
-        "43057129",
-        "43051939",
-        "43051933",
-        "43046664"
+        "43057129"
       ]
     }
   },
   "entries": [
+    {
+      "paper": {
+        "pmid": "43077812",
+        "title": "Discovery of HC9591, a selective macrocyclic EGFR C797S inhibitor with brain exposure in rats.",
+        "abstract": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC). Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7. HC9591 inhibited C797S-containing EGFR mutants with IC50 values of 0.27-3.53 nM, while showing substantially weaker inhibition of WT EGFR (IC50 = 632 nM) in biochemical assays. Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM). HC9591 also demonstrated favorable pharmacokinetic properties in rats with an oral bioavailability of 39.6% and a half-life of 8.1 h. Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+        "sentences": [
+          "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).",
+          "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7.",
+          "HC9591 inhibited C797S-containing EGFR mutants with IC50 values of 0.27-3.53 nM, while showing substantially weaker inhibition of WT EGFR (IC50 = 632 nM) in biochemical assays.",
+          "Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM).",
+          "HC9591 also demonstrated favorable pharmacokinetic properties in rats with an oral bioavailability of 39.6% and a half-life of 8.1 h.",
+          "Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC."
+        ],
+        "journal": "Eur J Med Chem",
+        "year": "2026",
+        "authors": [
+          "Chen H",
+          "Wu Q",
+          "Li S",
+          "Tong L",
+          "Feng W",
+          "Lai M",
+          "Fan B",
+          "Ren X",
+          "Zhu S",
+          "Xie H",
+          "Wang Z",
+          "Ding K"
+        ],
+        "doi": "10.1016/j.ejmech.2026.119538",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "abstract_sha256": "40e596423d29132c4186f895606780eb984b18f097303f939a4ed1094182b711",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43077812/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM).",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 6,
+            "evidence": "Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 2,
+            "evidence": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "Acquired epidermal growth factor receptor (EGFR) C797S mutations",
+            "sentence": 1,
+            "quote": "Acquired epidermal growth factor receptor (EGFR) C797S mutations"
+          },
+          "variant": {
+            "value": "EGFR C797S",
+            "sentence": 1,
+            "quote": "EGFR C797S mutations"
+          },
+          "context": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "drug": {
+            "value": "HC9591",
+            "sentence": 2,
+            "quote": "we report HC9591"
+          },
+          "setting": {
+            "value": "osimertinib-resistant",
+            "sentence": 6,
+            "quote": "C797S-mediated osimertinib-resistant NSCLC"
+          },
+          "study_type": {
+            "value": "cell-line study",
+            "sentence": 4,
+            "quote": "Cellular activity was further demonstrated in Ba/F3 cells... and in the osimertinib-resistant PC-9-OR human lung cancer cell line"
+          },
+          "n_patients": {
+            "value": null,
+            "sentence": null,
+            "quote": null
+          },
+          "finding_type": {
+            "value": "other",
+            "sentence": 2,
+            "quote": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization"
+          },
+          "key_finding": {
+            "value": "HC9591 is a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor that represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+            "sentence": 6,
+            "quote": "HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "In a cell-line study, HC9591 was identified as a brain-penetrant and wild-type-sparing macrocyclic inhibitor targeting acquired EGFR C797S mutations. This compound represents a promising lead for treating C797S-mediated osimertinib-resistant non-small cell lung cancer.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": false,
+            "problems": [
+              "Quote is not in the abstract word for word."
+            ]
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": false,
+            "problems": [
+              "Not in the quote: WT, EGFR."
+            ]
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: Acquired epidermal growth factor receptor (EGFR) C797S mutations",
+            "verdict": "supported",
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR C797S",
+            "verdict": "supported",
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: HC9591",
+            "verdict": "supported",
+            "evidence": "Discovery of HC9591, a selective macrocyclic EGFR C797S inhibitor with brain exposure in rats."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: osimertinib-resistant",
+            "verdict": "supported",
+            "evidence": "Acquired epidermal growth factor receptor (EGFR) C797S mutations and brain metastases pose major challenges to the treatment of EGFR-mutant non-small cell lung cancer (NSCLC)."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: cell-line study (classification)",
+            "verdict": "supported",
+            "evidence": "Cellular activity was further demonstrated in Ba/F3 cells expressing C797S-containing EGFR mutants (IC50 = 13.4-301 nM) and in the osimertinib-resistant PC-9-OR human lung cancer cell line (IC50 = 269 nM)."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: other (classification)",
+            "verdict": "supported",
+            "evidence": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: HC9591 is a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor that represents a promising lead against C797S-mediated osimertinib-resistant NSCLC.",
+            "verdict": "supported",
+            "evidence": "Here, we report HC9591, a brain-penetrant and wild-type (WT)-sparing macrocyclic EGFR C797S inhibitor discovered through physicochemical property-oriented linker optimization of our previously identified compound 7."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "In a cell-line study, HC9591 was identified as a brain-penetrant and wild-type-sparing macrocyclic inhibitor targeting acquired EGFR C797S mutations.",
+            "verdict": "beyond",
+            "evidence": null
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "This compound represents a promising lead for treating C797S-mediated osimertinib-resistant non-small cell lung cancer.",
+            "verdict": "supported",
+            "evidence": "Importantly, HC9591 is brain-penetrant with a brain/plasma ratio of 0.46 in rats, and represents a promising lead against C797S-mediated osimertinib-resistant NSCLC."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Variant: Quote is not in the abstract word for word.",
+          "Key finding: Not in the quote: WT, EGFR.",
+          "Summary sentence 1: the second model could not find this in the abstract."
+        ],
+        "problems": 3,
+        "notes": []
+      }
+    },
     {
       "paper": {
         "pmid": "43075063",
@@ -2237,369 +2486,38 @@
     },
     {
       "paper": {
-        "pmid": "43051939",
-        "title": "[Resistance Mechanisms and Recent Advances in the Third-generation EGFR-TKI Osimertinib for Non-small Cell Lung Cancer].",
-        "abstract": "Lung cancer is one of the malignant tumors with the highest morbidity and mortality worldwide, and non-small cell lung cancer (NSCLC) accounts for approximately 85% of all lung cancer cases, with lung adenocarcinoma being the predominant histological subtype. Epidermal growth factor receptor (EGFR) sensitizing mutations are among the most common and important actionable driver alterations in Chinese patients with lung adenocarcinoma, and the advent of EGFR-tyrosine kinase inhibitors (EGFR-TKIs) has inaugurated a new era of precision targeted therapy for lung adenocarcinoma. Osimertinib, a third-generation EGFR-TKI, has become the standard first-line treatment for advanced EGFR-mutated NSCLC and substantially improves survival; however, acquired resistance remains the central limitation to long-term benefit. This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation. Based on the frequent co-occurrence of multiple resistance mechanisms, we further summarize clinical-scenario-based therapeutic strategies and representative domestic and international studies after resistance to third-generation EGFR-TKIs, so as to provide theoretical references for overcoming Osimertinib resistance. Overall, precise resistance profiling via rebiopsy and liquid biopsy, rational pathway-directed combination therapy, and the integration of next-generation EGFR inhibitors, antibody-drug conjugates and patient-derived organoid drug sensitivity testing are expected to transform EGFR-mutated NSCLC from inevitable resistance into a manageable chronic disease. .",
+        "pmid": "43077001",
+        "title": "Advances in targeting the FGF-FGFR Pathway to overcome acquired EGFR-TKI resistance in non-small cell lung cancer.",
+        "abstract": "Non-small cell lung cancer (NSCLC) remains a major cause of cancer-related mortality, and activating epidermal growth factor receptor (EGFR) mutations define a clinically important molecular subtype. EGFR tyrosine kinase inhibitors (TKIs) have substantially improved outcomes, but acquired resistance eventually limits long-term disease control. Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways. This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition. Genetic alterations, including receptor fusions, amplifications, and activating mutations, and non-genetic mechanisms such as receptor overexpression and ligand-driven autocrine signaling may sustain downstream pathway activation. These processes can reactivate mitogenic and survival signaling despite EGFR inhibition and may support tumor persistence in a subset of molecular settings. We discuss preclinical and clinical evidence for FGFR-associated resistance, with particular emphasis on the functionally characterized FGF2-FGFR1 axis. Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations. Finally, we highlight challenges related to biomarker identification, routine testing, toxicity management, and clinical trial design, and outline future directions for evaluating FGFR-targeted approaches in EGFR-mutant NSCLC.",
         "sentences": [
-          "Lung cancer is one of the malignant tumors with the highest morbidity and mortality worldwide, and non-small cell lung cancer (NSCLC) accounts for approximately 85% of all lung cancer cases, with lung adenocarcinoma being the predominant histological subtype.",
-          "Epidermal growth factor receptor (EGFR) sensitizing mutations are among the most common and important actionable driver alterations in Chinese patients with lung adenocarcinoma, and the advent of EGFR-tyrosine kinase inhibitors (EGFR-TKIs) has inaugurated a new era of precision targeted therapy for lung adenocarcinoma.",
-          "Osimertinib, a third-generation EGFR-TKI, has become the standard first-line treatment for advanced EGFR-mutated NSCLC and substantially improves survival; however, acquired resistance remains the central limitation to long-term benefit.",
-          "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation.",
-          "Based on the frequent co-occurrence of multiple resistance mechanisms, we further summarize clinical-scenario-based therapeutic strategies and representative domestic and international studies after resistance to third-generation EGFR-TKIs, so as to provide theoretical references for overcoming Osimertinib resistance.",
-          "Overall, precise resistance profiling via rebiopsy and liquid biopsy, rational pathway-directed combination therapy, and the integration of next-generation EGFR inhibitors, antibody-drug conjugates and patient-derived organoid drug sensitivity testing are expected to transform EGFR-mutated NSCLC from inevitable resistance into a manageable chronic disease. ."
+          "Non-small cell lung cancer (NSCLC) remains a major cause of cancer-related mortality, and activating epidermal growth factor receptor (EGFR) mutations define a clinically important molecular subtype.",
+          "EGFR tyrosine kinase inhibitors (TKIs) have substantially improved outcomes, but acquired resistance eventually limits long-term disease control.",
+          "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways.",
+          "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition.",
+          "Genetic alterations, including receptor fusions, amplifications, and activating mutations, and non-genetic mechanisms such as receptor overexpression and ligand-driven autocrine signaling may sustain downstream pathway activation.",
+          "These processes can reactivate mitogenic and survival signaling despite EGFR inhibition and may support tumor persistence in a subset of molecular settings.",
+          "We discuss preclinical and clinical evidence for FGFR-associated resistance, with particular emphasis on the functionally characterized FGF2-FGFR1 axis.",
+          "Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations.",
+          "Finally, we highlight challenges related to biomarker identification, routine testing, toxicity management, and clinical trial design, and outline future directions for evaluating FGFR-targeted approaches in EGFR-mutant NSCLC."
         ],
-        "journal": "Zhongguo Fei Ai Za Zhi",
+        "journal": "Med Oncol",
         "year": "2026",
         "authors": [
-          "Wang J",
-          "Liu S",
-          "Yu T"
+          "Ding C",
+          "Luo Y",
+          "Lei Y",
+          "Wang X"
         ],
-        "doi": "10.3779/j.issn.1009-3419.2026.106.26",
-        "publication_types": [
-          "Journal Article",
-          "Review",
-          "English Abstract"
-        ],
-        "abstract_sha256": "b76b8978317019520c5e4012f54bb53ecdf78879c22105297e54d3f53f9ad987",
-        "found_by": [
-          "main",
-          "second"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/43051939/"
-      },
-      "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 3,
-            "evidence": "Osimertinib, a third-generation EGFR-TKI, has become the standard first-line treatment for advanced EGFR-mutated NSCLC and substantially improves survival; however, acquired resistance remains the central limitation to long-term benefit.",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "yes",
-            "sentence": 3,
-            "evidence": "Osimertinib, a third-generation EGFR-TKI, has become the standard first-line treatment for advanced EGFR-mutated NSCLC and substantially improves survival; however, acquired resistance remains the central limitation to long-term benefit.",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation.",
-            "grounded": true
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "no",
-            "sentence": 4,
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation",
-            "sentence": 4,
-            "quote": "including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation"
-          },
-          "variant": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "context": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "drug": {
-            "value": "Osimertinib",
-            "sentence": 3,
-            "quote": "Osimertinib"
-          },
-          "setting": {
-            "value": "first-line treatment for advanced EGFR-mutated NSCLC",
-            "sentence": 3,
-            "quote": "standard first-line treatment for advanced EGFR-mutated NSCLC"
-          },
-          "study_type": {
-            "value": "review",
-            "sentence": 4,
-            "quote": "This review"
-          },
-          "n_patients": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "finding_type": {
-            "value": "resistance mechanism",
-            "sentence": 4,
-            "quote": "summarizes the principal mechanisms underlying acquired resistance to Osimertinib"
-          },
-          "key_finding": {
-            "value": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation.",
-            "sentence": 4,
-            "quote": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "This review distinguishes between primary and acquired resistance to Osimertinib in the first-line treatment of advanced EGFR-mutated NSCLC. It summarizes key resistance mechanisms, including EGFR-dependent alterations, bypass pathway activation, histological transformation, and recently identified factors such as SMARCA4 loss, the YAP1/AXL axis, and NRF2 epigenetic adaptation.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation",
-            "verdict": "supported",
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: Osimertinib",
-            "verdict": "supported",
-            "evidence": "Osimertinib, a third-generation EGFR-TKI, has become the standard first-line treatment for advanced EGFR-mutated NSCLC and substantially improves survival; however, acquired resistance remains the central limitation to long-term benefit."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: first-line treatment for advanced EGFR-mutated NSCLC",
-            "verdict": "supported",
-            "evidence": "Osimertinib, a third-generation EGFR-TKI, has become the standard first-line treatment for advanced EGFR-mutated NSCLC and substantially improves survival; however, acquired resistance remains the central limitation to long-term benefit."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: review (classification)",
-            "verdict": "supported",
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: resistance mechanism (classification)",
-            "verdict": "supported",
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation.",
-            "verdict": "supported",
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "This review distinguishes between primary and acquired resistance to Osimertinib in the first-line treatment of advanced EGFR-mutated NSCLC.",
-            "verdict": "supported",
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "It summarizes key resistance mechanisms, including EGFR-dependent alterations, bypass pathway activation, histological transformation, and recently identified factors such as SMARCA4 loss, the YAP1/AXL axis, and NRF2 epigenetic adaptation.",
-            "verdict": "supported",
-            "evidence": "This review first delineates the distinction between primary and acquired resistance, then summarizes the principal mechanisms underlying acquired resistance to Osimertinib, including EGFR-dependent alterations, bypass pathway activation, histological transformation and cellular plasticity, tumour microenvironment remodelling and metabolic reprogramming, as well as recently identified mechanisms such as SWI/SNF-related, matrix-associated, actin-dependent regulator of chromatin, subfamily A, member 4 (SMARCA4) loss, the YAP1/AXL axis and nuclear factor erythroid 2-related factor 2 (NRF2) epigenetic adaptation."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
-      "route": {
-        "outcome": "accepted",
-        "reasons": [],
-        "problems": 0,
-        "notes": []
-      }
-    },
-    {
-      "paper": {
-        "pmid": "43051933",
-        "title": "[Retrospective Analysis of the Efficacy and Safety of Amivantamab-containing Regimens in Patients with EGFR-mutant Lung Cancer and Leptomeningeal Metastases].",
-        "abstract": "Background: Leptomeningeal metastasis (LM) is a devastating complication of non-small cell lung cancer (NSCLC), occurring most frequently in patients with epidermal growth factor receptor (EGFR)-mutant NSCLC. However, treatment options remain limited for patients who develop LM after treatment with the third-generation EGFR-tyrosine kinase inhibitors (TKIs). This study evaluated the efficacy and safety of Amivantamab-containing regimens in this patient population. Methods: A total of 11 patients with EGFR-mutant NSCLC and LM who received Amivantamab-containing regimens at Peking Union Medical College Hospital between February 2025 and July 2026 were retrospectively included. Neurological symptoms, findings on contrast-enhanced magnetic resonance imaging (MRI), cerebrospinal fluid (CSF) cytology, LM-progression-free survival (PFS), and adverse events were evaluated. Follow-up for all patients was censored on July 31, 2026, with a median follow-up duration of 3.7 months (IQR: 2.1-7.0). Three patients had not yet reached the prespecified time point for their first standardized radiographic assessment by the data cutoff and were therefore censored in the follow-up analysis. Results: Among the 11 patients, 8 (72.7%) received Amivantamab in combination with a third-generation EGFR-TKI, whereas the remaining 3 patients received Amivantamab plus Pemetrexed, Amivantamab plus Zipalertinib, and Amivantamab monotherapy, respectively. Following treatment initiation, LM-related neurological symptoms improved in 8 patients (72.7%), with a time to symptom relief ranging from 1 to 7 days (median, 2.5 days). Among the 8 patients with evaluable post-baseline MRI, the best overall responses were complete response in 1 patient, partial response in 5 patients, and stable disease in 2 patients. Only three patients underwent post-treatment CSF cytologic reassessment; cytology clearance occurred in 2 patients and remained positive in 1 patient. During follow-up, 3 patients experienced disease progression, and 1 patient died before the first scheduled radiographic assessment. LM-PFS among the aforementioned 4 patients ranged from 1.7 to 9.7 months. Treatment-related adverse events were predominantly dermatologic/mucosal toxicities and infusion-related reactions. Two patients discontinued Amivantamab because of persistent dermatologic/mucosal toxicities and personal preference; one of these patients was rechallenged with Amivantamab after disease recurrence. No treatment-related deaths occurred. Conclusions: Amivantamab-containing multimodal treatment regimens were associated with symptom improvement and preliminary radiographic disease-control signals. However, because concomitant systemic therapies, intrathecal treatment, and CSF diversion procedures were present, the observed changes cannot be disentangled from or fully attributed to the independent effect of Amivantamab. The clinical benefit of Amivantamab in LM requires further validation in prospective studies.",
-        "sentences": [
-          "Background: Leptomeningeal metastasis (LM) is a devastating complication of non-small cell lung cancer (NSCLC), occurring most frequently in patients with epidermal growth factor receptor (EGFR)-mutant NSCLC.",
-          "However, treatment options remain limited for patients who develop LM after treatment with the third-generation EGFR-tyrosine kinase inhibitors (TKIs).",
-          "This study evaluated the efficacy and safety of Amivantamab-containing regimens in this patient population.",
-          "Methods: A total of 11 patients with EGFR-mutant NSCLC and LM who received Amivantamab-containing regimens at Peking Union Medical College Hospital between February 2025 and July 2026 were retrospectively included.",
-          "Neurological symptoms, findings on contrast-enhanced magnetic resonance imaging (MRI), cerebrospinal fluid (CSF) cytology, LM-progression-free survival (PFS), and adverse events were evaluated.",
-          "Follow-up for all patients was censored on July 31, 2026, with a median follow-up duration of 3.7 months (IQR: 2.1-7.0).",
-          "Three patients had not yet reached the prespecified time point for their first standardized radiographic assessment by the data cutoff and were therefore censored in the follow-up analysis.",
-          "Results: Among the 11 patients, 8 (72.7%) received Amivantamab in combination with a third-generation EGFR-TKI, whereas the remaining 3 patients received Amivantamab plus Pemetrexed, Amivantamab plus Zipalertinib, and Amivantamab monotherapy, respectively.",
-          "Following treatment initiation, LM-related neurological symptoms improved in 8 patients (72.7%), with a time to symptom relief ranging from 1 to 7 days (median, 2.5 days).",
-          "Among the 8 patients with evaluable post-baseline MRI, the best overall responses were complete response in 1 patient, partial response in 5 patients, and stable disease in 2 patients.",
-          "Only three patients underwent post-treatment CSF cytologic reassessment; cytology clearance occurred in 2 patients and remained positive in 1 patient.",
-          "During follow-up, 3 patients experienced disease progression, and 1 patient died before the first scheduled radiographic assessment.",
-          "LM-PFS among the aforementioned 4 patients ranged from 1.7 to 9.7 months.",
-          "Treatment-related adverse events were predominantly dermatologic/mucosal toxicities and infusion-related reactions.",
-          "Two patients discontinued Amivantamab because of persistent dermatologic/mucosal toxicities and personal preference; one of these patients was rechallenged with Amivantamab after disease recurrence.",
-          "No treatment-related deaths occurred.",
-          "Conclusions: Amivantamab-containing multimodal treatment regimens were associated with symptom improvement and preliminary radiographic disease-control signals.",
-          "However, because concomitant systemic therapies, intrathecal treatment, and CSF diversion procedures were present, the observed changes cannot be disentangled from or fully attributed to the independent effect of Amivantamab.",
-          "The clinical benefit of Amivantamab in LM requires further validation in prospective studies."
-        ],
-        "journal": "Zhongguo Fei Ai Za Zhi",
-        "year": "2026",
-        "authors": [
-          "Gao X",
-          "Zhong W",
-          "Liu X",
-          "Zhou Q",
-          "Chen M",
-          "Zhao J",
-          "Wang H",
-          "Si X",
-          "Zhang X",
-          "Zhang L",
-          "Xu Y",
-          "Wang M"
-        ],
-        "doi": "10.3779/j.issn.1009-3419.2026.102.24",
-        "publication_types": [
-          "English Abstract",
-          "Journal Article"
-        ],
-        "abstract_sha256": "a056ca8a3b0910b09011215be8635d58ca073555940644a1702b9bfc9e6e6373",
-        "found_by": [
-          "main",
-          "second"
-        ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/43051933/"
-      },
-      "screening": {
-        "decision": "exclude",
-        "reason": "Does not meet: drug.",
-        "criteria": [
-          {
-            "id": "population",
-            "required": true,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Methods: A total of 11 patients with EGFR-mutant NSCLC and LM who received Amivantamab-containing regimens at Peking Union Medical College Hospital between February 2025 and July 2026 were retrospectively included.",
-            "grounded": true
-          },
-          {
-            "id": "drug",
-            "required": true,
-            "answer": "no",
-            "sentence": 8,
-            "evidence": "Results: Among the 11 patients, 8 (72.7%) received Amivantamab in combination with a third-generation EGFR-TKI, whereas the remaining 3 patients received Amivantamab plus Pemetrexed, Amivantamab plus Zipalertinib, and Amivantamab monotherapy, respectively.",
-            "grounded": true
-          },
-          {
-            "id": "resistance",
-            "required": true,
-            "answer": "unclear",
-            "sentence": null,
-            "evidence": null,
-            "grounded": false
-          },
-          {
-            "id": "primary_data",
-            "required": false,
-            "answer": "yes",
-            "sentence": 4,
-            "evidence": "Methods: A total of 11 patients with EGFR-mutant NSCLC and LM who received Amivantamab-containing regimens at Peking Union Medical College Hospital between February 2025 and July 2026 were retrospectively included.",
-            "grounded": true
-          }
-        ],
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "route": {
-        "outcome": "excluded",
-        "reasons": [
-          "Does not meet: drug."
-        ],
-        "problems": 0
-      }
-    },
-    {
-      "paper": {
-        "pmid": "43046664",
-        "title": "Structural Optimization of Pyrimidine-Based EGFR Inhibitors Against Resistance Mutations in NSCLC.",
-        "abstract": "Non-small cell lung cancer (NSCLC) remains a major global health burden, particularly among non-smoking Asian populations, in whom activating EGFR mutations are the predominant oncogenic drivers. The emergence of multiple resistance mutations like the T790M, C797S, and especially the clinically intractable L858R/T790M/C797S triple mutant, has rendered all existing tyrosine kinase inhibitors (TKIs) ineffective. Despite substantial advances across three generations of EGFR-TKIs, the therapeutic options available for resistant mutations remain limited. Currently no approved agent is capable of selectively and effectively targeting the triple mutant EGFR. This unmet clinical need highlights the urgency for continued drug discovery efforts aimed at overcoming resistance mediated by the C797S mutation. This need has driven intensive efforts toward developing inhibitors capable of overcoming C797S-mediated resistance. Among the scaffolds explored, pyrimidine has emerged as particularly tractable, offering favorable ligand efficiency, synthetic accessibility and multiple substitution vectors that project into the T790M-remodeled hydrophobic pocket and the region vacated by Cys797, while engaging the conserved Met793 of the hinge region. This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors.",
-        "sentences": [
-          "Non-small cell lung cancer (NSCLC) remains a major global health burden, particularly among non-smoking Asian populations, in whom activating EGFR mutations are the predominant oncogenic drivers.",
-          "The emergence of multiple resistance mutations like the T790M, C797S, and especially the clinically intractable L858R/T790M/C797S triple mutant, has rendered all existing tyrosine kinase inhibitors (TKIs) ineffective.",
-          "Despite substantial advances across three generations of EGFR-TKIs, the therapeutic options available for resistant mutations remain limited.",
-          "Currently no approved agent is capable of selectively and effectively targeting the triple mutant EGFR.",
-          "This unmet clinical need highlights the urgency for continued drug discovery efforts aimed at overcoming resistance mediated by the C797S mutation.",
-          "This need has driven intensive efforts toward developing inhibitors capable of overcoming C797S-mediated resistance.",
-          "Among the scaffolds explored, pyrimidine has emerged as particularly tractable, offering favorable ligand efficiency, synthetic accessibility and multiple substitution vectors that project into the T790M-remodeled hydrophobic pocket and the region vacated by Cys797, while engaging the conserved Met793 of the hinge region.",
-          "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors."
-        ],
-        "journal": "Drug Dev Res",
-        "year": "2026",
-        "authors": [
-          "Megha VM",
-          "Thakur A",
-          "Nagaraja S",
-          "Sharma K",
-          "Gangadhar N",
-          "Tejavat S"
-        ],
-        "doi": "10.1002/ddr.70408",
+        "doi": "10.1007/s12032-026-03559-1",
         "publication_types": [
           "Journal Article",
           "Review"
         ],
-        "abstract_sha256": "166fac4325931b6951969047e105cb782f248464c399acd1779bfdbc8da40fbb",
+        "abstract_sha256": "2873f0cced265bee6bba2ec2e84a914825d07fb6524343deea64790723edf35e",
         "found_by": [
-          "main",
           "second"
         ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/43046664/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43077001/"
       },
       "screening": {
         "decision": "include",
@@ -2610,7 +2528,7 @@
             "required": true,
             "answer": "yes",
             "sentence": 1,
-            "evidence": "Non-small cell lung cancer (NSCLC) remains a major global health burden, particularly among non-smoking Asian populations, in whom activating EGFR mutations are the predominant oncogenic drivers.",
+            "evidence": "Non-small cell lung cancer (NSCLC) remains a major cause of cancer-related mortality, and activating epidermal growth factor receptor (EGFR) mutations define a clinically important molecular subtype.",
             "grounded": true
           },
           {
@@ -2633,8 +2551,8 @@
             "id": "primary_data",
             "required": false,
             "answer": "no",
-            "sentence": 8,
-            "evidence": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors.",
+            "sentence": 4,
+            "evidence": "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition.",
             "grounded": true
           }
         ],
@@ -2643,34 +2561,34 @@
       "extraction": {
         "fields": {
           "mechanism": {
-            "value": "resistance mediated by the C797S mutation",
-            "sentence": 5,
-            "quote": "resistance mediated by the C797S mutation"
+            "value": "FGFR signaling",
+            "sentence": 3,
+            "quote": "fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways"
           },
           "variant": {
-            "value": "C797S",
+            "value": "receptor fusions, amplifications, and activating mutations",
             "sentence": 5,
-            "quote": "C797S mutation"
+            "quote": "receptor fusions, amplifications, and activating mutations"
           },
           "context": {
-            "value": "L858R/T790M/C797S triple mutant",
-            "sentence": 2,
-            "quote": "L858R/T790M/C797S triple mutant"
+            "value": "resistance to EGFR inhibition",
+            "sentence": 4,
+            "quote": "resistance to EGFR inhibition"
           },
           "drug": {
-            "value": "Pyrimidine-Based EGFR Inhibitors",
-            "sentence": 0,
-            "quote": "Pyrimidine-Based EGFR Inhibitors"
+            "value": "selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy",
+            "sentence": 8,
+            "quote": "selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy"
           },
           "setting": {
-            "value": null,
-            "sentence": null,
-            "quote": null
+            "value": "acquired EGFR-TKI resistance",
+            "sentence": 0,
+            "quote": "acquired EGFR-TKI resistance"
           },
           "study_type": {
             "value": "review",
-            "sentence": 8,
-            "quote": "This review presents"
+            "sentence": 4,
+            "quote": "This review summarizes evidence"
           },
           "n_patients": {
             "value": null,
@@ -2678,20 +2596,20 @@
             "quote": null
           },
           "finding_type": {
-            "value": "other",
-            "sentence": 8,
-            "quote": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors."
+            "value": "resistance mechanism",
+            "sentence": 3,
+            "quote": "fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways"
           },
           "key_finding": {
-            "value": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors.",
-            "sentence": 8,
-            "quote": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors."
+            "value": "FGFR signaling has emerged as one of several potential bypass pathways for acquired resistance to EGFR inhibition, involving genetic and non-genetic mechanisms.",
+            "sentence": 3,
+            "quote": "fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways"
           }
         },
         "model": "groq/qwen/qwen3.8-27b"
       },
       "summary": {
-        "text": "This review examines the C797S mutation within the L858R/T790M/C797S triple mutant context, which mediates resistance to pyrimidine-based EGFR inhibitors. It provides an overview of the key structural features of the EGFR ATP-binding site to facilitate the rational design of future EGFR inhibitors.",
+        "text": "FGFR signaling, driven by receptor fusions, amplifications, and activating mutations, has emerged as a potential bypass pathway for acquired resistance to EGFR inhibition. This review highlights that these genetic and non-genetic mechanisms can be targeted by selective FGFR inhibitors, multi-kinase inhibitors, or investigational combination regimens with EGFR inhibitors or immunotherapy.",
         "model": "groq/qwen/qwen3.8-27b"
       },
       "code_checks": {
@@ -2712,6 +2630,10 @@
             "passed": true,
             "problems": []
           },
+          "setting": {
+            "passed": true,
+            "problems": []
+          },
           "study_type": {
             "passed": true,
             "problems": []
@@ -2721,8 +2643,11 @@
             "problems": []
           },
           "key_finding": {
-            "passed": true,
-            "problems": []
+            "passed": false,
+            "problems": [
+              "Not in the quote: EGFR.",
+              "The quote does not say this: acquired, resistance, EGFR, inhibition, involving, genetic, non-genetic, mechanisms."
+            ]
           }
         },
         "summary": {
@@ -2735,65 +2660,72 @@
           {
             "kind": "field",
             "id": "mechanism",
-            "text": "mechanism: resistance mediated by the C797S mutation",
+            "text": "mechanism: FGFR signaling",
             "verdict": "supported",
-            "evidence": "The emergence of multiple resistance mutations like the T790M, C797S, and especially the clinically intractable L858R/T790M/C797S triple mutant, has rendered all existing tyrosine kinase inhibitors (TKIs) ineffective."
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
           },
           {
             "kind": "field",
             "id": "variant",
-            "text": "variant: C797S",
+            "text": "variant: receptor fusions, amplifications, and activating mutations",
             "verdict": "supported",
-            "evidence": "The emergence of multiple resistance mutations like the T790M, C797S, and especially the clinically intractable L858R/T790M/C797S triple mutant, has rendered all existing tyrosine kinase inhibitors (TKIs) ineffective."
+            "evidence": "Genetic alterations, including receptor fusions, amplifications, and activating mutations, and non-genetic mechanisms such as receptor overexpression and ligand-driven autocrine signaling may sustain downstream pathway activation."
           },
           {
             "kind": "field",
             "id": "context",
-            "text": "context: L858R/T790M/C797S triple mutant",
+            "text": "context: resistance to EGFR inhibition",
             "verdict": "supported",
-            "evidence": "The emergence of multiple resistance mutations like the T790M, C797S, and especially the clinically intractable L858R/T790M/C797S triple mutant, has rendered all existing tyrosine kinase inhibitors (TKIs) ineffective."
+            "evidence": "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition."
           },
           {
             "kind": "field",
             "id": "drug",
-            "text": "drug: Pyrimidine-Based EGFR Inhibitors",
+            "text": "drug: selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy",
             "verdict": "supported",
-            "evidence": "Structural Optimization of Pyrimidine-Based EGFR Inhibitors Against Resistance Mutations in NSCLC."
+            "evidence": "Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: acquired EGFR-TKI resistance",
+            "verdict": "supported",
+            "evidence": "EGFR tyrosine kinase inhibitors (TKIs) have substantially improved outcomes, but acquired resistance eventually limits long-term disease control."
           },
           {
             "kind": "field",
             "id": "study_type",
             "text": "study_type: review (classification)",
             "verdict": "supported",
-            "evidence": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors."
+            "evidence": "This review summarizes evidence implicating fibroblast growth factors (FGFs) and FGFRs in selected contexts of resistance to EGFR inhibition."
           },
           {
             "kind": "field",
             "id": "finding_type",
-            "text": "finding_type: other (classification)",
-            "verdict": "beyond",
-            "evidence": null
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
           },
           {
             "kind": "field",
             "id": "key_finding",
-            "text": "key_finding: This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors.",
+            "text": "key_finding: FGFR signaling has emerged as one of several potential bypass pathways for acquired resistance to EGFR inhibition, involving genetic and non-genetic mechanisms.",
             "verdict": "supported",
-            "evidence": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors."
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
           },
           {
             "kind": "summary",
             "id": "summary 1",
-            "text": "This review examines the C797S mutation within the L858R/T790M/C797S triple mutant context, which mediates resistance to pyrimidine-based EGFR inhibitors.",
-            "verdict": "beyond",
-            "evidence": null
+            "text": "FGFR signaling, driven by receptor fusions, amplifications, and activating mutations, has emerged as a potential bypass pathway for acquired resistance to EGFR inhibition.",
+            "verdict": "supported",
+            "evidence": "Among diverse resistance mechanisms, fibroblast growth factor receptor (FGFR) signaling has emerged as one of several potential bypass pathways."
           },
           {
             "kind": "summary",
             "id": "summary 2",
-            "text": "It provides an overview of the key structural features of the EGFR ATP-binding site to facilitate the rational design of future EGFR inhibitors.",
+            "text": "This review highlights that these genetic and non-genetic mechanisms can be targeted by selective FGFR inhibitors, multi-kinase inhibitors, or investigational combination regimens with EGFR inhibitors or immunotherapy.",
             "verdict": "supported",
-            "evidence": "This review presents, an overview of the key structural features of the EGFR's ATP-binding site is provided to facilitate a deeper understanding of the rational design of future EGFR inhibitors."
+            "evidence": "Emerging therapeutic strategies, including selective FGFR inhibitors, multi-kinase inhibitors, and investigational combination regimens with EGFR inhibitors or immunotherapy, are reviewed with attention to current limitations."
           }
         ],
         "omitted": [],
@@ -2805,12 +2737,11 @@
         "reasons": [
           "Screening could not tell from the abstract whether it meets “Drug”.",
           "Screening could not tell from the abstract whether it meets “Resistance”.",
-          "Summary sentence 1: the second model could not find this in the abstract."
+          "Key finding: Not in the quote: EGFR.",
+          "Key finding: The quote does not say this: acquired, resistance, EGFR, inhibition, involving, genetic, non-genetic, mechanisms."
         ],
-        "problems": 1,
-        "notes": [
-          "Finding type: a judgement the second model could not confirm from the abstract."
-        ]
+        "problems": 2,
+        "notes": []
       }
     },
     {
@@ -2975,31 +2906,33 @@
   ],
   "misses": {
     "capture_recapture": {
-      "primary": 10,
-      "secondary": 7,
-      "both": 7,
+      "primary": 9,
+      "secondary": 6,
+      "both": 5,
       "found": 10,
-      "only_secondary": [],
+      "only_secondary": [
+        "43077001"
+      ],
       "only_primary": [
         "43054042",
         "43068729",
-        "43073884"
+        "43073884",
+        "43077812"
       ],
-      "estimate": 10.0,
+      "estimate": 10.7,
       "low": 10,
-      "high": 10,
-      "missed": 0,
+      "high": 13,
+      "missed": 1,
       "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
     "audit_sample": [
-      "43051933",
       "43057129",
       "43075504"
     ]
   },
   "audit": {
-    "started": "2026-11-24T15:56:04+00:00",
-    "finished": "2026-11-24T15:58:25+00:00",
+    "started": "2026-11-25T15:40:02+00:00",
+    "finished": "2026-11-25T15:41:05+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
