@@ -1,5 +1,5 @@
 {
-  "run_id": "egfr-osimertinib-resistance-2026-11-27-150934",
+  "run_id": "egfr-osimertinib-resistance-2026-11-28-141604",
   "topic": {
     "id": "egfr-osimertinib-resistance",
     "name": "EGFR-mutant lung cancer: resistance to osimertinib",
@@ -93,13 +93,14 @@
     }
   },
   "window": {
-    "start": "2026-11-21",
-    "end": "2026-11-27"
+    "start": "2026-11-22",
+    "end": "2026-11-28"
   },
   "searches": {
     "main": {
       "query": "(EGFR[tiab] OR \"ErbB Receptors\"[mh]) AND (osimertinib[tiab] OR AZD9291[tiab] OR Tagrisso[tiab]) AND resistan*[tiab]",
       "pmids": [
+        "43100864",
         "43100408",
         "43093694",
         "43087943",
@@ -108,13 +109,13 @@
         "43075063",
         "43074063",
         "43073884",
-        "43068729",
-        "43064722"
+        "43068729"
       ]
     },
     "second": {
       "query": "(\"Drug Resistance, Neoplasm\"[mh] OR \"acquired resistance\"[tiab] OR \"disease progression\"[tiab] OR progressed[tiab]) AND (\"third-generation\"[tiab] OR \"third generation\"[tiab] OR T790M[tiab] OR C797S[tiab] OR \"EGFR-TKI\"[tiab] OR \"EGFR TKI\"[tiab]) AND (NSCLC[tiab] OR \"lung cancer\"[tiab] OR \"lung adenocarcinoma\"[tiab])",
       "pmids": [
+        "43104303",
         "43099456",
         "43089395",
         "43087943",
@@ -122,12 +123,279 @@
         "43077001",
         "43075504",
         "43075063",
-        "43074063",
-        "43064722"
+        "43074063"
       ]
     }
   },
   "entries": [
+    {
+      "paper": {
+        "pmid": "43100864",
+        "title": "Small-cell lung cancer transformation approximately four years after surgery and adjuvant therapy for EGFR-mutant lung adenocarcinoma: a case report.",
+        "abstract": "Background: Transformation of epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small-cell lung cancer (SCLC) is a recognized mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs) and is associated with poor clinical outcomes. The optimal treatment strategy for transformed SCLC remains uncertain. Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy. Clinical course and treatment: Following the identification of SCLC, the patient received multiple treatment regimens, including platinum-etoposide chemotherapy, osimertinib, and local radiotherapy. A subsequent biopsy in 2019 again demonstrated small cell carcinoma. Peripheral blood molecular testing identified EGFR L858R, TP53 p.C242F, and RB1 c.607 + 1G > A-alterations. The patient died of respiratory failure in January 2020, approximately 6 years after the initial diagnosis and 20 months after the identification of SCLC transformation. Conclusion: This case illustrates the clinical challenges of SCLC transformation in EGFR-mutant lung adenocarcinoma after a prolonged postoperative interval. The longitudinal treatment course and molecular findings provide additional clinical observations relevant to the management of transformed SCLC, although the contribution of individual treatments cannot be determined from a single case.",
+        "sentences": [
+          "Background: Transformation of epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small-cell lung cancer (SCLC) is a recognized mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs) and is associated with poor clinical outcomes.",
+          "The optimal treatment strategy for transformed SCLC remains uncertain.",
+          "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy.",
+          "Clinical course and treatment: Following the identification of SCLC, the patient received multiple treatment regimens, including platinum-etoposide chemotherapy, osimertinib, and local radiotherapy.",
+          "A subsequent biopsy in 2019 again demonstrated small cell carcinoma.",
+          "Peripheral blood molecular testing identified EGFR L858R, TP53 p.C242F, and RB1 c.607 + 1G > A-alterations.",
+          "The patient died of respiratory failure in January 2020, approximately 6 years after the initial diagnosis and 20 months after the identification of SCLC transformation.",
+          "Conclusion: This case illustrates the clinical challenges of SCLC transformation in EGFR-mutant lung adenocarcinoma after a prolonged postoperative interval.",
+          "The longitudinal treatment course and molecular findings provide additional clinical observations relevant to the management of transformed SCLC, although the contribution of individual treatments cannot be determined from a single case."
+        ],
+        "journal": "Front Med (Lausanne)",
+        "year": "2026",
+        "authors": [
+          "Wang H",
+          "Zhao J",
+          "Qin B",
+          "Zhang H",
+          "Yang L"
+        ],
+        "doi": "10.3389/fmed.2026.1982251",
+        "publication_types": [
+          "Case Reports",
+          "Journal Article"
+        ],
+        "abstract_sha256": "ee037d32ccc6fcff70871ab19fff38352ed42d26833f77254656a815525ffe22",
+        "found_by": [
+          "main"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43100864/"
+      },
+      "screening": {
+        "decision": "include",
+        "reason": "Meets all required criteria.",
+        "criteria": [
+          {
+            "id": "population",
+            "required": true,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy.",
+            "grounded": true
+          },
+          {
+            "id": "drug",
+            "required": true,
+            "answer": "yes",
+            "sentence": 4,
+            "evidence": "Clinical course and treatment: Following the identification of SCLC, the patient received multiple treatment regimens, including platinum-etoposide chemotherapy, osimertinib, and local radiotherapy.",
+            "grounded": true
+          },
+          {
+            "id": "resistance",
+            "required": true,
+            "answer": "yes",
+            "sentence": 1,
+            "evidence": "Background: Transformation of epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small-cell lung cancer (SCLC) is a recognized mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs) and is associated with poor clinical outcomes.",
+            "grounded": true
+          },
+          {
+            "id": "primary_data",
+            "required": false,
+            "answer": "yes",
+            "sentence": 3,
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy.",
+            "grounded": true
+          }
+        ],
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "extraction": {
+        "fields": {
+          "mechanism": {
+            "value": "SCLC transformation",
+            "sentence": 3,
+            "quote": "developed SCLC transformation"
+          },
+          "variant": {
+            "value": "EGFR exon 21 mutant",
+            "sentence": 3,
+            "quote": "EGFR exon 21 mutant"
+          },
+          "context": {
+            "value": "approximately 4 years after surgery and postoperative adjuvant therapy",
+            "sentence": 3,
+            "quote": "approximately 4 years after surgery and postoperative adjuvant therapy"
+          },
+          "drug": {
+            "value": "platinum-etoposide chemotherapy, osimertinib, and local radiotherapy",
+            "sentence": 4,
+            "quote": "platinum-etoposide chemotherapy, osimertinib, and local radiotherapy"
+          },
+          "setting": {
+            "value": "after progression",
+            "sentence": 3,
+            "quote": "developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy"
+          },
+          "study_type": {
+            "value": "case report",
+            "sentence": 0,
+            "quote": "a case report"
+          },
+          "n_patients": {
+            "value": "1",
+            "sentence": 3,
+            "quote": "a case"
+          },
+          "finding_type": {
+            "value": "resistance mechanism",
+            "sentence": 1,
+            "quote": "Transformation of epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small-cell lung cancer (SCLC) is a recognized mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs)"
+          },
+          "key_finding": {
+            "value": "We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy.",
+            "sentence": 3,
+            "quote": "We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy."
+          }
+        },
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "summary": {
+        "text": "This case report describes a 48-year-old woman with EGFR exon 21 mutant lung adenocarcinoma who developed small cell lung cancer (SCLC) transformation approximately four years after surgery and adjuvant therapy. The patient was subsequently treated with platinum-etoposide chemotherapy, osimertinib, and local radiotherapy following disease progression.",
+        "model": "groq/qwen/qwen3.8-27b"
+      },
+      "code_checks": {
+        "fields": {
+          "mechanism": {
+            "passed": true,
+            "problems": []
+          },
+          "variant": {
+            "passed": true,
+            "problems": []
+          },
+          "context": {
+            "passed": true,
+            "problems": []
+          },
+          "drug": {
+            "passed": true,
+            "problems": []
+          },
+          "setting": {
+            "passed": false,
+            "problems": [
+              "The quote does not say this: progression."
+            ]
+          },
+          "study_type": {
+            "passed": true,
+            "problems": []
+          },
+          "n_patients": {
+            "passed": true,
+            "problems": []
+          },
+          "finding_type": {
+            "passed": true,
+            "problems": []
+          },
+          "key_finding": {
+            "passed": true,
+            "problems": []
+          }
+        },
+        "summary": {
+          "passed": true,
+          "problems": []
+        }
+      },
+      "model_check": {
+        "claims": [
+          {
+            "kind": "field",
+            "id": "mechanism",
+            "text": "mechanism: SCLC transformation",
+            "verdict": "supported",
+            "evidence": "Background: Transformation of epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small-cell lung cancer (SCLC) is a recognized mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs) and is associated with poor clinical outcomes."
+          },
+          {
+            "kind": "field",
+            "id": "variant",
+            "text": "variant: EGFR exon 21 mutant",
+            "verdict": "supported",
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy."
+          },
+          {
+            "kind": "field",
+            "id": "context",
+            "text": "context: approximately 4 years after surgery and postoperative adjuvant therapy",
+            "verdict": "supported",
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy."
+          },
+          {
+            "kind": "field",
+            "id": "drug",
+            "text": "drug: platinum-etoposide chemotherapy, osimertinib, and local radiotherapy",
+            "verdict": "supported",
+            "evidence": "Clinical course and treatment: Following the identification of SCLC, the patient received multiple treatment regimens, including platinum-etoposide chemotherapy, osimertinib, and local radiotherapy."
+          },
+          {
+            "kind": "field",
+            "id": "setting",
+            "text": "setting: after progression",
+            "verdict": "supported",
+            "evidence": "Clinical course and treatment: Following the identification of SCLC, the patient received multiple treatment regimens, including platinum-etoposide chemotherapy, osimertinib, and local radiotherapy."
+          },
+          {
+            "kind": "field",
+            "id": "study_type",
+            "text": "study_type: case report (classification)",
+            "verdict": "supported",
+            "evidence": "Small-cell lung cancer transformation approximately four years after surgery and adjuvant therapy for EGFR-mutant lung adenocarcinoma: a case report."
+          },
+          {
+            "kind": "field",
+            "id": "n_patients",
+            "text": "n_patients: 1",
+            "verdict": "supported",
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy."
+          },
+          {
+            "kind": "field",
+            "id": "finding_type",
+            "text": "finding_type: resistance mechanism (classification)",
+            "verdict": "supported",
+            "evidence": "Background: Transformation of epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) to small-cell lung cancer (SCLC) is a recognized mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs) and is associated with poor clinical outcomes."
+          },
+          {
+            "kind": "field",
+            "id": "key_finding",
+            "text": "key_finding: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy.",
+            "verdict": "supported",
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 1",
+            "text": "This case report describes a 48-year-old woman with EGFR exon 21 mutant lung adenocarcinoma who developed small cell lung cancer (SCLC) transformation approximately four years after surgery and adjuvant therapy.",
+            "verdict": "supported",
+            "evidence": "Case presentation: We report a case of EGFR exon 21 mutant lung adenocarcinoma in a 48-year-old woman who developed SCLC transformation approximately 4 years after surgery and postoperative adjuvant therapy."
+          },
+          {
+            "kind": "summary",
+            "id": "summary 2",
+            "text": "The patient was subsequently treated with platinum-etoposide chemotherapy, osimertinib, and local radiotherapy following disease progression.",
+            "verdict": "supported",
+            "evidence": "Clinical course and treatment: Following the identification of SCLC, the patient received multiple treatment regimens, including platinum-etoposide chemotherapy, osimertinib, and local radiotherapy."
+          }
+        ],
+        "omitted": [],
+        "model": "groq/openai/gpt-oss-120b"
+      },
+      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
+      "route": {
+        "outcome": "review",
+        "reasons": [
+          "Setting: The quote does not say this: progression."
+        ],
+        "problems": 1,
+        "notes": []
+      }
+    },
     {
       "paper": {
         "pmid": "43100408",
@@ -2250,241 +2518,90 @@
     },
     {
       "paper": {
-        "pmid": "43064722",
-        "title": "Epigenetically driven GAS2L3 enforces non-canonical cell cycle progression to promote osimertinib resistance in lung adenocarcinoma.",
-        "abstract": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable. Although metabolic reprogramming is increasingly recognized as a driver of therapeutic resistance, the epigenetic consequences of lactate accumulation and their functional relevance in osimertinib resistance are poorly understood. Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la). Integrative transcriptomic analysis revealed significant enrichment of cell-cycle-associated pathways in resistant tumors, despite downregulation of canonical Cyclin B1 and Cyclin D1. Among the upregulated genes, GAS2L3 emerged as a prominent candidate. Genome-wide CUT&Tag profiling demonstrated enrichment of H4K8la at the GAS2L3 promoter, which was confirmed by ChIP-qPCR. Functionally, GAS2L3 overexpression accelerated S/G2-M progression and promoted proliferation under drug pressure, whereas its silencing induced cell-cycle arrest and restored osimertinib sensitivity both in vitro and in xenograft models. Notably, resistant cells displayed elevated P53 expression without induction of its canonical effector P21, indicating checkpoint uncoupling and a noncanonical mode of cell-cycle regulation. Mechanistically, glycolysis inhibition reduced H4K8la and GAS2L3 expression and partially re-sensitized resistant cells, while exogenous lactate restored H4K8la levels and resistance phenotypes, establishing a metabolically driven epigenetic circuit. Clinically, high GAS2L3 expression was associated with shorter progression-free survival in osimertinib-treated patients. Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance. These results uncover a metabolism-epigenetics-cell cycle interface that may represent a therapeutic vulnerability in EGFR-mutant LUAD.",
+        "pmid": "43104303",
+        "title": "Predicting acquired T790M mutations in non-small cell lung cancer after EGFR-TKI therapy: integration of delta-radiomics and clinical characteristics with SHAP interpretation.",
+        "abstract": "Background: The aim of this study was to evaluate the value of combining delta-radiomics and clinical characteristics in predicting the risk of EGFR T790M resistance mutation in patients with non-small cell lung cancer (NSCLC) prior to first-line treatment with epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (EGFR-TKIs). Methods: This retrospective study included non-small cell lung cancer (NSCLC) patients whose disease progressed after first-line treatment with an EGFR tyrosine kinase inhibitor (TKI) between January 2013 and September 2019. The patients were randomly assigned to the training and test cohorts. Four predictive models for the acquisition of the T790M mutation were developed on the basis of clinical characteristics, non-contrast-enhanced computed tomography (NECT) radiomics features, delta-radiomics features, and a combination of clinical and delta-radiomics features. The optimal model was selected using the area under the receiver operating characteristic curve (AUC) and decision curve analysis (DCA). Additionally, the Shapley additive explanations (SHAP) interpretability framework was applied to visualize and interpret the model's decision-making process. Results: A total of 285 patients were included in this study (213 in the training set and 72 in the test set). In the test set, the AUCs for the clinical model, NECT radiomics model, delta-radiomics model, and combined model were 0.70, 0.63, 0.75, and 0.82, respectively. The corresponding accuracies were 66.7%, 57.0%, 72.2%, and 79.2%, respectively. The SHAP tool identified 10 significant features, including 2 clinical features and 8 radiomic features. Conclusions: A delta-radiomics-based model combined with clinical features showed potential for predicting acquired T790M mutation status and provided preliminary interpretability, further prospective multicentre validation is needed before clinical application.",
         "sentences": [
-          "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable.",
-          "Although metabolic reprogramming is increasingly recognized as a driver of therapeutic resistance, the epigenetic consequences of lactate accumulation and their functional relevance in osimertinib resistance are poorly understood.",
-          "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la).",
-          "Integrative transcriptomic analysis revealed significant enrichment of cell-cycle-associated pathways in resistant tumors, despite downregulation of canonical Cyclin B1 and Cyclin D1.",
-          "Among the upregulated genes, GAS2L3 emerged as a prominent candidate.",
-          "Genome-wide CUT&Tag profiling demonstrated enrichment of H4K8la at the GAS2L3 promoter, which was confirmed by ChIP-qPCR.",
-          "Functionally, GAS2L3 overexpression accelerated S/G2-M progression and promoted proliferation under drug pressure, whereas its silencing induced cell-cycle arrest and restored osimertinib sensitivity both in vitro and in xenograft models.",
-          "Notably, resistant cells displayed elevated P53 expression without induction of its canonical effector P21, indicating checkpoint uncoupling and a noncanonical mode of cell-cycle regulation.",
-          "Mechanistically, glycolysis inhibition reduced H4K8la and GAS2L3 expression and partially re-sensitized resistant cells, while exogenous lactate restored H4K8la levels and resistance phenotypes, establishing a metabolically driven epigenetic circuit.",
-          "Clinically, high GAS2L3 expression was associated with shorter progression-free survival in osimertinib-treated patients.",
-          "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance.",
-          "These results uncover a metabolism-epigenetics-cell cycle interface that may represent a therapeutic vulnerability in EGFR-mutant LUAD."
+          "Background: The aim of this study was to evaluate the value of combining delta-radiomics and clinical characteristics in predicting the risk of EGFR T790M resistance mutation in patients with non-small cell lung cancer (NSCLC) prior to first-line treatment with epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (EGFR-TKIs).",
+          "Methods: This retrospective study included non-small cell lung cancer (NSCLC) patients whose disease progressed after first-line treatment with an EGFR tyrosine kinase inhibitor (TKI) between January 2013 and September 2019.",
+          "The patients were randomly assigned to the training and test cohorts.",
+          "Four predictive models for the acquisition of the T790M mutation were developed on the basis of clinical characteristics, non-contrast-enhanced computed tomography (NECT) radiomics features, delta-radiomics features, and a combination of clinical and delta-radiomics features.",
+          "The optimal model was selected using the area under the receiver operating characteristic curve (AUC) and decision curve analysis (DCA).",
+          "Additionally, the Shapley additive explanations (SHAP) interpretability framework was applied to visualize and interpret the model's decision-making process.",
+          "Results: A total of 285 patients were included in this study (213 in the training set and 72 in the test set).",
+          "In the test set, the AUCs for the clinical model, NECT radiomics model, delta-radiomics model, and combined model were 0.70, 0.63, 0.75, and 0.82, respectively.",
+          "The corresponding accuracies were 66.7%, 57.0%, 72.2%, and 79.2%, respectively.",
+          "The SHAP tool identified 10 significant features, including 2 clinical features and 8 radiomic features.",
+          "Conclusions: A delta-radiomics-based model combined with clinical features showed potential for predicting acquired T790M mutation status and provided preliminary interpretability, further prospective multicentre validation is needed before clinical application."
         ],
-        "journal": "Cell Death Discov",
+        "journal": "BMC Med Imaging",
         "year": "2026",
         "authors": [
-          "Zhen S",
-          "Bai X",
-          "Liu S",
-          "Zhang H",
-          "Ren X",
-          "Li X",
-          "Dong H",
-          "Li X",
-          "Han C",
-          "Wang L"
+          "Zhou X",
+          "Shi L",
+          "Lin C",
+          "Zou M",
+          "Sun J",
+          "Song Z",
+          "Wang W",
+          "Ren H",
+          "Shi L"
         ],
-        "doi": "10.1038/s41420-026-03314-5",
+        "doi": "10.1186/s12880-026-02748-8",
         "publication_types": [
           "Journal Article"
         ],
-        "abstract_sha256": "93026492f1c8b2cfd89c04e9b8698a4e85af9c89231b2fa2d28d5a433da4b506",
+        "abstract_sha256": "f86752762262d92792685646d2bd8996ecc68ec299e462eb5c8c539c34904154",
         "found_by": [
-          "main",
           "second"
         ],
-        "url": "https://pubmed.ncbi.nlm.nih.gov/43064722/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43104303/"
       },
       "screening": {
-        "decision": "include",
-        "reason": "Meets all required criteria.",
+        "decision": "exclude",
+        "reason": "Does not meet: drug, resistance.",
         "criteria": [
           {
             "id": "population",
             "required": true,
             "answer": "yes",
-            "sentence": 1,
-            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable.",
+            "sentence": 2,
+            "evidence": "Methods: This retrospective study included non-small cell lung cancer (NSCLC) patients whose disease progressed after first-line treatment with an EGFR tyrosine kinase inhibitor (TKI) between January 2013 and September 2019.",
             "grounded": true
           },
           {
             "id": "drug",
             "required": true,
-            "answer": "yes",
-            "sentence": 1,
-            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable.",
+            "answer": "no",
+            "sentence": 2,
+            "evidence": "Methods: This retrospective study included non-small cell lung cancer (NSCLC) patients whose disease progressed after first-line treatment with an EGFR tyrosine kinase inhibitor (TKI) between January 2013 and September 2019.",
             "grounded": true
           },
           {
             "id": "resistance",
             "required": true,
-            "answer": "yes",
-            "sentence": 3,
-            "evidence": "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la).",
+            "answer": "no",
+            "sentence": 2,
+            "evidence": "Methods: This retrospective study included non-small cell lung cancer (NSCLC) patients whose disease progressed after first-line treatment with an EGFR tyrosine kinase inhibitor (TKI) between January 2013 and September 2019.",
             "grounded": true
           },
           {
             "id": "primary_data",
             "required": false,
             "answer": "yes",
-            "sentence": 3,
-            "evidence": "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la).",
+            "sentence": 2,
+            "evidence": "Methods: This retrospective study included non-small cell lung cancer (NSCLC) patients whose disease progressed after first-line treatment with an EGFR tyrosine kinase inhibitor (TKI) between January 2013 and September 2019.",
             "grounded": true
           }
         ],
         "model": "groq/qwen/qwen3.8-27b"
       },
-      "extraction": {
-        "fields": {
-          "mechanism": {
-            "value": "glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation",
-            "sentence": 11,
-            "quote": "glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation"
-          },
-          "variant": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "context": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "drug": {
-            "value": "osimertinib",
-            "sentence": 1,
-            "quote": "osimertinib"
-          },
-          "setting": {
-            "value": "acquired resistance",
-            "sentence": 1,
-            "quote": "acquired resistance"
-          },
-          "study_type": {
-            "value": "cell-line study",
-            "sentence": 7,
-            "quote": "both in vitro and in xenograft models"
-          },
-          "n_patients": {
-            "value": null,
-            "sentence": null,
-            "quote": null
-          },
-          "finding_type": {
-            "value": "resistance mechanism",
-            "sentence": 11,
-            "quote": "our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance"
-          },
-          "key_finding": {
-            "value": "our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance",
-            "sentence": 11,
-            "quote": "our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance"
-          }
-        },
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "summary": {
-        "text": "A cell-line study identified a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation. This mechanism promotes acquired resistance to osimertinib.",
-        "model": "groq/qwen/qwen3.8-27b"
-      },
-      "code_checks": {
-        "fields": {
-          "mechanism": {
-            "passed": true,
-            "problems": []
-          },
-          "drug": {
-            "passed": true,
-            "problems": []
-          },
-          "setting": {
-            "passed": true,
-            "problems": []
-          },
-          "study_type": {
-            "passed": true,
-            "problems": []
-          },
-          "finding_type": {
-            "passed": true,
-            "problems": []
-          },
-          "key_finding": {
-            "passed": true,
-            "problems": []
-          }
-        },
-        "summary": {
-          "passed": true,
-          "problems": []
-        }
-      },
-      "model_check": {
-        "claims": [
-          {
-            "kind": "field",
-            "id": "mechanism",
-            "text": "mechanism: glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation",
-            "verdict": "supported",
-            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
-          },
-          {
-            "kind": "field",
-            "id": "drug",
-            "text": "drug: osimertinib",
-            "verdict": "supported",
-            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable."
-          },
-          {
-            "kind": "field",
-            "id": "setting",
-            "text": "setting: acquired resistance",
-            "verdict": "supported",
-            "evidence": "Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) have markedly improved outcomes in EGFR-mutant lung adenocarcinoma (LUAD), yet acquired resistance to the third-generation inhibitor osimertinib remains inevitable."
-          },
-          {
-            "kind": "field",
-            "id": "study_type",
-            "text": "study_type: cell-line study (classification)",
-            "verdict": "supported",
-            "evidence": "Here we report that osimertinib-resistant LUAD cells exhibit enhanced glycolytic flux, increased intracellular lactate levels, and elevated histone H4 lysine 8 lactylation (H4K8la)."
-          },
-          {
-            "kind": "field",
-            "id": "finding_type",
-            "text": "finding_type: resistance mechanism (classification)",
-            "verdict": "supported",
-            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
-          },
-          {
-            "kind": "field",
-            "id": "key_finding",
-            "text": "key_finding: our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance",
-            "verdict": "supported",
-            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 1",
-            "text": "A cell-line study identified a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation.",
-            "verdict": "supported",
-            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
-          },
-          {
-            "kind": "summary",
-            "id": "summary 2",
-            "text": "This mechanism promotes acquired resistance to osimertinib.",
-            "verdict": "supported",
-            "evidence": "Collectively, our findings identify a glycolysis-H4K8la-GAS2L3 axis that drives noncanonical cell-cycle reprogramming independently of classical Cyclin-CDK activation, thereby promoting acquired osimertinib resistance."
-          }
-        ],
-        "omitted": [],
-        "model": "groq/openai/gpt-oss-120b"
-      },
-      "check_stamp": "groq/openai/gpt-oss-120b:dc5c5257c358",
       "route": {
-        "outcome": "accepted",
-        "reasons": [],
-        "problems": 0,
-        "notes": []
+        "outcome": "excluded",
+        "reasons": [
+          "Does not meet: drug, resistance."
+        ],
+        "problems": 0
       }
     },
     {
@@ -3006,8 +3123,8 @@
   "misses": {
     "capture_recapture": {
       "primary": 9,
-      "secondary": 6,
-      "both": 5,
+      "secondary": 5,
+      "both": 4,
       "found": 10,
       "only_secondary": [
         "43077001"
@@ -3016,11 +3133,12 @@
         "43068729",
         "43073884",
         "43077812",
-        "43100408"
+        "43100408",
+        "43100864"
       ],
-      "estimate": 10.7,
+      "estimate": 11.0,
       "low": 10,
-      "high": 13,
+      "high": 14,
       "missed": 1,
       "note": "Assumes the two searches find papers independently. They are built from different terms for that reason, but some dependence remains, which makes the estimate a lower bound."
     },
@@ -3028,12 +3146,13 @@
       "43075504",
       "43089395",
       "43093694",
-      "43099456"
+      "43099456",
+      "43104303"
     ]
   },
   "audit": {
-    "started": "2026-11-27T15:09:34+00:00",
-    "finished": "2026-11-27T15:09:43+00:00",
+    "started": "2026-11-28T14:16:04+00:00",
+    "finished": "2026-11-28T14:16:13+00:00",
     "litwatch_version": "0.1.0",
     "python": "3.12.16",
     "writer_model": "groq/qwen/qwen3.8-27b",
